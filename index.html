@@ -90,9 +90,17 @@
 </header>
 
 
-<!-- Hero Section -->
-<section class="bg-[#0249ac] py-20 pt-[120px]">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 flex flex-col md:flex-row items-center">
+<!-- Hero Section with Polygon Background -->
+<section class="relative py-20 pt-[120px] bg-[#0249ac] overflow-hidden">
+    <!-- Polygon Shapes Background -->
+    <div class="absolute top-0 left-0 w-full h-full">
+        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#0249ac" points="0,100 100,0 100,100"></polygon>
+            <polygon fill="#0356d6" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
+        </svg>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 flex flex-col md:flex-row items-center">
         
         <!-- Text Content on the Left -->
         <div class="md:w-1/2 text-center md:text-left">
@@ -120,11 +128,12 @@
 
         <!-- Hero Image on the Right (Hidden in Mobile) -->
         <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
-            <img src="hero.png" alt="Business Growth" 
+            <img src="hero.webp" alt="Business Growth" 
                 class="w-3/4 sm:w-full max-w-md md:max-w-lg rounded-lg shadow-none bg-transparent rotate-slow hidden md:block">
         </div>
     </div>
 </section>
+
 
 
 
