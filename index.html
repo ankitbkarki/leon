@@ -565,52 +565,20 @@
     </div>
 </section>
 
-
-<!-- Blog Section -->
-<section class="py-20 bg-[#f9f9f9]">
+<!-- Newsletter Subscription Section -->
+<section class="bg-white py-20">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#0249ac]">Stay Updated with Our Latest News</h2>
+        <p class="mt-4 text-lg sm:text-xl text-[#0249ac]">Subscribe to our newsletter to receive expert insights, industry trends, and updates directly to your inbox!</p>
         
-        <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0249ac]">
-            Our Latest Blog Posts
-        </h2>
-        <p class="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
-            Stay updated with our latest news, insights, and tips related to IT solutions, recruitment, career development, and more.
-        </p>
-
-        <!-- Blog Posts Grid -->
-        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-            
-            <!-- Blog Post 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://source.unsplash.com/400x250/?tech" alt="Blog Post 1" class="w-full h-40 object-cover rounded-t-lg">
-                <h3 class="mt-4 text-xl sm:text-2xl font-semibold text-[#0249ac]">How to Optimize Your LinkedIn Profile</h3>
-                <p class="mt-2 text-gray-600 text-lg sm:text-xl">Learn the essential steps to enhance your LinkedIn profile to get noticed by recruiters and land your dream job.</p>
-                <a href="#" class="mt-4 inline-block text-[#0249ac] hover:text-[#A1C6EA] transition-colors duration-300">Read More</a>
-            </div>
-
-            <!-- Blog Post 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://source.unsplash.com/400x250/?business" alt="Blog Post 2" class="w-full h-40 object-cover rounded-t-lg">
-                <h3 class="mt-4 text-xl sm:text-2xl font-semibold text-[#0249ac]">Top IT Solutions for Small Businesses</h3>
-                <p class="mt-2 text-gray-600 text-lg sm:text-xl">Discover the best IT solutions that can help small businesses scale, improve productivity, and stay competitive in the market.</p>
-                <a href="#" class="mt-4 inline-block text-[#0249ac] hover:text-[#A1C6EA] transition-colors duration-300">Read More</a>
-            </div>
-
-            <!-- Blog Post 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <img src="https://source.unsplash.com/400x250/?startup" alt="Blog Post 3" class="w-full h-40 object-cover rounded-t-lg">
-                <h3 class="mt-4 text-xl sm:text-2xl font-semibold text-[#0249ac]">The Future of IT and Recruitment</h3>
-                <p class="mt-2 text-gray-600 text-lg sm:text-xl">Explore the evolving trends in IT and recruitment and how they are shaping the future of work and career development.</p>
-                <a href="#" class="mt-4 inline-block text-[#0249ac] hover:text-[#A1C6EA] transition-colors duration-300">Read More</a>
-            </div>
-        </div>
-
-        <!-- View More Button -->
-        <div class="mt-12">
-            <a href="#" class="bg-[#0249ac] text-white px-6 py-3 rounded-full hover:bg-[#016095] hover:scale-105 transition-all duration-300 ease-in-out">
-                Explore More Blog Posts
-            </a>
+        <!-- Subscription Form -->
+        <div class="mt-8 flex justify-center">
+            <form action="/subscribe" method="POST" class="flex flex-col sm:flex-row items-center">
+                <input type="email" name="email" placeholder="Enter your email" class="px-6 py-3 rounded-l-full border-2 border-[#0249ac] text-[#0249ac] bg-transparent focus:outline-none focus:border-[#A1C6EA]" required>
+                <button type="submit" class="mt-4 sm:mt-0 sm:ml-4 bg-[#0249ac] text-white px-6 py-3 rounded-full hover:bg-[#A1C6EA] hover:text-[#0249ac] transition-all duration-300 ease-in-out">
+                    Subscribe
+                </button>
+            </form>
         </div>
     </div>
 </section>
