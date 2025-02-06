@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Body font style */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Logo slider animation and styling */
+        .logo-slider {
+            display: flex;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        .logo-slider div {
+            display: flex;
+            animation: scroll 10s linear infinite;
+        }
+        .logo-slider img {
+            height: 80px;
+            margin: 0 20px;
+        }
+
+        /* Keyframes for the scrolling effect of logos */
+        @keyframes scroll {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+    <title>Responsive Header & Hero Section</title>
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="bg-[#0249ac] fixed w-full top-0 left-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="text-2xl font-bold text-white">
+                <img src="/logo.png" alt="LEON CONSULTING" class="h-10"> <!-- Adjust height as needed -->
+            </div>
+            
+            <!-- Navigation and Call to Action (CTA) Wrapper -->
+            <div class="flex items-center space-x-6">
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="#" class="text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
+                    <a href="#" class="text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
+                    <a href="#" class="text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
+                </nav>
+                <!-- Desktop CTA Button -->
+                <a href="#" class="inline-block bg-white text-[#0249ac] px-8 py-4 rounded-full 
+                hover:bg-[#0249ac] hover:text-white 
+                transform hover:scale-110 
+                hover:shadow-lg hover:px-10 hover:py-5 
+                hover:border-2 hover:border-white
+                transition-all duration-300 ease-in-out">
+                    Get Started
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Button (for small screens) -->
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                <!-- Hamburger Icon for Mobile Menu -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu (hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-4 pb-4">
+            <a href="#" class="text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
+            <a href="#" class="text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
+            <a href="#" class="text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
+            <a href="#" class="bg-white text-[#0249ac] text-center px-8 py-4 rounded-full hover:bg-[#0249ac] hover:text-white hover:scale-110 hover:shadow-lg hover:border-2 hover:border-white transition-all duration-300 ease-in-out mt-2">Get Started</a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Hero Section -->
+<section class="bg-[#0249ac] py-20 pt-[120px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+        <!-- Text Content on the Left -->
+        <div class="md:w-1/2 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+                Empowering Your <br> 
+                <span class="text-4xl md:text-6xl">Business for Success</span>
+            </h1>
+            <p class="mt-4 text-lg text-white">Leon Consulting Corporation offers expert IT solutions and recruitment services, specializing in resume rewriting and LinkedIn optimization. Whether you're a candidate or an employer, we provide tailored solutions to help you reach your goals.</p>
+            <div class="mt-8">
+                <!-- CTA Button in Hero Section -->
+                <a href="#" class="bg-white text-[#0249ac] px-6 py-4 rounded-full 
+                hover:bg-[#0249ac] hover:text-white 
+                transform hover:scale-110 
+                hover:shadow-lg hover:px-8 hover:py-5 
+                hover:border-2 hover:border-white
+                transition-all duration-300 ease-in-out">
+                    Get Started
+                </a>
+            </div>
+        </div>
+
+        <!-- Hero Image on the Right -->
+        <div class="md:w-1/2 mt-10 md:mt-0 md:flex md:justify-end">
+            <img src="hero.png" alt="Business Growth" class="w-full rounded-lg shadow-none bg-transparent rotate-slow">
+        </div>
+    </div>
+</section>
+
+
+
+<style>
+    @keyframes slow-rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .rotate-slow {
+        animation: slow-rotate 40s linear infinite;
+    }
+</style>
+
+
+
+    <!-- Clients Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-[#0249ac]">Our Clients</h2>
+            <div class="mt-8 logo-slider">
+                <div>
+                    <!-- Client Logos (Replace with actual logos) -->
+                    <img src="logo1.svg" alt="Client 1">
+                    <img src="logo2.svg" alt="Client 2">
+                    <img src="logo3.png" alt="Client 3">
+                    <img src="https://source.unsplash.com/150x80/?logo,corporate" alt="Client 4">
+                    <img src="https://source.unsplash.com/150x80/?logo,enterprise" alt="Client 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Expertise Section -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-[#0249ac]">Our Expertise</h2>
+        <p class="mt-4 text-lg text-[#0249ac] max-w-3xl mx-auto">
+            At Leon Consulting, we specialize in helping businesses and individuals achieve their goals. Whether you’re looking for expert IT solutions, recruitment services, or career development support, we have the expertise to deliver results.
+        </p>
+        
+        <!-- Expertise Cards -->
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- IT Projects (odd card) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-[#0249ac]">IT Projects</h3>
+                <p class="mt-4 text-lg text-[#0249ac]">
+                    We provide comprehensive IT project management and solutions tailored to your business needs. From software development to infrastructure optimization, we ensure that your IT projects are executed efficiently and effectively.
+                </p>
+            </div>
+            
+            <!-- Recruitment (even card) -->
+            <div class="bg-[#0249ac] p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-white">Recruitment</h3>
+                <p class="mt-4 text-lg text-white">
+                    Our recruitment services help businesses find the right talent to fill key positions. We focus on understanding your hiring needs and ensuring that we connect you with the best candidates to drive your company's success.
+                </p>
+            </div>
+            
+            <!-- Resume Rewrite & LinkedIn Optimization (odd card) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-[#0249ac]">Resume & LinkedIn Optimization</h3>
+                <p class="mt-4 text-lg text-[#0249ac]">
+                    Whether you’re looking to refine your resume or optimize your LinkedIn profile, our team of experts provides professional services to help you stand out to potential employers and land your dream job.
+                </p>
+            </div>
+
+            <!-- Service 1 (even card) -->
+            <div class="bg-[#0249ac] p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-white">Consulting Services</h3>
+                <p class="mt-4 text-lg text-white">
+                    We offer expert consulting services that help organizations optimize processes, improve technology, and create effective strategies to stay ahead in the market.
+                </p>
+            </div>
+            
+            <!-- Service 2 (odd card) -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-[#0249ac]">Business Development</h3>
+                <p class="mt-4 text-lg text-[#0249ac]">
+                    Our business development services focus on creating new opportunities and driving growth by identifying potential markets and partnerships that align with your business goals.
+                </p>
+            </div>
+            
+            <!-- Service 3 (even card) -->
+            <div class="bg-[#0249ac] p-6 rounded-xl shadow-lg border-4 border-[#0249ac]">
+                <h3 class="text-2xl font-bold text-white">Project Management</h3>
+                <p class="mt-4 text-lg text-white">
+                    Our experienced project managers ensure that your projects are completed on time, within budget, and meet all the quality standards to exceed expectations.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Our Stories Section -->
+<section class="py-20 bg-[#0249ac] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold">Our Stories</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            At Leon Consulting, we have helped numerous clients and individuals achieve their goals through expert IT solutions, recruitment, career development, and more. Here are some highlights from our journey and the impact we’ve made.
+        </p>
+
+        <!-- Counters Section -->
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+            <!-- Counter 1 -->
+            <div class="flex flex-col items-center">
+                <div id="counter1" class="text-4xl font-bold">0</div>
+                <p class="mt-2 text-lg">Completed IT Projects</p>
+            </div>
+
+            <!-- Counter 2 -->
+            <div class="flex flex-col items-center">
+                <div id="counter2" class="text-4xl font-bold">0</div>
+                <p class="mt-2 text-lg">Successful Recruitment</p>
+            </div>
+
+            <!-- Counter 3 -->
+            <div class="flex flex-col items-center">
+                <div id="counter3" class="text-4xl font-bold">0</div>
+                <p class="mt-2 text-lg">Resumes & LinkedIn Profiles Optimized</p>
+            </div>
+
+            <!-- Counter 4 -->
+            <div class="flex flex-col items-center">
+                <div id="counter4" class="text-4xl font-bold">0</div>
+                <p class="mt-2 text-lg">Happy Clients</p>
+            </div>
+        </div>
+
+        <!-- About Us Button -->
+        <div class="mt-10">
+            <a href="#about" class="bg-white text-[#0249ac] px-6 py-3 rounded-full hover:bg-indigo-100">About Us</a>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Function to animate counters
+    function animateCounter(id, start, end, duration) {
+        let current = start;
+        const increment = end / (duration / 100);
+        const counterElement = document.getElementById(id);
+
+        const interval = setInterval(() => {
+            current += increment;
+            if (current >= end) {
+                clearInterval(interval);
+                current = end;
+            }
+            counterElement.innerHTML = Math.floor(current) + '<span class="text-green-500">+</span>';
+        }, 100);
+    }
+
+    // Trigger counters animation
+    window.addEventListener('scroll', () => {
+        const countersSection = document.querySelector('.text-white');
+        const countersPosition = countersSection.getBoundingClientRect();
+
+        // If the counters section is in the viewport, start the animation
+        if (countersPosition.top <= window.innerHeight) {
+            animateCounter('counter1', 0, 200, 2000); // Example: Completed IT Projects counter
+            animateCounter('counter2', 0, 150, 2000); // Example: Successful Recruitment counter
+            animateCounter('counter3', 0, 500, 2000); // Example: Resumes & LinkedIn Profiles Optimized counter
+            animateCounter('counter4', 0, 100, 2000); // Example: Happy Clients counter
+        }
+    });
+</script>
+
+
+
+<!-- Client Testimonials Section -->
+<section class="py-20 bg-white text-[#0249ac]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold">Client Testimonials</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">
+            Hear what our clients have to say about the impact we’ve made on their businesses. We are proud to have helped so many achieve their goals.
+        </p>
+
+        <!-- Testimonial Carousel -->
+        <div class="mt-12">
+            <div class="slick-carousel">
+                <!-- Testimonial 1 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"Leon Consulting helped us streamline our IT systems and improve our overall business efficiency. Their team is incredibly professional, and the results speak for themselves."</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 1" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">John Doe</p>
+                            <p>CEO, Tech Innovators</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"The team at Leon Consulting helped me rework my resume and LinkedIn profile, and I received multiple job offers within weeks! Their expertise is unmatched."</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 2" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">Jane Smith</p>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"Thanks to their recruitment services, we were able to fill key roles within our company faster than expected. Highly recommend their services!"</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 3" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">Michael Johnson</p>
+                            <p>HR Manager, Global Enterprises</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"Leon Consulting helped us grow our business by offering excellent advice and IT solutions. They really understand what businesses need to succeed."</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 4" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">Sarah Lee</p>
+                            <p>Founder, Bright Future Enterprises</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"Leon Consulting was instrumental in helping us navigate through challenging times. Their strategic guidance was spot-on and has helped us move forward confidently."</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 5" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">Chris Turner</p>
+                            <p>COO, Innovate Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"The resume rewriting services they provided helped me land my dream job! Their professionalism and attention to detail made all the difference."</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 6" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">Emily Roberts</p>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 7 -->
+                <div class="p-8 bg-white text-[#0249ac] rounded-lg shadow-lg border-4 border-[#0249ac]">
+                    <p class="text-lg italic">"Leon Consulting provided expert advice on recruitment strategies. We were able to hire the best candidates for our company with their help!"</p>
+                    <div class="mt-4 flex justify-center items-center">
+                        <img src="https://via.placeholder.com/80x80" alt="Client 7" class="w-16 h-16 rounded-full object-cover">
+                        <div class="ml-4">
+                            <p class="font-bold">David Brown</p>
+                            <p>Operations Director</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add Slick Carousel JS (To make carousel functional) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+<script>
+    // Initialize Slick Carousel with auto-swiping feature
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,  // Enables auto switching
+            autoplaySpeed: 5000,  // Time between transitions (in milliseconds)
+            dots: true,
+            arrows: false
+        });
+    });
+</script>
+
+
+<!-- Footer Section -->
+<footer class="bg-[#0249ac] text-white py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between">
+            <!-- Company Information -->
+            <div>
+                <h2 class="text-xl font-bold">LEON CONSULTING</h2>
+                <p class="mt-2 text-md">Helping businesses and individuals thrive</p>
+                <p class="text-md">with expert IT, recruitment, and career development services.</p>
+                <p class="mt-2 text-md">30 N Gould St, Sheridan, WY 82801, United States</p>
+            </div>
+
+            <!-- Quick Links (Pushed to the end) -->
+            <div class="mt-6 md:mt-0 md:text-right">
+                <h3 class="text-lg font-semibold">Quick Links</h3>
+                <ul class="mt-3 space-y-1">
+                    <li><a href="#" class="text-white text-sm hover:text-indigo-200">Home</a></li>
+                    <li><a href="#" class="text-white text-sm hover:text-indigo-200">About</a></li>
+                    <li><a href="#" class="text-white text-sm hover:text-indigo-200">Services</a></li>
+                    <li><a href="#" class="text-white text-sm hover:text-indigo-200">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="mt-10 border-t border-white pt-4 text-center">
+            <p class="text-xs">© 2025 Leon Consulting Corporation. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');  // Toggle mobile menu visibility
+        });
+    </script>
+</body>
+</html>
