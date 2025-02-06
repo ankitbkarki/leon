@@ -60,8 +60,8 @@
                     <a href="#" class="text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
                     <a href="#" class="text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
                 </nav>
-                <!-- Desktop CTA Button -->
-                <a href="#" class="inline-block bg-white text-[#0249ac] px-8 py-4 rounded-full 
+                <!-- Desktop CTA Button (hidden on mobile) -->
+                <a href="#" class="hidden md:inline-block bg-white text-[#0249ac] px-8 py-4 rounded-full 
                 hover:bg-[#0249ac] hover:text-white 
                 transform hover:scale-110 
                 hover:shadow-lg hover:px-10 hover:py-5 
@@ -117,7 +117,7 @@
 
         <!-- Hero Image on the Right -->
         <div class="md:w-1/2 mt-10 md:mt-0 md:flex md:justify-end">
-            <img src="hero.png" alt="Business Growth" class="w-full rounded-lg shadow-none bg-transparent rotate-slow">
+            <img src="hero.png" alt="Business Growth" class="w-full rounded-lg shadow-none bg-transparent rotate-slow hidden md:block">
         </div>
     </div>
 </section>
@@ -142,21 +142,22 @@
 
 
     <!-- Clients Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-[#0249ac]">Our Clients</h2>
-            <div class="mt-8 logo-slider">
-                <div>
-                    <!-- Client Logos (Replace with actual logos) -->
-                    <img src="logo1.svg" alt="Client 1">
-                    <img src="logo2.svg" alt="Client 2">
-                    <img src="logo3.png" alt="Client 3">
-                    <img src="https://source.unsplash.com/150x80/?logo,corporate" alt="Client 4">
-                    <img src="https://source.unsplash.com/150x80/?logo,enterprise" alt="Client 5">
-                </div>
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-[#0249ac]">Our Clients</h2>
+        <div class="mt-8 logo-slider flex justify-center space-x-8">
+            <div class="flex items-center justify-center">
+                <!-- Client Logos (Replace with actual logos) -->
+                <img src="logo1.svg" alt="Client 1" class="w-32 h-32 object-contain">
+                <img src="logo2.svg" alt="Client 2" class="w-32 h-32 object-contain">
+                <img src="logo3.png" alt="Client 3" class="w-32 h-32 object-contain">
+                <img src="https://source.unsplash.com/150x80/?logo,corporate" alt="Client 4" class="w-32 h-32 object-contain">
+                <img src="https://source.unsplash.com/150x80/?logo,enterprise" alt="Client 5" class="w-32 h-32 object-contain">
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 <!-- Expertise Section -->
 <section class="py-20 bg-white">
@@ -258,10 +259,18 @@
 
         <!-- About Us Button -->
         <div class="mt-10">
-            <a href="#about" class="bg-white text-[#0249ac] px-6 py-3 rounded-full hover:bg-indigo-100">About Us</a>
+            <a href="#about" class="inline-block bg-white text-[#0249ac] px-6 py-4 rounded-full 
+                hover:bg-[#0249ac] hover:text-white 
+                transform hover:scale-110 
+                hover:shadow-lg hover:px-8 hover:py-5 
+                hover:border-2 hover:border-white
+                transition-all duration-300 ease-in-out">
+                About Us
+            </a>
         </div>
     </div>
 </section>
+
 
 <script>
     // Function to animate counters
