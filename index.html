@@ -43,7 +43,8 @@
 </head>
 <body>
 
-<!-- Header Section -->
+
+    <!-- Header Section -->
 <header class="bg-[#0249ac] fixed w-full top-0 left-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-4">
@@ -56,17 +57,12 @@
             <div class="flex items-center space-x-6">
                 <!-- Desktop Navigation Links -->
                 <nav class="hidden md:flex space-x-6 items-center">
-                    <a href="#" class="text-sm sm:text-base md:text-lg text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
-                    <a href="#" class="text-sm sm:text-base md:text-lg text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
-                    <a href="#" class="text-sm sm:text-base md:text-lg text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
+                    <a href="#" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
+                    <a href="#" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
+                    <a href="#" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
                 </nav>
                 <!-- Desktop CTA Button (hidden on mobile) -->
-                <a href="#" class="hidden md:inline-block text-sm sm:text-base md:text-lg bg-white text-[#0249ac] px-8 py-4 rounded-full 
-                hover:bg-[#0249ac] hover:text-white 
-                transform hover:scale-110 
-                hover:shadow-lg hover:px-10 hover:py-5 
-                hover:border-2 hover:border-white
-                transition-all duration-300 ease-in-out">
+                <a href="#" class="hidden md:inline-block text-sm sm:text-base md:text-lg lg:text-sm font-bold bg-white text-[#0249ac] px-6 py-3 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
                     Get Started
                 </a>
             </div>
@@ -81,14 +77,17 @@
         </div>
         
         <!-- Mobile Menu (hidden by default) -->
-        <div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-4 pb-4">
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 pb-4">
             <a href="#" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
             <a href="#" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
             <a href="#" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
-            <a href="#" class="bg-white text-[#0249ac] text-sm sm:text-base md:text-lg text-center px-8 py-4 rounded-full hover:bg-[#0249ac] hover:text-white hover:scale-110 hover:shadow-lg hover:border-2 hover:border-white transition-all duration-300 ease-in-out mt-2">Get Started</a>
+            <a href="#" class="bg-white text-[#0249ac] text-sm sm:text-base md:text-lg text-center px-6 py-3 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
+                Get Started
+            </a>
         </div>
     </div>
 </header>
+
 
 <!-- Hero Section -->
 <section class="bg-[#0249ac] py-20 pt-[120px]">
@@ -96,18 +95,18 @@
         
         <!-- Text Content on the Left -->
         <div class="md:w-1/2 text-center md:text-left">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
-                Empowering Your <br> 
-                <span class="block sm:inline text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Business for Success</span>
+            <h1 class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                Empowering <br> 
+                <span class="block sm:inline text-3xl sm:text-4xl md:text-6xl lg:text-7xl">Your Business for Success</span>
             </h1>
-            <p class="mt-4 text-base sm:text-lg md:text-base lg:text-sm xl:text-base font-semibold text-white leading-relaxed">
+            <p class="mt-4 text-sm sm:text-base md:text-base lg:text-sm xl:text-base font-normal text-white leading-relaxed">
                 Leon Consulting Corporation offers expert IT solutions and recruitment services, specializing in 
                 resume rewriting and LinkedIn optimization. Whether you're a candidate or an employer, we provide 
                 tailored solutions to help you reach your goals.
             </p>
             
             <!-- CTA Button -->
-            <div class="mt-8">
+            <div class="mt-12">
                 <a href="#" class="bg-white text-[#0249ac] px-6 sm:px-8 py-4 sm:py-5 rounded-full 
                 hover:bg-[#0249ac] hover:text-white 
                 transform hover:scale-110 
@@ -129,6 +128,7 @@
 
 
 
+
 <style>
     @keyframes slow-rotate {
         0% {
@@ -144,29 +144,28 @@
     }
 </style>
 
-
-
-   <!-- Clients Section -->
+<!-- Clients Section -->
 <section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+    <div class="max-w-full mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0249ac]">
-            Our Clients
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
+            OUR CLIENTS
         </h2>
 
-        <!-- Client Logos Slider -->
-        <div class="mt-12 flex flex-wrap justify-center gap-8">
+        <!-- Client Logos -->
+        <div class="mt-12 flex justify-center gap-12">
             <!-- Client Logos (Replace with actual logos) -->
-            <img src="client1.png" alt="Client 1" class="w-28 sm:w-32 md:w-36 h-20 sm:h-24 md:h-28 object-contain">
-            <img src="client2.png" alt="Client 2" class="w-28 sm:w-32 md:w-36 h-20 sm:h-24 md:h-28 object-contain">
-            <img src="client3.png" alt="Client 3" class="w-28 sm:w-32 md:w-36 h-20 sm:h-24 md:h-28 object-contain">
-            <img src="client4.png" alt="Client 4" class="w-28 sm:w-32 md:w-36 h-20 sm:h-24 md:h-28 object-contain">
-            <img src="client5.png" alt="Client 5" class="w-28 sm:w-32 md:w-36 h-20 sm:h-24 md:h-28 object-contain">
+            <img src="client1.png" alt="Client 1" class="w-36 h-28 object-contain">
+            <img src="client2.png" alt="Client 2" class="w-36 h-28 object-contain">
+            <img src="client3.png" alt="Client 3" class="w-36 h-28 object-contain">
+            <img src="client4.png" alt="Client 4" class="w-36 h-28 object-contain">
+            <img src="client5.png" alt="Client 5" class="w-36 h-28 object-contain">
         </div>
 
     </div>
 </section>
+
 
 
 <!-- Expertise Section -->
@@ -174,63 +173,70 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0249ac]">
-            Our Expertise
+        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
+            OUR EXPERTISE
         </h2>
-        <p class="mt-4 text-lg sm:text-xl md:text-base lg:text-sm xl:text-base text-[#0249ac] max-w-3xl mx-auto">
-            At Leon Consulting, we specialize in helping businesses and individuals achieve their goals. Whether you need expert IT solutions, recruitment services, or career development support, we have the expertise to deliver results.
+        <p class="mt-4 text-base sm:text-lg md:text-base lg:text-sm xl:text-base text-[#0249ac] max-w-3xl mx-auto">
+            At Leon Consulting, we specialize in helping businesses and individuals achieve their goals. 
+            Whether you need expert IT solutions, recruitment services, or career development support, 
+            we have the expertise to deliver results.
         </p>
         
-        <!-- Expertise Cards -->
-        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+       <!-- Expertise Cards -->
+       <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
             
-            <!-- IT Projects -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-[#0249ac]">IT Projects</h3>
-                <p class="mt-4 text-lg text-[#0249ac]">
-                    We provide comprehensive IT solutions tailored to your business needs, ensuring efficiency and success.
-                </p>
-            </div>
-            
-            <!-- Recruitment -->
-            <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-white">Recruitment</h3>
-                <p class="mt-4 text-lg text-white">
-                    Our recruitment services connect businesses with top talent, ensuring the right fit for key positions.
-                </p>
-            </div>
-            
-            <!-- Resume Rewrite & LinkedIn Optimization -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-[#0249ac]">Resume & LinkedIn Optimization</h3>
-                <p class="mt-4 text-lg text-[#0249ac]">
-                    Stand out to employers with expertly crafted resumes and optimized LinkedIn profiles.
-                </p>
-            </div>
+        <!-- IT Projects -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-[#0249ac]">IT Projects</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-[#0249ac]">
+                We provide comprehensive IT solutions tailored to your business needs, ensuring efficiency and success.
+            </p>
+        </div>
+        
+        <!-- Recruitment -->
+        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-white">Recruitment</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-white">
+                Our recruitment services connect businesses with top talent, ensuring the right fit for key positions.
+            </p>
+        </div>
+        
+        <!-- Resume Rewrite & LinkedIn Optimization -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-[#0249ac]">Resume & LinkedIn Optimization</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-[#0249ac]">
+                Stand out to employers with expertly crafted resumes and optimized LinkedIn profiles.
+            </p>
+        </div>
 
-            <!-- Consulting Services -->
-            <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-white">Consulting Services</h3>
-                <p class="mt-4 text-lg text-white">
-                    We help organizations improve processes, implement new technology, and create strategies for growth.
-                </p>
-            </div>
-            
-            <!-- Business Development -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-[#0249ac]">Business Development</h3>
-                <p class="mt-4 text-lg text-[#0249ac]">
-                    We identify opportunities, markets, and partnerships to help businesses expand and thrive.
-                </p>
-            </div>
-            
-            <!-- Project Management -->
-            <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-                <h3 class="text-2xl font-bold text-white">Project Management</h3>
-                <p class="mt-4 text-lg text-white">
-                    Our experts ensure projects are completed on time, within budget, and exceed quality standards.
-                </p>
-            </div>
+        <!-- Consulting Services -->
+        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-white">Consulting Services</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-white">
+                We help organizations improve processes, implement new technology, and create strategies for growth.
+            </p>
+        </div>
+        
+        <!-- Business Development -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-[#0249ac]">Business Development</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-[#0249ac]">
+                We identify opportunities, markets, and partnerships to help businesses expand and thrive.
+            </p>
+        </div>
+        
+        <!-- Project Management -->
+        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
+            <h3 class="text-xl font-bold text-white">Project Management</h3>
+            <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-white">
+                Our experts ensure projects are completed on time, within budget, and exceed quality standards.
+            </p>
+        </div>
+
+    </div>
+</div>
+</section>
+
 
         </div>
     </div>
@@ -243,13 +249,12 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
             Our Stories
         </h2>
-        <p class="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
             At Leon Consulting, we have helped numerous clients and individuals achieve their goals through expert IT solutions, recruitment, career development, and more. Here are some highlights from our journey and the impact we’ve made.
         </p>
-
         <!-- Counters Section -->
         <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             
@@ -317,171 +322,34 @@
         animateCounter("counter4", 500);
     };
 </script>
+
 <!-- Client Testimonials Section -->
-<section class="py-20 bg-white text-[#0249ac]">
+<section class="py-20 bg-[#f8f9fa] text-[#0249ac]">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
             Client Testimonials
         </h2>
-        <p class="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
             Hear what our clients have to say about the impact we’ve made on their businesses. We are proud to have helped so many achieve their goals.
         </p>
 
-        <!-- Testimonial Carousel -->
-        <div class="mt-12 slick-carousel-container">
-            <div class="slick-carousel">
-                <!-- Testimonial 1 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"Leon Consulting helped us streamline our IT systems and improve our overall business efficiency. Their team is incredibly professional, and the results speak for themselves."</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 1">
-                        <div>
-                            <p class="font-bold">John Doe</p>
-                            <p>CEO, Tech Innovators</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 2 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"The team at Leon Consulting helped me rework my resume and LinkedIn profile, and I received multiple job offers within weeks! Their expertise is unmatched."</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 2">
-                        <div>
-                            <p class="font-bold">Jane Smith</p>
-                            <p>Marketing Specialist</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"Thanks to their recruitment services, we were able to fill key roles within our company faster than expected. Highly recommend their services!"</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 3">
-                        <div>
-                            <p class="font-bold">Michael Johnson</p>
-                            <p>HR Manager, Global Enterprises</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"Leon Consulting helped us grow our business by offering excellent advice and IT solutions. They really understand what businesses need to succeed."</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 4">
-                        <div>
-                            <p class="font-bold">Sarah Lee</p>
-                            <p>Founder, Bright Future Enterprises</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 5 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"Leon Consulting was instrumental in helping us navigate through challenging times. Their strategic guidance was spot-on and has helped us move forward confidently."</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 5">
-                        <div>
-                            <p class="font-bold">Chris Turner</p>
-                            <p>COO, Innovate Solutions</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 6 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"The resume rewriting services they provided helped me land my dream job! Their professionalism and attention to detail made all the difference."</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 6">
-                        <div>
-                            <p class="font-bold">Emily Roberts</p>
-                            <p>Software Engineer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 7 -->
-                <div class="testimonial-card">
-                    <p class="text-lg italic">"Leon Consulting provided expert advice on recruitment strategies. We were able to hire the best candidates for our company with their help!"</p>
-                    <div class="testimonial-client">
-                        <img src="https://via.placeholder.com/80x80" alt="Client 7">
-                        <div>
-                            <p class="font-bold">David Brown</p>
-                            <p>Operations Director</p>
-                        </div>
+        <!-- Single Testimonial -->
+        <div class="mt-12 max-w-xl mx-auto">
+            <div class="testimonial-card bg-white shadow-lg p-6 rounded-2xl">
+                <p class="text-sm sm:text-base lg:text-lg italic">"Leon Consulting helped us streamline our IT systems and improve our overall business efficiency. Their team is incredibly professional, and the results speak for themselves."</p>
+                <div class="testimonial-client flex items-center justify-center mt-4">
+                    <img class="rounded-full w-16 h-16" src="https://via.placeholder.com/80x80" alt="Client 1">
+                    <div class="ml-4">
+                        <p class="font-bold">John Doe</p>
+                        <p class="text-sm sm:text-base">CEO, Tech Innovators</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- Slick Carousel Styling -->
-<style>
-    .slick-carousel-container {
-        max-width: 100%;
-        overflow: hidden; /* Hides the overflowing content */
-    }
-
-    .slick-carousel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .testimonial-card {
-        background: white;
-        color: #0249ac;
-        padding: 2rem;
-        border-radius: 10px;
-        border: 4px solid #0249ac;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        width: 100%;
-        flex-shrink: 0;
-    }
-
-    .testimonial-client {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 1rem;
-    }
-
-    .testimonial-client img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .testimonial-client div {
-        margin-left: 1rem;
-        text-align: left;
-    }
-
-</style>
-
-<!-- Slick Carousel Script -->
-<script>
-    $(document).ready(function(){
-        $('.slick-carousel').slick({
-            dots: true, // Shows navigation dots
-            infinite: true, // Loop back to the first slide
-            speed: 500, // Slide transition speed
-            slidesToShow: 1, // Show one slide at a time
-            slidesToScroll: 1, // Scroll one slide at a time
-            autoplay: true, // Enable autoplay
-            autoplaySpeed: 3000, // 3-second autoplay delay
-            arrows: true // Enable navigation arrows
-        });
-    });
-</script>
 
 
 
@@ -491,10 +359,10 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
             Contact Us
         </h2>
-        <p class="mt-4 text-lg sm:text-xl max-w-3xl mx-auto">
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
             We would love to hear from you! Whether you have a question, need assistance, or just want to connect, feel free to reach out to us. We're here to help.
         </p>
 
@@ -503,8 +371,8 @@
             
             <!-- Contact Info -->
             <div class="text-left space-y-6">
-                <h3 class="text-2xl sm:text-3xl font-bold">Get In Touch</h3>
-                <p class="text-lg sm:text-xl">Feel free to drop us a message, and we'll get back to you as soon as possible.</p>
+                <h3 class="text-xl sm:text-2xl font-bold">Get In Touch</h3>
+                <p class="text-sm sm:text-base lg:text-base font-semibold">Feel free to drop us a message, and we'll get back to you as soon as possible.</p>
 
                 <!-- Contact Details -->
                 <div class="space-y-4">
@@ -512,43 +380,43 @@
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-lg sm:text-xl">Email: contact@leonconsulting.com</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Email: info@leonstaff.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-lg sm:text-xl">Phone: +1 234 567 890</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Phone: +1 234 567 890</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-lg sm:text-xl">Address: 30 N Gould St, Sheridan, WY 82801</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Address: 30 N Gould St, Sheridan, WY 82801</p>
                     </div>
                 </div>
             </div>
 
             <!-- Form Section -->
             <div class="bg-white p-8 rounded-xl shadow-lg">
-                <h3 class="text-2xl sm:text-3xl font-bold text-[#0249ac]">Send Us a Message</h3>
+                <h3 class="text-xl sm:text-2xl font-bold text-[#0249ac]">Send Us a Message</h3>
                 <form action="#" method="POST" class="mt-6 space-y-6">
                     
                     <!-- Full Name -->
                     <div>
-                        <label for="name" class="block text-lg sm:text-xl text-[#0249ac]">Full Name</label>
+                        <label for="name" class="block text-sm sm:text-base lg:text-base text-[#0249ac] font-normal">Full Name</label>
                         <input type="text" id="name" name="name" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]">
                     </div>
 
                     <!-- Email Address -->
                     <div>
-                        <label for="email" class="block text-lg sm:text-xl text-[#0249ac]">Email Address</label>
+                        <label for="email" class="block text-sm sm:text-base lg:text-base text-[#0249ac] font-normal">Email Address</label>
                         <input type="email" id="email" name="email" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]">
                     </div>
 
                     <!-- Message -->
                     <div>
-                        <label for="message" class="block text-lg sm:text-xl text-[#0249ac]">Message</label>
+                        <label for="message" class="block text-sm sm:text-base lg:text-base text-[#0249ac] font-normal">Message</label>
                         <textarea id="message" name="message" rows="4" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]"></textarea>
                     </div>
 
@@ -565,11 +433,12 @@
     </div>
 </section>
 
+
 <!-- Newsletter Subscription Section -->
 <section class="bg-white py-20">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold text-[#0249ac]">Stay Updated with Our Latest News</h2>
-        <p class="mt-4 text-lg sm:text-xl text-[#0249ac]">Subscribe to our newsletter to receive expert insights, industry trends, and updates directly to your inbox!</p>
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">Stay Updated with Our Latest News</h2>
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold text-[#0249ac]">Subscribe to our newsletter to receive expert insights, industry trends, and updates directly to your inbox!</p>
         
         <!-- Subscription Form -->
         <div class="mt-8 flex justify-center">
@@ -584,6 +453,7 @@
 </section>
 
 
+
 <!-- Footer Section -->
 <footer class="bg-[#022A57] text-white py-10">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
@@ -591,10 +461,10 @@
             
             <!-- Company Information -->
             <div>
-                <h2 class="text-xl sm:text-2xl font-bold">LEON CONSULTING</h2>
-                <p class="mt-2 text-sm sm:text-md">Helping businesses and individuals thrive</p>
-                <p class="text-sm sm:text-md">with expert IT, recruitment, and career development services.</p>
-                <p class="mt-2 text-sm sm:text-md">30 N Gould St, Sheridan, WY 82801, United States</p>
+                <h2 class="text-xl sm:text-3xl font-bold">LEON CONSULTING</h2>
+                <p class="mt-2 text-sm sm:text-md lg:text-lg">Helping businesses and individuals thrive with</p>
+                <p class="text-sm sm:text-md lg:text-lg">expert IT, recruitment, and career development services.</p>
+                <p class="mt-2 text-sm sm:text-md lg:text-lg">30 N Gould St, Sheridan, WY 82801, United States</p>                
             </div>
 
             <!-- Quick Links (Pushed to the end) -->
