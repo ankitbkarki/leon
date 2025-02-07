@@ -254,14 +254,20 @@
 
 
 
-<!-- Our Stories Section -->
-<section class="py-20 text-white relative overflow-hidden">
-    <div class="absolute inset-0 bg-[#0249ac] clip-polygon"></div>
+<!-- Our Stories Section with Polygon Background -->
+<section class="relative py-20 bg-[#0249ac] overflow-hidden">
+    <!-- Polygon Shapes Background -->
+    <div class="absolute top-0 left-0 w-full h-full">
+        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#0249ac" points="0,100 100,0 100,100"></polygon>
+            <polygon fill="#0356d6" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
+        </svg>
+    </div>
 
-    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center text-white">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
             OUR STORIES
         </h2>
         <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
@@ -274,25 +280,25 @@
             <!-- Counter 1 -->
             <div class="flex flex-col items-center">
                 <div id="counter1" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold max-w-3xl mx-auto">Completed IT Projects</p>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Completed IT Projects</p>
             </div>
 
             <!-- Counter 2 -->
             <div class="flex flex-col items-center">
                 <div id="counter2" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold max-w-3xl mx-auto">Successful Recruitment</p>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Successful Recruitment</p>
             </div>
 
             <!-- Counter 3 -->
             <div class="flex flex-col items-center">
                 <div id="counter3" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold max-w-3xl mx-auto">Resumes & LinkedIn Profiles Optimized</p>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Resumes & LinkedIn Profiles Optimized</p>
             </div>
 
             <!-- Counter 4 -->
             <div class="flex flex-col items-center">
                 <div id="counter4" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold max-w-3xl mx-auto">Happy Clients</p>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Happy Clients</p>
             </div>
         </div>
 
@@ -309,13 +315,6 @@
         </div>
     </div>
 </section>
-
-<!-- CSS -->
-<style>
-    .clip-polygon {
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-    }
-</style>
 
 
 <!-- Counter Animation Script -->
@@ -375,12 +374,20 @@
 
 
 
-<!-- Contact Us Section -->
-<section id="contact" class="py-20 bg-[#0249ac] text-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+<!-- Contact Us Section with Polygon Background -->
+<section id="contact" class="relative py-20 bg-[#0249ac] overflow-hidden text-white">
+    <!-- Polygon Shapes Background -->
+    <div class="absolute top-0 left-0 w-full h-full">
+        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#0249ac" points="0,100 100,0 100,100"></polygon>
+            <polygon fill="#0356d6" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
+        </svg>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text3xl font-bold">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
             CONTACT US
         </h2>
         <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
@@ -392,8 +399,8 @@
             
             <!-- Contact Info -->
             <div class="text-left space-y-6">
-                <h2 class="text-xl sm:text-2xl md:text3xl font-bold">GET IN TOUCH</h2>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Feel free to drop us a message, and we'll get back to you as soon as possible.</p>
+                <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">GET IN TOUCH</h2>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal">Feel free to drop us a message, and we'll get back to you as soon as possible.</p>
 
                 <!-- Contact Details -->
                 <div class="space-y-4">
@@ -401,43 +408,43 @@
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Email: info@leonstaff.com</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Email: info@leonstaff.com</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Phone: +1 234 567 890</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Phone: +1 234 567 890</p>
                     </div>
                     <div class="flex items-center space-x-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7 7 7-7"></path>
                         </svg>
-                        <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Address: 30 N Gould St, Sheridan, WY 82801</p>
+                        <p class="text-sm sm:text-base lg:text-base font-normal">Address: 30 N Gould St, Sheridan, WY 82801</p>
                     </div>
                 </div>
             </div>
 
             <!-- Form Section -->
             <div class="bg-white p-8 rounded-xl shadow-lg">
-                <h3 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">SPEAK WITH US</h3>
+                <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">SPEAK WITH US</h3>
                 <form action="#" method="POST" class="mt-6 space-y-6">
                     
                     <!-- Full Name -->
                     <div>
-                        <label for="name" class="block text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">Full Name</label>
+                        <label for="name" class="block text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">Full Name</label>
                         <input type="text" id="name" name="name" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]">
                     </div>
 
                     <!-- Email Address -->
                     <div>
-                        <label for="email" class="block text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">Email Address</label>
+                        <label for="email" class="block text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">Email Address</label>
                         <input type="email" id="email" name="email" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]">
                     </div>
 
                     <!-- Message -->
                     <div>
-                        <label for="message" class="block text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">Message</label>
+                        <label for="message" class="block text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">Message</label>
                         <textarea id="message" name="message" rows="4" required class="w-full p-3 mt-2 border border-[#0249ac] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0249ac]"></textarea>
                     </div>
 
@@ -453,7 +460,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- Newsletter Subscription Section -->
 <section class="bg-white py-20">
@@ -475,19 +481,27 @@
 
 
 
-<!-- Footer Section -->
-<footer class="bg-[#022A57] text-white py-10">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
+<!-- Footer Section with Polygon Background -->
+<footer class="relative bg-[#022A57] text-white py-10 overflow-hidden">
+    <!-- Polygon Shapes Background -->
+    <div class="absolute top-0 left-0 w-full h-full">
+        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#022A57" points="0,100 100,0 100,100"></polygon>
+            <polygon fill="#0249ac" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
+        </svg>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div class="flex flex-col md:flex-row justify-between">
             
             <!-- Company Information -->
             <div>
-                <h2 class="text-xl sm:text-2xl md:text3xl font-bold">LEON CONSULTING</h2>
-                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Helping businesses and individuals thrive with</p>
-                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">expert IT, recruitment, and career development services.</p>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">30 N Gould St</p>
-                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Sheridan, WY</p>
-                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">82801, United States</p>              
+                <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">LEON CONSULTING</h2>
+                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl">Helping businesses and individuals thrive with</p>
+                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl">expert IT, recruitment, and career development services.</p>
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl">30 N Gould St</p>
+                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl">Sheridan, WY</p>
+                <p class="text-sm sm:text-base lg:text-base font-normal max-w-3xl">82801, United States</p>              
             </div>
 
             <!-- Quick Links (Pushed to the end) -->
