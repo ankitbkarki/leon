@@ -108,7 +108,7 @@
                 Empowering <br> 
                 <span class="block sm:inline text-3xl sm:text-4xl md:text-6xl lg:text-7xl">Your Business for Success</span>
             </h1>
-            <p class="mt-4 text-sm sm:text-base md:text-base lg:text-sm xl:text-base font-normal text-white leading-relaxed">
+                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-white ">
                 Leon Consulting Corporation offers expert IT solutions and recruitment services, specializing in 
                 resume rewriting and LinkedIn optimization. Whether you're a candidate or an employer, we provide 
                 tailored solutions to help you reach your goals.
@@ -158,7 +158,7 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
+        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
             OUR CLIENTS
         </h2>
 
@@ -186,7 +186,7 @@
         <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
             OUR EXPERTISE
         </h2>
-        <p class="mt-4 text-base sm:text-lg md:text-base lg:text-sm xl:text-base text-[#0249ac] max-w-3xl mx-auto">
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">
             At Leon Consulting, we specialize in helping businesses and individuals achieve their goals. 
             Whether you need expert IT solutions, recruitment services, or career development support, 
             we have the expertise to deliver results.
@@ -255,16 +255,19 @@
 
 
 <!-- Our Stories Section -->
-<section class="py-20 bg-[#0249ac] text-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+<section class="py-20 text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-[#0249ac] clip-polygon"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
-            Our Stories
+        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text">
+            OUR STORIES
         </h2>
         <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
             At Leon Consulting, we have helped numerous clients and individuals achieve their goals through expert IT solutions, recruitment, career development, and more. Here are some highlights from our journey and the impact we’ve made.
         </p>
+        
         <!-- Counters Section -->
         <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             
@@ -307,6 +310,14 @@
     </div>
 </section>
 
+<!-- CSS -->
+<style>
+    .clip-polygon {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    }
+</style>
+
+
 <!-- Counter Animation Script -->
 <script>
     function animateCounter(id, target) {
@@ -338,8 +349,8 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
-            Client Testimonials
+        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
+            CLIENT TESTIMONIALS
         </h2>
         <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
             Hear what our clients have to say about the impact we’ve made on their businesses. We are proud to have helped so many achieve their goals.
@@ -369,10 +380,10 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
-            Contact Us
+        <h2 class="text-xl sm:text-2xl md:text3xl font-bold">
+            CONTACT US
         </h2>
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
+        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-white ">
             We would love to hear from you! Whether you have a question, need assistance, or just want to connect, feel free to reach out to us. We're here to help.
         </p>
 
