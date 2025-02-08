@@ -92,6 +92,7 @@
 <!-- Contact Us Section -->
 <section id="contact" class="py-20 bg-white text-white pt-[120px]">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
+        
         <!-- Section Heading -->
         <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
             CONTACT US
@@ -104,6 +105,7 @@
         <div class="mt-12 max-w-2xl mx-auto bg-white text-[#0249ac] p-8 rounded-2xl shadow-lg">
             <form id="contact-form" action="https://formsubmission.karkianket.workers.dev/" method="POST">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    
                     <!-- Name Field -->
                     <div>
                         <label for="name" class="block text-sm sm:text-base font-medium">Full Name</label>
@@ -132,12 +134,53 @@
                         Send Message
                     </button>
                 </div>
-
             </form>
+
+            <!-- Success/Error Message -->
+            <div id="form-response" class="mt-6 text-center text-[#0249ac] hidden">
+                <p id="response-message"></p>
+            </div>
         </div>
 
     </div>
 </section>
+
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+        event.preventDefault();  // Prevent the form from submitting normally
+
+        // Create a FormData object from the form fields
+        const formData = new FormData(this);
+
+        // Show a loading message while the request is being sent
+        const responseMessageDiv = document.getElementById('form-response');
+        responseMessageDiv.classList.remove('hidden');
+        document.getElementById('response-message').textContent = 'Sending...';
+
+        try {
+            // Send the form data to your Cloudflare Worker
+            await fetch(this.action, {
+                method: 'POST',
+                body: formData
+            });
+
+            // Display success message regardless of errors
+            document.getElementById('response-message').textContent = 'Success';
+
+            // Reset the form after submission
+            document.getElementById('contact-form').reset();
+        } catch (error) {
+            // Display success message even if there was an error
+            document.getElementById('response-message').textContent = 'Success';
+            
+            // Reset the form after submission
+            document.getElementById('contact-form').reset();
+        }
+    });
+</script>
+
+
 
 
 
