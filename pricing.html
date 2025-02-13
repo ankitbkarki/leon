@@ -95,113 +95,102 @@
     </div>
 </header>
 
-<!-- Contact Us Section -->
-<section id="contact" class="py-20 bg-white text-white pt-[120px]">
+<!-- Pricing Section -->
+<section id="pricing" class="py-20 bg-white pt-[120px]">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
         <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
-            CONTACT US
+            OUR PRICING PLANS
         </h2>
         <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">
-            Have questions? Reach out to us, and our team will get back to you as soon as possible.
+            Get a professionally designed website with 24/7 support. Our plans are built to help small businesses grow, with no hidden costs and flexible scaling options.
         </p>
-
-        <!-- Contact Form -->
-        <div class="mt-12 max-w-2xl mx-auto bg-white text-[#0249ac] p-8 rounded-2xl shadow-lg">
-            <form id="contact-form" action="https://formsubmission.karkianket.workers.dev/" method="POST">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    
-                    <!-- Name Field -->
-                    <div>
-                        <label for="name" class="block text-sm sm:text-base font-medium">Full Name</label>
-                        <input type="text" id="name" name="name" required 
-                            class="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0249ac] focus:outline-none">
-                    </div>
-
-                    <!-- Email Field -->
-                    <div>
-                        <label for="email" class="block text-sm sm:text-base font-medium">Email Address</label>
-                        <input type="email" id="email" name="email" required 
-                            class="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0249ac] focus:outline-none">
-                    </div>
+        
+        <!-- Pricing Cards -->
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            
+            <!-- Starter Plan -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-[#0249ac]">Starter Plan</h3>
+                    <p class="mt-2 text-lg font-semibold text-[#0249ac]">$250/Month</p>
+                    <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
+                        Perfect for small businesses needing a simple, professional online presence.
+                    </p>
+                    <ul class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] text-left space-y-2">
+                        <li>✔️ Up to 3 pages (Home, About, Contact)</li>
+                        <li>✔️ Mobile-friendly & fast-loading</li>
+                        <li>✔️ Basic SEO & Google Analytics</li>
+                        <li>✔️ Lead capture/contact form</li>
+                        <li>✔️ Unlimited content updates</li>
+                        <li>✔️ 24/7 priority support</li>
+                    </ul>
                 </div>
-
-                <!-- Message Field -->
-                <div class="mt-6">
-                    <label for="message" class="block text-sm sm:text-base font-medium">Your Message</label>
-                    <textarea id="message" name="message" rows="4" required
-                        class="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0249ac] focus:outline-none"></textarea>
+                <a href="contact.html?package=Starter%20Plan" 
+                    class="mt-6 inline-block px-6 py-3 bg-[#0249ac] text-white text-sm sm:text-base font-semibold rounded-full shadow-md hover:bg-[#023a87] hover:scale-105 transition">
+                    Get Started
+                </a>
+            </div>
+            
+            <!-- Growth Plan -->
+            <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-white">Growth Plan</h3>
+                    <p class="mt-2 text-lg font-semibold text-white">$350/Month</p>
+                    <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-white">
+                        Ideal for businesses looking to enhance SEO, add content, and generate more leads.
+                    </p>
+                    <ul class="mt-4 text-sm sm:text-base lg:text-base font-normal text-white text-left space-y-2">
+                        <li>✔️ Everything in Starter Plan</li>
+                        <li>✔️ Up to 5 pages (Add Services & Blog)</li>
+                        <li>✔️ Advanced SEO & Google My Business setup</li>
+                        <li>✔️ Speed optimization & server-side caching</li>
+                        <li>✔️ Basic e-commerce setup (5 products)</li>
+                        <li>✔️ Email marketing integration</li>
+                    </ul>
                 </div>
-
-                <!-- Submit Button -->
-                <div class="mt-10">
-                    <button type="submit" class="text-base sm:text-lg md:text-xl lg:text-lg font-bold bg-[#0249ac] text-white px-8 py-4 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
-                        Send Message
-                    </button>
+                <a href="contact.html?package=Growth%20Plan" 
+                    class="mt-6 inline-block px-6 py-3 bg-white text-[#0249ac] text-sm sm:text-base font-semibold rounded-full shadow-md hover:bg-gray-100 hover:scale-105 transition">
+                    Get Started
+                </a>
+            </div>
+            
+            <!-- Premium Plan -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-[#0249ac]">Premium Plan</h3>
+                    <p class="mt-2 text-lg font-semibold text-[#0249ac]">$500/Month</p>
+                    <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
+                        For businesses that need custom features, automation, and full digital support.
+                    </p>
+                    <ul class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] text-left space-y-2">
+                        <li>✔️ Everything in Growth Plan</li>
+                        <li>✔️ Up to 7 pages (Add Portfolio & Testimonials)</li>
+                        <li>✔️ Custom features (booking system, client portal)</li>
+                        <li>✔️ Full e-commerce store setup</li>
+                        <li>✔️ CRM integration & analytics tracking</li>
+                        <li>✔️ 24/7 emergency tech support</li>
+                    </ul>
                 </div>
-            </form>
-
-            <!-- Success/Error Message -->
-            <div id="form-response" class="mt-6 text-center text-[#0249ac] hidden">
-                <p id="response-message"></p>
+                <a href="contact.html?package=Premium%20Plan" 
+                    class="mt-6 inline-block px-6 py-3 bg-[#0249ac] text-white text-sm sm:text-base font-semibold rounded-full shadow-md hover:bg-[#023a87] hover:scale-105 transition">
+                    Get Started
+                </a>
             </div>
         </div>
 
+        <!-- Contract Terms -->
+        <div class="mt-12 max-w-4xl mx-auto text-center">
+            <p class="text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
+            <strong>6-Month Commitment:</strong> Stay for 6 months, and you can cancel anytime after that if not satisfied.  
+            </p>
+            <p class="mt-2 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
+            Just one new client from your website will cover the cost—and you’ll gain many more with an optimized online presence!
+            </p>
+        </div>
     </div>
 </section>
-
-
-<script>
-    document.getElementById('contact-form').addEventListener('submit', async function(event) {
-        event.preventDefault();  // Prevent the form from submitting normally
-
-        // Create a FormData object from the form fields
-        const formData = new FormData(this);
-
-        // Show a loading message while the request is being sent
-        const responseMessageDiv = document.getElementById('form-response');
-        responseMessageDiv.classList.remove('hidden');
-        document.getElementById('response-message').textContent = 'Sending...';
-
-        try {
-            // Send the form data to your Cloudflare Worker
-            await fetch(this.action, {
-                method: 'POST',
-                body: formData
-            });
-
-            // Display success message regardless of errors
-            document.getElementById('response-message').textContent = 'Success';
-
-            // Reset the form after submission
-            document.getElementById('contact-form').reset();
-        } catch (error) {
-            // Display success message even if there was an error
-            document.getElementById('response-message').textContent = 'Success';
-            
-            // Reset the form after submission
-            document.getElementById('contact-form').reset();
-        }
-    });
-</script>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const packageName = urlParams.get("package");
-        
-        if (packageName) {
-            const messageBox = document.getElementById("message");
-            if (messageBox) {
-                messageBox.value = `I am interested in the ${packageName}. Please provide more details.`;
-            }
-        }
-    });
-</script>
-
-
 
 
 <!-- Footer Section with Polygon Background -->
@@ -234,6 +223,7 @@
                     <li><a href="index.html#services" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Services</a></li>
                     <li><a href="pricing.html" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Pricing</a></li>
                     <li><a href="contact.html" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Contact</a></li>
+                    
                 </ul>
             </div>
         </div>
