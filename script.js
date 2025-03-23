@@ -185,34 +185,36 @@ setInterval(() => {
 // Initialize first testimonial
 updateTestimonialDisplay();
 
-// FAQ Accordion
-document.addEventListener('DOMContentLoaded', () => {
-    const faqQuestions = document.querySelectorAll('.faq-question');
+// FAQ Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.faq-item');
     
-    faqQuestions.forEach(question => {
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        
+        // Set initial height for smooth animation
+        if (item.classList.contains('active')) {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+        
         question.addEventListener('click', () => {
-            const faqItem = question.parentElement;
-            const answer = faqItem.querySelector('.faq-answer');
+            // Close all other FAQ items
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item && otherItem.classList.contains('active')) {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.faq-answer').style.maxHeight = '0';
+                }
+            });
             
-            // Toggle active class
-            faqItem.classList.toggle('active');
+            // Toggle current FAQ item
+            item.classList.toggle('active');
             
-            // Set max-height for smooth animation
-            if (faqItem.classList.contains('active')) {
+            if (item.classList.contains('active')) {
                 answer.style.maxHeight = answer.scrollHeight + 'px';
             } else {
                 answer.style.maxHeight = '0';
             }
-            
-            // Close other items
-            faqQuestions.forEach(otherQuestion => {
-                if (otherQuestion !== question) {
-                    const otherItem = otherQuestion.parentElement;
-                    const otherAnswer = otherItem.querySelector('.faq-answer');
-                    otherItem.classList.remove('active');
-                    otherAnswer.style.maxHeight = '0';
-                }
-            });
         });
     });
 });
