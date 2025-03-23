@@ -12,6 +12,13 @@ document.addEventListener('click', function(e) {
     }
 });
 
+// Close mobile menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.remove('active');
+    });
+});
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

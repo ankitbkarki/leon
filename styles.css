@@ -1047,6 +1047,67 @@ body {
     .social-links {
         justify-content: center;
     }
+
+    /* Mobile Navigation */
+    .nav-toggle {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+        background: transparent;
+        border: none;
+        padding: 0.5rem;
+        -webkit-tap-highlight-color: transparent;
+        outline: none;
+        user-select: none;
+        touch-action: manipulation;
+        z-index: 1001;
+    }
+
+    .nav-toggle:focus {
+        outline: none;
+    }
+
+    .nav-toggle:active {
+        background: transparent;
+    }
+
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--primary-color);
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        gap: 1rem;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0.8rem 0;
+        width: 100%;
+        display: block;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .nav-links a::after {
+        display: none;
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
 }
 
 /* Animations */
