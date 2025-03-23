@@ -746,8 +746,132 @@ body {
 }
 
 @media (max-width: 768px) {
+    /* Common section padding */
+    .hero,
+    .services,
+    .about,
+    .contact,
+    .testimonials,
+    .clients,
+    .faq,
+    .newsletter {
+        padding: 4rem 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        min-height: auto;
+        padding: 0;
+    }
+
+    .hero .container {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        min-height: auto;
+    }
+
+    /* Services Section */
+    .services {
+        padding: 4rem 0;
+    }
+
+    .section-header {
+        margin-bottom: 3rem;
+    }
+
+    /* About Section */
+    .about {
+        padding: 4rem 0;
+    }
+
+    .about-content {
+        gap: 2rem;
+    }
+
+    /* Contact Section */
     .contact {
-        padding: 6rem 0;
+        padding: 4rem 0;
+    }
+
+    .contact-content {
+        gap: 2rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+        padding: 4rem 0;
+    }
+
+    .testimonials-grid {
+        gap: 1.5rem;
+    }
+
+    /* Clients Section */
+    .clients {
+        padding: 3rem 0;
+    }
+
+    .clients-grid {
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    /* FAQ Section */
+    .faq {
+        padding: 4rem 0;
+    }
+
+    .faq-grid {
+        gap: 1rem;
+    }
+
+    /* Newsletter Section */
+    .newsletter {
+        padding: 4rem 0;
+    }
+
+    .newsletter-content {
+        padding: 0 1rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 4rem 0 2rem;
+    }
+
+    .footer-content {
+        gap: 2rem;
+    }
+
+    /* Section Headers */
+    .section-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .section-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* Cards and Grids */
+    .service-card,
+    .testimonial-card,
+    .info-card,
+    .faq-item {
+        padding: 1.5rem;
+    }
+
+    /* Grid Gaps */
+    .services-grid,
+    .about-content,
+    .contact-content,
+    .testimonials-grid {
+        gap: 1.5rem;
     }
 
     .contact-form {
@@ -773,17 +897,6 @@ body {
 
     .info-card {
         width: 100%;
-    }
-
-    .hero {
-        min-height: auto;
-        padding: 0;
-    }
-
-    .hero .container {
-        padding-top: 5rem;
-        padding-bottom: 3rem;
-        min-height: auto;
     }
 
     .hero-wrapper {
@@ -819,10 +932,6 @@ body {
         display: none;
     }
 
-    .about {
-        padding: 6rem 0;
-    }
-
     .about-stats {
         grid-template-columns: 1fr;
     }
@@ -833,505 +942,6 @@ body {
 
     .stat-content h3 {
         font-size: 1.8rem;
-    }
-
-    .section-header h2 {
-        font-size: 1.8rem;
-    }
-
-    .service-card {
-        padding: 1.5rem;
-    }
-
-    /* Clients section spacing */
-    .clients {
-        padding: 4rem 0;
-    }
-
-    .clients-grid {
-        margin-top: 3rem;
-    }
-}
-
-/* Newsletter Section */
-.newsletter {
-    padding: 6rem 0;
-    background: linear-gradient(135deg, rgba(2, 73, 172, 0.97) 0%, rgba(30, 95, 199, 0.97) 100%);
-    position: relative;
-    overflow: hidden;
-}
-
-.newsletter::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
-    opacity: 0.6;
-}
-
-.newsletter-content {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 1rem;
-}
-
-.newsletter-text {
-    margin-bottom: 2rem;
-}
-
-.newsletter-text .section-tag {
-    display: inline-block;
-    padding: 0.5rem 1.2rem;
-    background: rgba(255, 255, 255, 0.15);
-    color: var(--white);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 50px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 1.5rem;
-}
-
-.newsletter-text h2 {
-    color: var(--white);
-    font-size: 2.5rem;
-    margin: 0.5rem 0 1rem;
-    line-height: 1.2;
-    font-weight: 700;
-    text-align: center;
-}
-
-.newsletter-text p {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    font-weight: 400;
-    text-align: center;
-}
-
-.newsletter-form {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.newsletter-form .form-group {
-    display: flex;
-    gap: 0.5rem;
-    max-width: 500px;
-    margin: 0 auto 1rem;
-    background: var(--white);
-    padding: 0.5rem;
-    border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.newsletter-form input {
-    flex: 1;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    background: transparent;
-    color: var(--dark-text);
-    width: 100%;
-    margin: 0;
-}
-
-.newsletter-form input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.newsletter-form input::placeholder {
-    color: var(--light-text);
-    opacity: 0.7;
-}
-
-.newsletter-form label {
-    display: none;
-}
-
-.subscribe-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.8rem 1.8rem;
-    background: var(--primary-color);
-    color: var(--white);
-    border: none;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-}
-
-.subscribe-btn:hover {
-    background: var(--secondary-color);
-    transform: translateX(0);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.subscribe-btn i {
-    font-size: 1.1rem;
-    transition: transform 0.3s ease;
-}
-
-.subscribe-btn:hover i {
-    transform: translateX(3px);
-}
-
-@media (max-width: 768px) {
-    .newsletter {
-        padding: 4rem 0;
-    }
-
-    .newsletter-text h2 {
-        font-size: 2rem;
-    }
-
-    .newsletter-text p {
-        font-size: 1rem;
-        padding: 0 1rem;
-    }
-
-    .newsletter-form .form-group {
-        flex-direction: column;
-        background: transparent;
-        padding: 0;
-        gap: 1rem;
-        box-shadow: none;
-    }
-
-    .newsletter-form input {
-        width: 100%;
-        background: var(--white);
-        border-radius: 50px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        margin: 0;
-    }
-
-    .subscribe-btn {
-        width: 100%;
-        justify-content: center;
-        padding: 1rem;
-    }
-}
-
-/* Footer */
-.footer {
-    background: var(--dark-text);
-    color: var(--white);
-    padding: 6rem 0 2rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: 
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
-    pointer-events: none;
-}
-
-.footer-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1.5fr;
-    gap: 4rem;
-    margin-bottom: 4rem;
-    position: relative;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.footer-logo img {
-    height: 40px;
-    width: auto;
-}
-
-.footer-logo h3 {
-    color: var(--white);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0;
-}
-
-.footer-description {
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    text-align: left;
-}
-
-.footer-section h3 {
-    color: var(--white);
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-    text-align: left;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.footer-links li {
-    margin-bottom: 0.8rem;
-}
-
-.footer-links a {
-    color: #9ca3af;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
-    display: inline-block;
-}
-
-.footer-links a:hover {
-    color: var(--white);
-    transform: translateX(5px);
-}
-
-.footer-contact {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.footer-contact li {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 1.2rem;
-    color: #9ca3af;
-}
-
-.footer-contact i {
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    margin-top: 0.2rem;
-}
-
-.footer-contact span {
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.social-link {
-    width: 38px;
-    height: 38px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white);
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-}
-
-.social-link:hover {
-    background: var(--primary-color);
-    transform: translateY(-3px);
-}
-
-.footer-bottom {
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #9ca3af;
-    font-size: 0.9rem;
-}
-
-.footer-legal {
-    display: flex;
-    gap: 2rem;
-}
-
-.footer-legal a {
-    color: #9ca3af;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-legal a:hover {
-    color: var(--white);
-}
-
-@media (max-width: 1200px) {
-    .footer-content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer {
-        padding: 4rem 0 2rem;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-
-    .footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
-
-    .footer-legal {
-        flex-direction: column;
-        gap: 1rem;
-        align-items: center;
-    }
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-    .hero-wrapper {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .hero-content {
-        max-width: 100%;
-    }
-
-    .hero-image {
-        order: -1;
-        margin-bottom: 2rem;
-    }
-
-    .hero-image img {
-        max-width: 80%;
-    }
-
-    .hero::after {
-        width: 100%;
-        opacity: 0.05;
-    }
-
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .about-stats {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .nav-toggle {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--primary-color);
-        padding: 1rem;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hero h1 {
-        font-size: 2.2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
-    .about {
-        padding: 6rem 0;
-    }
-
-    .about-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .stat-card {
-        padding: 1.5rem;
-    }
-
-    .stat-content h3 {
-        font-size: 1.8rem;
-    }
-
-    .section-header h2 {
-        font-size: 1.8rem;
-    }
-
-    .service-card {
-        padding: 1.5rem;
-    }
-
-    /* Hero Section Mobile */
-    .hero-content {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
-    .hero-content h1,
-    .hero-content p {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Services Section Mobile */
-    .section-header {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
-    .section-header h2,
-    .section-description {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .service-card {
@@ -1355,7 +965,6 @@ body {
         margin: 0 auto;
     }
 
-    /* About Section Mobile */
     .about-text {
         text-align: center;
         padding: 0 1rem;
@@ -1375,7 +984,6 @@ body {
         text-align: center;
     }
 
-    /* FAQ Section Mobile */
     .faq-question h3 {
         font-size: 0.95rem;
         text-align: left;
@@ -1387,12 +995,6 @@ body {
         padding: 0 1rem;
     }
 
-    /* Newsletter Section Mobile */
-    .newsletter-content {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
     .newsletter-text h2,
     .newsletter-text p {
         text-align: center;
@@ -1400,7 +1002,6 @@ body {
         margin-right: auto;
     }
 
-    /* Contact Section Mobile */
     .contact-info {
         text-align: center;
     }
@@ -1416,7 +1017,6 @@ body {
         text-align: center;
     }
 
-    /* Footer Mobile */
     .footer-content {
         text-align: center;
         padding: 0 1rem;
