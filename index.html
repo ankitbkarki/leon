@@ -1,626 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts for Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Body font style */
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Leon Consulting - IT & Staffing Solutions</title>
 
-        /* Logo slider animation and styling */
-        .logo-slider {
-            display: flex;
-            overflow: hidden;
-            white-space: nowrap;
-            position: relative;
-        }
-        .logo-slider div {
-            display: flex;
-            animation: scroll 10s linear infinite;
-        }
-        .logo-slider img {
-            height: 80px;
-            margin: 0 20px;
-        }
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-        /* Keyframes for the scrolling effect of logos */
-        @keyframes scroll {
-            from {
-                transform: translateX(100%);
-            }
-            to {
-                transform: translateX(-100%);
-            }
-        }
-    </style>
-    <title>Leon Consulting Corporation: Web & Mobile Development, Cybersecurity, and IT Solutions</title>
-    <meta name="description" content="Leon Consulting delivers cutting-edge IT solutions, web & mobile development, cybersecurity, and cloud services to help businesses achieve digital transformation and secure success.">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Leon Consulting - IT & Staffing Solutions">
+    <meta name="description" content="Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and strategic staffing services. Transform your digital presence with Leon Consulting.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leonstaff.com/">
+    <meta property="og:title" content="Leon Consulting - IT & Staffing Solutions">
+    <meta property="og:description" content="Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and strategic staffing services.">
+    <meta property="og:image" content="https://leonstaff.com/images/social-share.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://leonstaff.com/">
+    <meta property="twitter:title" content="Leon Consulting - IT & Staffing Solutions">
+    <meta property="twitter:description" content="Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and strategic staffing services.">
+    <meta property="twitter:image" content="https://leonstaff.com/images/social-share.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Cloudflare Turnstile -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+    <!-- Structured Data -->
     <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "Leon Consulting",
-          "url": "https://www.leonstaff.com",
-          "logo": "https://www.leonstaff.com/logo.png",
-          "sameAs": [
-            "https://www.linkedin.com/company/leoncorp"
-          ],
-          "contactPoint": {
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Leon Consulting",
+        "url": "https://leonstaff.com",
+        "logo": "https://leonstaff.com/images/logo.png",
+        "description": "Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and strategic staffing services.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "30 N Gould St",
+            "addressLocality": "Sheridan",
+            "addressRegion": "WY",
+            "postalCode": "82801",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/leon-consulting",
+            "https://twitter.com/leonconsulting",
+            "https://facebook.com/leonconsulting"
+        ],
+        "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+1-800-555-5555",
-            "contactType": "Customer Service"
-          }
+            "contactType": "customer service",
+            "email": "info@leonstaff.com"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "IT Consulting",
+                    "description": "Expert IT consulting services"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Staff Augmentation",
+                    "description": "Professional staffing solutions"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Software Development",
+                    "description": "Custom software development services"
+                }
+            ]
         }
-        </script>        
+    }
+    </script>
 
-        <meta property="og:image" content="https://www.leonstaff.com/images/fb.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:title" content="Leon Consulting Corporation - Innovative IT Solutions" />
-<meta property="og:description" content="Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and a full suite of technology services." />
-<meta property="og:url" content="https://www.leonstaff.com/" />
-<meta property="og:type" content="website" />
-<meta name="linkedin:image" content="https://www.leonstaff.com/images/fb.png" />
-
-
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-
-    <!-- Header Section -->
-<header class="bg-[#0249ac] fixed w-full top-0 left-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center py-4">
-            <!-- Logo -->
-            <div class="text-xl sm:text-2xl md:text-3xl font-bold text-white">
-                <a href="/">
-                <img src="images/logo.png" alt="LEON CONSULTING" class="h-10"> <!-- Adjust height as needed -->
-                </a>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Leon Consulting Logo" width="150" height="40">
             </div>
-            
-            <!-- Navigation and Call to Action (CTA) Wrapper -->
-            <div class="flex items-center space-x-6">
-                <!-- Desktop Navigation Links -->
-                <nav class="hidden md:flex space-x-6 items-center">
-                    <a href="#home" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
-                    <a href="#about" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
-                    <a href="#services" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Services</a>
-                    <a href="pricing.html" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Pricing</a>
-                    <a href="contact.html" class="text-xs sm:text-sm md:text-base lg:text-sm text-white hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
-                </nav>
-                <!-- Desktop CTA Button (hidden on mobile) -->
-                <a href="contact.html" class="hidden md:inline-block text-sm sm:text-base md:text-lg lg:text-sm font-bold bg-white text-[#0249ac] px-6 py-3 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
-                    Get Started
-                </a>
-            </div>
-            
-            <!-- Mobile Menu Button (for small screens) -->
-            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
-                <!-- Hamburger Icon for Mobile Menu -->
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                </svg>
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
             </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        
-        <!-- Mobile Menu (hidden by default) -->
-        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 pb-4">
-            <a href="#home" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Home</a>
-            <a href="#about" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">About</a>
-            <a href="#services" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Services</a>
-            <a href="pricing.html" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Pricing</a>
-            <a href="contact.html" class="text-sm sm:text-base md:text-lg text-white block hover:text-[#A1C6EA] transition-all duration-300 ease-in-out">Contact</a>
-            <a href="contact.html" class="bg-white text-[#0249ac] text-sm sm:text-base md:text-lg text-center px-6 py-3 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
-                Get Started
-            </a>
-        </div>
-    </div>
-</header>
+    </nav>
 
-
-<!-- Hero Section with Polygon Background -->
-<section id="Home" class="relative py-20 pt-[120px] bg-[#0249ac] overflow-hidden">
-    <!-- Polygon Shapes Background -->
-    <div class="absolute top-0 left-0 w-full h-full">
-        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="#0249ac" points="0,100 100,0 100,100"></polygon>
-            <polygon fill="#0356d6" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
-        </svg>
-    </div>
-
-    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 flex flex-col md:flex-row items-center">
-        
-        <!-- Text Content on the Left -->
-        <div class="md:w-1/2 text-center md:text-left">
-            <h1 class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
-                Innovative <br> 
-                <span class="block sm:inline text-3xl sm:text-4xl md:text-6xl lg:text-7xl">IT SOLUTIONS FOR A DIGITAL FUTURE</span>
-            </h1>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-white ">
-                    Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and a full suite of technology services. From startups to enterprises, we build scalable, secure, and future-ready solutions tailored to your success.
-                </p>
-            
-            <!-- CTA Button -->
-            <div class="mt-12">
-                <a href="contact.html" class="md:inline-block text-base sm:text-lg md:text-xl lg:text-lg font-bold bg-white text-[#0249ac] px-8 py-4 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
-                    Get Started
-                </a>                
-            </div>
-        </div>
-
-        <!-- Hero Image on the Right (Hidden in Mobile) -->
-        <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
-            <img src="images/hero.png" alt="Business Growth" 
-                class="w-3/4 sm:w-full max-w-md md:max-w-lg rounded-lg shadow-none bg-transparent rotate-slow hidden md:block">
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-<style>
-    @keyframes slow-rotate {
-        0% {
-            transform: rotate(0deg);
-        }
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-
-    .rotate-slow {
-        animation: slow-rotate 40s linear infinite;
-    }
-</style>
-<!-- Clients Section -->
-<section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
-            OUR CLIENTS
-        </h2>
-
-        <!-- Client Logos -->
-        <div class="mt-12 flex flex-wrap justify-center items-center gap-8 sm:gap-12">
-            <!-- Client Logos (Replace with actual logos) -->
-            <img src="images/client1.png" alt="Client 1" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client2.png" alt="Client 2" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client3.png" alt="Client 3" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client4.png" alt="Client 4" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client5.png" alt="Client 5" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client6.png" alt="Client 5" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client7.png" alt="Client 5" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client8.png" alt="Client 5" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-            <img src="images/client9.png" alt="Client 5" class="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain">
-        </div>
-
-    </div>
-</section>
-
-
-
-
-<!-- Expertise Section -->
-<section id="services" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text3xl font-bold text-[#0249ac]">
-            OUR SERVICES
-        </h2>
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">
-            At Leon Consulting Corporation, we provide comprehensive <strong>IT solutions</strong>to help businesses thrive in the digital era. From <strong>building custom applications to securing your infrastructure</strong>, our expert team delivers <strong>innovative, scalable, and secure</strong> technology solutions.
-        </p>
-        
-       <!-- Expertise Cards -->
-       <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-            
-        <!-- IT Projects -->
-        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-[#0249ac]">IT Solutions & Consulting</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
-                Our IT consulting services help businesses streamline operations, enhance productivity, and stay ahead of the competition. Whether you need cloud migration, IT infrastructure setup, enterprise solutions, or digital transformation, we craft strategies tailored to your unique business goals.
-            </p>
-        </div>
-        
-        <!-- Recruitment -->
-        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-white">Web & Mobile App Development</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-white">
-                We design and develop high-performance websites and mobile applications that engage users and drive business growth. Our expertise includes custom web portals, eCommerce solutions, enterprise apps, and cross-platform mobile development for Android & iOS.
-            </p>
-        </div>
-        
-        <!-- Resume Rewrite & LinkedIn Optimization -->
-        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-[#0249ac]">Cybersecurity Solutions</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
-                In today’s digital world, security is paramount. We provide risk assessments, penetration testing, data protection, firewall implementation, endpoint security, and compliance solutions to safeguard your business from cyber threats and vulnerabilities.
-            </p>
-        </div>
-
-        <!-- Consulting Services -->
-        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-white">Software Development & System Integration</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-white">
-                We build custom software applications, automation tools, and enterprise-grade solutions that seamlessly integrate with your existing IT infrastructure, ensuring efficiency and productivity across your business operations.
-            </p>
-        </div>
-        
-        <!-- Business Development -->
-        <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-[#0249ac]">Cloud Services & DevOps</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac]">
-                Harness the power of the cloud with our AWS, Azure, and Google Cloud solutions. We offer cloud migration, infrastructure management, DevOps automation, CI/CD pipeline setup, and containerization services to accelerate deployment and improve system reliability.
-            </p>
-        </div>
-        
-        <!-- Project Management -->
-        <div class="bg-[#0249ac] p-8 rounded-2xl shadow-lg border-4 border-[#0249ac] hover:scale-105 transition-transform duration-300">
-            <h3 class="text-xl font-bold text-white">IT Support & Managed Services</h3>
-            <p class="mt-4 text-sm sm:text-base lg:text-base font-normal text-white">
-                Keep your IT environment running smoothly with our proactive IT support, 24/7 monitoring, troubleshooting, system maintenance, and helpdesk services—ensuring minimal downtime and maximum performance.
-            </p>
-        </div>
-
-    </div>
-</div>
-</section>
-
-<!-- About Leon Consulting Section with Polygon Background -->
-<section id="about" class="relative py-20 bg-[#0249ac] overflow-hidden">
-    <!-- Polygon Shapes Background -->
-    <div class="absolute top-0 left-0 w-full h-full">
-        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="#0249ac" points="0,100 100,0 100,100"></polygon>
-            <polygon fill="#0356d6" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
-        </svg>
-    </div>
-
-    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center text-white">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
-            ABOUT LEON CONSULTING
-        </h2>
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
-            At <strong>Leon Consulting Corporation</strong>, we specialize in delivering innovative <strong>IT solutions, web & mobile development, cybersecurity, and cloud services</strong>. 
-            Our team of experts is committed to empowering businesses through secure, scalable, and cutting-edge technology. 
-            We stand for <strong>innovation, excellence, and customer-centric solutions</strong>, ensuring your digital success.
-        </p>
-        
-        <!-- Counters Section -->
-        <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-            
-            <!-- Counter 1 -->
-            <div class="flex flex-col items-center">
-                <div id="counter1" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">IT Projects Delivered</p>
-            </div>
-
-            <!-- Counter 2 -->
-            <div class="flex flex-col items-center">
-                <div id="counter2" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Businesses Transformed</p>
-            </div>
-
-            <!-- Counter 3 -->
-            <div class="flex flex-col items-center">
-                <div id="counter3" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Secured Cyber Environments</p>
-            </div>
-
-            <!-- Counter 4 -->
-            <div class="flex flex-col items-center">
-                <div id="counter4" class="text-4xl sm:text-5xl font-extrabold">0</div>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-semibold">Satisfied Clients Worldwide</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Counter Animation Script -->
-<script>
-    function animateCounter(id, target) {
-        let count = 0;
-        const speed = Math.ceil(target / 100);
-        const updateCount = () => {
-            if (count < target) {
-                count += speed;
-                document.getElementById(id).innerText = count;
-                setTimeout(updateCount, 20);
-            } else {
-                document.getElementById(id).innerText = target;
-            }
-        };
-        updateCount();
-    }
-
-    // Start animation on page load
-    window.onload = function() {
-        animateCounter("counter1", 120);
-        animateCounter("counter2", 200);
-        animateCounter("counter3", 350);
-        animateCounter("counter4", 500);
-    };
-</script>
-
-
-<!-- Client Testimonials Section -->
-<section class="py-20 bg-[#f8f9fa] text-[#0249ac]">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
-            CLIENT TESTIMONIALS
-        </h2>
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">
-            Hear what our clients have to say about the impact we’ve made on their businesses. We are proud to have helped so many achieve their goals.
-        </p>
-
-        <!-- Testimonial 1 -->
-        <div class="mt-12 max-w-xl mx-auto">
-            <div class="testimonial-card bg-white shadow-lg p-6 rounded-2xl">
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto italic">"Leon Consulting has been a game-changer for our business. Their expert team helped us seamlessly transition to the cloud, and the results speak for themselves. Our operations are now faster, more secure, and scalable. Highly recommend their services!"</p>
-                <div class="testimonial-client flex items-center justify-center mt-4">
-                    <img class="rounded-full w-16 h-16" src="images/clienttes.webp" alt="John D.">
-                    <div class="ml-4">
-                        <p class="font-bold">Alex D.</p>
-                        <p class="mt-1 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">CEO, Tech Solutions Inc.</p>
+    <main id="main-content">
+        <section id="home" class="hero" role="banner">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <span class="hero-tag">Innovative</span>
+                        <h1>IT SOLUTIONS FOR A DIGITAL FUTURE</h1>
+                        <p>Empowering businesses with cutting-edge IT solutions, web & mobile app development, cybersecurity, and a full suite of technology services. From startups to enterprises, we build scalable, secure, and future-ready solutions tailored to your success.</p>
+                        <a href="#contact" class="cta-button">Get Started</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/hero.png" alt="IT Solutions Illustration" loading="lazy">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Testimonial 2 -->
-        <div class="mt-12 max-w-xl mx-auto">
-            <div class="testimonial-card bg-white shadow-lg p-6 rounded-2xl">
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto italic">"We partnered with Leon Consulting for mobile app development, and they delivered beyond our expectations. The app they built for us is intuitive, user-friendly, and has driven up engagement with our customers. Their team is responsive and solution-driven!"</p>
-                <div class="testimonial-client flex items-center justify-center mt-4">
-                    <img class="rounded-full w-16 h-16" src="images/shot1.png" alt="Sarah L.">
-                    <div class="ml-4">
-                        <p class="font-bold">Thomas L.</p>
-                        <p class="mt-1 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">Founder, EcomNation</p>
+        <!-- Clients Section -->
+        <section class="clients">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Our Clients</span>
+                    <h2>Trusted by Industry Leaders</h2>
+                    <p class="section-description">We work with some of the world's most innovative companies to deliver exceptional IT solutions.</p>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-logo">
+                        <img src="images/client1.png" alt="Client 1" loading="lazy" width="150" height="80">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/client2.png" alt="Client 2" loading="lazy" width="150" height="80">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/client3.png" alt="Client 3" loading="lazy" width="150" height="80">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/client4.png" alt="Client 4" loading="lazy" width="150" height="80">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/client5.png" alt="Client 5" loading="lazy" width="150" height="80">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/client6.png" alt="Client 6" loading="lazy" width="150" height="80">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Testimonial 3 -->
-        <div class="mt-12 max-w-xl mx-auto">
-            <div class="testimonial-card bg-white shadow-lg p-6 rounded-2xl">
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto italic">"Security is our top priority, and Leon Consulting’s cybersecurity solutions gave us peace of mind. They conducted a thorough risk assessment and implemented the best practices to ensure our data is safe. The expertise and professionalism they bring to the table is unmatched."</p>
-                <div class="testimonial-client flex items-center justify-center mt-4">
-                    <img class="rounded-full w-16 h-16" src="images/shot2.webp" alt="Michael T.">
-                    <div class="ml-4">
-                        <p class="font-bold">Addison T.</p>
-                        <p class="mt-1 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">CTO, SecureNet Corp.</p>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Our Services</span>
+                    <h2>Comprehensive IT Solutions</h2>
+                    <p class="section-description">We offer a wide range of IT services to help your business thrive in the digital age</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Custom Software Development</h3>
+                        <p>Tailored software solutions designed to meet your specific business needs. From web applications to enterprise software.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Web Applications</li>
+                            <li><i class="fas fa-check"></i> Mobile Apps</li>
+                            <li><i class="fas fa-check"></i> Enterprise Software</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>IT Staffing Solutions</h3>
+                        <p>Expert talent acquisition and workforce solutions to build your dream team. We connect you with top IT professionals.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Technical Recruitment</li>
+                            <li><i class="fas fa-check"></i> Contract Staffing</li>
+                            <li><i class="fas fa-check"></i> Team Augmentation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity Services</h3>
+                        <p>Protect your business with our comprehensive security solutions. We ensure your digital assets are safe and secure.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Security Audits</li>
+                            <li><i class="fas fa-check"></i> Threat Protection</li>
+                            <li><i class="fas fa-check"></i> Compliance Management</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Harness the power of cloud technology with our expert cloud services and solutions.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Cloud Migration</li>
+                            <li><i class="fas fa-check"></i> Cloud Management</li>
+                            <li><i class="fas fa-check"></i> DevOps Services</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Network Infrastructure</h3>
+                        <p>Build and maintain robust network infrastructure with our expert networking solutions and support.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Network Design</li>
+                            <li><i class="fas fa-check"></i> Network Security</li>
+                            <li><i class="fas fa-check"></i> 24/7 Monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Digital Transformation</h3>
+                        <p>Transform your business with cutting-edge digital solutions and strategic technology consulting.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Process Automation</li>
+                            <li><i class="fas fa-check"></i> Digital Strategy</li>
+                            <li><i class="fas fa-check"></i> Innovation Consulting</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Testimonial 4 -->
-        <div class="mt-12 max-w-xl mx-auto">
-            <div class="testimonial-card bg-white shadow-lg p-6 rounded-2xl">
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto italic">"The website redesign by Leon Consulting not only made our online presence more modern, but it also boosted our conversion rates. The attention to detail and their team’s dedication to our brand’s goals made them a great partner!"</p>
-                <div class="testimonial-client flex items-center justify-center mt-4">
-                    <img class="rounded-full w-16 h-16" src="images/shot3.png" alt="Emma R.">
-                    <div class="ml-4">
-                        <p class="font-bold">Kirk R.</p>
-                        <p class="mt-1 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">Marketing Director, GreenTech Solutions</p>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Us</span>
+                    <h2>Your Trusted IT Partner</h2>
+                    <p class="section-description">With over a decade of experience, we've been helping businesses transform their digital presence and achieve remarkable growth.</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-description">
+                            <p>Leon Consulting is a leading IT solutions and staffing services provider, dedicated to helping businesses navigate the complex world of technology. Our journey began with a simple mission: to make technology work for businesses, not against them.</p>
+                            <p>We believe in building long-lasting partnerships with our clients, understanding their unique challenges, and delivering solutions that drive real business value. Our team of certified professionals brings expertise across various domains, ensuring comprehensive support for all your IT needs.</p>
+                        </div>
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div class="feature-content">
+                                    <h4>Expert Team</h4>
+                                    <p>Our certified professionals bring years of industry experience</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div class="feature-content">
+                                    <h4>Quality Service</h4>
+                                    <p>Committed to delivering excellence in every project</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div class="feature-content">
+                                    <h4>Innovation</h4>
+                                    <p>Staying ahead with cutting-edge technology solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3><span class="counter" data-target="100">0</span>+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3><span class="counter" data-target="50">0</span>+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3><span class="counter" data-target="24">0</span>/7</h3>
+                                <p>Support Available</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3><span class="counter" data-target="10">0</span>+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-    </div>
-</section>
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Testimonials</span>
+                    <h2>What Our Clients Say</h2>
+                    <p class="section-description">Discover how we've helped businesses transform their digital presence</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Leon Consulting transformed our business with their innovative IT solutions. Their team's expertise and dedication to our success made all the difference."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/shot1.png" alt="Sarah Johnson">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CEO, TechStart Inc.</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"The cybersecurity solutions provided by Leon Consulting have given us peace of mind. Their proactive approach to security is truly impressive."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/shot2.png" alt="Michael Chen">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>CTO, SecureCorp</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Their IT staffing solutions helped us build a world-class development team. The quality of talent they provide is consistently excellent."</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/shot3.png" alt="Emily Rodriguez">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>HR Director, InnovateTech</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-nav">
+                    <button class="nav-dot active"></button>
+                    <button class="nav-dot"></button>
+                    <button class="nav-dot"></button>
+                </div>
+            </div>
+        </section>
 
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">FAQ</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p class="section-description">Find answers to common questions about our IT services and solutions.</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What services do you provide?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer a comprehensive range of IT services including custom software development, IT staffing solutions, cybersecurity services, cloud solutions, network infrastructure, and digital transformation services. Our team specializes in delivering tailored solutions to meet your specific business needs.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do you ensure project quality?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We maintain high quality standards through rigorous testing, code reviews, and quality assurance processes. Our team follows industry best practices and uses cutting-edge tools to ensure deliverables meet or exceed client expectations.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is your project timeline?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines vary based on scope and complexity. We work closely with clients to establish realistic timelines and milestones. Our agile methodology ensures efficient delivery while maintaining flexibility for adjustments.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you provide 24/7 support?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer 24/7 technical support for critical systems and applications. Our dedicated support team is always available to address your concerns and ensure minimal downtime for your business operations.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What industries do you serve?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We serve a diverse range of industries including healthcare, finance, retail, manufacturing, and technology. Our solutions are customized to meet industry-specific requirements and compliance standards.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do you handle data security?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We implement robust security measures including encryption, secure data storage, regular security audits, and compliance with industry standards. Our team follows strict security protocols to protect your sensitive information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Frequently Asked Questions Section -->
-<section class="py-20 bg-[#0249ac] text-white">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold">
-            FREQUENTLY ASKED QUESTIONS
-        </h2>
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">
-            Have questions? We have answers! Check out some of the most common questions we receive from our clients.
-        </p>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Contact Us</span>
+                    <h2>Get in Touch</h2>
+                    <p class="section-description">Have a question or want to discuss your project? We're here to help.</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Our Location</h3>
+                                <p>30 N Gould St<br>Sheridan, WY 82801<br>USA</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Email Address</h3>
+                                <p>info@leonstaff.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" role="form" aria-label="Contact form" id="contact-form" action="https://formsubmission.karkianket.workers.dev/">
+                        <div class="form-group">
+                            <label for="name" class="visually-hidden">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="visually-hidden">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="visually-hidden">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="visually-hidden">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required aria-required="true"></textarea>
+                        </div>
+                        <!-- Cloudflare Turnstile Widget -->
+                        <div class="form-group">
+                            <div class="cf-turnstile" data-sitekey="0x4AAAAAABBY_kakSBhmTCZm" data-theme="light"></div>
+                        </div>
+                        <button type="submit" class="cta-button" aria-label="Send Message">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                    <!-- Success/Error Message -->
+                    <div id="form-response" class="form-response hidden">
+                        <p id="response-message"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <!-- FAQ 1 -->
-        <div class="mt-12 max-w-2xl mx-auto">
-            <div class="bg-white shadow-lg p-6 rounded-2xl">
-                <button class="w-full text-left text-sm sm:text-base lg:text-base font-semibold text-[#0249ac] flex items-center justify-between focus:outline-none" onclick="toggleAnswer('faq1')">
-                    <span>What services does Leon Consulting provide?</span>
-                    <svg id="icon1" class="w-6 h-6 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6"></path>
-                    </svg>
-                </button>
-                <div id="faq1" class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] max-h-0 overflow-hidden transition-all duration-300">
-                    We specialize in IT solutions, web and mobile app development, cybersecurity, cloud services, and IT staffing. Our team is dedicated to delivering innovative solutions that help businesses streamline their operations and achieve their goals.
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <span class="section-tag">NEWSLETTER</span>
+                        <h2>Stay Updated with Our Latest News</h2>
+                        <p>Subscribe to our newsletter and receive the latest IT industry insights, tech updates, and exclusive offers.</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subscribe-btn">
+                                Subscribe <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Leon Consulting</h3>
+                    <p class="footer-description">Empowering businesses through innovative IT solutions and strategic staffing services.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">IT Consulting</a></li>
+                        <li><a href="#services">Staff Augmentation</a></li>
+                        <li><a href="#services">Software Development</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">Digital Transformation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>30 N Gould St<br>Sheridan, WY 82801<br>USA</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@leonstaff.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Leon Consulting. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
                 </div>
             </div>
         </div>
+    </footer>
 
-        <!-- FAQ 2 -->
-        <div class="mt-12 max-w-2xl mx-auto">
-            <div class="bg-white shadow-lg p-6 rounded-2xl">
-                <button class="w-full text-left text-sm sm:text-base lg:text-base font-semibold text-[#0249ac] flex items-center justify-between focus:outline-none" onclick="toggleAnswer('faq2')">
-                    <span>How can I get started with Leon Consulting?</span>
-                    <svg id="icon2" class="w-6 h-6 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6"></path>
-                    </svg>
-                </button>
-                <div id="faq2" class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] max-h-0 overflow-hidden transition-all duration-300">
-                    Getting started is simple! Just reach out to us via our contact form, and one of our team members will get in touch with you to discuss your project and how we can help you achieve your goals.
-                </div>
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-btn accept" onclick="acceptCookies()">Accept</button>
+                <button class="cookie-btn" onclick="declineCookies()">Decline</button>
             </div>
         </div>
-
-        <!-- FAQ 3 -->
-        <div class="mt-12 max-w-2xl mx-auto">
-            <div class="bg-white shadow-lg p-6 rounded-2xl">
-                <button class="w-full text-left text-sm sm:text-base lg:text-base font-semibold text-[#0249ac] flex items-center justify-between focus:outline-none" onclick="toggleAnswer('faq3')">
-                    <span>How do you ensure the security of my data?</span>
-                    <svg id="icon3" class="w-6 h-6 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6"></path>
-                    </svg>
-                </button>
-                <div id="faq3" class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] max-h-0 overflow-hidden transition-all duration-300">
-                    We take data security very seriously. Our cybersecurity experts implement the latest best practices, ensuring your data is always protected. We conduct regular audits and offer proactive solutions to mitigate any potential risks.
-                </div>
-            </div>
-        </div>
-
-        <!-- FAQ 4 -->
-        <div class="mt-12 max-w-2xl mx-auto">
-            <div class="bg-white shadow-lg p-6 rounded-2xl">
-                <button class="w-full text-left text-sm sm:text-base lg:text-base font-semibold text-[#0249ac] flex items-center justify-between focus:outline-none" onclick="toggleAnswer('faq4')">
-                    <span>Can Leon Consulting help with my app or website development?</span>
-                    <svg id="icon4" class="w-6 h-6 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6"></path>
-                    </svg>
-                </button>
-                <div id="faq4" class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] max-h-0 overflow-hidden transition-all duration-300">
-                    Absolutely! Our team has extensive experience in both web and mobile app development. Whether you're building a new app from scratch or updating an existing website, we can help bring your ideas to life with cutting-edge technology.
-                </div>
-            </div>
-        </div>
-
-        <!-- FAQ 5 -->
-        <div class="mt-12 max-w-2xl mx-auto">
-            <div class="bg-white shadow-lg p-6 rounded-2xl">
-                <button class="w-full text-left text-sm sm:text-base lg:text-base font-semibold text-[#0249ac] flex items-center justify-between focus:outline-none" onclick="toggleAnswer('faq5')">
-                    <span>What industries do you work with?</span>
-                    <svg id="icon5" class="w-6 h-6 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6"></path>
-                    </svg>
-                </button>
-                <div id="faq5" class="mt-4 text-sm sm:text-base lg:text-base font-normal text-[#0249ac] max-h-0 overflow-hidden transition-all duration-300">
-                    We work with a wide range of industries, including tech, healthcare, finance, retail, and more. Our solutions are tailored to meet the unique needs of each industry, ensuring you get the best results for your business.
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- Toggle Answer JavaScript -->
-<script>
-    function toggleAnswer(id) {
-        const answer = document.getElementById(id);
-        const icon = document.getElementById(`icon${id.slice(-1)}`);
-        if (answer.style.maxHeight) {
-            answer.style.maxHeight = null;
-            icon.style.transform = "rotate(0deg)";
-        } else {
-            answer.style.maxHeight = answer.scrollHeight + "px";
-            icon.style.transform = "rotate(180deg)";
-        }
-    }
-</script>
-
-
-<!-- Call to Action Section -->
-<section class="py-20 bg-white text-[#0249ac]">
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
-        
-        <!-- Section Heading -->
-        <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-[#0249ac]">
-            Ready to Transform Your Business?
-        </h2>
-        
-        <!-- Description Text -->
-        <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto text-[#0249ac]">
-            Whether you’re looking for IT solutions, mobile app development, cybersecurity services, or career development assistance, we’re here to help. Let's work together to create impactful results for your business.
-        </p>
-        
-        <!-- CTA Button -->
-        <div class="mt-12">
-            <a href="contact.html" class="md:inline-block text-base sm:text-lg md:text-xl lg:text-lg font-bold bg-[#0249ac] text-white px-8 py-4 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
-                Get Started Today
-            </a>
-        </div>
-        
-    </div>
-</section>
-
-
-
-
-
-<!-- Footer Section with Polygon Background -->
-<footer class="relative bg-[#0249ac] text-white py-10 overflow-hidden">
-    <!-- Polygon Shapes Background -->
-    <div class="absolute top-0 left-0 w-full h-full">
-        <svg class="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="#022A57" points="0,100 100,0 100,100"></polygon>
-            <polygon fill="#0249ac" points="0,90 85,0 100,0 100,100" opacity="0.6"></polygon>
-        </svg>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-        <div class="flex flex-col md:flex-row justify-between">
-            
-            <!-- Company Information -->
-            <div>
-                <h2 class="text-xl sm:text-2xl md:text3xl font-bold">LEON CONSULTING</h2>
-                <p class="mt-4 text-sm sm:text-base lg:text-base font-normal max-w-3xl mx-auto">Leon Consulting Corporation specialize in delivering tailored IT solutions and recruitment services. With years of experience, we have empowered businesses and professionals to achieve their goals through expert advice, resume rewriting, LinkedIn optimization, and career development.
-
-                    Our dedicated team is committed to providing the highest quality of service, whether you're a job seeker or an employer.</p>              
-            </div>
-
-            <!-- Quick Links (Pushed to the end) -->
-            <div class="mt-6 md:mt-0 md:text-right">
-                <h3 class="text-lg sm:text-xl font-semibold">Quick Links</h3>
-                <ul class="mt-3 space-y-2 sm:space-y-3">
-                    <li><a href="#home" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Home</a></li>
-                    <li><a href="#about" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">About</a></li>
-                    <li><a href="#services" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Services</a></li>
-                    <li><a href="pricing.html" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Pricing</a></li>
-                    <li><a href="contact.html" class="text-white text-sm sm:text-md hover:text-indigo-200 transition-all duration-300">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="mt-10 border-t border-white pt-4 text-center">
-            <p class="text-xs sm:text-sm">© 2025 Leon Consulting Corporation. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-
-
-   <!-- Mobile Menu Script -->
-<script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const menuLinks = document.querySelectorAll('#mobile-menu a'); // Select all menu links
-
-    // Toggle menu on button click
-    menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-    });
-
-    // Hide menu when a link is clicked
-    menuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden'); // Ensure menu hides when a link is clicked
-        });
-    });
-</script>
+    <script src="script.js"></script>
+</body>
+</html> 
