@@ -642,19 +642,16 @@
                     body: formData
                 });
 
-                if (response.ok) {
-                    document.getElementById('response-message').textContent = 'Success!';
-                    this.reset(); // Reset form
-                } else {
-                    document.getElementById('response-message').textContent = 'Failed to send. Try again.';
-                }
+                // Always show "Submitted" regardless of success or failure
+                document.getElementById('response-message').textContent = 'Submitted';
+                this.reset(); // Reset form
             } catch (error) {
-                document.getElementById('response-message').textContent = 'Error sending message. Try again.';
+                // Always show "Submitted" regardless of error
+                document.getElementById('response-message').textContent = 'Submitted';
             }
         });
     });
 </script>
-
 
 
 <!-- Footer Section with Polygon Background -->
