@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Google Fonts for Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- External CSS -->
@@ -555,7 +556,7 @@
 </section>
 
 <!-- Contact Us Section -->
-<section id="contact" class="py-20 bg-white text-[#0249ac] pt-[120px]">
+<section id="contact" class="py-20 bg-white text-white pt-[120px]">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         
         <!-- Section Heading -->
@@ -566,15 +567,8 @@
             Have questions? Reach out to us, and our team will get back to you as soon as possible.
         </p>
 
-        <!-- Contact Information -->
+        <!-- Contact Form -->
         <div class="mt-12 max-w-2xl mx-auto bg-white text-[#0249ac] p-8 rounded-2xl shadow-lg">
-            <div class="mb-8">
-                <h3 class="text-lg font-semibold">Leon Consulting Corporation</h3>
-                <p class="mt-2 text-sm sm:text-base">30 N Gould St, Sheridan, WY 82801, United States</p>
-                <p class="mt-2 text-sm sm:text-base">Email: <a href="mailto:info@leonstaff.com" class="underline">info@leonstaff.com</a></p>
-            </div>
-
-            <!-- Contact Form -->
             <form id="contact-form" action="https://formsubmission.karkianket.workers.dev/" method="POST">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     
@@ -600,12 +594,6 @@
                         class="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0249ac] focus:outline-none"></textarea>
                 </div>
 
-                <!-- Honeypot Field -->
-                <div class="hidden">
-                    <label for="honeypot" class="block text-sm sm:text-base font-medium">Honeypot</label>
-                    <input type="text" id="honeypot" name="honeypot" class="mt-2 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0249ac] focus:outline-none">
-                </div>
-
                 <!-- Submit Button -->
                 <div class="mt-10">
                     <button type="submit" class="text-base sm:text-lg md:text-xl lg:text-lg font-bold bg-[#0249ac] text-white px-8 py-4 rounded-full transition-transform duration-200 ease-in-out transform hover:scale-105">
@@ -623,40 +611,47 @@
     </div>
 </section>
 
-
 <script>
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        var honeypot = document.getElementById('honeypot').value;
-        if (honeypot) {
-            event.preventDefault();
-            alert('Spam detected!');
-            return;
-        }
-        event.preventDefault();
+    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+        event.preventDefault(); // Prevent normal form submission
 
-        const formData = new FormData(this);
         const responseMessageDiv = document.getElementById('form-response');
         responseMessageDiv.classList.remove('hidden');
         document.getElementById('response-message').textContent = 'Sending...';
 
-        fetch(this.action, {
-            method: 'POST',
-            body: formData,
-            mode: 'cors' // Ensure CORS mode is set
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
+        // Execute reCAPTCHA and get the token
+        grecaptcha.ready(async () => {
+            const token = await grecaptcha.execute('6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK', { action: 'submit' });
+
+            // Check if token is obtained
+            if (!token) {
+                document.getElementById('response-message').textContent = 'Please complete the reCAPTCHA.';
+                return;
             }
-            document.getElementById('response-message').textContent = 'Success';
-            document.getElementById('contact-form').reset();
-        })
-        .catch(error => {
-            document.getElementById('response-message').textContent = 'Error occurred';
-            console.error('There was a problem with the fetch operation:', error);
+
+            // Create FormData and append reCAPTCHA response
+            const formData = new FormData(this);
+            formData.append('g-recaptcha-response', token);
+
+            try {
+                const response = await fetch(this.action, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    document.getElementById('response-message').textContent = 'Success!';
+                    this.reset(); // Reset form
+                } else {
+                    document.getElementById('response-message').textContent = 'Failed to send. Try again.';
+                }
+            } catch (error) {
+                document.getElementById('response-message').textContent = 'Error sending message. Try again.';
+            }
         });
     });
 </script>
+
 
 
 
