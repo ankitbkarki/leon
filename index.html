@@ -664,22 +664,6 @@
 </script>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const packageName = urlParams.get("package");
-        
-        if (packageName) {
-            const messageBox = document.getElementById("message");
-            if (messageBox) {
-                messageBox.value = `I am interested in the ${packageName}. Please provide more details.`;
-            }
-        }
-    });
-</script>
-
-
-
 
 <!-- Footer Section with Polygon Background -->
 <footer id="footer" class="relative bg-[#0249ac] text-white py-10 overflow-hidden">
