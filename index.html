@@ -607,9 +607,10 @@
                 <p id="response-message"></p>
             </div>
         </div>
-
     </div>
 </section>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK"></script>
 
 <script>
     document.getElementById('contact-form').addEventListener('submit', async function(event) {
@@ -633,6 +634,8 @@
             const formData = new FormData(this);
             formData.append('g-recaptcha-response', token);
 
+            console.log([...formData.entries()]); // Log the form data for debugging
+
             try {
                 const response = await fetch(this.action, {
                     method: 'POST',
@@ -651,7 +654,6 @@
         });
     });
 </script>
-
 
 
 
