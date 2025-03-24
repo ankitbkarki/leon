@@ -625,7 +625,15 @@
 
 
 <script>
-    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        var honeypot = document.getElementById('honeypot').value;
+        if (honeypot) {
+            // If the honeypot field is filled, prevent form submission
+            event.preventDefault();
+            alert('Spam detected!');
+            return;
+        }
+        // Proceed with form submission
         event.preventDefault();  // Prevent the form from submitting normally
 
         // Create a FormData object from the form fields
@@ -638,22 +646,19 @@
 
         try {
             // Send the form data to your Cloudflare Worker
-            await fetch(this.action, {
+            fetch(this.action, {
                 method: 'POST',
                 body: formData
+            }).then(() => {
+                // Display success message
+                document.getElementById('response-message').textContent = 'Success';
+
+                // Reset the form after submission
+                document.getElementById('contact-form').reset();
             });
-
-            // Display success message regardless of errors
-            document.getElementById('response-message').textContent = 'Success';
-
-            // Reset the form after submission
-            document.getElementById('contact-form').reset();
         } catch (error) {
-            // Display success message even if there was an error
-            document.getElementById('response-message').textContent = 'Success';
-            
-            // Reset the form after submission
-            document.getElementById('contact-form').reset();
+            // Display error message
+            document.getElementById('response-message').textContent = 'Error occurred';
         }
     });
 </script>
@@ -765,15 +770,4 @@
 </script>
 
 <script src="scripts.js"></script>
-
-<script>
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    var honeypot = document.getElementById('honeypot').value;
-    if (honeypot) {
-        // If the honeypot field is filled, prevent form submission
-        event.preventDefault();
-        alert('Spam detected!');
-    }
-});
-</script>
 
