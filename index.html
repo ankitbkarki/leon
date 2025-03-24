@@ -628,38 +628,33 @@
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         var honeypot = document.getElementById('honeypot').value;
         if (honeypot) {
-            // If the honeypot field is filled, prevent form submission
             event.preventDefault();
             alert('Spam detected!');
             return;
         }
-        // Proceed with form submission
-        event.preventDefault();  // Prevent the form from submitting normally
+        event.preventDefault();
 
-        // Create a FormData object from the form fields
         const formData = new FormData(this);
-
-        // Show a loading message while the request is being sent
         const responseMessageDiv = document.getElementById('form-response');
         responseMessageDiv.classList.remove('hidden');
         document.getElementById('response-message').textContent = 'Sending...';
 
-        try {
-            // Send the form data to your Cloudflare Worker
-            fetch(this.action, {
-                method: 'POST',
-                body: formData
-            }).then(() => {
-                // Display success message
-                document.getElementById('response-message').textContent = 'Success';
-
-                // Reset the form after submission
-                document.getElementById('contact-form').reset();
-            });
-        } catch (error) {
-            // Display error message
+        fetch(this.action, {
+            method: 'POST',
+            body: formData,
+            mode: 'cors' // Ensure CORS mode is set
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            document.getElementById('response-message').textContent = 'Success';
+            document.getElementById('contact-form').reset();
+        })
+        .catch(error => {
             document.getElementById('response-message').textContent = 'Error occurred';
-        }
+            console.error('There was a problem with the fetch operation:', error);
+        });
     });
 </script>
 
