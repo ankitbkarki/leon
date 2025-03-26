@@ -42,33 +42,29 @@
     <!-- Add this style section before the closing </head> tag -->
     <style>
         @keyframes float {
-            0% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-            100% {
-                transform: translateY(0px);
-            }
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
         }
 
         .animate-float-rotate {
             animation: float 4s ease-in-out infinite;
         }
 
-        /* Disable transform animations on mobile */
+        /* Mobile-specific animation adjustments */
         @media (max-width: 768px) {
+            /* Disable problematic animations on mobile */
             .animate-float-rotate {
                 animation: none;
                 transform: none !important;
             }
 
+            /* Keep fade animations but disable transform effects */
             [data-aos] {
                 transform: none !important;
             }
 
-            .transform,
+            /* Disable hover transform effects on mobile */
             .hover\:scale-105,
             .hover\:scale-110,
             .hover\:-translate-y-1,
@@ -78,6 +74,28 @@
             .group-hover\:rotate-12,
             .group-hover\:scale-110 {
                 transform: none !important;
+            }
+
+            /* Ensure text and content is visible immediately on mobile */
+            .opacity-0 {
+                opacity: 1 !important;
+            }
+
+            /* Keep transition effects for color changes and opacity */
+            .transition-colors,
+            .transition-opacity {
+                transition-property: color, background-color, opacity !important;
+            }
+        }
+
+        /* Desktop animations remain unchanged */
+        @media (min-width: 769px) {
+            .animate-float-rotate {
+                animation: float 4s ease-in-out infinite;
+            }
+
+            [data-aos] {
+                transition-property: transform, opacity !important;
             }
         }
     </style>
