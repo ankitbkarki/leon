@@ -135,7 +135,7 @@
     </div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                         SHAPING THE FUTURE OF<br>
-                        DIGITAL LADO
+                        DIGITAL INNOVATION
             </h1>
                     <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
                         We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age. Our tailored approach ensures streamlined operations, enhanced customer experiences, and sustainable growth through innovative and scalable solutions.
@@ -295,7 +295,17 @@
         once: true,
         offset: 100,
         easing: 'ease-out-cubic',
-        disable: false // Keep AOS enabled but disable transforms on mobile via CSS
+        disable: window.innerWidth < 768, // Disable on mobile
+        startEvent: 'load' // Start animations on page load
+    });
+
+    // Re-initialize AOS on window resize
+    window.addEventListener('resize', function() {
+        if (window.innerWidth >= 768) {
+            AOS.refresh();
+        } else {
+            AOS.destroy();
+        }
     });
 </script>
 
