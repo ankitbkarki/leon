@@ -38,6 +38,25 @@
     <meta property="og:url" content="https://www.leonstaff.com/" />
     <meta property="og:type" content="website" />
     <meta name="linkedin:image" content="https://www.leonstaff.com/images/fb.png" />
+
+    <!-- Add this style section before the closing </head> tag -->
+    <style>
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .animate-float-rotate {
+            animation: float 4s ease-in-out infinite;
+        }
+    </style>
 </head>
 <body>
 
@@ -91,11 +110,11 @@
                         <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">YOUR TRUSTED TECH PARTNER</span>
     </div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                        Building Digital Excellence <br>
-                        Through Innovation
+                        SHAPING THE FUTURE OF<br>
+                        DIGITAL INNOVATION
             </h1>
                     <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
-                        We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age.
+                        We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age. Our tailored approach ensures streamlined operations, enhanced customer experiences, and sustainable growth through innovative and scalable solutions.
                     </p>
                 </div>
                 <div class="flex flex-col gap-6 mt-auto w-[95%] mx-auto md:mx-0 opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
@@ -118,7 +137,7 @@
             <div class="w-full md:w-1/2 mt-12 md:mt-0">
                 <!-- Hero Image (Hidden on Mobile) -->
                 <div class="hidden md:block bg-gray-200 rounded-xl p-8 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0" data-aos="fade-left" data-aos-delay="200" data-aos-duration="500">
-                    <img src="images/hero.png" alt="3D Spheres" class="w-full max-w-lg mx-auto transform transition-transform duration-700 hover:scale-[1.02]">
+                    <img src="images/hero.webp" alt="3D Earth" class="w-full max-w-lg mx-auto animate-float-rotate">
                 </div>
                 
                 <!-- Stats Box -->
