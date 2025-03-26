@@ -56,6 +56,30 @@
         .animate-float-rotate {
             animation: float 4s ease-in-out infinite;
         }
+
+        /* Disable transform animations on mobile */
+        @media (max-width: 768px) {
+            .animate-float-rotate {
+                animation: none;
+                transform: none !important;
+            }
+
+            [data-aos] {
+                transform: none !important;
+            }
+
+            .transform,
+            .hover\:scale-105,
+            .hover\:scale-110,
+            .hover\:-translate-y-1,
+            .hover\:-translate-y-2,
+            .hover\:translate-x-1,
+            .group-hover\:translate-x-1,
+            .group-hover\:rotate-12,
+            .group-hover\:scale-110 {
+                transform: none !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -267,11 +291,11 @@
 <script>
     // Initialize AOS with custom settings
     AOS.init({
-        duration: 500, // Reduced from 1000
+        duration: 500,
         once: true,
         offset: 100,
         easing: 'ease-out-cubic',
-        disable: 'mobile'
+        disable: false // Keep AOS enabled but disable transforms on mobile via CSS
     });
 </script>
 
