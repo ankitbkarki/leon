@@ -42,62 +42,41 @@
 
     <!-- Add this style section before the closing </head> tag -->
     <style>
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-
+        /* Remove float animation */
         .animate-float-rotate {
-            animation: float 4s ease-in-out infinite;
+            animation: none;
         }
 
-        /* Mobile-specific animation adjustments */
-        @media (max-width: 768px) {
-            /* Disable problematic animations on mobile */
-            .animate-float-rotate {
-                animation: none;
-                transform: none !important;
-            }
-
-            /* Keep fade animations but disable transform effects */
+        /* Mobile and Desktop - Keep only hover effects, remove all other animations */
+        @media (max-width: 768px), (min-width: 769px) {
+            /* Disable AOS animations */
             [data-aos] {
-                transform: none !important;
-            }
-
-            /* Disable hover transform effects on mobile */
-            .hover\:scale-105,
-            .hover\:scale-110,
-            .hover\:-translate-y-1,
-            .hover\:-translate-y-2,
-            .hover\:translate-x-1,
-            .group-hover\:translate-x-1,
-            .group-hover\:rotate-12,
-            .group-hover\:scale-110 {
-                transform: none !important;
-            }
-
-            /* Ensure text and content is visible immediately on mobile */
-            .opacity-0 {
                 opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
             }
 
-            /* Keep transition effects for color changes and opacity */
-            .transition-colors,
-            .transition-opacity {
-                transition-property: color, background-color, opacity !important;
+            /* Keep only hover animations */
+            .hover\:scale-105:hover { transform: scale(1.05); }
+            .hover\:scale-110:hover { transform: scale(1.1); }
+            .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
+            .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
+            .hover\:translate-x-1:hover { transform: translateX(0.25rem); }
+            .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
+            .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
+            .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
+
+            /* Ensure transitions work for hover effects */
+            .transition-all {
+                transition-property: all;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 300ms;
             }
         }
 
-        /* Desktop animations remain unchanged */
-        @media (min-width: 769px) {
-            .animate-float-rotate {
-                animation: float 4s ease-in-out infinite;
-            }
-
-            [data-aos] {
-                transition-property: transform, opacity !important;
-            }
+        /* Remove all opacity animations */
+        .opacity-0 {
+            opacity: 1 !important;
         }
     </style>
 </head>
@@ -147,9 +126,9 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-start justify-between min-h-[600px]">
             <!-- Left Content -->
-            <div class="w-full md:w-1/2 text-center md:text-left flex flex-col h-full" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-out-cubic">
+            <div class="w-full md:w-1/2 text-center md:text-left flex flex-col h-full">
                 <div>
-                    <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                    <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500">
                         <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">SHAPING</span>
     </div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -160,7 +139,7 @@
                         We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age. Our tailored approach ensures streamlined operations, enhanced customer experiences, and sustainable growth through innovative and scalable solutions.
                     </p>
                 </div>
-                <div class="flex flex-col gap-6 mt-auto w-[95%] mx-auto md:mx-0 opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                <div class="flex flex-col gap-6 mt-auto w-[95%] mx-auto md:mx-0 opacity-0 transform translate-y-4 transition-all duration-500">
                     <a href="#contact" class="w-full bg-[#0249ac] text-white px-10 py-6 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-all duration-300 text-center flex items-center justify-between group">
                     Get Started
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 transform transition-transform duration-500 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -179,12 +158,12 @@
             <!-- Right Content (3D Graphic + Stats) -->
             <div class="w-full md:w-1/2 mt-12 md:mt-0">
                 <!-- Hero Image (Hidden on Mobile) -->
-                <div class="hidden md:block bg-gray-200 rounded-xl p-8 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0" data-aos="fade-left" data-aos-delay="200" data-aos-duration="500">
+                <div class="hidden md:block bg-gray-200 rounded-xl p-8 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0">
                     <img src="images/hero.webp" alt="3D Earth" class="w-full max-w-lg mx-auto animate-float-rotate">
                 </div>
                 
                 <!-- Stats Box -->
-                <div class="hidden md:block bg-gray-200 rounded-xl p-8 transform transition-all duration-300 hover:shadow-xl opacity-0" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+                <div class="hidden md:block bg-gray-200 rounded-xl p-8 transform transition-all duration-300 hover:shadow-xl opacity-0">
                     <div class="grid grid-cols-3 gap-2 sm:gap-4">
                         <div class="text-center transform transition-all duration-500 hover:-translate-y-1">
                             <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0249ac]">500+</h3>
@@ -304,30 +283,6 @@
     </div>
 </section>
 
-<!-- Add AOS Library if not already added -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    // Initialize AOS with custom settings
-    AOS.init({
-        duration: 500,
-        once: true,
-        offset: 100,
-        easing: 'ease-out-cubic',
-        disable: window.innerWidth < 768, // Disable on mobile
-        startEvent: 'load' // Start animations on page load
-    });
-
-    // Re-initialize AOS on window resize
-    window.addEventListener('resize', function() {
-        if (window.innerWidth >= 768) {
-            AOS.refresh();
-        } else {
-            AOS.destroy();
-        }
-    });
-</script>
-
 <!-- Expertise Section -->
 <section id="services" class="py-12 md:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -403,25 +358,25 @@
 
     <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         <!-- Section Label -->
-        <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+        <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500">
             <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">ABOUT US</span>
         </div>
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 opacity-0 transform translate-y-4 transition-all duration-500">
             ABOUT LEON CONSULTING
         </h2>
         
         <!-- Description -->
-        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto opacity-0 transform translate-y-4 transition-all duration-500" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto opacity-0 transform translate-y-4 transition-all duration-1000" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto opacity-0 transform translate-y-4 transition-all duration-500">
+        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto opacity-0 transform translate-y-4 transition-all duration-1000">
             At Leon Consulting Corporation, we specialize in delivering innovative IT solutions and recruitment services. Our team of experts is committed to empowering businesses through secure, scalable, and cutting-edge technology, and connecting them with top IT talent.
         </p>
         
         <!-- Counters Section -->
         <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Counter 1 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
+            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
             <div class="flex flex-col items-center">
                     <div id="counter1" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">IT Projects Delivered</p>
@@ -429,7 +384,7 @@
             </div>
 
             <!-- Counter 2 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
+            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
             <div class="flex flex-col items-center">
                     <div id="counter2" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Businesses Transformed</p>
@@ -437,7 +392,7 @@
             </div>
 
             <!-- Counter 3 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
             <div class="flex flex-col items-center">
                     <div id="counter3" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Secured Cyber Environments</p>
@@ -445,7 +400,7 @@
             </div>
 
             <!-- Counter 4 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800">
+            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
             <div class="flex flex-col items-center">
                     <div id="counter4" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Satisfied Clients Worldwide</p>
@@ -690,33 +645,24 @@
 
 
 <!-- Call to Action Section -->
-<section id="cta" class="py-12 md:py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="cta" class="py-12 md:py-20 relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-100 via-white to-indigo-100 opacity-80"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <!-- Section Label -->
         <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">
             <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">GET STARTED</span>
         </div>
         
         <!-- Section Content -->
-        <div class="bg-gray-50 rounded-2xl p-8 sm:p-12 text-center relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-            <!-- Background Pattern -->
-            <div class="absolute inset-0 opacity-10">
-                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <path d="M0,0 L100,0 L100,100 L0,100 Z" fill="url(#grid-pattern)" />
-                    <defs>
-                        <pattern id="grid-pattern" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
-                            <path d="M0,0 L10,0 L10,10 L0,10 Z" fill="none" stroke="#0249ac" stroke-width="0.5"/>
-                        </pattern>
-                    </defs>
-                </svg>
-            </div>
-            
+        <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 relative overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="200">
             <!-- Content -->
             <div class="relative z-10">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-aos="fade-up" data-aos-delay="300">
                     Ready to Build Your Dream Team?
-        </h2>
-        
+                </h2>
+                
                 <p class="text-gray-600 text-lg max-w-2xl mx-auto mb-12" data-aos="fade-up" data-aos-delay="400">
                     Whether you need custom software development or expert IT professionals, we're here to help you achieve your business goals with cutting-edge technology and top talent.
                 </p>
@@ -788,7 +734,7 @@
                 <p class="text-base text-gray-300 mb-6">
                     As technology continues to evolve, businesses must stay ahead of the curve to remain competitive. In 2024, several key trends are expected to shape the IT landscape, including the rise of artificial intelligence, increased focus on cybersecurity, and the growing importance of cloud computing.
                 </p>
-                <a href="blog1.html" class="inline-flex items-center text-[#0249ac] hover:text-blue-400 transition-colors duration-300">
+                <a href="blog1.html" class="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300">
                     Read More
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
@@ -808,7 +754,7 @@
                 <p class="text-base text-gray-300 mb-6">
                     The recruitment landscape is changing rapidly, driven by technological advancements and shifting workforce expectations. To attract and retain top talent, businesses must adopt innovative recruitment strategies that leverage digital tools and platforms.
                 </p>
-                <a href="blog2.html" class="inline-flex items-center text-[#0249ac] hover:text-blue-400 transition-colors duration-300">
+                <a href="blog2.html" class="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300">
                     Read More
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
@@ -828,7 +774,7 @@
                 <p class="text-base text-gray-300 mb-6">
                     With the rise of remote work, cybersecurity has become a top priority for businesses worldwide. Protecting sensitive data and ensuring secure communication channels are critical to maintaining business continuity.
                 </p>
-                <a href="blog3.html" class="inline-flex items-center text-[#0249ac] hover:text-blue-400 transition-colors duration-300">
+                <a href="blog3.html" class="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300">
                     Read More
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
@@ -840,29 +786,18 @@
 </section>
 
 <!-- Contact Us Section -->
-<section id="contact" class="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="contact" class="py-12 md:py-20 relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-100 via-white to-indigo-100 opacity-80"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <!-- Section Label -->
         <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">
             <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">GET IN TOUCH</span>
         </div>
         
         <!-- Section Content -->
-        <div class="bg-white rounded-2xl p-8 sm:p-12 relative overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="200">
-            <!-- Background Pattern -->
-            <div class="absolute inset-0 opacity-5">
-                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <path d="M0,0 L100,0 L100,100 L0,100 Z" fill="url(#contact-pattern)" />
-                    <defs>
-                        <pattern id="contact-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                            <path d="M0,0 L20,0 L20,20 L0,20 Z" fill="none" stroke="#0249ac" stroke-width="0.5"/>
-                            <circle cx="10" cy="10" r="2" fill="#0249ac"/>
-                            <circle cx="10" cy="10" r="1" fill="#0249ac"/>
-                        </pattern>
-                    </defs>
-                </svg>
-            </div>
-
+        <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 sm:p-12 relative overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="200">
             <!-- Content -->
             <div class="relative z-10">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center" data-aos="fade-up" data-aos-delay="300">
