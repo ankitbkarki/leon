@@ -10,12 +10,13 @@
     <!-- Google Fonts for Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7656339654245336" crossorigin="anonymous"></script>
-    <title>Blog - Leon Consulting</title>
-    <meta name="description" content="Explore our latest insights on IT solutions, cybersecurity, recruitment strategies, and more.">
+    <title>The Future of IT Solutions: Trends to Watch in 2024 - Leon Consulting</title>
+    <meta name="description" content="Explore the latest trends in IT solutions for 2024, including AI, cybersecurity, and cloud computing developments.">
     
+    <!-- Add this style section before the closing </head> tag -->
     <style>
         @keyframes float {
             0% { transform: translateY(0px); }
@@ -27,6 +28,7 @@
             animation: float 4s ease-in-out infinite;
         }
 
+        /* Disable transform animations on mobile */
         @media (max-width: 768px) {
             .animate-float-rotate {
                 animation: none;
@@ -59,7 +61,7 @@
                 <!-- Logo -->
                 <div class="flex items-center">
                     <a href="/" class="text-[#0249ac] font-bold flex items-center">
-                        <img src="images/logo.png" alt="Leon Consulting" class="h-8">
+                        <img src="../images/logo.png" alt="Leon Consulting" class="h-8">
                     </a>
                 </div>
                 
@@ -69,7 +71,7 @@
                     <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">SERVICES</a>
                     <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">ABOUT</a>
                     <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">FAQ</a>
-                    <a href="/blog" class="text-[#0249ac] text-base font-semibold tracking-wide">BLOG</a>
+                    <a href="/blogs/blog.html" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">BLOG</a>
                     <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">CONTACT</a>
                 </nav>
 
@@ -102,10 +104,8 @@
                 <a href="/" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">HOME</a>
                 <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">SERVICES</a>
                 <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">ABOUT</a>
-                <a href="/#clients" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">CLIENTS</a>
-                <a href="/#testimonials" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">TESTIMONIALS</a>
                 <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">FAQ</a>
-                <a href="/blog" class="text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">BLOG</a>
+                <a href="/blogs/blog.html" class="text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">BLOG</a>
                 <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-xl font-semibold tracking-wide w-full text-center py-2">CONTACT</a>
                 <a href="/#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-xl font-semibold hover:bg-[#023a8c] transition-colors text-center mt-2 w-full">
                     Get Started
@@ -114,126 +114,116 @@
         </div>
     </div>
 
-    <!-- Blog Hero Section -->
-    <section class="pt-32 pb-20 bg-gradient-to-b from-gray-50 to-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Blog</h1>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Insights, trends, and expert perspectives on IT solutions, cybersecurity, and recruitment strategies.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Post Section -->
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="relative">
-                    <img src="images/cybersecurity-certification.jpg" alt="Google Cybersecurity Certification" class="w-full h-[400px] object-cover rounded-2xl shadow-lg">
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-[#0249ac] text-white px-3 py-1 rounded-full text-sm font-medium">Featured</span>
-                    </div>
+    <!-- Blog Content Section -->
+    <section class="pt-32 pb-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Blog Header -->
+            <div class="text-center mb-12">
+                <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">BLOG</span>
+                <h1 class="mt-4 text-4xl md:text-5xl font-bold text-gray-900">The Future of IT Solutions: Trends to Watch in 2024</h1>
+                <div class="mt-4 flex items-center justify-center space-x-4 text-gray-600">
+                    <span>Published on January 15, 2024</span>
+                    <span>•</span>
+                    <span>By John Doe</span>
                 </div>
-                <div>
-                    <span class="text-sm text-gray-500">April 3, 2024</span>
-                    <h2 class="text-3xl font-bold text-gray-900 mt-2 mb-4">Google Cybersecurity Certification: A Complete Guide for Students and Professionals</h2>
-                    <p class="text-gray-600 mb-6">Comprehensive guide to Google's Cybersecurity Certification program, including benefits, course details, and career opportunities for students and professionals.</p>
-                    <a href="/google-cybersecurity-certification-guide.html" class="inline-flex items-center text-[#0249ac] font-medium">
-                        Read More
-                        <svg class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                        </svg>
+            </div>
+
+            <!-- Featured Image -->
+            <div class="mb-12">
+                <img src="images/blog1-featured.jpg" alt="IT Solutions Trends 2024" class="w-full h-[400px] object-cover rounded-2xl">
+            </div>
+
+            <!-- Blog Content -->
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-600 mb-6">
+                    As technology continues to evolve at an unprecedented pace, businesses must stay ahead of the curve to remain competitive. In 2024, several key trends are expected to shape the IT landscape, from artificial intelligence to cybersecurity and cloud computing.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Artificial Intelligence and Machine Learning</h2>
+                <p class="text-gray-600 mb-6">
+                    AI and ML are no longer just buzzwords but essential components of modern IT solutions. In 2024, we're seeing increased adoption of AI-powered tools for automation, predictive analytics, and enhanced decision-making processes.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Enhanced Cybersecurity Measures</h2>
+                <p class="text-gray-600 mb-6">
+                    With the rise of sophisticated cyber threats, businesses are investing more in advanced security solutions. Zero-trust architecture, AI-powered threat detection, and automated security responses are becoming standard practices.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Cloud Computing Evolution</h2>
+                <p class="text-gray-600 mb-6">
+                    Cloud computing continues to evolve with the emergence of edge computing and serverless architectures. Businesses are increasingly adopting hybrid and multi-cloud strategies for better flexibility and scalability.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">4. Sustainable Technology</h2>
+                <p class="text-gray-600 mb-6">
+                    Environmental sustainability is becoming a key consideration in IT solutions. Green computing practices, energy-efficient data centers, and sustainable software development are gaining traction.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Digital Transformation Acceleration</h2>
+                <p class="text-gray-600 mb-6">
+                    The pandemic has accelerated digital transformation initiatives, and this trend continues in 2024. Businesses are focusing on creating seamless digital experiences and improving operational efficiency.
+                </p>
+
+                <div class="bg-gray-50 p-6 rounded-xl mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Key Takeaways</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>AI and ML are becoming mainstream in IT solutions</li>
+                        <li>Cybersecurity is more critical than ever</li>
+                        <li>Cloud computing continues to evolve</li>
+                        <li>Sustainability is a growing concern</li>
+                        <li>Digital transformation remains a top priority</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Share Buttons -->
+            <div class="mt-12 flex items-center justify-center space-x-4">
+                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Related Posts -->
+            <div class="mt-16">
+                <h2 class="text-2xl font-bold text-gray-900 mb-8">Related Posts</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <a href="/recruitment-strategies-digital-age" class="group">
+                        <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-[#0249ac] transition-colors">Recruitment Strategies for the Digital Age</h3>
+                            <p class="text-gray-600 mt-2">Learn about modern recruitment strategies that leverage digital tools and platforms.</p>
+                            <div class="mt-4 flex items-center text-[#0249ac]">
+                                <span>Read More</span>
+                                <svg class="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/enhancing-cybersecurity-remote-work" class="group">
+                        <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-[#0249ac] transition-colors">Enhancing Cybersecurity in a Remote Work Environment</h3>
+                            <p class="text-gray-600 mt-2">Discover how to protect your business in the era of remote work.</p>
+                            <div class="mt-4 flex items-center text-[#0249ac]">
+                                <span>Read More</span>
+                                <svg class="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                                </svg>
+                            </div>
+                        </div>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- All Blog Posts Section -->
-    <section class="py-16 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">All Blog Posts</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Blog Post 1 -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="images/blog3-featured.jpg" alt="Enhancing Cybersecurity in Remote Work" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <span class="text-sm text-gray-500">March 1, 2024</span>
-                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Enhancing Cybersecurity in a Remote Work Environment</h3>
-                        <p class="text-gray-600 mb-4">Learn how to protect your business in the era of remote work with effective cybersecurity measures and best practices.</p>
-                        <a href="/enhancing-cybersecurity-remote-work.html" class="inline-flex items-center text-[#0249ac] font-medium">
-                            Read More
-                            <svg class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Blog Post 2 -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="images/blog1-featured.jpg" alt="Future of IT Solutions" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <span class="text-sm text-gray-500">January 15, 2024</span>
-                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">The Future of IT Solutions: Trends to Watch in 2024</h3>
-                        <p class="text-gray-600 mb-4">Explore the latest trends in IT solutions for 2024, including AI, cybersecurity, and cloud computing developments.</p>
-                        <a href="/future-of-it-solutions-trends-2024.html" class="inline-flex items-center text-[#0249ac] font-medium">
-                            Read More
-                            <svg class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Blog Post 3 -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="images/blog2-featured.jpg" alt="Recruitment Strategies" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <span class="text-sm text-gray-500">February 10, 2024</span>
-                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Recruitment Strategies for the Digital Age</h3>
-                        <p class="text-gray-600 mb-4">Learn about modern recruitment strategies that leverage digital tools and platforms to attract and retain top talent.</p>
-                        <a href="/recruitment-strategies-digital-age.html" class="inline-flex items-center text-[#0249ac] font-medium">
-                            Read More
-                            <svg class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Blog Post 4 -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="images/part-time-remote.jpg" alt="Part-Time Remote Jobs" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <span class="text-sm text-gray-500">March 15, 2024</span>
-                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Part-Time Remote Jobs: Finding the Perfect Balance</h3>
-                        <p class="text-gray-600 mb-4">Discover opportunities for part-time remote work that offer flexibility while maintaining productivity and work-life balance.</p>
-                        <a href="/PartTime Remote Job.html" class="inline-flex items-center text-[#0249ac] font-medium">
-                            Read More
-                            <svg class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="py-16 bg-[#0249ac]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h2 class="text-3xl font-bold text-white mb-4">Stay Updated</h2>
-                <p class="text-xl text-white/80 mb-8 max-w-2xl mx-auto">Subscribe to our newsletter to receive the latest insights, trends, and updates directly in your inbox.</p>
-                <form class="max-w-md mx-auto">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white">
-                        <button type="submit" class="bg-white text-[#0249ac] px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">Subscribe</button>
-                    </div>
-                </form>
             </div>
         </div>
     </section>
@@ -318,4 +308,5 @@
         });
     </script>
 </body>
-</html> 
+</html>
+    
