@@ -47,6 +47,20 @@
             animation: none;
         }
 
+        /* Add infinite slow rotation animation */
+        @keyframes slowRotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .hero-image-rotate {
+            animation: slowRotate 40s linear infinite;
+        }
+
         /* Mobile and Desktop - Keep only hover effects, remove all other animations */
         @media (max-width: 768px), (min-width: 769px) {
             /* Disable AOS animations */
@@ -159,7 +173,7 @@
             <div class="w-full md:w-1/2 mt-12 md:mt-0">
                 <!-- Hero Image (Hidden on Mobile) -->
                 <div class="hidden md:block bg-gray-200 rounded-xl p-8 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0">
-                    <img src="images/hero.webp" alt="3D Earth" class="w-full max-w-lg mx-auto animate-float-rotate">
+                    <img src="images/hero.png" alt="3D Earth" class="w-full max-w-lg mx-auto hero-image-rotate">
                 </div>
                 
                 <!-- Stats Box -->
