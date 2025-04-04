@@ -146,11 +146,11 @@
                 <div>
                     <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500">
                         <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">SHAPING</span>
-    </div>
+                    </div>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                         THE FUTURE OF<br>
                         DIGITAL INNOVATION
-            </h1>
+                    </h1>
                     <p class="text-base sm:text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
                         We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age. Our tailored approach ensures streamlined operations, enhanced customer experiences, and sustainable growth through innovative and scalable solutions.
                     </p>
@@ -173,28 +173,26 @@
                 </div>
             </div>
 
-            <!-- Right Content (3D Graphic + Stats) -->
-            <div class="w-full md:w-1/2 mt-12 md:mt-0">
-                <!-- Hero Image (Hidden on Mobile) -->
-                <div class="hidden md:block bg-gray-200 rounded-xl p-6 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0 max-w-[400px] mx-auto">
-                    <img src="images/hero.png" alt="3D Earth" class="w-full h-auto object-contain hero-image-rotate" loading="lazy" width="400" height="300">
-                </div>
-                
-                <!-- Stats Box -->
-                <div class="hidden md:block bg-gray-200 rounded-xl p-6 transform transition-all duration-300 hover:shadow-xl opacity-0 max-w-[400px] mx-auto">
-                    <div class="grid grid-cols-3 gap-2 sm:gap-4">
-                        <div class="text-center transform transition-all duration-500 hover:-translate-y-1">
-                            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0249ac]">500+</h3>
-                            <p class="text-xs sm:text-sm text-gray-500">Projects Delivered</p>
-                        </div>
-                        <div class="text-center transform transition-all duration-500 hover:-translate-y-1">
-                            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0249ac]">200+</h3>
-                            <p class="text-xs sm:text-sm text-gray-500">Tech Experts</p>
-                        </div>
-                        <div class="text-center transform transition-all duration-500 hover:-translate-y-1">
-                            <h3 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0249ac]">98%</h3>
-                            <p class="text-xs sm:text-sm text-gray-500">Client Satisfaction</p>
-                        </div>
+            <!-- Right Content (Hero Image with Floating Stats) -->
+            <div class="w-full md:w-1/2 mt-12 md:mt-0 relative">
+                <!-- Hero Image Container -->
+                <div class="relative">
+                    <img src="images/hero.png" alt="3D Earth" class="w-[80%] h-auto object-contain transition-transform duration-500 hover:scale-110" loading="lazy" width="400" height="300">
+                    
+                    <!-- Floating Stats -->
+                    <div class="absolute -top-2 -left-2 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg transform transition-all duration-300 hover:-translate-y-1">
+                        <h3 class="text-2xl font-bold text-[#0249ac]">500+</h3>
+                        <p class="text-sm text-gray-600">Projects Delivered</p>
+                    </div>
+                    
+                    <div class="absolute -top-1 -right-4 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg transform transition-all duration-300 hover:-translate-y-1">
+                        <h3 class="text-2xl font-bold text-[#0249ac]">200+</h3>
+                        <p class="text-sm text-gray-600">Tech Experts</p>
+                    </div>
+                    
+                    <div class="absolute -bottom-2 -left-2 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg transform transition-all duration-300 hover:-translate-y-1">
+                        <h3 class="text-2xl font-bold text-[#0249ac]">98%</h3>
+                        <p class="text-sm text-gray-600">Client Satisfaction</p>
                     </div>
                 </div>
             </div>
