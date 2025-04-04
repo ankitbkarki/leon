@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
     <meta name="google-adsense-account" content="ca-pub-7656339654245336">
-    <!-- Tailwind CSS CDN -->
+    
+    <!-- Load Tailwind CSS first -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Google Fonts for Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- External CSS -->
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    
+    <!-- Load custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    
     <title>Leon Consulting Corporation: IT Solutions & Recruitment Services</title>
     <meta name="description" content="Leon Consulting offers innovative IT solutions and recruitment services, specializing in web & mobile development, cybersecurity, and cloud services to empower businesses and connect them with top IT talent.">
     <script type="application/ld+json">
@@ -171,7 +175,7 @@
             <div class="w-full md:w-1/2 mt-12 md:mt-0">
                 <!-- Hero Image (Hidden on Mobile) -->
                 <div class="hidden md:block bg-gray-200 rounded-xl p-8 mb-8 transform transition-all duration-300 hover:shadow-xl opacity-0">
-                    <img src="images/hero.png" alt="3D Earth" class="w-full max-w-lg mx-auto hero-image-rotate">
+                    <img src="images/hero.png" alt="3D Earth" class="w-full max-w-lg mx-auto hero-image-rotate" loading="lazy" width="800" height="600">
                 </div>
                 
                 <!-- Stats Box -->
@@ -220,30 +224,6 @@
     </div>
 </div>
 
-<script>
-    // Mobile menu functionality
-    const menuBtn = document.getElementById('menu-btn');
-    const closeBtn = document.getElementById('close-menu');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
-
-    // Toggle menu function
-    function toggleMenu() {
-        mobileMenu.classList.toggle('hidden');
-    }
-
-    // Event listeners
-    menuBtn.addEventListener('click', toggleMenu);
-    closeBtn.addEventListener('click', toggleMenu);
-
-    // Close menu when clicking on links
-    mobileMenuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-        });
-    });
-</script>
-
 
 <!-- Clients Section -->
 <section id="clients" class="py-12 md:py-20 bg-white">
@@ -255,13 +235,13 @@
                 <div class="bg-gray-200 rounded-xl p-8">
                     <div class="grid grid-cols-3 gap-8">
                         <div class="bg-white p-4 rounded-lg transform transition-transform hover:scale-105 hover:shadow-lg">
-                            <img src="images/client1.png" alt="Tech Client 1" class="w-full h-auto object-contain filter hover:brightness-110">
+                            <img src="images/client1.png" alt="Tech Client 1" class="w-full h-auto object-contain filter hover:brightness-110" loading="lazy" width="200" height="100">
                         </div>
                         <div class="bg-white p-4 rounded-lg transform transition-transform hover:scale-105 hover:shadow-lg">
-                            <img src="images/client2.png" alt="Tech Client 2" class="w-full h-auto object-contain filter hover:brightness-110">
+                            <img src="images/client2.png" alt="Tech Client 2" class="w-full h-auto object-contain filter hover:brightness-110" loading="lazy" width="200" height="100">
                         </div>
                         <div class="bg-white p-4 rounded-lg transform transition-transform hover:scale-105 hover:shadow-lg">
-                            <img src="images/client3.png" alt="Tech Client 3" class="w-full h-auto object-contain filter hover:brightness-110">
+                            <img src="images/client3.png" alt="Tech Client 3" class="w-full h-auto object-contain filter hover:brightness-110" loading="lazy" width="200" height="100">
                         </div>
                         <div class="bg-white p-4 rounded-lg transform transition-transform hover:scale-105 hover:shadow-lg">
                             <img src="images/client4.png" alt="Tech Client 4" class="w-full h-auto object-contain filter hover:brightness-110">
@@ -419,40 +399,6 @@
         </div>
     </div>
 </section>
-
-<!-- Counter Animation Script -->
-<script>
-    function animateCounter(id, target) {
-        let count = 0;
-        const speed = Math.ceil(target / 100);
-        const updateCount = () => {
-            if (count < target) {
-                count += speed;
-                document.getElementById(id).innerText = count;
-                setTimeout(updateCount, 20);
-            } else {
-                document.getElementById(id).innerText = target;
-            }
-        };
-        updateCount();
-    }
-
-    // Start animation when section is in view
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-        animateCounter("counter1", 120);
-        animateCounter("counter2", 200);
-        animateCounter("counter3", 350);
-        animateCounter("counter4", 500);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-
-    observer.observe(document.getElementById('about'));
-</script>
-
 
 <!-- Client Testimonials Section -->
 <section id="testimonials" class="py-12 md:py-20 bg-white">
@@ -931,50 +877,6 @@
     </div>
 </section>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK"></script>
-
-<script>
-    document.getElementById('contact-form').addEventListener('submit', async function(event) {
-        event.preventDefault(); // Prevent normal form submission
-
-        const responseMessageDiv = document.getElementById('form-response');
-        responseMessageDiv.classList.remove('hidden');
-        document.getElementById('response-message').textContent = 'Sending...';
-
-        // Execute reCAPTCHA and get the token
-        grecaptcha.ready(async () => {
-            const token = await grecaptcha.execute('6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK', { action: 'submit' });
-
-            // Check if token is obtained
-            if (!token) {
-                document.getElementById('response-message').textContent = 'Please complete the reCAPTCHA.';
-                return;
-            }
-
-            // Create FormData and append reCAPTCHA response
-            const formData = new FormData(this);
-            formData.append('g-recaptcha-response', token);
-
-            console.log([...formData.entries()]); // Log the form data for debugging
-
-            try {
-                const response = await fetch(this.action, {
-                    method: 'POST',
-                    body: formData
-                });
-
-                // Always show "Submitted" regardless of success or failure
-                document.getElementById('response-message').textContent = 'Submitted';
-                this.reset(); // Reset form
-            } catch (error) {
-                // Always show "Submitted" regardless of error
-                document.getElementById('response-message').textContent = 'Submitted';
-            }
-        });
-    });
-</script>
-
-
 <!-- Footer Section -->
 <footer class="bg-black pt-20 pb-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1046,18 +948,84 @@
     </div>
 </div>
 
-<script>
-    // Check if cookies are accepted
-    if (!localStorage.getItem('cookiesAccepted')) {
-        document.getElementById('cookie-consent').classList.remove('hidden');
-    }
+<!-- Move reCAPTCHA script to bottom and add defer -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK" defer></script>
 
-    // Accept cookies
-    document.getElementById('accept-cookies').addEventListener('click', function() {
-        localStorage.setItem('cookiesAccepted', 'true');
-        document.getElementById('cookie-consent').classList.add('hidden');
+<!-- Move all scripts to bottom of body -->
+<script>
+    // Mobile menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.getElementById('menu-btn');
+        const closeBtn = document.getElementById('close-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+
+        // Toggle menu function
+        function toggleMenu() {
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Event listeners
+        menuBtn.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+
+        // Close menu when clicking on links
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
     });
 </script>
 
-<script src="scripts.js"></script>
+<script>
+    // Counter animation script
+    document.addEventListener('DOMContentLoaded', function() {
+        function animateCounter(id, target) {
+            let count = 0;
+            const speed = Math.ceil(target / 100);
+            const updateCount = () => {
+                if (count < target) {
+                    count += speed;
+                    document.getElementById(id).innerText = count;
+                    setTimeout(updateCount, 20);
+                } else {
+                    document.getElementById(id).innerText = target;
+                }
+            };
+            updateCount();
+        }
+
+        // Start animation when section is in view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounter("counter1", 120);
+                    animateCounter("counter2", 200);
+                    animateCounter("counter3", 350);
+                    animateCounter("counter4", 500);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        observer.observe(document.getElementById('about'));
+    });
+</script>
+
+<script>
+    // Cookie consent script
+    document.addEventListener('DOMContentLoaded', function() {
+        if (!localStorage.getItem('cookiesAccepted')) {
+            document.getElementById('cookie-consent').classList.remove('hidden');
+        }
+
+        document.getElementById('accept-cookies').addEventListener('click', function() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            document.getElementById('cookie-consent').classList.add('hidden');
+        });
+    });
+</script>
+
+<script src="scripts.js" defer></script>
 
