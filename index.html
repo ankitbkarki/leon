@@ -43,72 +43,18 @@
     <meta property="og:url" content="https://www.leonstaff.com/" />
     <meta property="og:type" content="website" />
     <meta name="linkedin:image" content="https://www.leonstaff.com/images/fb.png" />
-
-    <!-- Add this style section before the closing </head> tag -->
-    <style>
-        /* Remove float animation */
-        .animate-float-rotate {
-            animation: none;
-        }
-
-        /* Add infinite slow rotation animation */
-        @keyframes slowRotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        .hero-image-rotate {
-            animation: slowRotate 40s linear infinite;
-        }
-
-        /* Mobile and Desktop - Keep only hover effects, remove all other animations */
-        @media (max-width: 768px), (min-width: 769px) {
-            /* Disable AOS animations */
-            [data-aos] {
-                opacity: 1 !important;
-                transform: none !important;
-                transition: none !important;
-            }
-
-            /* Keep only hover animations */
-            .hover\:scale-105:hover { transform: scale(1.05); }
-            .hover\:scale-110:hover { transform: scale(1.1); }
-            .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
-            .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
-            .hover\:translate-x-1:hover { transform: translateX(0.25rem); }
-            .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
-            .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
-            .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
-
-            /* Ensure transitions work for hover effects */
-            .transition-all {
-                transition-property: all;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-duration: 300ms;
-            }
-        }
-
-        /* Remove all opacity animations */
-        .opacity-0 {
-            opacity: 1 !important;
-        }
-    </style>
 </head>
 <body>
 
 
     <!-- Header Section -->
-<header id="header" class="bg-white fixed w-full top-0 left-0 z-50 shadow-sm">
+<header id="header" class="bg-white fixed w-full top-0 left-0 z-[60] shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-6">
             <!-- Logo -->
             <div class="flex items-center">
-                <a href="/" class="text-[#0249ac] font-bold flex items-center group">
-                    <div class="bg-white p-2 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5">
+                <a href="/" class="text-[#0249ac] font-bold flex items-center">
+                    <div class="bg-white p-2 rounded-xl">
                         <img src="images/logo.png" alt="HoffAn" class="h-10">
                     </div>
                 </a>
@@ -130,23 +76,30 @@
             </a>
 
             <!-- Mobile Menu Button -->
-            <button id="menu-btn" class="md:hidden text-[#0249ac]">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                </svg>
-            </button>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-[#0249ac]">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <button id="close-menu" class="text-[#0249ac] hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
     </div>
 </header>
 
 <!-- Hero Section -->
-<section id="home" class="pt-16 md:pt-24 pb-16 md:pb-24 bg-white">
+<section id="home" class="pt-32 md:pt-24 pb-16 md:pb-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center justify-between min-h-[600px]">
             <!-- Left Content -->
             <div class="w-full md:w-1/2 text-center md:text-left flex flex-col h-full">
                 <div>
-                    <div class="mb-8 opacity-0 transform translate-y-4 transition-all duration-500">
+                    <div class="mb-8">
                         <span class="text-sm md:text-base bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">SHAPING</span>
                     </div>
                     <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
@@ -157,7 +110,7 @@
                         We combine cutting-edge software development with expert IT staffing solutions to help businesses thrive in the digital age. Our tailored approach ensures streamlined operations, enhanced customer experiences, and sustainable growth through innovative and scalable solutions.
                     </p>
                 </div>
-                <div class="flex flex-col gap-6 mt-auto w-[95%] mx-auto md:mx-0 opacity-0 transform translate-y-4 transition-all duration-500">
+                <div class="flex flex-col gap-6 mt-auto w-[95%] mx-auto md:mx-0">
                     <div class="flex flex-col sm:flex-row justify-start gap-4">
                         <a href="#contact" class="w-auto bg-[#0249ac] text-white px-8 py-4 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-all duration-300 flex items-center justify-center group">
                             Get Started
@@ -208,23 +161,16 @@
 </section>
 
 <!-- Mobile Menu -->
-<div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-white z-40">
-    <div class="p-4">
-        <div class="flex justify-end">
-            <button id="close-menu" class="text-gray-600">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-        </div>
-        <nav class="mt-6 flex flex-col space-y-3 items-center">
+<div id="mobile-menu" class="fixed inset-0 bg-white z-50 hidden opacity-0 transition-opacity duration-300 ease-in-out">
+    <div class="absolute inset-0 p-4 flex flex-col pt-24">
+        <nav class="mt-6 flex flex-col space-y-4 items-center">
             <a href="#home" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">HOME</a>
             <a href="#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">SERVICES</a>
             <a href="#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">ABOUT</a>
             <a href="#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">FAQ</a>
             <a href="/blogs/blog.html" class="text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">BLOG</a>
             <a href="#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">CONTACT</a>
-            <a href="#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-colors text-center mt-2 w-full">
+            <a href="#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-colors text-center mt-4 w-full">
                 Get Started
             </a>
         </nav>
@@ -273,7 +219,7 @@
                 </div>
                 <h2 class="text-3xl font-bold text-gray-900 mb-6">
                     Trusted by Leading <br>
-                    <span class="text-3xl text-[#0249ac]">TECH COMPANIES</span>
+                    <span class="text-3xl text-gray-900">TECH COMPANIES</span>
                 </h2>
                 <p class="text-gray-600 mb-8 max-w-lg">
                     We partner with innovative technology companies to deliver cutting-edge software solutions and connect them with top IT talent. Our clients range from startups to enterprise organizations.
@@ -287,21 +233,21 @@
 <section id="services" class="py-12 md:py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Heading with Animation -->
-        <div class="text-center mb-16 opacity-0 transform translate-y-10 transition-all duration-500" data-aos="fade-up">
+        <div class="text-center mb-16" data-aos="fade-up">
             <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">OUR SERVICES</span>
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-6">
                 Comprehensive IT Solutions & Staffing
-        </h2>
+            </h2>
             <p class="mt-4 text-gray-600 max-w-3xl mx-auto">
                 From custom software development to expert IT staffing, we provide end-to-end solutions to help your business thrive in the digital age.
-                </p>
-            </div>
+            </p>
+        </div>
             
         <!-- Services Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Software Development -->
-            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
-                <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6 transform transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
+            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
                     </svg>
@@ -311,8 +257,8 @@
             </div>
 
             <!-- IT Staffing -->
-            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
-                <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6 transform transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
+            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
@@ -322,8 +268,8 @@
             </div>
             
             <!-- Cloud Solutions -->
-            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-                <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6 transform transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
+            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
                     </svg>
@@ -333,8 +279,8 @@
             </div>
 
             <!-- Cybersecurity -->
-            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
-                <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-6 transform transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
+            <div class="group bg-white p-8 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-2xl hover:-translate-y-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
                     </svg>
@@ -358,49 +304,49 @@
 
     <div class="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 text-center">
         <!-- Section Label -->
-        <div class="mb-6 opacity-0 transform translate-y-4 transition-all duration-500">
+        <div class="mb-6" data-aos="fade-up">
             <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">ABOUT US</span>
         </div>
         
         <!-- Section Heading -->
-        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900 opacity-0 transform translate-y-4 transition-all duration-500">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900" data-aos="fade-up" data-aos-delay="100">
             ABOUT LEON CONSULTING
         </h2>
         
         <!-- Description -->
-        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto opacity-0 transform translate-y-4 transition-all duration-1000">
+        <p class="mt-4 text-base text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
             At Leon Consulting Corporation, we specialize in delivering innovative IT solutions and recruitment services. Our team of experts is committed to empowering businesses through secure, scalable, and cutting-edge technology, and connecting them with top IT talent.
         </p>
         
         <!-- Counters Section -->
         <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Counter 1 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
-            <div class="flex flex-col items-center">
+            <div class="bg-gray-200 rounded-xl p-6 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl" data-aos="fade-up" data-aos-delay="300">
+                <div class="flex flex-col items-center">
                     <div id="counter1" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">IT Projects Delivered</p>
                 </div>
             </div>
 
             <!-- Counter 2 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
-            <div class="flex flex-col items-center">
+            <div class="bg-gray-200 rounded-xl p-6 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl" data-aos="fade-up" data-aos-delay="400">
+                <div class="flex flex-col items-center">
                     <div id="counter2" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Businesses Transformed</p>
                 </div>
             </div>
 
             <!-- Counter 3 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
-            <div class="flex flex-col items-center">
+            <div class="bg-gray-200 rounded-xl p-6 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl" data-aos="fade-up" data-aos-delay="500">
+                <div class="flex flex-col items-center">
                     <div id="counter3" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Secured Cyber Environments</p>
                 </div>
             </div>
 
             <!-- Counter 4 -->
-            <div class="bg-gray-200 rounded-xl p-6 transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl opacity-0">
-            <div class="flex flex-col items-center">
+            <div class="bg-gray-200 rounded-xl p-6 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl" data-aos="fade-up" data-aos-delay="600">
+                <div class="flex flex-col items-center">
                     <div id="counter4" class="text-3xl sm:text-4xl font-bold text-[#0249ac]">0</div>
                     <p class="mt-4 text-sm text-gray-600">Satisfied Clients Worldwide</p>
                 </div>
@@ -790,26 +736,25 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <!-- Company Info -->
-            <div class="col-span-1 md:col-span-2">
-                <div class="flex items-center mb-6">
+            <div class="col-span-1 md:col-span-2 text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start mb-6">
                     <h1 class="text-2xl font-bold text-white">Leon Consulting Corporation</h1>
                 </div>
-                <p class="text-base text-gray-300 mb-8 max-w-md">
+                <p class="text-base text-gray-300 mb-8 max-w-md mx-auto md:mx-0">
                     Specializing in Recruitment and Software Development, we help businesses find top talent and build innovative, custom software solutions that drive growth and success. With years of industry experience, our team is committed to providing businesses with the best-in-class recruitment strategies and software solutions tailored to their unique needs.
                 </p>
                 <!-- Social Media Links -->
-                <div class="mt-4 flex justify-center md:justify-start space-x-4">
+                <div class="mt-4 flex justify-center space-x-4">
                     <a href="https://www.linkedin.com/company/leoncorp" target="_blank" class="hover:text-indigo-200 transition-all duration-300">
                         <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.5c0-1.381-4-3.513-4 0v5.5h-3v-10h3v1.268c.878-.834 2.084-1.268 3.5-1.268 2.481 0 4.5 2.019 4.5 4.5v5.5z"/>
                         </svg>
                     </a>
-                    <!-- Add more social media icons as needed -->
                 </div>
             </div>
 
             <!-- Quick Links -->
-            <div>
+            <div class="text-center md:text-left">
                 <h3 class="text-base font-semibold text-white mb-6">Quick Links</h3>
                 <ul class="space-y-4">
                     <li><a href="#home" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Home</a></li>
@@ -820,7 +765,7 @@
             </div>
 
             <!-- Services -->
-            <div>
+            <div class="text-center md:text-left">
                 <h3 class="text-base font-semibold text-white mb-6">Services</h3>
                 <ul class="space-y-4">
                     <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">IT Solutions</a></li>
@@ -833,9 +778,9 @@
 
         <!-- Bottom Bar -->
         <div class="pt-8 border-t border-white/10">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <p class="text-base text-gray-300 text-sm">© 2025 Leon Consulting. All rights reserved.</p>
-                <div class="flex space-x-6 mt-4 md:mt-0">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <p class="text-base text-gray-300 text-sm mb-4 md:mb-0">© 2025 Leon Consulting. All rights reserved.</p>
+                <div class="flex flex-wrap justify-center gap-6">
                     <a href="privacy-policy.html" class="text-base text-gray-300 hover:text-white text-sm">Privacy Policy</a>
                     <a href="terms-of-service.html" class="text-base text-gray-300 hover:text-white text-sm">Terms of Service</a>
                     <a href="cookie-policy.html" class="text-base text-gray-300 hover:text-white text-sm">Cookie Policy</a>
@@ -867,21 +812,77 @@
         const closeBtn = document.getElementById('close-menu');
         const mobileMenu = document.getElementById('mobile-menu');
         const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+        let isMenuOpen = false;
 
         // Toggle menu function
         function toggleMenu() {
-            mobileMenu.classList.toggle('hidden');
+            isMenuOpen = !isMenuOpen;
+            
+            if (isMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+                // Force a reflow to ensure the transition works
+                mobileMenu.offsetHeight;
+                mobileMenu.style.opacity = '1';
+                document.body.style.overflow = 'hidden';
+                menuBtn.classList.add('hidden');
+                closeBtn.classList.remove('hidden');
+            } else {
+                mobileMenu.style.opacity = '0';
+                menuBtn.classList.remove('hidden');
+                closeBtn.classList.add('hidden');
+                // Wait for transition to complete before hiding
+                setTimeout(() => {
+                    if (!isMenuOpen) { // Only hide if still closed
+                        mobileMenu.classList.add('hidden');
+                        document.body.style.overflow = '';
+                    }
+                }, 300);
+            }
         }
 
         // Event listeners
-        menuBtn.addEventListener('click', toggleMenu);
-        closeBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMenu();
+        });
+
+        closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMenu();
+        });
 
         // Close menu when clicking on links
         mobileMenuLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
+            link.addEventListener('click', (e) => {
+                e.stopPropagation();
+                isMenuOpen = false;
+                mobileMenu.style.opacity = '0';
+                menuBtn.classList.remove('hidden');
+                closeBtn.classList.add('hidden');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }, 300);
             });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (isMenuOpen && !mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                isMenuOpen = false;
+                mobileMenu.style.opacity = '0';
+                menuBtn.classList.remove('hidden');
+                closeBtn.classList.add('hidden');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }, 300);
+            }
+        });
+
+        // Prevent clicks inside the menu from closing it
+        mobileMenu.addEventListener('click', (e) => {
+            e.stopPropagation();
         });
     });
 </script>
