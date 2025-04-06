@@ -17,26 +17,9 @@
     <meta name="description" content="Comprehensive guide to Google's Cybersecurity Certification program, including benefits, course details, and career opportunities for students and professionals.">
     
     <style>
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-
-        .animate-float-rotate {
-            animation: float 4s ease-in-out infinite;
-        }
-
         @media (max-width: 768px) {
-            .animate-float-rotate {
-                animation: none;
-                transform: none !important;
-            }
-
-            [data-aos] {
-                transform: none !important;
-            }
-
+            /* Disable all animations and transforms on mobile */
+            [data-aos],
             .transform,
             .hover\:scale-105,
             .hover\:scale-110,
@@ -47,6 +30,7 @@
             .group-hover\:rotate-12,
             .group-hover\:scale-110 {
                 transform: none !important;
+                animation: none !important;
             }
         }
     </style>
@@ -65,15 +49,15 @@
                 
                 <!-- Navigation -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">HOME</a>
-                    <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">SERVICES</a>
-                    <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">ABOUT</a>
-                    <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">FAQ</a>
-                    <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">CONTACT</a>
+                    <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold">HOME</a>
+                    <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold">SERVICES</a>
+                    <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold">ABOUT</a>
+                    <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold">FAQ</a>
+                    <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold">CONTACT</a>
                 </nav>
 
                 <!-- Get Started Button -->
-                <a href="/#contact" class="hidden md:block bg-[#0249ac] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#023a8c] transition-colors">
+                <a href="/#contact" class="hidden md:block bg-[#0249ac] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#023a8c]">
                     Get Started
                 </a>
 
@@ -98,12 +82,12 @@
                 </button>
             </div>
             <nav class="mt-6 flex flex-col space-y-3 items-center">
-                <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">HOME</a>
-                <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">SERVICES</a>
-                <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">ABOUT</a>
-                <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">FAQ</a>
-                <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">CONTACT</a>
-                <a href="/#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-colors text-center mt-2 w-full">
+                <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold w-full text-center py-2">HOME</a>
+                <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold w-full text-center py-2">SERVICES</a>
+                <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold w-full text-center py-2">ABOUT</a>
+                <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold w-full text-center py-2">FAQ</a>
+                <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold w-full text-center py-2">CONTACT</a>
+                <a href="/#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-[#023a8c] text-center mt-2 w-full">
                     Get Started
                 </a>
             </nav>
@@ -115,7 +99,7 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Blog Header -->
             <div class="text-center mb-12">
-                <span class="text-base bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">BLOG</span>
+                <span class="text-base bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium">BLOG</span>
                 <h1 class="mt-4 text-3xl md:text-4xl font-bold text-gray-900">Google Cybersecurity Certification: A Complete Guide for Students and Professionals</h1>
                 <div class="mt-4 flex items-center justify-center space-x-4 text-base text-gray-600">
                     <span>Published on April 3, 2024</span>
@@ -256,17 +240,17 @@
 
             <!-- Share Buttons -->
             <div class="mt-12 flex items-center justify-center space-x-4">
-                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                <a href="#" class="text-gray-600 hover:text-[#0249ac]">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                     </svg>
                 </a>
-                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                <a href="#" class="text-gray-600 hover:text-[#0249ac]">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                     </svg>
                 </a>
-                <a href="#" class="text-gray-600 hover:text-[#0249ac] transition-colors">
+                <a href="#" class="text-gray-600 hover:text-[#0249ac]">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                     </svg>
@@ -289,17 +273,17 @@
                     </p>
                     <!-- Social Media Links -->
                     <div class="mt-4 flex justify-center md:justify-start space-x-4">
-                        <a href="https://www.linkedin.com/company/leoncorp" target="_blank" class="hover:text-indigo-200 transition-all duration-300">
+                        <a href="https://www.linkedin.com/company/leoncorp" target="_blank" class="text-gray-300 hover:text-indigo-200">
                             <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.5c0-1.381-4-3.513-4 0v5.5h-3v-10h3v1.268c.878-.834 2.084-1.268 3.5-1.268 2.481 0 4.5 2.019 4.5 4.5v5.5z"/>
                             </svg>
                         </a>
-                        <a href="https://twitter.com/leoncorp" target="_blank" class="hover:text-indigo-200 transition-all duration-300">
+                        <a href="https://twitter.com/leoncorp" target="_blank" class="text-gray-300 hover:text-indigo-200">
                             <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                             </svg>
                         </a>
-                        <a href="https://www.facebook.com/leoncorp" target="_blank" class="hover:text-indigo-200 transition-all duration-300">
+                        <a href="https://www.facebook.com/leoncorp" target="_blank" class="text-gray-300 hover:text-indigo-200">
                             <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                             </svg>
@@ -311,10 +295,10 @@
                 <div>
                     <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="/" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="/#services" class="text-gray-300 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="/#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
-                        <li><a href="/#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="/" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="/#services" class="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="/#about" class="text-gray-300 hover:text-white">About</a></li>
+                        <li><a href="/#contact" class="text-gray-300 hover:text-white">Contact</a></li>
                     </ul>
                 </div>
                 
