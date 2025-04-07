@@ -25,21 +25,33 @@
     <meta name="description" content="Guide to Google's Cybersecurity Certification program, including benefits, course details, and career opportunities for students and professionals.">
     
     <style>
-        @media (max-width: 768px) {
-            /* Disable all animations and transforms on mobile */
-            [data-aos],
-            .transform,
-            .hover\:scale-105,
-            .hover\:scale-110,
-            .hover\:-translate-y-1,
-            .hover\:-translate-y-2,
-            .hover\:translate-x-1,
-            .group-hover\:translate-x-1,
-            .group-hover\:rotate-12,
-            .group-hover\:scale-110 {
-                transform: none !important;
-                animation: none !important;
-            }
+        /* Remove all animations */
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
+        }
+
+        /* Keep only hover effects */
+        .hover\:scale-105:hover { transform: scale(1.05); }
+        .hover\:scale-110:hover { transform: scale(1.1); }
+        .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
+        .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
+        .hover\:translate-x-1:hover { transform: translateX(0.25rem); }
+        .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
+        .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
+        .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
+
+        /* Ensure transitions work for hover effects */
+        .transition-all {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+        }
+
+        /* Remove all opacity animations */
+        .opacity-0 {
+            opacity: 1 !important;
         }
     </style>
 </head>

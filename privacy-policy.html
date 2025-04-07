@@ -51,50 +51,28 @@
 
     <!-- Add this style section before the closing </head> tag -->
     <style>
-        /* Remove float animation */
-        .animate-float-rotate {
-            animation: none;
+        /* Remove all animations */
+        [data-aos] {
+            opacity: 1 !important;
+            transform: none !important;
+            transition: none !important;
         }
 
-        /* Add infinite slow rotation animation */
-        @keyframes slowRotate {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
+        /* Keep only hover effects */
+        .hover\:scale-105:hover { transform: scale(1.05); }
+        .hover\:scale-110:hover { transform: scale(1.1); }
+        .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
+        .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
+        .hover\:translate-x-1:hover { transform: translateX(0.25rem); }
+        .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
+        .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
+        .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
 
-        .hero-image-rotate {
-            animation: slowRotate 40s linear infinite;
-        }
-
-        /* Mobile and Desktop - Keep only hover effects, remove all other animations */
-        @media (max-width: 768px), (min-width: 769px) {
-            /* Disable AOS animations */
-            [data-aos] {
-                opacity: 1 !important;
-                transform: none !important;
-                transition: none !important;
-            }
-
-            /* Keep only hover animations */
-            .hover\:scale-105:hover { transform: scale(1.05); }
-            .hover\:scale-110:hover { transform: scale(1.1); }
-            .hover\:-translate-y-1:hover { transform: translateY(-0.25rem); }
-            .hover\:-translate-y-2:hover { transform: translateY(-0.5rem); }
-            .hover\:translate-x-1:hover { transform: translateX(0.25rem); }
-            .group:hover .group-hover\:translate-x-1 { transform: translateX(0.25rem); }
-            .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
-            .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
-
-            /* Ensure transitions work for hover effects */
-            .transition-all {
-                transition-property: all;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-duration: 300ms;
-            }
+        /* Ensure transitions work for hover effects */
+        .transition-all {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
         }
 
         /* Remove all opacity animations */

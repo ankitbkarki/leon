@@ -960,33 +960,37 @@
             
             const response = await fetch(this.action, {
                 method: 'POST',
-                body: formData
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                },
+                mode: 'cors'
             });
             
-            if (response.ok) {
-                // Parse the response JSON
-                const result = await response.json();
-                
-                // Show success message
-                const messageDiv = document.getElementById('form-message');
-                messageDiv.textContent = result.message || 'Thank you for your message! We will get back to you soon.';
-                messageDiv.classList.remove('hidden', 'bg-red-100', 'text-red-700');
-                messageDiv.classList.add('bg-green-100', 'text-green-700');
-                
-                // Reset form
-                this.reset();
-            } else {
-                // Parse the error response
-                const errorResult = await response.json();
-                throw new Error(errorResult.message || 'Form submission failed');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
+            
+            const result = await response.json();
+            
+            // Show success message
+            const messageDiv = document.getElementById('form-message');
+            messageDiv.textContent = result.message || 'Thank you for your message! We will get back to you soon.';
+            messageDiv.classList.remove('hidden', 'bg-red-100', 'text-red-700');
+            messageDiv.classList.add('bg-green-100', 'text-green-700');
+            
+            // Reset form
+            this.reset();
+            
         } catch (error) {
+            console.error('Form submission error:', error);
+            
             // Show error message
             const messageDiv = document.getElementById('form-message');
-            messageDiv.textContent = error.message || 'Sorry, there was an error sending your message. Please try again.';
+            messageDiv.textContent = 'Sorry, there was an error sending your message. Please try again.';
             messageDiv.classList.remove('hidden', 'bg-green-100', 'text-green-700');
             messageDiv.classList.add('bg-red-100', 'text-red-700');
-            console.error('Form submission error:', error);
+            
         } finally {
             // Reset button state
             submitText.classList.remove('hidden');
