@@ -701,14 +701,11 @@
                                 </div>
                             </div>
 
-                            <!-- reCAPTCHA -->
-                            <div class="g-recaptcha mb-4" data-sitekey="6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK"></div>
-
                             <!-- Success/Error Messages -->
                             <div id="form-message" class="hidden mb-4 p-4 rounded-lg text-base"></div>
 
                             <div class="flex justify-center">
-                                <button type="submit" class="bg-[#0249ac] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#023a8c] transition-all duration-500 flex items-center group">
+                                <button type="submit" id="submit-button" class="bg-[#0249ac] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#023a8c] transition-all duration-500 flex items-center group">
                                     <span class="submit-text">Send Message</span>
                                     <span class="loading-text hidden">
                                         <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -800,8 +797,8 @@
     </div>
 </div>
 
-<!-- Move reCAPTCHA script to bottom and add defer -->
-<script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK" defer></script>
+<!-- Update reCAPTCHA script -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK"></script>
 
 <!-- Move all scripts to bottom of body -->
 <script>
@@ -955,6 +952,12 @@
         submitButton.disabled = true;
         
         try {
+            // Execute reCAPTCHA
+            const token = await grecaptcha.execute('6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK', {action: 'submit'});
+            
+            // Add the token to the form data
+            formData.append('recaptcha_token', token);
+            
             const response = await fetch(this.action, {
                 method: 'POST',
                 body: formData
@@ -969,7 +972,6 @@
                 
                 // Reset form
                 this.reset();
-                grecaptcha.reset();
             } else {
                 throw new Error('Form submission failed');
             }
