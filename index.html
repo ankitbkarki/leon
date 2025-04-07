@@ -955,8 +955,8 @@
             // Execute reCAPTCHA
             const token = await grecaptcha.execute('6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK', {action: 'submit'});
             
-            // Add the token to the form data
-            formData.append('recaptcha_token', token);
+            // Add the token to the form data with the correct parameter name
+            formData.append('g-recaptcha-response', token);
             
             const response = await fetch(this.action, {
                 method: 'POST',
