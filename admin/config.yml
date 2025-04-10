@@ -1,8 +1,0 @@
-backend:
-  name: github
-  repo: ankitbkarki/leon
-  branch: main
-  login: true
-  auth:
-    client_id: Ov23lilyqY4jvAUG0mmP
-    client_secret: 5214730417a77fb8c26c77a0644eeb5410892115
