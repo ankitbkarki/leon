@@ -2,20 +2,7 @@ backend:
   name: github
   repo: ankitbkarki/leon
   branch: main
-  base_url: https://square-violet-d954.karkianket.workers.dev/
-  auth_endpoint: auth
-  app_id: Ov23lilyqY4jvAUG0mmP
-
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
-collections:
-  - name: "posts"
-    label: "Blog Posts"
-    folder: "posts"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  login: true
+  auth:
+    client_id: Ov23lilyqY4jvAUG0mmP
+    client_secret: 5214730417a77fb8c26c77a0644eeb5410892115

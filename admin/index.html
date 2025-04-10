@@ -1,19 +1,38 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Content Manager</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </head>
-  <body>
-    <script>
-      window.CMS_MANUAL_INIT = true;
-      fetch("config.yml")
-        .then((res) => res.text())
-        .then((config) => {
-          window.CMS.init({ config: YAML.parse(config) });
-        });
-    </script>
-    <script src="https://unpkg.com/js-yaml@3.14.1/dist/js-yaml.min.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Decap CMS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/decap-cms/dist/styles.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/decap-cms/dist/decap.min.js"></script>
+</head>
+<body>
+  <div id="cms"></div>
+  <script>
+    DecapCMS.init({
+      backend: {
+        name: 'github',
+        repo: 'ankitbkarki/leon',  // Your repo name
+        branch: 'main'  // Your default branch name
+      },
+      media_folder: '/images',
+      public_folder: '/images',
+      collections: [
+        {
+          name: 'blog',
+          label: 'Blog Posts',
+          folder: '_posts',
+          create: true,
+          slug: '{{slug}}',
+          fields: [
+            { label: 'Title', name: 'title', widget: 'string' },
+            { label: 'Date', name: 'date', widget: 'datetime' },
+            { label: 'Body', name: 'body', widget: 'markdown' }
+          ]
+        }
+      ]
+    });
+  </script>
+</body>
 </html>
