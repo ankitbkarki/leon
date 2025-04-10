@@ -8,7 +8,12 @@
   <body>
     <script>
       window.CMS_MANUAL_INIT = true;
+      fetch("config.yml")
+        .then((res) => res.text())
+        .then((config) => {
+          window.CMS.init({ config: YAML.parse(config) });
+        });
     </script>
-    <script src="config.yml"></script>
+    <script src="https://unpkg.com/js-yaml@3.14.1/dist/js-yaml.min.js"></script>
   </body>
 </html>
