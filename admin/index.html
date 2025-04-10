@@ -4,35 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin - Decap CMS</title>
+
+  <!-- Correct Decap CMS CSS and JS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/decap-cms/dist/styles.min.css">
   <script src="https://cdn.jsdelivr.net/npm/decap-cms/dist/decap.min.js"></script>
 </head>
 <body>
   <div id="cms"></div>
+
   <script>
-    DecapCMS.init({
-      backend: {
-        name: 'github',
-        repo: 'ankitbkarki/leon',  // Your repo name
-        branch: 'main'  // Your default branch name
-      },
-      media_folder: '/images',
-      public_folder: '/images',
-      collections: [
-        {
-          name: 'blog',
-          label: 'Blog Posts',
-          folder: '_posts',
-          create: true,
-          slug: '{{slug}}',
-          fields: [
-            { label: 'Title', name: 'title', widget: 'string' },
-            { label: 'Date', name: 'date', widget: 'datetime' },
-            { label: 'Body', name: 'body', widget: 'markdown' }
-          ]
-        }
-      ]
-    });
+    // Check if DecapCMS is loaded properly
+    console.log('Is DecapCMS loaded?', typeof DecapCMS);
+
+    if (typeof DecapCMS !== 'undefined') {
+      DecapCMS.init({
+        backend: {
+          name: 'github',
+          repo: 'ankitbkarki/leon',  // Replace with your GitHub repository
+          branch: 'main',  // Your branch
+          login: true
+        },
+        media_folder: 'static/uploads',
+        public_folder: '/uploads',
+        collections: [
+          {
+            name: 'blog',
+            label: 'Blog Posts',
+            folder: '_posts',
+            create: true,
+            slug: '{{slug}}',
+            fields: [
+              { label: 'Title', name: 'title', widget: 'string' },
+              { label: 'Date', name: 'date', widget: 'datetime' },
+              { label: 'Body', name: 'body', widget: 'markdown' }
+            ]
+          }
+        ]
+      });
+    } else {
+      console.error('DecapCMS is not loaded!');
+    }
   </script>
 </body>
 </html>
