@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "84ffb0111f4e3ed6ce5c0081bc89f02d"
+        "md5": "1334ba5811bc0c1c56f4c9ace1e18c37"
     },
     {
         "path": "assets",
@@ -17,17 +17,17 @@
     {
         "path": "/assets/css/editor.css",
         "type": "file",
-        "md5": "4202808df745f2ac7ab250606fa0d272"
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
     },
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "fa238f48f9a2ab93b0c59a116e831bca"
+        "md5": "0be31b11bd700c17bf0e1a95ae4822b1"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "0a5f2fa4f983f8bbd36a6103b8434365"
+        "md5": "00b74440dfb8eb5fd22d42a7f013e82a"
     },
     {
         "path": "assets/dynamic",
@@ -42,22 +42,22 @@
     {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+        "md5": "840d1d0fb7276666706cba10ebb3b40e"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "700105c316933a8202041b6415abb233"
+        "md5": "18a65c58aef57c0287e0f0609f3389a9"
     },
     {
         "path": "/assets/js/svg-fix.js",
         "type": "file",
-        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
     },
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+        "md5": "9fc67de3715469dc45c582bce11c4eba"
     },
     {
         "path": "assets/svg",
@@ -65,9 +65,14 @@
         "md5": false
     },
     {
+        "path": "/assets/svg/search.svg",
+        "type": "file",
+        "md5": "dcb9af3171e104304c8117f1c118f2e2"
+    },
+    {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+        "md5": "bb9e0f5b5c047dfe2eeea9c36390b9f0"
     },
     {
         "path": "authors",
@@ -82,17 +87,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "ab4c4d5a71fb2954ef58ceee213f0904"
+        "md5": "18ba056f554bf797a768a4efd07e8278"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "678662f1d961aaecddaef9119eeaabae"
+        "md5": "07ea0c4f0ade121421f43cd8f6728afa"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f8e80a9f6e47598b6c248b13b495f1d8"
+        "md5": "f9c6c67f4d377281f05b22c8bc36ca78"
     },
     {
         "path": "media",
@@ -127,17 +132,17 @@
     {
         "path": "/media/posts/1/responsive/google-cybersecurity-lg.png",
         "type": "file",
-        "md5": "1f2600fa0b823c42a186f8b41bb3466b"
+        "md5": "7efa6071acaf8973afbeef7bb3181d01"
     },
     {
         "path": "/media/posts/1/responsive/google-cybersecurity-md.png",
         "type": "file",
-        "md5": "7efa6071acaf8973afbeef7bb3181d01"
+        "md5": "1ccfe40e80504acb02399f01934d60b1"
     },
     {
         "path": "/media/posts/1/responsive/google-cybersecurity-sm.png",
         "type": "file",
-        "md5": "1ccfe40e80504acb02399f01934d60b1"
+        "md5": "0dbacd84df6b67695243ab8532dcb941"
     },
     {
         "path": "/media/posts/1/responsive/google-cybersecurity-xl.png",
@@ -147,7 +152,7 @@
     {
         "path": "/media/posts/1/responsive/google-cybersecurity-xs.png",
         "type": "file",
-        "md5": "9d8d0963dd57d077da9ec8f3310fb4fe"
+        "md5": "911ce47e4fecdfb5297cef71829b97d9"
     },
     {
         "path": "media/posts/2",
@@ -175,39 +180,14 @@
         "md5": false
     },
     {
-        "path": "/media/website/responsive/logo-2-2xl.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
-        "path": "/media/website/responsive/logo-2-lg.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
-        "path": "/media/website/responsive/logo-2-md.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
-        "path": "/media/website/responsive/logo-2-sm.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
-        "path": "/media/website/responsive/logo-2-xl.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
         "path": "/media/website/responsive/logo-2-xs.png",
         "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
+        "md5": "d5528bbcd24d904df2909353a8901395"
     },
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "1ebaaa0de752881c6cfc41e048eda0b6"
+        "md5": "e1dedaceb03062851baba1278bc8cf3e"
     },
     {
         "path": "robots.txt",
@@ -227,7 +207,7 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "83d7c6f606ccc37f532c854285a0fe03"
+        "md5": "bb1279557ef23506d73e7fd62399778a"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -237,12 +217,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "390978ccf53cc4e7345ebe9939f90536"
+        "md5": "3e9fd42b6d08039f7689d501cf56a244"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "eb81e8cd48ab1f276e1cddbd46d92faf"
+        "md5": "d6fcdfef97657a5be0d430667bd707b5"
     },
     {
         "path": "tags/job-search",
@@ -252,7 +232,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "84fdfc8ee5c5eeb24cb0cf2144129e02"
+        "md5": "7bbbf9995ed71212a54121df9a8c866d"
     },
     {
         "path": "tags/resume",
@@ -262,6 +242,6 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "32d9cd1424c7d8fe9c222d497b0b005f"
+        "md5": "cb32b88cd160fe35eaac244416ebc096"
     }
 ]
