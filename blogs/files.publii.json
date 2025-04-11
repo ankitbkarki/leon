@@ -1,0 +1,272 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "02d8a10cdc2e4d8a23391498a67180ba"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "fa238f48f9a2ab93b0c59a116e831bca"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "0a5f2fa4f983f8bbd36a6103b8434365"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "700105c316933a8202041b6415abb233"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/leon-staff-team",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/leon-staff-team/index.html",
+        "type": "file",
+        "md5": "bdba146082598a4cf971206f1870a4c1"
+    },
+    {
+        "path": "google-cybersecurity-certification.html",
+        "type": "file",
+        "md5": "0ae5361d4536ae59510f942772d05be6"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "6b08939fdb5b8c5a2a4ac696fcbae2ad"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/google-cybersecurity.png",
+        "type": "file",
+        "md5": "da8dab545ade2898cbe263e61dfd0dcf"
+    },
+    {
+        "path": "media/posts/1/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-2xl.png",
+        "type": "file",
+        "md5": "1f2600fa0b823c42a186f8b41bb3466b"
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-lg.png",
+        "type": "file",
+        "md5": "1f2600fa0b823c42a186f8b41bb3466b"
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-md.png",
+        "type": "file",
+        "md5": "7efa6071acaf8973afbeef7bb3181d01"
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-sm.png",
+        "type": "file",
+        "md5": "1ccfe40e80504acb02399f01934d60b1"
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-xl.png",
+        "type": "file",
+        "md5": "1f2600fa0b823c42a186f8b41bb3466b"
+    },
+    {
+        "path": "/media/posts/1/responsive/google-cybersecurity-xs.png",
+        "type": "file",
+        "md5": "9d8d0963dd57d077da9ec8f3310fb4fe"
+    },
+    {
+        "path": "media/posts/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/2/resume-tips.svg",
+        "type": "file",
+        "md5": "f40fd698afc76b5f13cb32620ddf5410"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/favicon.ico",
+        "type": "file",
+        "md5": "ab8f84bd5e551b29f75c1ffd1b0e7bdd"
+    },
+    {
+        "path": "/media/website/logo-2.png",
+        "type": "file",
+        "md5": "fc6130439f02b78144f38c272df7fea8"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/logo-2-2xl.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-lg.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-md.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-sm.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-xl.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-xs.png",
+        "type": "file",
+        "md5": "30ec5f542d85754b0703b11ed4517799"
+    },
+    {
+        "path": "resume-questions-answered.html",
+        "type": "file",
+        "md5": "8c4bb781937b5a97b9e9da97960b4c4a"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "tags/cybersecurity-training",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/cybersecurity-training/index.html",
+        "type": "file",
+        "md5": "6910e9b0377f90a81e33cec6dcb1090b"
+    },
+    {
+        "path": "tags/google-cybersecurity-certification",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/google-cybersecurity-certification/index.html",
+        "type": "file",
+        "md5": "c1ac0b09ea5de239cc42f7b95f00394a"
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "298e7cae6d46f06f6d187bc8699fd1f3"
+    },
+    {
+        "path": "tags/job-search",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/job-search/index.html",
+        "type": "file",
+        "md5": "35f9d891ad064430391b771a5e6f6446"
+    },
+    {
+        "path": "tags/resume",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/resume/index.html",
+        "type": "file",
+        "md5": "7c7e32909461f47f68a26a22fbcea90a"
+    }
+]
