@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "386be8d50d0f161b0afca7ccd7cf5626"
+        "md5": "e9c12cd8cec92d425d2f2c95a4f68bd5"
     },
     {
         "path": "assets",
@@ -32,12 +32,27 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "0fb2dbee907c136adb514cfbf21b4849"
+        "md5": "82a1d0e378b6e17b873576d7fe1e0644"
     },
     {
         "path": "assets/dynamic",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/inter",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/inter/inter.woff2",
+        "type": "file",
+        "md5": "3a654f4f27f348f4014d1fe8ee2a21c6"
     },
     {
         "path": "assets/js",
@@ -122,17 +137,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "ee88e8c6ef30f969960a5e124e6cab19"
+        "md5": "aa7944d119b6660a13e61c67626d6310"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "d908fa3d1dd156552d4974f147e21719"
+        "md5": "b1c30f965bde0f3a5c7b09b0cc75032f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "683f9ef897c1abba1de72107b2109f61"
+        "md5": "e754442fa543713f249654f8810708c5"
     },
     {
         "path": "media",
@@ -217,7 +232,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "365632ccbe38ca296b61407ac70d18c1"
+        "md5": "01622fb6fdcfb04a7620504c1ed262a2"
     },
     {
         "path": "robots.txt",
@@ -237,7 +252,7 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "491edd14cbd9f41007550b0e08074349"
+        "md5": "cb327cfc1470812e795d22bba62df74f"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -247,12 +262,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "cb4243625889115d40d0ec9d7f96b564"
+        "md5": "04bcdf9734673eb756ed49013a021963"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "5174aa87fae512539ddcca4dc42d8fc6"
+        "md5": "c52feb2bde868a6fd79ba1c66af0ae17"
     },
     {
         "path": "tags/job-search",
@@ -262,7 +277,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "6e2d87cc3a6f50953f07334d3bf10aaa"
+        "md5": "255c0b72a9e0bd4d064dc8f0ce40391c"
     },
     {
         "path": "tags/resume",
@@ -272,6 +287,6 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "8b226e8ed5a150645e613142065cc307"
+        "md5": "0d9e8a3598e5a1252c6a69e87b814935"
     }
 ]
