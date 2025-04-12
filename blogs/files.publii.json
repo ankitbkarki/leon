@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "e9c12cd8cec92d425d2f2c95a4f68bd5"
+        "md5": "98252e01369ebd15233b93529dd3bba5"
     },
     {
         "path": "assets",
@@ -137,17 +137,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "aa7944d119b6660a13e61c67626d6310"
+        "md5": "1c88ba5e59dabffe92cd2c68cb6084ca"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "b1c30f965bde0f3a5c7b09b0cc75032f"
+        "md5": "f76ea5febf44c5ceacc93d5e03851d02"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "e754442fa543713f249654f8810708c5"
+        "md5": "82d50a055ee560505ae5bf27d87b4ba0"
     },
     {
         "path": "media",
@@ -232,7 +232,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "01622fb6fdcfb04a7620504c1ed262a2"
+        "md5": "2f9befe0c3ba359338bd03adda1d01dc"
     },
     {
         "path": "robots.txt",
@@ -252,7 +252,7 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "cb327cfc1470812e795d22bba62df74f"
+        "md5": "f9a272a98c712328fae0c132a88d1295"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -262,12 +262,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "04bcdf9734673eb756ed49013a021963"
+        "md5": "6a4fff2b3b0e5b6fc34cdfbf519da532"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "c52feb2bde868a6fd79ba1c66af0ae17"
+        "md5": "740f9ec33be4487863b59689dcb0c2f9"
     },
     {
         "path": "tags/job-search",
@@ -277,7 +277,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "255c0b72a9e0bd4d064dc8f0ce40391c"
+        "md5": "e9f9a38dad95a71086eaa825d17603a4"
     },
     {
         "path": "tags/resume",
@@ -287,6 +287,6 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "0d9e8a3598e5a1252c6a69e87b814935"
+        "md5": "5cf7fc2cb59bce972e228c50fe234ed5"
     }
 ]
