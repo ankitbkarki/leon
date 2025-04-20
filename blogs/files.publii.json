@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "a555ff0a6c297a7f86527478694998a1"
+        "md5": "6788b5ba97591849b6969e3c41ed0c1c"
     },
     {
         "path": "assets",
@@ -137,17 +137,22 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "c8e04509bc7bcbe6f08dfaae05293606"
+        "md5": "928a6c4d6e6fd6a0ca3384f0e0df8fac"
+    },
+    {
+        "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
+        "type": "file",
+        "md5": "6783219d6b4564d79c29e1d81ad98c86"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "bddc8a1d0fa65ab6e1c1838096f2d958"
+        "md5": "32ff3f11b1a149524e39a685f741ecfb"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "5505f67852ff8a78c3f734b10906b35d"
+        "md5": "d79aaee7fdaa254df7ffd8ea4261fc67"
     },
     {
         "path": "media",
@@ -205,6 +210,26 @@
         "md5": "f40fd698afc76b5f13cb32620ddf5410"
     },
     {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/Untitled-design.svg",
+        "type": "file",
+        "md5": "50a35007a00a5afb75ba9e7c5efd564f"
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/Untitled-design-1.svg",
+        "type": "file",
+        "md5": "0ed678d4d7366a6a1731520e69d47237"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -232,7 +257,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "06c5cb87a429d94cd0e56583f5635f41"
+        "md5": "208bba6e0a61f37a0103bfb2e7856199"
     },
     {
         "path": "robots.txt",
@@ -252,7 +277,17 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "fe90e6261f2465094f27667a1032f6e2"
+        "md5": "3a174cb205bf46e42891abd9fe4825cb"
+    },
+    {
+        "path": "tags/f1-visa-cpt-opt",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/f1-visa-cpt-opt/index.html",
+        "type": "file",
+        "md5": "e9c5f6512249c1be804ddae4280191ee"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -262,12 +297,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "4beb277beca6d32242e3c235924243e1"
+        "md5": "9121878389421dec095c0eb5408a7d11"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "731b3e29a2d33008da57a871efea6223"
+        "md5": "4de966f982a913b69630b05d74079222"
     },
     {
         "path": "tags/job-search",
@@ -277,7 +312,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "99938fc2feebe8cf6a664cf7a35dcbd0"
+        "md5": "38a7e65cc5f9b51065ecf132d6137812"
     },
     {
         "path": "tags/resume",
@@ -287,6 +322,11 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "f51bcb80790ade801c3f2bcf573d3dac"
+        "md5": "d5ad1eee52a06330ccf52d065360c047"
+    },
+    {
+        "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
+        "type": "file",
+        "md5": "993b369b668f68c3317c7e959910d675"
     }
 ]
