@@ -1457,7 +1457,7 @@ textarea {
   transition: all 0.25s ease-out;
 }
 .c-card__wrapper {
-  padding: 0 0 1.75rem;
+  padding: 0 0 0.5rem;
 }
 .c-card__header {
   margin-top: 1.5rem;
@@ -1484,7 +1484,7 @@ textarea {
   flex-basis: 100%; /* Ensure title takes full width on new line if header wraps */
 }
 .c-card__text {
-  margin-top: 1.5rem;
+  margin-top: 0.4rem;
   font-size: 0.7901234568rem;
 }
 .c-card__meta {
@@ -1493,7 +1493,7 @@ textarea {
   font-size: 0.624295077rem;
   /* justify-content: space-between; Remove this as date is moved */
   justify-content: flex-end; /* Align remaining items (comments) to the right */
-  margin-top: 1.5rem;
+  margin-top: 0.6rem;
 }
 .c-card__comments {
   margin-left: 0.75rem;
