@@ -639,6 +639,10 @@ textarea {
 @media all and (max-width: 56.1875em) {
   .logo {
     text-align: center;
+    font-size: 1.0rem;
+  }
+  .logo > img {
+    max-height: calc(var(--header-height) * 0.65);
   }
 }
 .logo > img {
@@ -992,29 +996,6 @@ textarea {
   transition: bottom 0.075s ease 0.12s, -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: bottom 0.075s ease 0.12s, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: bottom 0.075s ease 0.12s, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-.navbar .navbar__toggle.is-active .navbar__toggle-inner {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transition-delay: 0.12s;
-          transition-delay: 0.12s;
-  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.navbar .navbar__toggle.is-active .navbar__toggle-inner::before {
-  top: 0;
-  opacity: 0;
-  -webkit-transition: top 0.075s ease, opacity 0.075s ease 0.12s;
-  transition: top 0.075s ease, opacity 0.075s ease 0.12s;
-}
-.navbar .navbar__toggle.is-active .navbar__toggle-inner::after {
-  bottom: 0;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  -webkit-transition: bottom 0.075s ease, -webkit-transform 0.075s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
-  transition: bottom 0.075s ease, -webkit-transform 0.075s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
-  transition: bottom 0.075s ease, transform 0.075s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
-  transition: bottom 0.075s ease, transform 0.075s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s, -webkit-transform 0.075s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 }
 
 .navbar_mobile_overlay {
@@ -1451,8 +1432,6 @@ textarea {
 .c-card {
   background: var(--white);
   border-radius: var(--border-radius);
-  -webkit-box-shadow: 1px 16px 18px -6px rgba(0, 0, 0, 0.08);
-          box-shadow: 1px 16px 18px -6px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   padding: 0;
   -webkit-transition: all 0.2s ease-out;
@@ -1464,14 +1443,11 @@ textarea {
   background: linear-gradient(to bottom, rgba(var(--color-rgb), 0.2) 0%, rgb(255, 255, 255) 90%);
 }
 .c-card:hover {
-  -webkit-box-shadow: 1px 32px 18px -6px rgba(0, 0, 0, 0.12);
-          box-shadow: 1px 32px 18px -6px rgba(0, 0, 0, 0.12);
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
 .c-card__image {
   display: block;
-  border-radius: var(--border-radius);
   margin: 0;
   overflow: hidden;
 }
@@ -1481,18 +1457,31 @@ textarea {
   transition: all 0.25s ease-out;
 }
 .c-card__wrapper {
-  padding: 0 1.75rem 1.75rem;
+  padding: 0 0 1.75rem;
 }
 .c-card__header {
   margin-top: 1.5rem;
+  /* Add flexbox styles */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 0.5rem; /* Add some space between items */
 }
 .c-card__tag {
   font-variation-settings: "wght" var(--font-weight-bold);
   font-size: 0.7901234568rem;
+  /* Add margin-right: 0.5rem;  Removed in favor of gap */
+}
+/* Style for the time element now in the header */
+.c-card__header time {
+  color: var(--gray-2); /* Match meta color */
+  font-size: 0.7rem; /* Reduce font-size */
+  /* margin-left: 0.5rem; Removed in favor of gap */
 }
 .c-card__title {
   font-size: 1rem;
   margin: 0.25rem 0 0.5rem;
+  flex-basis: 100%; /* Ensure title takes full width on new line if header wraps */
 }
 .c-card__text {
   margin-top: 1.5rem;
@@ -1502,7 +1491,8 @@ textarea {
   color: var(--gray-2);
   display: flex;
   font-size: 0.624295077rem;
-  justify-content: space-between;
+  /* justify-content: space-between; Remove this as date is moved */
+  justify-content: flex-end; /* Align remaining items (comments) to the right */
   margin-top: 1.5rem;
 }
 .c-card__comments {
@@ -2029,14 +2019,13 @@ textarea {
 }
 
 .footer {
-  background: var(--lighter);
-  border-radius: var(--border-radius);
+  background: black;
   padding: 2rem 0 1rem;
   margin: 3rem 0 0;
   text-align: center;
 }
 .footer__copyright {
-  color: var(--gray-2);
+  color: var(--light);
   font-size: 0.9rem;
   padding: 0rem 0 1rem;
 }
@@ -2045,7 +2034,7 @@ textarea {
   padding: 0.5rem;
 }
 .footer__social > a svg {
-  fill: var(--gray-2);
+  fill: var(--light);
   height: 1rem;
   pointer-events: none;
   -webkit-transition: all 0.12s linear 0s;
