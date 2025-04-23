@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "6caa39f1029edf691ce3e25091420fa9"
+        "md5": "f9b95c001a92c9c10995b683a75b0878"
     },
     {
         "path": "assets",
@@ -22,7 +22,7 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "f9e61b7c8def6336b490c86e4131b0d7"
+        "md5": "02c60583d07a42d018a970252be2fce6"
     },
     {
         "path": "/assets/css/photoswipe.css",
@@ -32,7 +32,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "c56d637b3ef208328feb90bbd3409d64"
+        "md5": "dfc5fee084fc2cb11e747292308b573d"
     },
     {
         "path": "assets/dynamic",
@@ -137,22 +137,32 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "8f5bfb6a186bd96c62e5c2f9cfa574cc"
+        "md5": "9664c1ecc335b02a77a41a2d6ca2f9f4"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "43723eb8dec7d4e9b092416d4d67b4a4"
+        "md5": "29a7794bedc77b186853a52132f72037"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "d8a1eff3592801646bf20f2a28bbe04d"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "d14d19d9b84025b6f44752a7df09037d"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "92f0476d38ea9fc4e8b1e006c1e4e422"
+        "md5": "23eea4e1233935b2efcd5799e6b69ee9"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "b97b4642cc6c8fb314bc2c27f9537b3f"
+        "md5": "e751226665d886357dc516f83039962e"
     },
     {
         "path": "media",
@@ -257,12 +267,22 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "507080227efa487b69c0edbd687b25c9"
+        "md5": "b0262f6f3252c646d6562dfd338b3902"
     },
     {
         "path": "robots.txt",
         "type": "file",
-        "md5": "b6216d61c03e6ce0c9aea6ca7808f7ca"
+        "md5": "48a32ba896cc51cc6b9191dc02ea4638"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "ee76f39b24736b7933dd216f5716aa79"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
     },
     {
         "path": "tags",
@@ -277,7 +297,7 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "6c6fd31e7fdab26187a01713a204c48a"
+        "md5": "370891ba4ea3490c3af5cc75b16d5481"
     },
     {
         "path": "tags/f1-visa-cpt-opt",
@@ -287,7 +307,7 @@
     {
         "path": "/tags/f1-visa-cpt-opt/index.html",
         "type": "file",
-        "md5": "9ac9030003637bb7c78c16436fded7ce"
+        "md5": "82644520ef57e240d2a5b84270098129"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -297,12 +317,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "175a84ae09f16d35c358b5a0e2a58701"
+        "md5": "76ef1d86a74dff9b82e15293955a5296"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "43492992d3dc8358f3869b1346de45bf"
+        "md5": "ca845bdd10dfbced7fb1bff0b781e6dd"
     },
     {
         "path": "tags/job-search",
@@ -312,7 +332,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "b65f6ec8ac871eb6e90deba26ea6cc36"
+        "md5": "fedfb21b43fa662be98dad1f6bbe5eb9"
     },
     {
         "path": "tags/resume",
@@ -322,11 +342,11 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "ec7a44a9a8ce4183c8eecafaed9b6309"
+        "md5": "daef80a7a08ff577072fa02ca9417e9c"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "1ac0a1207df20b5afc7b128da8723a3f"
+        "md5": "15eec7f591fda9f14a46da70892b0d1f"
     }
 ]
