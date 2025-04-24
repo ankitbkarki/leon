@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "f9b95c001a92c9c10995b683a75b0878"
+        "md5": "535cd8cc3024c6d813071b69bbedd707"
     },
     {
         "path": "assets",
@@ -137,12 +137,12 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "9664c1ecc335b02a77a41a2d6ca2f9f4"
+        "md5": "da6490c3fd4b3bdffd362b4fc97d03f1"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "915bc011169faa21c13b8161453688ac"
+        "md5": "e77a483ff14b4476c992eb8a5ee8a391"
     },
     {
         "path": "feed.json",
@@ -157,12 +157,12 @@
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "e879ef133c2584600d461641c0fbbf40"
+        "md5": "ce110c22cf9323f583c44b074de8521b"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "88af3fa0f92c9adc27e37010b1ca6fc5"
+        "md5": "158c56260428b08f8e648c8320b724f8"
     },
     {
         "path": "media",
@@ -185,79 +185,9 @@
         "md5": "2417dac0d6705a1c7369a29a0ea27bec"
     },
     {
-        "path": "media/posts/1/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-lg.png",
-        "type": "file",
-        "md5": "1f2600fa0b823c42a186f8b41bb3466b"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-lg.webp",
-        "type": "file",
-        "md5": "fea15d3a1cbe263d50004094da93feae"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-md.png",
-        "type": "file",
-        "md5": "1ccfe40e80504acb02399f01934d60b1"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-md.webp",
-        "type": "file",
-        "md5": "7a7d416a753f8bb058a29111a44a1ecb"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-sm.png",
-        "type": "file",
-        "md5": "0dbacd84df6b67695243ab8532dcb941"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-sm.webp",
-        "type": "file",
-        "md5": "e6173d39c8444716aea5e6a557b09c4c"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-xs.png",
-        "type": "file",
-        "md5": "911ce47e4fecdfb5297cef71829b97d9"
-    },
-    {
-        "path": "/media/posts/1/responsive/google-cybersecurity-xs.webp",
-        "type": "file",
-        "md5": "30bef9ad8a0672891740d9d0e8538d56"
-    },
-    {
         "path": "media/posts/2",
         "type": "directory",
         "md5": false
-    },
-    {
-        "path": "media/posts/2/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-lg.webp",
-        "type": "file",
-        "md5": "59b0c50c088aac993319c8056c5c14e2"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-md.webp",
-        "type": "file",
-        "md5": "c90df45c09e15f8ead8bcacfe1fd3536"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-sm.webp",
-        "type": "file",
-        "md5": "0ae6f56a8669a062d77463dd00a87d3e"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-xs.webp",
-        "type": "file",
-        "md5": "1d2284e1f2ca5faae19344bd927b4b94"
     },
     {
         "path": "/media/posts/2/resumetips.webp",
@@ -270,31 +200,6 @@
         "md5": false
     },
     {
-        "path": "media/posts/3/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-lg.webp",
-        "type": "file",
-        "md5": "a4431a3efd901454d7dfbfeffe3fa4fe"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-md.webp",
-        "type": "file",
-        "md5": "553dba2c60e2b1c709e4a485ae79f4de"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-sm.webp",
-        "type": "file",
-        "md5": "d1f7ddb51063dd9da349d1da94816b81"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-xs.webp",
-        "type": "file",
-        "md5": "7daaa1c0383bf8715c9fd10ced66e0af"
-    },
-    {
         "path": "/media/posts/3/Untitled-design.webp",
         "type": "file",
         "md5": "adac30f7e38f4c56e954963b144ff92a"
@@ -303,31 +208,6 @@
         "path": "media/posts/4",
         "type": "directory",
         "md5": false
-    },
-    {
-        "path": "media/posts/4/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-lg.webp",
-        "type": "file",
-        "md5": "0c092ff9aaefae2562620b09dc72122c"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-md.webp",
-        "type": "file",
-        "md5": "e12cacbbf01578b0cee5068247996a0e"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-sm.webp",
-        "type": "file",
-        "md5": "b6810da6097bccfcc24ca2cbfd252fb2"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-xs.webp",
-        "type": "file",
-        "md5": "a5e5af3cdb3f648014757277ac9ac31c"
     },
     {
         "path": "/media/posts/4/Untitled-design-1.webp",
@@ -345,24 +225,9 @@
         "md5": "fc6130439f02b78144f38c272df7fea8"
     },
     {
-        "path": "media/website/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/website/responsive/logo-sm.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
-        "path": "/media/website/responsive/logo-xs.png",
-        "type": "file",
-        "md5": "30ec5f542d85754b0703b11ed4517799"
-    },
-    {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "e43d362fdade3e1085e4b180687564b7"
+        "md5": "4bada5dd29bddfb0f86d9339c631c6b8"
     },
     {
         "path": "robots.txt",
@@ -392,7 +257,7 @@
     {
         "path": "/tags/cybersecurity-training/index.html",
         "type": "file",
-        "md5": "d67de49f696d7c0de70572a05950fb76"
+        "md5": "3c9cbbf6d5f7482c027c2f825cfbedf6"
     },
     {
         "path": "tags/f1-visa-cpt-opt",
@@ -402,7 +267,7 @@
     {
         "path": "/tags/f1-visa-cpt-opt/index.html",
         "type": "file",
-        "md5": "e6a6408b30922ca7218ba18d173bb4a2"
+        "md5": "56b85e19878b9d6d5520de94abea3f26"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -412,12 +277,12 @@
     {
         "path": "/tags/google-cybersecurity-certification/index.html",
         "type": "file",
-        "md5": "df35f87d929b4783b480c85f1e950a25"
+        "md5": "2c604c54cf9cc0bed3f692ee83eb5409"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ca845bdd10dfbced7fb1bff0b781e6dd"
+        "md5": "f3f937c5a1d5fc146308622b42c4a613"
     },
     {
         "path": "tags/job-search",
@@ -427,7 +292,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "cbad62e0d1061d153f15c86189de2268"
+        "md5": "771ebc07922882697e4fa32aaf02ae93"
     },
     {
         "path": "tags/resume",
@@ -437,11 +302,11 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "806f880aa6a8056f80af6bcd7b42af22"
+        "md5": "9fdc39d82461e9e10df94f1770446f08"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "45eb5633db66173a6500af556adcfea9"
+        "md5": "3446eea8ea353140e94d77ec1fcb25d1"
     }
 ]
