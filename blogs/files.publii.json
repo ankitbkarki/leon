@@ -142,27 +142,32 @@
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "e59ec4c00ed46ff07f02736de706875c"
+        "md5": "c94ab5a7d19e5fa9b3426c0ec4aeab54"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "d6a57605a5ce1f75be5ee54783fe187d"
+        "md5": "80c332326d839ee140bfeb409d19d4f1"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "817eb6f0da7b879064d35f86f07c62dd"
+        "md5": "dfe997b645e58c792b2caa79732a3ac0"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "241d2893d0635b33f352021eeeef6a1a"
+        "md5": "e568695b9aa6d3fdcd1c765eabcdec81"
+    },
+    {
+        "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey.html",
+        "type": "file",
+        "md5": "e1018b04ed4cf18a1e60f7afc0b35f70"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "cede3df1b2eb43d181ebdee217956a96"
+        "md5": "4295e6fc302e3f7fbb43c80f42a0f29c"
     },
     {
         "path": "media",
@@ -225,6 +230,16 @@
         "md5": "2cda21011ef7cc8f19124dd3aac32655"
     },
     {
+        "path": "media/posts/6",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/Implementing-Zero-Trust-Security-Models-in-SMEs.webp",
+        "type": "file",
+        "md5": "0f7bcc1ba272f7181aa84b6a9240aedb"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -237,7 +252,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "fc73fc5591a8725eea370d5dbef565c4"
+        "md5": "ebd925b1839cb4a360a78fdd6144fe17"
     },
     {
         "path": "robots.txt",
@@ -247,7 +262,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "58d8460ef0d74527b4cd886941df81cb"
+        "md5": "19e1a115cf7c196aa6d22b86832aead3"
     },
     {
         "path": "sitemap.xsl",
@@ -267,7 +282,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "7bba16a3ed17960c665e2216abaa3555"
+        "md5": "f041579d6a0dcc4dc7c463070116cce2"
     },
     {
         "path": "tags/cybersecurity-training",
@@ -302,7 +317,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "9d7880c345b5cb23311beceb0dbf512a"
+        "md5": "1f02ff7c166dcbf03028aaf21248e843"
     },
     {
         "path": "tags/job-search",
@@ -327,11 +342,11 @@
     {
         "path": "top-cybersecurity-threats-in-2025.html",
         "type": "file",
-        "md5": "6ffbc298eadb8a594d44bae47567bb7d"
+        "md5": "fd874cbb00ac3e5b9bfb241ab3e119cd"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "8d970a3670bafcc5a1e84c1efe449120"
+        "md5": "e82a90749af2c59269f8aa9e37c51c9b"
     }
 ]
