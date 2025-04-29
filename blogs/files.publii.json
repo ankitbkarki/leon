@@ -140,34 +140,39 @@
         "md5": "da6490c3fd4b3bdffd362b4fc97d03f1"
     },
     {
+        "path": "best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now.html",
+        "type": "file",
+        "md5": "87a3fd8a03b162bc429c9a1fde34c87b"
+    },
+    {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "542e5a238882527ce70eaf74a6d9eddf"
+        "md5": "1f630fa266d4c1fbe2209bc695b39fe2"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "2bd67507b9d72027ccab0b637a8b4ef0"
+        "md5": "a95218971ae4faeaa43432364482f0a4"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "946f9babeccaeeb3ee3156a965a6f965"
+        "md5": "5385f543c38a753d3abd6fdcf0968201"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "5bd074b327538296ae0cff4d7dbbe175"
+        "md5": "9918a5940d408cb5293bf2cf84721a38"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey.html",
         "type": "file",
-        "md5": "72b1d2bff65ce10c7e390445d4a4bbfe"
+        "md5": "e24939b5263241b0e74acc45c7614c53"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "7c09a9b7beb3bbcb9f4d2bdea5a92dd1"
+        "md5": "f7223fc098511351fbefb935b7c758a5"
     },
     {
         "path": "media",
@@ -240,6 +245,26 @@
         "md5": "0f7bcc1ba272f7181aa84b6a9240aedb"
     },
     {
+        "path": "media/posts/7",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/Best-Cybersecurity-Stocks-in-May-2025-2.webp",
+        "type": "file",
+        "md5": "dc2d1feac7ef63a348e4ce64a89e3eca"
+    },
+    {
+        "path": "media/posts/8",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2.webp",
+        "type": "file",
+        "md5": "13fcb58d5cf9f5835b4d4e5ca2ceac5a"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -252,7 +277,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "b4475da07a96f850ef15522a108ee417"
+        "md5": "9c8635fa735b54e0ff9ebe15f119ddff"
     },
     {
         "path": "robots.txt",
@@ -262,7 +287,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "dff32c770d72aa0222ef8cd0d051f69a"
+        "md5": "7123a10d2e161e3b10abc9038a11299e"
     },
     {
         "path": "sitemap.xsl",
@@ -282,7 +307,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "f041579d6a0dcc4dc7c463070116cce2"
+        "md5": "aad8f94b106479172d9a586af4d537b2"
     },
     {
         "path": "tags/cybersecurity-training",
@@ -302,7 +327,17 @@
     {
         "path": "/tags/f1-visa-cpt-opt/index.html",
         "type": "file",
-        "md5": "ddf9b4db8aca45b6faa9bcc83f04d651"
+        "md5": "ac66f0e83ee5e5c561db49bf9697f30c"
+    },
+    {
+        "path": "tags/finance",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/finance/index.html",
+        "type": "file",
+        "md5": "ec19dc1620e004d3620ed8cca5007c76"
     },
     {
         "path": "tags/google-cybersecurity-certification",
@@ -317,7 +352,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "1f02ff7c166dcbf03028aaf21248e843"
+        "md5": "c2a010c4c7dbd9eed045bf3e688308e9"
     },
     {
         "path": "tags/job-search",
@@ -342,11 +377,16 @@
     {
         "path": "top-cybersecurity-threats-in-2025.html",
         "type": "file",
-        "md5": "5589c0f8ffe0718177abf3211bccd51e"
+        "md5": "527a708ddd99625509109d2347b1d3ce"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "183c6b7c3a2405f7e5d046b9b921a1fc"
+        "md5": "33c1b16d6d18a50d0f1c73eb41b2f8d9"
+    },
+    {
+        "path": "what-is-the-median-salary-of-a-cybersecurity-engineer.html",
+        "type": "file",
+        "md5": "fbfcab7bb39d7d8002c18f06d78cf7cf"
     }
 ]
