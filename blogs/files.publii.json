@@ -142,27 +142,27 @@
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "7cb86f5bfcc423c16f3768c4f1d428db"
+        "md5": "e59ec4c00ed46ff07f02736de706875c"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "29cb092072be1941c0af4d92eb4cdef1"
+        "md5": "d6a57605a5ce1f75be5ee54783fe187d"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "1a42422ddf2c4e0f2034b82e5aaef720"
+        "md5": "817eb6f0da7b879064d35f86f07c62dd"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "b81bd8913c53193ded851cebbf5b8883"
+        "md5": "241d2893d0635b33f352021eeeef6a1a"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "d9f13c123842181e442fac1b41aeb6c8"
+        "md5": "cede3df1b2eb43d181ebdee217956a96"
     },
     {
         "path": "media",
@@ -215,6 +215,16 @@
         "md5": "65cd6d26ce781717d0b38c524d0952b4"
     },
     {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/Top-Cybersecurity-Threats-in-2025.webp",
+        "type": "file",
+        "md5": "2cda21011ef7cc8f19124dd3aac32655"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -227,7 +237,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "2006385b69a85c8fa234b559ebb6f007"
+        "md5": "fc73fc5591a8725eea370d5dbef565c4"
     },
     {
         "path": "robots.txt",
@@ -237,7 +247,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a3dc96424df64804d6012831474aa78d"
+        "md5": "58d8460ef0d74527b4cd886941df81cb"
     },
     {
         "path": "sitemap.xsl",
@@ -248,6 +258,16 @@
         "path": "tags",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "tags/cybersecurity",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/cybersecurity/index.html",
+        "type": "file",
+        "md5": "7bba16a3ed17960c665e2216abaa3555"
     },
     {
         "path": "tags/cybersecurity-training",
@@ -282,7 +302,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "f3f937c5a1d5fc146308622b42c4a613"
+        "md5": "9d7880c345b5cb23311beceb0dbf512a"
     },
     {
         "path": "tags/job-search",
@@ -305,8 +325,13 @@
         "md5": "9fdc39d82461e9e10df94f1770446f08"
     },
     {
+        "path": "top-cybersecurity-threats-in-2025.html",
+        "type": "file",
+        "md5": "6ffbc298eadb8a594d44bae47567bb7d"
+    },
+    {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "e0b00884e846689de208bca14e59d99b"
+        "md5": "8d970a3670bafcc5a1e84c1efe449120"
     }
 ]
