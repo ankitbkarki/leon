@@ -3,5 +3,4 @@ User-agent: *
 Disallow:
 
 # Sitemap location
-Sitemap: https://www.leonstaff.com/sitemap.xml
 Sitemap: https://www.leonstaff.com/blogs/sitemap.xml
