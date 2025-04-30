@@ -3,12 +3,371 @@
     <title>Leon Consulting Blog</title>
     <link href="https://leonstaff.com/blogs/feed.xml" rel="self" />
     <link href="https://leonstaff.com/blogs" />
-    <updated>2025-04-29T10:36:34-05:00</updated>
+    <updated>2025-04-30T01:19:31-05:00</updated>
     <author>
         <name>Leon</name>
     </author>
     <id>https://leonstaff.com/blogs</id>
 
+    <entry>
+        <title>How to Use ChatGPT’s Deep Research Tool for Free</title>
+        <author>
+            <name>Leon</name>
+        </author>
+        <link href="https://leonstaff.com/blogs/how-to-use-chatgpt-deep-research-tool-free.html"/>
+        <id>https://leonstaff.com/blogs/how-to-use-chatgpt-deep-research-tool-free.html</id>
+        <media:content url="https://leonstaff.com/blogs/media/posts/10/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free.webp" medium="image" />
+            <category term="How To"/>
+
+        <updated>2025-04-30T01:18:13-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://leonstaff.com/blogs/media/posts/10/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free.webp" alt="How to Use ChatGPT’s Deep Research Tool for Free" />
+                    There’s a certain thrill in finally finding a tool that just gets what you’re looking for. No awkward keyword tweaking,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://leonstaff.com/blogs/media/posts/10/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free.webp" class="type:primaryImage" alt="How to Use ChatGPT’s Deep Research Tool for Free" /></p>
+                <p>There’s a certain thrill in finally finding a tool that just <em>gets</em> what you’re looking for. No awkward keyword tweaking, no ten-tab rabbit holes, no skimming 2,000-word posts that never quite answer your question. Just straight-up, solid research.</p>
+<p>That’s what ChatGPT’s Deep Research Tool promises. And if you’re reading this, you probably want to know: can I actually use it for free?</p>
+<p>Short answer: yes.<br>Longer answer: yes — but there are a few caveats, some subtle limitations, and a bit of strategy involved.</p>
+<p>Let’s get into it.</p>
+<h2>First Things First: What Exactly <em>Is</em> the Deep Research Tool?</h2>
+<p>So, let’s clear this up. The “Deep Research Tool” isn’t a separate app you download. It’s not a plugin or Chrome extension. It’s not even officially branded as a standalone feature (at least, not right now). It’s a capability built into ChatGPT — specifically, into the GPT-4-turbo model, which powers the paid ChatGPT Plus subscription.</p>
+<p>But here’s the part people sometimes miss: while it’s mostly associated with the premium plan, there <em>are</em> ways to access similar capabilities without paying — if you know how to nudge the system.</p>
+<p>The tool itself is basically a smarter, context-aware way to do multi-step research. Think of it like having a research assistant that can summarize articles, cross-reference sources, detect bias (well, sort of), and even cite material — all in one go. It doesn’t just grab snippets from Wikipedia and call it a day. It actually tries to think through the logic, often in surprisingly thoughtful ways.</p>
+<p>You can ask it to:</p>
+<ul>
+<li>
+<p>Compare studies or viewpoints</p>
+</li>
+<li>
+<p>Pull stats across multiple sources</p>
+</li>
+<li>
+<p>Summarize complex academic papers</p>
+</li>
+<li>
+<p>Generate bibliographies or citations</p>
+</li>
+<li>
+<p>Dig deeper on ambiguous or controversial topics</p>
+</li>
+</ul>
+<p>It’s not perfect, of course. It occasionally invents sources (more on that later), and sometimes gives answers that feel a little too confident. But as research tools go, it’s... well, pretty incredible.</p>
+<h2>So... How Do You Use It <em>Without</em> Paying?</h2>
+<p>Let’s be honest. Most people asking how to use this for free aren’t just curious — they’re trying to dodge the $20/month ChatGPT Plus subscription. Fair enough. Twenty bucks isn’t nothing.</p>
+<p>There are a few workarounds, and while none are perfect, they’re surprisingly useful if you’re a bit patient and willing to get creative.</p>
+<h3>1. <strong>Use Microsoft Copilot (Free Version)</strong></h3>
+<p>Wait — Microsoft? What does <em>that</em> have to do with ChatGPT?</p>
+<p>Actually, a lot.</p>
+<p>Microsoft has integrated GPT-4 (yes, the full thing) into its Bing-powered “Copilot” search experience. And the kicker? It’s free.</p>
+<p>You can access it in a few ways:</p>
+<ul>
+<li>
+<p>Through the <strong>Copilot website</strong> (copilot.microsoft.com)</p>
+</li>
+<li>
+<p>In the <strong>Edge browser sidebar</strong></p>
+</li>
+<li>
+<p>In some versions of Microsoft Word or Excel (though these may push you toward a Microsoft 365 subscription)</p>
+</li>
+</ul>
+<p>The trick is to use <strong>Copilot’s “Creative” or “Precise” mode</strong>, depending on your goal. It can handle fairly deep research queries and often pulls up real-time sources (something ChatGPT, by itself, doesn’t always do unless connected to the web).</p>
+<p>Sure, the tone’s a bit different. And you can’t customize the personality like you can in ChatGPT. But under the hood? It’s powered by the same GPT-4-turbo architecture.</p>
+<h3>2. <strong>Use ChatGPT Free Plan + Smart Prompting</strong></h3>
+<p>This one’s a bit more nuanced.</p>
+<p>Technically, the free ChatGPT tier only gives you GPT-3.5. So you might assume you’re out of luck. But here’s the thing: if your research isn’t too complex — or if you're guiding it well — GPT-3.5 can still mimic “deep” research behaviors with the right prompts.</p>
+<p>For example, instead of just saying:</p>
+<blockquote>
+<p>"Summarize the effects of climate change on agriculture."</p>
+</blockquote>
+<p>Try something like:</p>
+<blockquote>
+<p>“Imagine you’re writing a research paper on how climate change affects crop yields in developing countries. What would your outline look like? What sources would you cite? Break it down by region.”</p>
+</blockquote>
+<p>This kind of role-playing or scenario-based prompting pushes the model to behave more like a research assistant rather than a chatbot tossing facts at you. It may not <em>reference</em> real papers unless you supply them — but you’d be surprised how far it can go with context.</p>
+<h3>3. <strong>Use Open Access Academic Tools in Tandem</strong></h3>
+<p>This one’s more of a combo move.</p>
+<p>Let’s say you find an article on Google Scholar or PubMed. You copy-paste that article — or a chunk of it — into ChatGPT and ask:</p>
+<blockquote>
+<p>“Summarize this in 5 bullet points. Then tell me the main argument, any assumptions the author makes, and whether the evidence seems strong.”</p>
+</blockquote>
+<p>Even GPT-3.5 can handle this decently.</p>
+<p>If you <em>do</em> happen to be using GPT-4, the results get even sharper. It will often draw inferences, spot vague reasoning, or reframe the argument more clearly than the original author did. (Which is a bit unnerving, actually.)</p>
+<p>So while ChatGPT can’t browse the web on the free tier, you can still feed it raw data and ask for help interpreting it — which, let’s be honest, is most of what “deep research” really is.</p>
+<h2>What If You Want the <em>Actual</em> Deep Research Capabilities?</h2>
+<p>Okay, so say you’ve tried the free options, and they’re good but not quite “wow” enough. If you're looking for something more powerful — real-time web access, PDF uploads, memory, custom instructions — that’s where the paid GPT-4 tier comes in.</p>
+<p>Here’s what that includes:</p>
+<ul>
+<li>
+<p><strong>File Uploads</strong>: You can drop in long PDFs, spreadsheets, or research papers and ask it to analyze, summarize, compare, etc.</p>
+</li>
+<li>
+<p><strong>Web Browsing</strong>: It can look up fresh information (though it sometimes still needs a nudge to cite properly)</p>
+</li>
+<li>
+<p><strong>Memory</strong>: It remembers past conversations, your preferences, and what you’ve asked before (if enabled)</p>
+</li>
+<li>
+<p><strong>Custom GPTs</strong>: You can create your own “researcher” GPT that acts exactly the way you want</p>
+</li>
+</ul>
+<p>It’s not free, obviously. But if you’re doing consistent research — say, you're a student, freelancer, analyst, or just very curious — the cost might actually save you time and, well, brainpower.</p>
+<h2>Can You Get a Free Trial of GPT-4?</h2>
+<p>As of now, OpenAI doesn’t offer a formal free trial of GPT-4-turbo through ChatGPT itself. That said, there are <em>some</em> ways to test the waters:</p>
+<h3>1. <strong>Look for Free Credits via Third Parties</strong></h3>
+<p>Some platforms that integrate ChatGPT (like educational tools or productivity apps) will let you use GPT-4 as part of a free trial or limited tier. It’s hit-or-miss, and not always advertised clearly, but worth a quick search.</p>
+<h3>2. <strong>Use GPT-4 for Free in Developer Mode (Sort Of)</strong></h3>
+<p>If you’re comfortable with APIs and willing to register for OpenAI’s platform (platform.openai.com), you can get $5 of free credit when you sign up. That lets you run GPT-4 queries via the API.</p>
+<p>It’s not the most user-friendly approach, and it’s time-limited — but it does give you a taste of what GPT-4 can do behind the scenes.</p>
+<h2>Tips to Make the Most of Free ChatGPT Research</h2>
+<p>Whether you're using GPT-3.5, Copilot, or some hybrid setup, here are a few ways to stretch its usefulness:</p>
+<h3>Use Multi-Step Prompts</h3>
+<p>Don’t just ask a question and move on. Dig deeper. For example:</p>
+<ol>
+<li>
+<p>Ask for a basic summary.</p>
+</li>
+<li>
+<p>Then ask for pros/cons.</p>
+</li>
+<li>
+<p>Then ask how the idea evolved over time.</p>
+</li>
+<li>
+<p>Finally, ask how experts disagree.</p>
+</li>
+</ol>
+<p>This builds layers into the research — and feels closer to how you'd actually think through a topic.</p>
+<h3>Paste in Source Material</h3>
+<p>If the AI can’t browse, bring the data to it. Whether it’s a quote, excerpt, or full article, giving it material to work with dramatically improves the quality of output.</p>
+<h3>Ask It to Challenge Itself</h3>
+<p>This is an odd trick — but a good one. After you get an answer, say:</p>
+<blockquote>
+<p>“Now argue against this conclusion.”</p>
+</blockquote>
+<p>It forces the model to think more critically, spot gaps, and present a more balanced view — even when it’s just you talking to a machine.</p>
+<hr>
+<h2>What Are the Limitations?</h2>
+<p>Let’s not sugarcoat it. Even in GPT-4, “deep research” has its limits.</p>
+<ul>
+<li>
+<p><strong>Made-Up Sources</strong>: Sometimes it hallucinates citations. Always verify.</p>
+</li>
+<li>
+<p><strong>Shallow Analysis</strong>: If your prompt is vague, you’ll get a Wikipedia-level answer.</p>
+</li>
+<li>
+<p><strong>No Real-Time Judgment</strong>: It doesn’t “know” whether something is credible unless you specify.</p>
+</li>
+<li>
+<p><strong>Bias</strong>: Like all models, it reflects the biases in its training data — and those biases <em>do</em> show up, especially on complex or polarized topics.</p>
+</li>
+</ul>
+<p>And then there’s just the reality that, despite the name, AI doesn’t “understand” research the way a person does. It can’t go down a rabbit hole out of curiosity or change course mid-project because it noticed something odd. (At least not yet.)</p>
+<h2>Final Thoughts</h2>
+<p>Here’s the thing: for most casual researchers — students, writers, independent thinkers, and even some professionals — the free versions of ChatGPT or GPT-powered tools like Microsoft Copilot can get you surprisingly far.</p>
+<p>You won’t get <em>every</em> bell and whistle, sure. But with smart prompts and a little patience, you can absolutely simulate the deep research experience. Maybe not flawlessly, but realistically. And isn’t that kind of the point?</p>
+<p>You don’t always need perfect. You just need <em>useful</em>. And on that front, ChatGPT — free or not — is already changing the game.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to Remove OneDrive from the File Explorer Sidebar in Windows 10/11</title>
+        <author>
+            <name>Leon</name>
+        </author>
+        <link href="https://leonstaff.com/blogs/how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011.html"/>
+        <id>https://leonstaff.com/blogs/how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011.html</id>
+        <media:content url="https://leonstaff.com/blogs/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2.webp" medium="image" />
+            <category term="How To"/>
+
+        <updated>2025-04-30T01:04:05-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://leonstaff.com/blogs/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2.webp" alt="How to Remove OneDrive from the File Explorer Sidebar in Windows 1011" />
+                    Let’s be honest—Microsoft OneDrive isn’t for everyone. Some people love the idea of cloud syncing. Others... not so much. Maybe&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://leonstaff.com/blogs/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2.webp" class="type:primaryImage" alt="How to Remove OneDrive from the File Explorer Sidebar in Windows 1011" /></p>
+                <p>Let’s be honest—Microsoft OneDrive isn’t for everyone.</p>
+<p>Some people love the idea of cloud syncing. Others... not so much. Maybe you already have a preferred cloud storage service like Google Drive or Dropbox. Maybe you just don’t want that extra icon cluttering your File Explorer sidebar. Or maybe, like many users, you never even set OneDrive up and yet it insists on staying there, staring at you from the left panel like an uninvited guest who’s made themselves comfortable on your couch.</p>
+<p>Whatever your reason, removing OneDrive from the File Explorer sidebar in Windows 10 or 11 isn’t impossible—but it’s also not as straightforward as it probably should be.</p>
+<p>This guide will walk you through everything. We'll cover a few different methods, depending on whether you want to <em>just hide</em> OneDrive, <em>completely uninstall</em> it, or <em>remove only the shortcut</em> from the File Explorer sidebar. There are nuances, so don’t worry if things get a little technical—we’ll keep it practical.</p>
+<h2>First, Let’s Clarify: What Exactly Are You Trying to Do?</h2>
+<p>This might seem like a silly question, but hear me out.</p>
+<p>When people say they want to “remove OneDrive,” they often mean different things. Do you:</p>
+<ul>
+<li>
+<p>Just want the OneDrive icon <em>gone</em> from the File Explorer sidebar?</p>
+</li>
+<li>
+<p>Want to <em>stop</em> OneDrive from syncing?</p>
+</li>
+<li>
+<p>Want to <em>uninstall</em> OneDrive completely from your system?</p>
+</li>
+<li>
+<p>Or maybe just disable it temporarily without fully removing it?</p>
+</li>
+</ul>
+<p>The reason it matters is because Windows treats OneDrive as a system component—and in some versions, particularly Windows 10 Home and Pro editions, it comes pre-installed and semi-glued into the OS. So how you approach this depends on how deep you want to go.</p>
+<p>We’ll start with the most common goal: removing the OneDrive shortcut from the sidebar. Then we’ll look at how to disable or uninstall it completely, just in case you're going all in.</p>
+<h2>Method 1: Remove the OneDrive Shortcut from File Explorer Sidebar (via Registry Editor)</h2>
+<p>This is the cleanest way to get rid of that persistent OneDrive shortcut <em>without</em> affecting the app itself. It's just cosmetic—it doesn’t uninstall OneDrive or stop it from working. It just makes it stop <em>showing up</em> in File Explorer.</p>
+<h3>⚠️ Quick Disclaimer:</h3>
+<p>This method involves editing the Windows Registry. It's not difficult, but... you need to be careful. One typo and things can get messy. Back up your registry first—or at least create a system restore point.</p>
+<h3>Step-by-Step:</h3>
+<ol>
+<li>
+<p><strong>Open the Registry Editor</strong><br>Press <code>Windows + R</code> to open the Run dialog. Type <code>regedit</code> and hit Enter.<br>If you get a User Account Control prompt, click <em>Yes</em>.</p>
+</li>
+<li>
+<p><strong>Navigate to the OneDrive Namespace Key</strong><br>Copy and paste the following path into the Registry Editor address bar:</p>
+<pre><code>HKEY_CLASSES_ROOT\CLSID\
+</code></pre>
+</li>
+<li>
+<p><strong>Find the OneDrive CLSID Key</strong><br>Now here’s where it gets a bit... fiddly. You’re looking for a key that corresponds to OneDrive.<br>For most systems, the CLSID is:</p>
+<pre><code>{018D5C66-4533-4307-9B53-224DE2ED1FE6}
+</code></pre>
+<p>On 64-bit Windows, you'll need to edit two locations:</p>
+<ul>
+<li>
+<p><code>HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}</code></p>
+</li>
+<li>
+<p><code>HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Modify the “System.IsPinnedToNameSpaceTree” Value</strong><br>Inside each key above, look for a DWORD value named <code>System.IsPinnedToNameSpaceTree</code>.</p>
+<ul>
+<li>
+<p>Double-click it.</p>
+</li>
+<li>
+<p>Change the value data from <code>1</code> to <code>0</code>.</p>
+</li>
+<li>
+<p>Click OK.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Restart File Explorer</strong><br>The changes won’t apply immediately. You can either restart your PC or restart File Explorer manually.</p>
+<p>To restart File Explorer:</p>
+<ul>
+<li>
+<p>Press <code>Ctrl + Shift + Esc</code> to open Task Manager.</p>
+</li>
+<li>
+<p>Find <em>Windows Explorer</em>, right-click it, and choose <em>Restart</em>.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>And just like that, the OneDrive shortcut should be gone from the sidebar.</p>
+<p>Unless... it isn't. In which case, let’s move on.</p>
+<h2>Method 2: Unlink or Disable OneDrive (Without Uninstalling It)</h2>
+<p>Let’s say you’re not ready to uninstall it completely—you just want it dormant, not syncing, and ideally not bothering you.</p>
+<p>You can unlink OneDrive from your Microsoft account. This stops it from syncing files without actually removing the app.</p>
+<h3>How to Unlink OneDrive:</h3>
+<ol>
+<li>
+<p>Right-click the <strong>OneDrive icon</strong> in your system tray (bottom-right corner).</p>
+</li>
+<li>
+<p>Click <strong>Settings</strong> (gear icon) &gt; <strong>Accounts</strong> tab.</p>
+</li>
+<li>
+<p>Click <strong>Unlink this PC</strong>.</p>
+</li>
+<li>
+<p>Confirm.</p>
+</li>
+</ol>
+<p>Done. Your files won't sync anymore, and OneDrive will chill in the background without pestering you.</p>
+<p>If you also want to stop it from starting up every time you boot your PC:</p>
+<ul>
+<li>
+<p>Still in the OneDrive settings window, go to the <strong>Settings</strong> tab.</p>
+</li>
+<li>
+<p>Uncheck <strong>"Start OneDrive automatically when I sign in to Windows."</strong></p>
+</li>
+</ul>
+<h2>Method 3: Uninstall OneDrive Completely (If You're Sure)</h2>
+<p>Alright. So you’ve decided OneDrive is <em>really</em> not for you. Fair enough.</p>
+<p>If you’re using <strong>Windows 10 or 11</strong>, you <em>can</em> uninstall OneDrive—though Microsoft doesn’t make it super obvious how to do it. Fortunately, it's not hard.</p>
+<h3>Option A: Uninstall via Settings</h3>
+<ol>
+<li>
+<p>Press <code>Windows + I</code> to open Settings.</p>
+</li>
+<li>
+<p>Go to <strong>Apps</strong> &gt; <strong>Installed Apps</strong> (or <strong>Apps &amp; Features</strong> in older versions).</p>
+</li>
+<li>
+<p>Find <strong>Microsoft OneDrive</strong> in the list.</p>
+</li>
+<li>
+<p>Click the three dots (or just click it), then choose <strong>Uninstall</strong>.</p>
+</li>
+</ol>
+<p>That should do it.</p>
+<h3>Option B: Use Command Prompt (for Stubborn Cases)</h3>
+<p>If for some reason the normal uninstall doesn’t work (or the app doesn’t show up), you can do it manually via Command Prompt.</p>
+<h4>For Windows 64-bit:</h4>
+<pre><code class="language-cmd">taskkill /f /im OneDrive.exe
+%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+</code></pre>
+<h4>For Windows 32-bit:</h4>
+<pre><code class="language-cmd">taskkill /f /im OneDrive.exe
+%SystemRoot%\System32\OneDriveSetup.exe /uninstall
+</code></pre>
+<p>Paste those into an <strong>elevated Command Prompt</strong> (run it as Administrator), and OneDrive will be gone.</p>
+<p>Now, does this <em>also</em> remove the File Explorer icon? Sometimes, yes. But sometimes... no. Windows is weird like that.</p>
+<p>If the icon lingers even after uninstalling, go back and use the <strong>Registry method</strong> from earlier. The combo usually does the trick.</p>
+<h2>Bonus: Prevent OneDrive from Reinstalling via Windows Updates</h2>
+<p>Here's a fun twist. Even if you uninstall OneDrive, a big Windows update <em>might</em> quietly reinstall it without asking. Not always—but it’s happened.</p>
+<p>There’s no bulletproof way to block this unless you're using Group Policy (available only in Pro or Enterprise editions). Still, here’s a preventative step:</p>
+<h3>Use Group Policy Editor (Windows Pro)</h3>
+<ol>
+<li>
+<p>Press <code>Windows + R</code>, type <code>gpedit.msc</code>, press Enter.</p>
+</li>
+<li>
+<p>Go to:<br><code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; OneDrive</code></p>
+</li>
+<li>
+<p>Double-click <strong>Prevent the usage of OneDrive for file storage</strong>.</p>
+</li>
+<li>
+<p>Set it to <strong>Enabled</strong>, click Apply, then OK.</p>
+</li>
+</ol>
+<p>This not only prevents usage—it usually blocks the app from being reinstalled automatically.</p>
+<p>Unfortunately, this method won’t work on Windows Home editions. There are workarounds (involving adding Group Policy manually), but they’re finicky, and honestly, if you’re using Home, the registry tweaks will usually suffice.</p>
+<h2>So... Should You Remove OneDrive?</h2>
+<p>Maybe. Maybe not.</p>
+<p>If you’re not using it, it’s reasonable to want it out of the way. It's not particularly lightweight, and its constant presence can feel a bit pushy—especially if you already use other services. That said, OneDrive <em>can</em> be useful. It integrates tightly with Windows, backs up your files, and plays nice with Office apps.</p>
+<p>Still, if it’s just the File Explorer shortcut bugging you? The registry method is your best bet. Low risk, reversible, and it doesn’t mess with anything else.</p>
+<p>If you want the whole thing gone? Go ahead and uninstall it—but keep an eye out after big Windows updates. Microsoft has a habit of bringing back the things you tried to ditch.</p>
+<h2>A Final Thought (or Two)</h2>
+<p>It’s strange that Microsoft doesn’t offer a simple “Hide OneDrive from File Explorer” toggle in settings. You’d think that’d be standard. Instead, we’re stuck editing registry keys and running command line scripts like it’s 1998.</p>
+<p>Still, there’s something oddly satisfying about reclaiming control over your own interface—even if it takes a few hoops.</p>
+<p>So whether you’re doing a little digital spring cleaning or just have an aversion to unnecessary icons, now you’ve got a few solid tools to deal with it. Take what you need, skip what you don’t. And hey, if you ever change your mind, OneDrive’s just a download away.</p>
+<p>Would you like a condensed checklist or PDF-style version of this guide?</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>What is the Median Salary of a Cybersecurity Engineer?</title>
         <author>
