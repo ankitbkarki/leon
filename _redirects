@@ -1,1 +1,3 @@
 /*    /404.html   404
+/blogs/*   /blogs/:splat    301
+
