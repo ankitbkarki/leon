@@ -5,6 +5,16 @@
         "md5": "2a6e5dd414e258f52a9a8d55719dae6f"
     },
     {
+        "path": "ai-personal-finance-planner-2025.html",
+        "type": "file",
+        "md5": "8cb9b0654dc4270f5f76443f59c0eeee"
+    },
+    {
+        "path": "apple-car-2024-specs-release-date-pricing-rumors.html",
+        "type": "file",
+        "md5": "2fe03f4336c6e103a583139c49a088e2"
+    },
+    {
         "path": "assets",
         "type": "directory",
         "md5": false
@@ -142,47 +152,57 @@
     {
         "path": "best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now.html",
         "type": "file",
-        "md5": "0f7d8b3e19f57a77ab5a238146232500"
+        "md5": "82993e5ecd16442464904efa0e2b6652"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "bf5bff6532e53ac0758966b1eac51d34"
+        "md5": "047ce2fcc1deeb5dcb7740c1b36cbdd8"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "020ac1ed1f92cc35ddaab31861037a4c"
+        "md5": "160161c63e0af0dcaeef82b23feae94d"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "785a86b8a0114e744461dbfd9951ce66"
+        "md5": "3d38b0fda56bfc0afd0b9ee33a82557b"
+    },
+    {
+        "path": "freelancer-health-insurance-2025.html",
+        "type": "file",
+        "md5": "fba87f93cd896619348433a3d58b9093"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "b9822e84cbf24b6b4d789b9317e1bd13"
+        "md5": "ea4a5ce0768247d9a9b4703d145801a8"
     },
     {
         "path": "how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011.html",
         "type": "file",
-        "md5": "7a48a73818d3bcb2017d20892f87675b"
+        "md5": "6559f5db22cd348015fd6ac8577f197f"
     },
     {
         "path": "how-to-use-chatgpt-deep-research-tool-free.html",
         "type": "file",
-        "md5": "28ba509488d7f670f123fbcb47c76e7d"
+        "md5": "7f0165eb635c89b9ac21ac201fe5b05d"
+    },
+    {
+        "path": "how-to-use-chatgpt-for-budgeting.html",
+        "type": "file",
+        "md5": "6ce191298d4e3d8f13583fc4b3c03428"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey.html",
         "type": "file",
-        "md5": "3abf1193e8a3ccb96142dd47eab5ed15"
+        "md5": "fb4437716d889585aa8338b13b15ad88"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "2cf3ee8f67735c7a44b041d5e5617467"
+        "md5": "2235880a633456edc81cbdda77c2325e"
     },
     {
         "path": "media",
@@ -213,6 +233,46 @@
         "path": "/media/posts/10/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free.webp",
         "type": "file",
         "md5": "420c9091ccc3869772cee16c656bf355"
+    },
+    {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/how-to-use-chatgpt-for-budgeting.webp",
+        "type": "file",
+        "md5": "ed7aee2e4d80f428a248d1072fdc4f4e"
+    },
+    {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/ai-personal-finance-planner-2025.webp",
+        "type": "file",
+        "md5": "62903364ad0661228329af48f893ab42"
+    },
+    {
+        "path": "media/posts/13",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/13/Freelancer-Health-Insurance-in-2025.webp",
+        "type": "file",
+        "md5": "522aa1ff3bea14973236fd68402d4249"
+    },
+    {
+        "path": "media/posts/14",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/14/apple-car-2024-specs-release-date-pricing-rumors.webp",
+        "type": "file",
+        "md5": "5d5f9b0b06b222044bc2891f4a90f295"
     },
     {
         "path": "media/posts/2",
@@ -307,7 +367,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "ef9f00b82781ab1323a442b6e05653b7"
+        "md5": "23bff3dacfa5e89d24a572922d629860"
     },
     {
         "path": "robots.txt",
@@ -317,7 +377,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "9b2f1fff5c8b7648441838961e57f4bb"
+        "md5": "b5ba14193155ca23ba04b67ad48604dd"
     },
     {
         "path": "sitemap.xsl",
@@ -367,7 +427,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "5afced5a9f5ffda178718d5d2b22daea"
+        "md5": "c61ddf3d69812ca8bf150bd984ef4364"
     },
     {
         "path": "tags/how-to",
@@ -382,7 +442,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "aa830b3b0e6d0d5af556e2846e890f6e"
+        "md5": "35f4c3d6247df2d3e471aefe11ea93ef"
     },
     {
         "path": "tags/job-search",
@@ -405,18 +465,28 @@
         "md5": "f68ca59089ee1dfe423c42efaacb3206"
     },
     {
+        "path": "tags/technology",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/technology/index.html",
+        "type": "file",
+        "md5": "ccafa28f2fc1286c8c271c20f373d5c2"
+    },
+    {
         "path": "top-cybersecurity-threats-in-2025.html",
         "type": "file",
-        "md5": "6d8ae521a2c29726bdbad647a69b27cc"
+        "md5": "1bb7174ba8515a9ded1babe9ad3fb3db"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "0feffaea06c4cf3f872c11b82b461aa9"
+        "md5": "035b1060cd95560fb7a5cd48a6753caf"
     },
     {
         "path": "what-is-the-median-salary-of-a-cybersecurity-engineer.html",
         "type": "file",
-        "md5": "64fdab7e5add49d49007e4d0374cbd71"
+        "md5": "059515c52d0a764e42e7e06ddd786e92"
     }
 ]
