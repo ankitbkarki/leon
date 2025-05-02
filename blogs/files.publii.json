@@ -142,42 +142,47 @@
     {
         "path": "best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now.html",
         "type": "file",
-        "md5": "341e5f285037a1dbd8854edd861752a0"
+        "md5": "0f7d8b3e19f57a77ab5a238146232500"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "b49081ae1904fcc579101d9901935faf"
+        "md5": "bf5bff6532e53ac0758966b1eac51d34"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "a6c5fb194072d14da9086a048aa2cba2"
+        "md5": "020ac1ed1f92cc35ddaab31861037a4c"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "480022f046228b73bd1ffcaa8d1c351e"
+        "md5": "785a86b8a0114e744461dbfd9951ce66"
+    },
+    {
+        "path": "google-cybersecurity-certification.html",
+        "type": "file",
+        "md5": "b9822e84cbf24b6b4d789b9317e1bd13"
     },
     {
         "path": "how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011.html",
         "type": "file",
-        "md5": "91e55654a3b308dc5041722f28f256d3"
+        "md5": "7a48a73818d3bcb2017d20892f87675b"
     },
     {
         "path": "how-to-use-chatgpt-deep-research-tool-free.html",
         "type": "file",
-        "md5": "8b298f0f59667fd03b99da9af4ff1a19"
+        "md5": "28ba509488d7f670f123fbcb47c76e7d"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey.html",
         "type": "file",
-        "md5": "a3c5dd4e45198c62c5c1390fd863a528"
+        "md5": "3abf1193e8a3ccb96142dd47eab5ed15"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "81b0638a2f2d4fa56942abcf81a7f1aa"
+        "md5": "2cf3ee8f67735c7a44b041d5e5617467"
     },
     {
         "path": "media",
@@ -188,6 +193,16 @@
         "path": "media/posts",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/google-cybersecurity.webp",
+        "type": "file",
+        "md5": "2417dac0d6705a1c7369a29a0ea27bec"
     },
     {
         "path": "media/posts/10",
@@ -292,7 +307,7 @@
     {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "0966dcd6585e15527189e329e9da7fe2"
+        "md5": "ef9f00b82781ab1323a442b6e05653b7"
     },
     {
         "path": "robots.txt",
@@ -302,7 +317,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a18e59838c559ec877b941389657fe44"
+        "md5": "9b2f1fff5c8b7648441838961e57f4bb"
     },
     {
         "path": "sitemap.xsl",
@@ -322,7 +337,17 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "5498c2979bb852a48dc6cb670414ed98"
+        "md5": "8a871627f173f5af03e46224c75464d4"
+    },
+    {
+        "path": "tags/cybersecurity-training",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/cybersecurity-training/index.html",
+        "type": "file",
+        "md5": "1051eae77b58027ee1e4ca005a477b3d"
     },
     {
         "path": "tags/f1-visa-cpt-opt",
@@ -332,7 +357,7 @@
     {
         "path": "/tags/f1-visa-cpt-opt/index.html",
         "type": "file",
-        "md5": "3ab1b31bf3bc73acdc2c974cc7c4fb3f"
+        "md5": "a50b13f4189dcd399bd0ffe43877e07c"
     },
     {
         "path": "tags/finance",
@@ -342,7 +367,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "41a0c3e6de44be03aa287182d924f47e"
+        "md5": "5afced5a9f5ffda178718d5d2b22daea"
     },
     {
         "path": "tags/how-to",
@@ -352,12 +377,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "52000f62580aea21a30ed4d7d449298d"
+        "md5": "c9fac5555e9d904d91a358becb4a1271"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "514da8641624e1d46a89d86e33e4fc62"
+        "md5": "aa830b3b0e6d0d5af556e2846e890f6e"
     },
     {
         "path": "tags/job-search",
@@ -367,7 +392,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "12c7c34fa28a0a5bdc60c753280fc99d"
+        "md5": "5c9ea29eccb770e74400ec4e6580aba7"
     },
     {
         "path": "tags/resume",
@@ -377,21 +402,21 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "127260efd1a8337f1c97658fdb78eb7d"
+        "md5": "f68ca59089ee1dfe423c42efaacb3206"
     },
     {
         "path": "top-cybersecurity-threats-in-2025.html",
         "type": "file",
-        "md5": "f4cbcaa79bf92588a32f9a65dd8de5a1"
+        "md5": "6d8ae521a2c29726bdbad647a69b27cc"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "9408fb390b4a285319015b40d04707f9"
+        "md5": "0feffaea06c4cf3f872c11b82b461aa9"
     },
     {
         "path": "what-is-the-median-salary-of-a-cybersecurity-engineer.html",
         "type": "file",
-        "md5": "eb77a8d3c37c73918a90f942a5855c7b"
+        "md5": "64fdab7e5add49d49007e4d0374cbd71"
     }
 ]
