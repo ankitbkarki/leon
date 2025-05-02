@@ -68,15 +68,19 @@
     }
     </script>
 </head>
-<body class="bg-gray-50">
+<body class="font-sans antialiased bg-[#1a1f2e] min-h-screen flex flex-col">
     <!-- Header Section -->
-    <header id="header" class="bg-white fixed w-full top-0 left-0 z-[60] shadow-sm">
-        <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
+    <header id="header" class="fixed w-full top-0 left-0 z-[60]">
+        <!-- Header Background with blur -->
+        <div class="absolute inset-0 bg-[#1a1f2e]/80 backdrop-blur-md"></div>
+        
+        <!-- Header Content -->
+        <div class="relative max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
             <div class="flex justify-between items-center py-4">
                 <!-- Logo -->
                 <div class="flex items-center -ml-2">
-                    <a href="/" class="text-[#0249ac] font-bold flex items-center">
-                        <div class="bg-white p-1 rounded-xl">
+                    <a href="/" class="text-white font-bold flex items-center">
+                        <div class="p-1 rounded-xl">
                             <img src="images/logo.png" alt="Leon Consulting" class="h-8">
                         </div>
                     </a>
@@ -84,38 +88,41 @@
                 
                 <!-- Navigation -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">HOME</a>
-                    <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">SERVICES</a>
-                    <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">ABOUT</a>
-                    <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">FAQ</a>
-                    <a href="/blogs" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">BLOGS</a>
-                    <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">CONTACT</a>
+                    <a href="/" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">HOME</a>
+                    <a href="/#services" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">SERVICES</a>
+                    <a href="/#about" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">ABOUT</a>
+                    <a href="/#faq" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">FAQ</a>
+                    <a href="/blogs" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">BLOGS</a>
+                    <a href="/#contact" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">CONTACT</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="pt-24 pb-12">
+    <main class="flex-grow pt-24 pb-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Page Header -->
             <div class="text-center mb-12">
-                <span class="text-sm bg-[#0249ac] text-white px-3 py-1 rounded-full font-medium tracking-wider">CALCULATOR</span>
-                <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-6">Paycheck Calculator 2025</h1>
-                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                <span class="inline-flex items-center text-xs bg-gradient-to-r from-blue-400 to-indigo-400 text-white px-4 py-1.5 rounded-full font-semibold tracking-wider shadow-lg backdrop-blur-sm border border-white/10">
+                    <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path></svg>
+                    CALCULATOR
+                </span>
+                <h1 class="text-3xl sm:text-4xl font-bold text-white mt-6">Paycheck Calculator 2025</h1>
+                <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
                     Calculate your take-home pay after federal, state, and local taxes. Enter your details below to get started.
                 </p>
             </div>
 
             <!-- SEO Content Section -->
-            <div class="prose max-w-none mb-12">
-                <h2 class="text-2xl font-bold text-gray-900 mb-4">How to Use Our Paycheck Calculator</h2>
-                <p class="text-gray-600 mb-4">
+            <div class="prose prose-invert max-w-none mb-12">
+                <h2 class="text-2xl font-bold text-white mb-4">How to Use Our Paycheck Calculator</h2>
+                <p class="text-gray-300 mb-4">
                     Our free paycheck calculator helps you estimate your take-home pay after all deductions. Simply enter your gross pay, filing status, and state to get an accurate calculation of your net pay.
                 </p>
                 
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">What's Included in the Calculation?</h3>
-                <ul class="list-disc pl-6 text-gray-600 mb-4">
+                <h3 class="text-xl font-semibold text-white mb-3">What's Included in the Calculation?</h3>
+                <ul class="list-disc pl-6 text-gray-300 mb-4">
                     <li>Federal income tax</li>
                     <li>State income tax (varies by state)</li>
                     <li>Social Security tax (6.2%)</li>
@@ -124,16 +131,16 @@
                     <li>Health insurance premiums</li>
                 </ul>
 
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Understanding Your Paycheck</h3>
-                <p class="text-gray-600 mb-4">
+                <h3 class="text-xl font-semibold text-white mb-3">Understanding Your Paycheck</h3>
+                <p class="text-gray-300 mb-4">
                     Your paycheck consists of your gross pay minus various deductions. The main deductions include federal and state taxes, Social Security, Medicare, and any voluntary deductions like retirement contributions or health insurance premiums.
                 </p>
 
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Tax Filing Status</h3>
-                <p class="text-gray-600 mb-4">
+                <h3 class="text-xl font-semibold text-white mb-3">Tax Filing Status</h3>
+                <p class="text-gray-300 mb-4">
                     Your filing status affects your tax rate. Choose the status that best matches your situation:
                 </p>
-                <ul class="list-disc pl-6 text-gray-600 mb-4">
+                <ul class="list-disc pl-6 text-gray-300 mb-4">
                     <li>Single: For unmarried individuals</li>
                     <li>Married Filing Jointly: For married couples filing together</li>
                     <li>Head of Household: For unmarried individuals supporting dependents</li>
@@ -141,13 +148,13 @@
             </div>
 
             <!-- Calculator Form -->
-            <div class="bg-white rounded-2xl shadow-lg p-6 sm:p-8 mb-12">
+            <div class="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8 mb-12 border border-gray-700/50">
                 <form id="paycheck-calculator" class="space-y-6">
                     <!-- Basic Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Pay Frequency</label>
-                            <select id="pay-frequency" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent">
+                            <label class="block text-sm font-medium text-white mb-2">Pay Frequency</label>
+                            <select id="pay-frequency" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                                 <option value="weekly">Weekly</option>
                                 <option value="biweekly">Bi-Weekly</option>
                                 <option value="semimonthly">Semi-Monthly</option>
@@ -155,10 +162,10 @@
                             </select>
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Gross Pay</label>
+                            <label class="block text-sm font-medium text-white mb-2">Gross Pay</label>
                             <div class="relative">
-                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500">$</span>
-                                <input type="number" id="gross-pay" class="w-full pl-8 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent" placeholder="0.00">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">$</span>
+                                <input type="number" id="gross-pay" class="w-full pl-8 pr-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="0.00">
                             </div>
                         </div>
                     </div>
@@ -166,16 +173,16 @@
                     <!-- Tax Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Federal Tax Filing Status</label>
-                            <select id="filing-status" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent">
+                            <label class="block text-sm font-medium text-white mb-2">Federal Tax Filing Status</label>
+                            <select id="filing-status" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                                 <option value="single">Single</option>
                                 <option value="married">Married Filing Jointly</option>
                                 <option value="head">Head of Household</option>
                             </select>
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-2">State</label>
-                            <select id="state" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent">
+                            <label class="block text-sm font-medium text-white mb-2">State</label>
+                            <select id="state" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -232,17 +239,17 @@
 
                     <!-- Additional Deductions -->
                     <div class="space-y-4">
-                        <h3 class="text-lg font-semibold text-gray-900">Additional Deductions</h3>
+                        <h3 class="text-lg font-semibold text-white">Additional Deductions</h3>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">401(k) Contribution (%)</label>
-                                <input type="number" id="retirement" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent" placeholder="0">
+                                <label class="block text-sm font-medium text-white mb-2">401(k) Contribution (%)</label>
+                                <input type="number" id="retirement" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="0">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">Health Insurance Premium</label>
+                                <label class="block text-sm font-medium text-white mb-2">Health Insurance Premium</label>
                                 <div class="relative">
-                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-500">$</span>
-                                    <input type="number" id="health-insurance" class="w-full pl-8 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#0249ac] focus:border-transparent" placeholder="0.00">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">$</span>
+                                    <input type="number" id="health-insurance" class="w-full pl-8 pr-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="0.00">
                                 </div>
                             </div>
                         </div>
@@ -250,7 +257,7 @@
 
                     <!-- Calculate Button -->
                     <div class="flex justify-center">
-                        <button type="submit" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-medium hover:bg-[#023a8c] transition-colors duration-300">
+                        <button type="submit" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-3 rounded-lg text-base font-semibold hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-0.5">
                             Calculate Take-Home Pay
                         </button>
                     </div>
@@ -258,77 +265,77 @@
             </div>
 
             <!-- Results Section -->
-            <div id="results" class="bg-white rounded-2xl shadow-lg p-6 sm:p-8 hidden">
-                <h2 class="text-2xl font-bold text-gray-900 mb-6">Your Paycheck Breakdown</h2>
+            <div id="results" class="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8 hidden border border-gray-700/50">
+                <h2 class="text-2xl font-bold text-white mb-6">Your Paycheck Breakdown</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <!-- Gross Pay -->
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Gross Pay</h3>
-                        <div class="text-3xl font-bold text-[#0249ac]" id="gross-pay-result">$0.00</div>
+                    <div class="bg-gray-900/50 rounded-xl p-6 border border-gray-600/50">
+                        <h3 class="text-lg font-semibold text-white mb-4">Gross Pay</h3>
+                        <div class="text-3xl font-bold text-blue-400" id="gross-pay-result">$0.00</div>
                     </div>
 
                     <!-- Net Pay -->
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Net Pay</h3>
-                        <div class="text-3xl font-bold text-[#0249ac]" id="net-pay-result">$0.00</div>
+                    <div class="bg-gray-900/50 rounded-xl p-6 border border-gray-600/50">
+                        <h3 class="text-lg font-semibold text-white mb-4">Net Pay</h3>
+                        <div class="text-3xl font-bold text-blue-400" id="net-pay-result">$0.00</div>
                     </div>
                 </div>
 
                 <!-- Deductions Breakdown -->
                 <div class="mt-8">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Deductions</h3>
+                    <h3 class="text-lg font-semibold text-white mb-4">Deductions</h3>
                     <div class="space-y-4">
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">Federal Tax</span>
-                            <span class="font-medium" id="federal-tax">$0.00</span>
+                            <span class="text-gray-300">Federal Tax</span>
+                            <span class="font-medium text-gray-300" id="federal-tax">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">State Tax</span>
-                            <span class="font-medium" id="state-tax">$0.00</span>
+                            <span class="text-gray-300">State Tax</span>
+                            <span class="font-medium text-gray-300" id="state-tax">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">Social Security</span>
-                            <span class="font-medium" id="social-security">$0.00</span>
+                            <span class="text-gray-300">Social Security</span>
+                            <span class="font-medium text-gray-300" id="social-security">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">Medicare</span>
-                            <span class="font-medium" id="medicare">$0.00</span>
+                            <span class="text-gray-300">Medicare</span>
+                            <span class="font-medium text-gray-300" id="medicare">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">401(k)</span>
-                            <span class="font-medium" id="retirement-deduction">$0.00</span>
+                            <span class="text-gray-300">401(k)</span>
+                            <span class="font-medium text-gray-300" id="retirement-deduction">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-600">Health Insurance</span>
-                            <span class="font-medium" id="health-insurance-deduction">$0.00</span>
+                            <span class="text-gray-300">Health Insurance</span>
+                            <span class="font-medium text-gray-300" id="health-insurance-deduction">$0.00</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- FAQ Section -->
-            <div class="mt-12 prose max-w-none">
-                <h2 class="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+            <div class="mt-12 prose prose-invert max-w-none">
+                <h2 class="text-2xl font-bold text-white mb-6">Frequently Asked Questions</h2>
                 
                 <div class="space-y-6">
                     <div>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">How accurate is this paycheck calculator?</h3>
-                        <p class="text-gray-600">
+                        <h3 class="text-xl font-semibold text-white mb-2">How accurate is this paycheck calculator?</h3>
+                        <p class="text-gray-300">
                             Our calculator uses the latest 2025 tax brackets and rates. While it provides a good estimate, actual take-home pay may vary based on specific circumstances and additional deductions.
                         </p>
                     </div>
                     
                     <div>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">What's the difference between gross pay and net pay?</h3>
-                        <p class="text-gray-600">
+                        <h3 class="text-xl font-semibold text-white mb-2">What's the difference between gross pay and net pay?</h3>
+                        <p class="text-gray-300">
                             Gross pay is your total salary before any deductions. Net pay is what you actually take home after all taxes and deductions are subtracted.
                         </p>
                     </div>
                     
                     <div>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-2">How often should I update my tax information?</h3>
-                        <p class="text-gray-600">
+                        <h3 class="text-xl font-semibold text-white mb-2">How often should I update my tax information?</h3>
+                        <p class="text-gray-300">
                             It's recommended to review your tax information annually or whenever you experience significant life changes like marriage, having children, or changing jobs.
                         </p>
                     </div>
@@ -338,49 +345,15 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-black pt-20 pb-10">
+    <footer class="bg-[#1a1f2e] py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <!-- Company Info -->
-                <div class="col-span-1 md:col-span-2 text-center md:text-left">
-                    <div class="flex items-center justify-center md:justify-start mb-6">
-                        <h1 class="text-2xl font-bold text-white">Leon Consulting Corporation</h1>
-                    </div>
-                    <p class="text-base text-gray-300 mb-8 max-w-md mx-auto md:mx-0">
-                        Specializing in Recruitment and Software Development, we help businesses find top talent and build innovative solutions.
-                    </p>
-                </div>
-
-                <!-- Quick Links -->
-                <div class="text-center md:text-left">
-                    <h3 class="text-base font-semibold text-white mb-6">Quick Links</h3>
-                    <ul class="space-y-4">
-                        <li><a href="/" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Home</a></li>
-                        <li><a href="/#about" class="text-base text-gray-300 hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="/#services" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Services</a></li>
-                        <li><a href="/#contact" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Services -->
-                <div class="text-center md:text-left">
-                    <h3 class="text-base font-semibold text-white mb-6">Services</h3>
-                    <ul class="space-y-4">
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">IT Solutions</a></li>
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Web Development</a></li>
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Cybersecurity</a></li>
-                        <li><a href="#" class="text-base text-gray-300 hover:text-white transition-colors duration-300">Cloud Services</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Bottom Bar -->
-            <div class="pt-8 border-t border-white/10">
+            <div class="pt-8 border-t border-gray-700/50">
                 <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-                    <p class="text-base text-gray-300 text-sm mb-4 md:mb-0">© 2025 Leon Consulting. All rights reserved.</p>
+                    <p class="text-xs md:text-sm text-gray-300 text-sm mb-4 md:mb-0">© 2025 Leon Consulting. All rights reserved.</p>
                     <div class="flex flex-wrap justify-center gap-6">
-                        <a href="/privacy-policy.html" class="text-gray-300 hover:text-white text-base">Privacy Policy</a>
-                        <a href="/terms-of-service.html" class="text-gray-300 hover:text-white text-base">Terms of Service</a>
+                        <a href="/privacy-policy.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Privacy Policy</a>
+                        <a href="/terms-of-service.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Terms of Service</a>
+                        <a href="/cookie-policy.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Cookie Policy</a>
                     </div>
                 </div>
             </div>

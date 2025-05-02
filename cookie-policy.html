@@ -69,60 +69,62 @@
         }
     </script>
 </head>
-<body>
+<body class="font-sans antialiased bg-[#1a1f2e] min-h-screen flex flex-col">
     <!-- Header Section -->
-    <header id="header" class="bg-white fixed w-full top-0 left-0 z-50 shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header id="header" class="fixed w-full top-0 left-0 z-[60]">
+        <!-- Header Background with blur -->
+        <div class="absolute inset-0 bg-[#1a1f2e]/80 backdrop-blur-md"></div>
+        
+        <!-- Header Content -->
+        <div class="relative max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
             <div class="flex justify-between items-center py-4">
                 <!-- Logo -->
-                <div class="flex items-center">
-                    <a href="/" class="text-[#0249ac] font-bold flex items-center">
-                        <img src="images/logo.png" alt="HoffAn" class="h-8">
+                <div class="flex items-center -ml-2">
+                    <a href="/" class="text-white font-bold flex items-center">
+                        <div class="p-1 rounded-xl">
+                            <img src="images/logo.png" alt="Leon Consulting" class="h-8">
+                        </div>
                     </a>
                 </div>
                 
                 <!-- Navigation -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">HOME</a>
-                    <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">SERVICES</a>
-                    <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">ABOUT</a>
-                    <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">FAQ</a>
-                    <a href="/blogs/index.html" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">BLOGS</a
-                    <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide">CONTACT</a>
+                    <a href="/" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">HOME</a>
+                    <a href="/#services" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">SERVICES</a>
+                    <a href="/#about" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">ABOUT</a>
+                    <a href="/#faq" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">FAQ</a>
+                    <a href="/blogs" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">BLOGS</a>
+                    <a href="/#contact" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide transition-colors duration-300">CONTACT</a>
                 </nav>
 
                 <!-- Get Started Button -->
-                <a href="/#contact" class="hidden md:block bg-[#0249ac] text-white px-6 py-2 rounded-lg text-base font-medium hover:bg-[#023a8c] transition-colors">
+                <a href="/#contact" class="hidden md:block bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-3 rounded-lg text-base font-semibold hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-0.5">
                     Get Started
                 </a>
 
                 <!-- Mobile Menu Button -->
-                <button id="menu-btn" class="md:hidden text-[#0249ac]">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-white p-2 rounded-lg">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-white z-40">
-        <div class="p-4">
-            <div class="flex justify-end">
-                <button id="close-menu" class="text-gray-600 p-2">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
-            </div>
-            <nav class="mt-6 flex flex-col space-y-3 items-center">
-                <a href="/" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">HOME</a>
-                <a href="/#services" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">SERVICES</a>
-                <a href="/#about" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">ABOUT</a>
-                <a href="/#faq" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">FAQ</a>
-                <a href="/#contact" class="text-gray-700 hover:text-[#0249ac] text-base font-semibold tracking-wide w-full text-center py-2">CONTACT</a>
-                <a href="/#contact" class="bg-[#0249ac] text-white px-8 py-3 rounded-lg text-base font-semibold hover:bg-[#023a8c] transition-colors text-center mt-2 w-full">
+    <div id="mobile-menu" class="fixed inset-0 bg-gradient-to-br from-[#1a1f2e] via-[#1a1f2e] to-[#1a1f2e] z-50 hidden opacity-0 transition-opacity duration-300 ease-in-out backdrop-blur-sm">
+        <div class="absolute inset-0 p-4 flex flex-col pt-24">
+            <nav class="mt-6 flex flex-col space-y-4 items-center">
+                <a href="/" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">HOME</a>
+                <a href="/#services" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">SERVICES</a>
+                <a href="/#about" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">ABOUT</a>
+                <a href="/#faq" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">FAQ</a>
+                <a href="/blogs" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">BLOGS</a>
+                <a href="/#contact" class="text-gray-300 hover:text-white text-base font-semibold tracking-wide w-full text-center py-3 bg-[#1a1f2e]/50 backdrop-blur-sm rounded-lg border border-gray-700/50 transition-all duration-300 hover:bg-gray-700/50">CONTACT</a>
+                <a href="/#contact" class="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-3 rounded-lg text-base font-semibold hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-0.5 text-center mt-4">
                     Get Started
                 </a>
             </nav>
@@ -130,25 +132,25 @@
     </div>
 
     <!-- Main Content -->
-    <main class="pt-24 pb-16">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-2xl md:text-4xl font-bold text-gray-900 mb-8">Cookie Policy</h1>
-            <div class="prose prose-lg max-w-none">
-                <p class="text-sm md:text-base text-gray-600 mb-6">Last updated: March 20, 2024</p>
+    <main class="flex-grow pt-24 pb-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold text-white mb-8">Cookie Policy</h1>
+            <div class="prose prose-lg max-w-none prose-invert">
+                <p class="text-sm md:text-base text-gray-400 mb-6">Last updated: March 20, 2024</p>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">1. What Are Cookies</h2>
-                    <p class="text-sm md:text-base text-gray-600">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">1. What Are Cookies</h2>
+                    <p class="text-sm md:text-base text-gray-300">
                         Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better experience by enabling us to monitor which pages you find useful and which you do not.
                     </p>
                 </section>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">2. How We Use Cookies</h2>
-                    <p class="text-sm md:text-base text-gray-600 mb-4">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">2. How We Use Cookies</h2>
+                    <p class="text-sm md:text-base text-gray-300 mb-4">
                         We use cookies for the following purposes:
                     </p>
-                    <ul class="list-disc pl-6 text-sm md:text-base text-gray-600 mb-4">
+                    <ul class="list-disc pl-6 text-sm md:text-base text-gray-300 mb-4">
                         <li>Essential cookies: Required for the website to function properly</li>
                         <li>Analytics cookies: Help us understand how visitors interact with our website</li>
                         <li>Functionality cookies: Remember your preferences and settings</li>
@@ -157,44 +159,44 @@
                 </section>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">3. Types of Cookies We Use</h2>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">3.1 Essential Cookies</h3>
-                    <p class="text-sm md:text-base text-gray-600 mb-4">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">3. Types of Cookies We Use</h2>
+                    <h3 class="text-lg md:text-xl font-semibold text-white mb-2">3.1 Essential Cookies</h3>
+                    <p class="text-sm md:text-base text-gray-300 mb-4">
                         These cookies are necessary for the website to function properly. They enable core functionality such as security, network management, and accessibility.
                     </p>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">3.2 Analytics Cookies</h3>
-                    <p class="text-sm md:text-base text-gray-600 mb-4">
+                    <h3 class="text-lg md:text-xl font-semibold text-white mb-2">3.2 Analytics Cookies</h3>
+                    <p class="text-sm md:text-base text-gray-300 mb-4">
                         We use analytics cookies to help us understand how visitors interact with our website. This information helps us improve our website and provide better service.
                     </p>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">3.3 Functionality Cookies</h3>
-                    <p class="text-sm md:text-base text-gray-600 mb-4">
+                    <h3 class="text-lg md:text-xl font-semibold text-white mb-2">3.3 Functionality Cookies</h3>
+                    <p class="text-sm md:text-base text-gray-300 mb-4">
                         These cookies enable enhanced functionality and personalization. They may be set by us or by third-party providers whose services we have added to our pages.
                     </p>
 
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-900 mb-2">3.4 Marketing Cookies</h3>
-                    <p class="text-sm md:text-base text-gray-600">
+                    <h3 class="text-lg md:text-xl font-semibold text-white mb-2">3.4 Marketing Cookies</h3>
+                    <p class="text-sm md:text-base text-gray-300">
                         These cookies track your online activity to help advertisers deliver more relevant advertising or to limit how many times you see an ad.
                     </p>
                 </section>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">4. Managing Cookies</h2>
-                    <p class="text-sm md:text-base text-gray-600 mb-4">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">4. Managing Cookies</h2>
+                    <p class="text-sm md:text-base text-gray-300 mb-4">
                         You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed.
                     </p>
-                    <p class="text-sm md:text-base text-gray-600">
+                    <p class="text-sm md:text-base text-gray-300">
                         To manage your cookie preferences, you can use our cookie consent banner or adjust your browser settings.
                     </p>
                 </section>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">5. Third-Party Cookies</h2>
-                    <p class="text-sm md:text-base text-gray-600">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">5. Third-Party Cookies</h2>
+                    <p class="text-sm md:text-base text-gray-300">
                         We use services from third parties that may also set cookies on your device. These include:
                     </p>
-                    <ul class="list-disc pl-6 text-sm md:text-base text-gray-600 mt-4">
+                    <ul class="list-disc pl-6 text-sm md:text-base text-gray-300 mt-4">
                         <li>Google Analytics</li>
                         <li>Social media platforms</li>
                         <li>Advertising networks</li>
@@ -202,11 +204,11 @@
                 </section>
 
                 <section class="mb-8">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">6. Contact Us</h2>
-                    <p class="text-sm md:text-base text-gray-600">
+                    <h2 class="text-xl md:text-2xl font-bold text-white mb-4">6. Contact Us</h2>
+                    <p class="text-sm md:text-base text-gray-300">
                         If you have any questions about our use of cookies, please contact us at:
                     </p>
-                    <p class="text-sm md:text-base text-gray-600 mt-2">
+                    <p class="text-sm md:text-base text-gray-300 mt-2">
                         Email: info@leonstaff.com
                     </p>
                 </section>
@@ -215,56 +217,22 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-black pt-20 pb-10">
+    <footer class="bg-[#1a1f2e] py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <!-- Company Info -->
-                <div class="col-span-1 md:col-span-2">
-                    <div class="flex items-center mb-6">
-                        <h1 class="text-2xl font-bold text-white">Leon Consulting Corporation</h1>
-                    </div>
-                    <p class="text-base text-gray-300 mb-8 max-w-md">
-                        Specializing in Recruitment and Software Development, we help businesses find top talent and build innovative, custom software solutions that drive growth and success.
-                    </p>
-                </div>
-
-                <!-- Quick Links -->
-                <div>
-                    <h3 class="text-white font-semibold mb-6">Quick Links</h3>
-                    <ul class="space-y-4">
-                        <li><a href="/" class="text-gray-300 hover:text-white transition-colors duration-300">Home</a></li>
-                        <li><a href="/#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="/#services" class="text-gray-300 hover:text-white transition-colors duration-300">Services</a></li>
-                        <li><a href="/#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Services -->
-                <div>
-                    <h3 class="text-white font-semibold mb-6">Services</h3>
-                    <ul class="space-y-4">
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">IT Solutions</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Web Development</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Cybersecurity</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300">Cloud Services</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Bottom Bar -->
-            <div class="pt-8 border-t border-white/10">
-                <div class="flex flex-col md:flex-row justify-between items-center">
-                    <p class="text-gray-300 text-sm">© 2025 Leon Consulting. All rights reserved.</p>
-                    <div class="flex space-x-6 mt-4 md:mt-0">
-                        <a href="/privacy-policy.html" class="text-gray-300 hover:text-white text-base">Privacy Policy</a>
-                        <a href="/terms-of-service.html" class="text-gray-300 hover:text-white text-base">Terms of Service</a>
-                        <a href="/cookie-policy.html" class="text-gray-300 hover:text-white text-base">Cookie Policy</a>
+            <div class="pt-8 border-t border-gray-700/50">
+                <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                    <p class="text-xs md:text-sm text-gray-300 text-sm mb-4 md:mb-0">© 2025 Leon Consulting. All rights reserved.</p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <a href="/privacy-policy.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Privacy Policy</a>
+                        <a href="/terms-of-service.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Terms of Service</a>
+                        <a href="/cookie-policy.html" class="text-xs md:text-sm text-gray-300 hover:text-white">Cookie Policy</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Load all scripts -->
     <script src="scripts.js" defer></script>
 </body>
 </html> 
