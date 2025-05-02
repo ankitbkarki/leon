@@ -1,5 +1,2 @@
-# Serve clean URLs (like /blogs/some-article) by rewriting to the actual .html files
-/blogs/:slug   /blogs/:slug.html   200
-
-# Catch all 404s
+/blogs/:slug    /blogs/:slug.html    200
 /*            /404.html            404
