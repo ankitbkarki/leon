@@ -7,12 +7,22 @@
     {
         "path": "ai-personal-finance-planner-2025.html",
         "type": "file",
-        "md5": "8cb9b0654dc4270f5f76443f59c0eeee"
+        "md5": "4d74f82098c45508f0d8354a9da8dfb5"
     },
     {
-        "path": "apple-car-2024-specs-release-date-pricing-rumors.html",
+        "path": "ambient-computing-examples-youre-already-using.html",
         "type": "file",
-        "md5": "2fe03f4336c6e103a583139c49a088e2"
+        "md5": "456afe7b8754241018ed846162bb1e1f"
+    },
+    {
+        "path": "apple-car-2025-specs-release-date-pricing-rumors.html",
+        "type": "file",
+        "md5": "421bd9395904d20d753cdafe3726e860"
+    },
+    {
+        "path": "ar-remote-collaboration-2025.html",
+        "type": "file",
+        "md5": "b05ac7890c4049a51cceb5c47a6e97b3"
     },
     {
         "path": "assets",
@@ -147,62 +157,92 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "ce225abafaf99e9d7839c36e88a0d498"
+        "md5": "4e920d7398be41469252abfcc43202b9"
+    },
+    {
+        "path": "authors/leon-staff-team/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/leon-staff-team/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/leon-staff-team/page/2/index.html",
+        "type": "file",
+        "md5": "54fa365afeba54848e4ec7be66a71c9a"
     },
     {
         "path": "best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now.html",
         "type": "file",
-        "md5": "82993e5ecd16442464904efa0e2b6652"
+        "md5": "850330bd556e129070e15675c6188a9a"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major.html",
         "type": "file",
-        "md5": "047ce2fcc1deeb5dcb7740c1b36cbdd8"
+        "md5": "e55a914283676a7727a4ae0088d2481b"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "160161c63e0af0dcaeef82b23feae94d"
+        "md5": "c9ac4163cfe9f503db2158cdc904a9d6"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "3d38b0fda56bfc0afd0b9ee33a82557b"
+        "md5": "480cf6dee2886fb2041549cf51f314d8"
     },
     {
         "path": "freelancer-health-insurance-2025.html",
         "type": "file",
-        "md5": "fba87f93cd896619348433a3d58b9093"
+        "md5": "19eafb9ae77d7d3eada5156e102236ba"
     },
     {
         "path": "google-cybersecurity-certification.html",
         "type": "file",
-        "md5": "ea4a5ce0768247d9a9b4703d145801a8"
+        "md5": "f8b7c2e72acec7e8b348995236a93e67"
+    },
+    {
+        "path": "how-ai-detects-phishing.html",
+        "type": "file",
+        "md5": "4278e54ff621ad219fd83c66a33b0b51"
     },
     {
         "path": "how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011.html",
         "type": "file",
-        "md5": "6559f5db22cd348015fd6ac8577f197f"
+        "md5": "62a955d320b6012d942cfcaa1b9bd563"
     },
     {
         "path": "how-to-use-chatgpt-deep-research-tool-free.html",
         "type": "file",
-        "md5": "7f0165eb635c89b9ac21ac201fe5b05d"
+        "md5": "c7959aae5f87648aab0855f2902ac56a"
     },
     {
         "path": "how-to-use-chatgpt-for-budgeting.html",
         "type": "file",
-        "md5": "6ce191298d4e3d8f13583fc4b3c03428"
+        "md5": "25fd6f0b78ac4f9e86a88e7b8817ace0"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey.html",
         "type": "file",
-        "md5": "fb4437716d889585aa8338b13b15ad88"
+        "md5": "f57fb83bddc1ec6af77a544fb6e6fa35"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "2235880a633456edc81cbdda77c2325e"
+        "md5": "4b614bf531d7e373558cf53ae0921fef"
+    },
+    {
+        "path": "invisible-tech-in-daily-life.html",
+        "type": "file",
+        "md5": "5b54d716ba8eb1dc281856c641b6669d"
+    },
+    {
+        "path": "machine-learning-in-threat-detection-cybersecurity.html",
+        "type": "file",
+        "md5": "0796a6250f7aa3e11407631101ab7e4c"
     },
     {
         "path": "media",
@@ -275,6 +315,56 @@
         "md5": "5d5f9b0b06b222044bc2891f4a90f295"
     },
     {
+        "path": "media/posts/15",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/15/ambient-computing-examples-youre-already-using.png",
+        "type": "file",
+        "md5": "b9fe877d0ef80b94ba3473bb660513fe"
+    },
+    {
+        "path": "media/posts/16",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/16/invisible-tech-in-daily-life.png",
+        "type": "file",
+        "md5": "167e59f35bedf20de7f7a4b7df4c15da"
+    },
+    {
+        "path": "media/posts/17",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/17/how-ai-detects-phishing.png",
+        "type": "file",
+        "md5": "084180bd5e4ba4283d6449f22581c639"
+    },
+    {
+        "path": "media/posts/18",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/18/machine-learning-in-threat-detection-cybersecurity.png",
+        "type": "file",
+        "md5": "1fb41eae537ffd54eb768befb0fc4e31"
+    },
+    {
+        "path": "media/posts/19",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/19/ar-remote-collaboration-2025.png",
+        "type": "file",
+        "md5": "a023ece7e59b9d0d623ccef9f29c8f90"
+    },
+    {
         "path": "media/posts/2",
         "type": "directory",
         "md5": false
@@ -283,6 +373,16 @@
         "path": "/media/posts/2/resumetips.webp",
         "type": "file",
         "md5": "bc5ce876e8615b1daf8f85b25f30a0ea"
+    },
+    {
+        "path": "media/posts/20",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/20/vr-meeting-tools-2025.png",
+        "type": "file",
+        "md5": "69ba45fd373047ba9116d2abdbee97c2"
     },
     {
         "path": "media/posts/3",
@@ -365,9 +465,24 @@
         "md5": "fc6130439f02b78144f38c272df7fea8"
     },
     {
+        "path": "page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/page/2/index.html",
+        "type": "file",
+        "md5": "03ef8fd8b8665e811922f769d8f405dc"
+    },
+    {
         "path": "resume-questions-answered.html",
         "type": "file",
-        "md5": "23bff3dacfa5e89d24a572922d629860"
+        "md5": "430b820123cfb672d3bd6a4c7de031dc"
     },
     {
         "path": "robots.txt",
@@ -377,7 +492,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "b5ba14193155ca23ba04b67ad48604dd"
+        "md5": "f4ad65edefb65ac3fd3e269339fc0866"
     },
     {
         "path": "sitemap.xsl",
@@ -397,7 +512,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "8a871627f173f5af03e46224c75464d4"
+        "md5": "0b62357ef28b37d40ecb0729111d1feb"
     },
     {
         "path": "tags/cybersecurity-training",
@@ -442,7 +557,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "35f4c3d6247df2d3e471aefe11ea93ef"
+        "md5": "940073c5f5f328060a13093ef77b2bb4"
     },
     {
         "path": "tags/job-search",
@@ -472,21 +587,26 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "ccafa28f2fc1286c8c271c20f373d5c2"
+        "md5": "a704ef913a0152b17383d5e6af2ef1a1"
     },
     {
         "path": "top-cybersecurity-threats-in-2025.html",
         "type": "file",
-        "md5": "1bb7174ba8515a9ded1babe9ad3fb3db"
+        "md5": "0a0184477c4d859d8c11afc6286cefc8"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition.html",
         "type": "file",
-        "md5": "035b1060cd95560fb7a5cd48a6753caf"
+        "md5": "45afa060040f3199d0e4d21df48bc559"
+    },
+    {
+        "path": "vr-meeting-tools-2025.html",
+        "type": "file",
+        "md5": "517c650facb4a55b80225768f374ad3e"
     },
     {
         "path": "what-is-the-median-salary-of-a-cybersecurity-engineer.html",
         "type": "file",
-        "md5": "059515c52d0a764e42e7e06ddd786e92"
+        "md5": "c6fc95f61ff318aa72fabc2e5586c69b"
     }
 ]
