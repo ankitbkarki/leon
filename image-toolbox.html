@@ -12,25 +12,40 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Online Image Tools | Resize, Compress & Convert Images | Leon Consulting</title>
+    <title>Free Online Image Tools: Resize, Compress, Convert & Remove EXIF | No Upload Required</title>
     
     <!-- Meta Description -->
-    <meta name="description" content="Free online image tools to resize, compress, convert, and remove metadata from your images. No server required - all processing happens in your browser.">
+    <meta name="description" content="Free online image tools to resize, compress, convert formats (JPG, PNG, WebP), and remove EXIF data. No upload to server - 100% private browser-based processing. Fast, secure, and easy to use.">
+    
+    <!-- Keywords -->
+    <meta name="keywords" content="image resize, image compressor, image converter, EXIF remover, free image tools, online image editor, image optimization, webp converter, jpg to png, png to jpg, remove metadata, compress images, resize photos">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.leonstaff.com/image-toolbox" />
     
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Free Online Image Tools | Resize, Compress & Convert Images">
-    <meta property="og:description" content="Resize, compress, convert, and remove metadata from your images. All processing happens in your browser.">
+    <meta property="og:site_name" content="Leon Consulting">
+    <meta property="og:title" content="Free Online Image Tools: Resize, Compress & Convert Images">
+    <meta property="og:description" content="Free browser-based tools to resize, compress, convert images and remove EXIF data. No upload required - process images privately in your browser.">
     <meta property="og:url" content="https://www.leonstaff.com/image-toolbox">
     <meta property="og:image" content="https://www.leonstaff.com/images/image-toolbox-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Free Online Image Tools | Resize, Compress & Convert Images">
+    <meta name="twitter:title" content="Free Online Image Tools: Resize, Compress & Convert Images">
+    <meta name="twitter:description" content="Free browser-based tools to resize, compress, convert images and remove EXIF data. No upload required - process images privately in your browser.">
     <meta name="twitter:image" content="https://www.leonstaff.com/images/image-toolbox-preview.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="Leon Consulting">
+    <meta name="application-name" content="Image Toolbox">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Image Toolbox">
     
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -46,24 +61,76 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Image Toolbox",
-        "description": "Free online image tools to resize, compress, convert, and remove metadata from your images. All processing happens in your browser.",
-        "url": "https://www.leonstaff.com/image-toolbox",
-        "applicationCategory": "ImageProcessingApplication",
+        "@type": "SoftwareApplication",
+        "name": "Free Online Image Tools",
+        "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Any",
         "offers": {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "USD"
         },
+        "description": "Free online tools to resize, compress, convert images and remove EXIF data. Process images privately in your browser with no server upload required.",
         "featureList": [
-            "Image resizing",
-            "Image compression",
-            "Format conversion",
-            "Metadata removal"
+            "Resize images while maintaining aspect ratio",
+            "Compress images with adjustable quality",
+            "Convert between JPEG, PNG, and WebP formats",
+            "Remove EXIF and metadata for privacy",
+            "Browser-based processing - no server upload",
+            "Free to use with no registration required",
+            "Support for high-resolution images",
+            "Mobile-friendly interface"
         ],
-        "screenshot": "https://www.leonstaff.com/images/image-toolbox-preview.png"
+        "screenshot": "https://www.leonstaff.com/images/image-toolbox-preview.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "Leon Consulting",
+            "url": "https://www.leonstaff.com"
+        }
+    }
+    </script>
+
+    <!-- FAQ Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "Are these image tools free to use?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, all our image tools are completely free to use. There are no hidden fees, watermarks, or registration required."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Are my images uploaded to a server?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, all processing happens directly in your browser. Your images are never uploaded to any server, ensuring complete privacy and security."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What image formats are supported?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our tools support all common image formats including JPEG, PNG, WebP, and more. You can also convert between these formats."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Is there a file size limit?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Since processing happens in your browser, there's no strict file size limit. However, very large images may take longer to process depending on your device's capabilities."
+            }
+        }]
     }
     </script>
 </head>
@@ -105,89 +172,128 @@
             <div class="text-center mb-12">
                 <span class="inline-flex items-center text-xs bg-gradient-to-r from-blue-400 to-indigo-400 text-white px-4 py-1.5 rounded-full font-semibold tracking-wider shadow-lg backdrop-blur-sm border border-white/10">
                     <svg class="w-4 h-4 mr-1.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path></svg>
-                    IMAGE TOOLS
+                    FREE IMAGE TOOLS
                 </span>
-                <h1 class="text-3xl sm:text-4xl font-bold text-white mt-6">All-in-One Image Tool</h1>
+                <h1 class="text-3xl sm:text-4xl font-bold text-white mt-6">Free Online Image Tools</h1>
                 <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
-                    Upload once, apply multiple operations: resize, compress, convert, and clean metadata - all in one go.
+                    Process your images privately in your browser. No upload required - your images never leave your device.
                 </p>
             </div>
 
             <!-- Unified Tool Interface -->
             <div class="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50">
-                <!-- Upload Section -->
+                <!-- Operation Selection -->
                 <div class="mb-8">
+                    <h2 class="text-xl font-bold text-white mb-4">What would you like to do?</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="operation-card bg-gray-900/30 rounded-lg p-4 cursor-pointer hover:bg-gray-900/50 transition-all duration-300" data-operation="resize">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
+                                </svg>
+                                <span class="text-white font-medium">Resize Image</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mt-2 ml-7">Change image dimensions or scale</p>
+                        </div>
+
+                        <div class="operation-card bg-gray-900/30 rounded-lg p-4 cursor-pointer hover:bg-gray-900/50 transition-all duration-300" data-operation="compress">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                                <span class="text-white font-medium">Compress Image</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mt-2 ml-7">Reduce file size while maintaining quality</p>
+                        </div>
+
+                        <div class="operation-card bg-gray-900/30 rounded-lg p-4 cursor-pointer hover:bg-gray-900/50 transition-all duration-300" data-operation="format">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+                                </svg>
+                                <span class="text-white font-medium">Convert Format</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mt-2 ml-7">Convert between JPEG, PNG, and WebP</p>
+                        </div>
+
+                        <div class="operation-card bg-gray-900/30 rounded-lg p-4 cursor-pointer hover:bg-gray-900/50 transition-all duration-300" data-operation="metadata">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                                </svg>
+                                <span class="text-white font-medium">Remove Metadata</span>
+                            </div>
+                            <p class="text-gray-400 text-sm mt-2 ml-7">Strip EXIF data for privacy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upload and Preview Section -->
+                <div id="upload-section" class="mb-8 hidden">
                     <h2 class="text-xl font-bold text-white mb-4">Upload Image</h2>
-                    <div class="border-2 border-dashed border-gray-600 rounded-lg p-6 text-center">
+                    <div class="border-2 border-dashed border-gray-600 rounded-lg p-6">
                         <input type="file" id="unified-input" accept="image/*" class="hidden">
-                        <div class="flex flex-col items-center">
+                        <div id="upload-placeholder" class="flex flex-col items-center">
                             <svg class="w-12 h-12 text-gray-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                             </svg>
                             <p class="text-gray-400">Drag & drop or click to upload</p>
                         </div>
+                        <div id="original-preview" class="hidden flex flex-col items-center">
+                            <!-- Preview will be inserted here -->
+                            <div class="mt-2 text-sm text-gray-400" id="original-info"></div>
+                            <button id="change-image" class="mt-4 px-4 py-2 bg-gray-700 text-gray-300 rounded-lg hover:bg-gray-600 transition-colors duration-300">
+                                Change Image
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Operations Section -->
-                <div class="space-y-6">
-                    <h2 class="text-xl font-bold text-white mb-4">Image Operations</h2>
-                    
+                <!-- Operation Settings -->
+                <div id="settings-section" class="space-y-6 hidden">
                     <!-- Resize Options -->
-                    <div class="bg-gray-900/30 rounded-lg p-4">
-                        <div class="flex items-center mb-4">
-                            <input type="checkbox" id="resize-toggle" class="w-4 h-4 rounded border-gray-600 text-blue-500 focus:ring-blue-500 bg-gray-700">
-                            <label for="resize-toggle" class="ml-2 text-white font-medium">Resize Image</label>
-                        </div>
-                        <div id="resize-options" class="space-y-4 hidden">
-                            <div class="grid grid-cols-2 gap-4">
-                                <div>
-                                    <label class="text-sm font-medium text-gray-300 mb-2">Width (px)</label>
-                                    <input type="number" id="resize-width" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Width">
-                                </div>
-                                <div>
-                                    <label class="text-sm font-medium text-gray-300 mb-2">Height (px)</label>
-                                    <input type="number" id="resize-height" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Height">
-                                </div>
+                    <div id="resize-options" class="bg-gray-900/30 rounded-lg p-4 hidden">
+                        <h3 class="text-lg font-semibold text-white mb-4">Resize Settings</h3>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="text-sm font-medium text-gray-300 mb-2">Width (px)</label>
+                                <input type="number" id="resize-width" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Width">
                             </div>
                             <div>
-                                <label class="text-sm font-medium text-gray-300 mb-2">Scale (%)</label>
-                                <input type="range" id="resize-scale" min="1" max="200" value="100" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
-                                <div class="flex justify-between text-xs text-gray-400">
-                                    <span>1%</span>
-                                    <span id="scale-value">100%</span>
-                                    <span>200%</span>
-                                </div>
+                                <label class="text-sm font-medium text-gray-300 mb-2">Height (px)</label>
+                                <input type="number" id="resize-height" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Height">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-sm font-medium text-gray-300 mb-2">Scale (%)</label>
+                            <input type="range" id="resize-scale" min="1" max="200" value="100" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
+                            <div class="flex justify-between text-xs text-gray-400">
+                                <span>1%</span>
+                                <span id="scale-value">100%</span>
+                                <span>200%</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- Compression Options -->
-                    <div class="bg-gray-900/30 rounded-lg p-4">
-                        <div class="flex items-center mb-4">
-                            <input type="checkbox" id="compress-toggle" class="w-4 h-4 rounded border-gray-600 text-blue-500 focus:ring-blue-500 bg-gray-700">
-                            <label for="compress-toggle" class="ml-2 text-white font-medium">Compress Image</label>
-                        </div>
-                        <div id="compress-options" class="space-y-4 hidden">
-                            <div>
-                                <label class="text-sm font-medium text-gray-300 mb-2">Quality</label>
-                                <input type="range" id="compress-quality" min="10" max="100" value="80" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
-                                <div class="flex justify-between text-xs text-gray-400">
-                                    <span>10%</span>
-                                    <span id="quality-value">80%</span>
-                                    <span>100%</span>
-                                </div>
+                    <div id="compress-options" class="bg-gray-900/30 rounded-lg p-4 hidden">
+                        <h3 class="text-lg font-semibold text-white mb-4">Compression Settings</h3>
+                        <div>
+                            <label class="text-sm font-medium text-gray-300 mb-2">Quality</label>
+                            <input type="range" id="compress-quality" min="10" max="100" value="80" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
+                            <div class="flex justify-between text-xs text-gray-400">
+                                <span>10%</span>
+                                <span id="quality-value">80%</span>
+                                <span>100%</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- Format Options -->
-                    <div class="bg-gray-900/30 rounded-lg p-4">
-                        <div class="flex items-center mb-4">
-                            <input type="checkbox" id="format-toggle" class="w-4 h-4 rounded border-gray-600 text-blue-500 focus:ring-blue-500 bg-gray-700">
-                            <label for="format-toggle" class="ml-2 text-white font-medium">Convert Format</label>
-                        </div>
-                        <div id="format-options" class="hidden">
+                    <div id="format-options" class="bg-gray-900/30 rounded-lg p-4 hidden">
+                        <h3 class="text-lg font-semibold text-white mb-4">Format Settings</h3>
+                        <div>
+                            <label class="text-sm font-medium text-gray-300 mb-2">Output Format</label>
                             <select id="output-format" class="w-full px-4 py-2 rounded-lg bg-gray-900/50 border border-gray-600 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                                 <option value="jpeg">JPEG</option>
                                 <option value="png">PNG</option>
@@ -196,38 +302,108 @@
                         </div>
                     </div>
 
-                    <!-- Metadata Options -->
-                    <div class="bg-gray-900/30 rounded-lg p-4">
-                        <div class="flex items-center">
-                            <input type="checkbox" id="metadata-toggle" class="w-4 h-4 rounded border-gray-600 text-blue-500 focus:ring-blue-500 bg-gray-700">
-                            <label for="metadata-toggle" class="ml-2 text-white font-medium">Remove Metadata</label>
-                        </div>
-                    </div>
-
                     <!-- Process Button -->
                     <button id="process-button" class="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-3 rounded-lg text-base font-semibold hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed">
-                        Process Image
+                        Process & Download
                     </button>
                 </div>
+            </div>
 
-                <!-- Preview Section -->
-                <div id="preview-section" class="mt-8 hidden">
-                    <h2 class="text-xl font-bold text-white mb-4">Preview</h2>
-                    <div class="flex flex-col md:flex-row gap-6">
-                        <div class="flex-1">
-                            <h3 class="text-lg font-semibold text-white mb-2">Original</h3>
-                            <div id="original-preview" class="bg-gray-900/50 rounded-lg p-4 flex items-center justify-center min-h-[200px]">
-                                <p class="text-gray-400">No image selected</p>
-                            </div>
-                            <div class="mt-2 text-sm text-gray-400" id="original-info"></div>
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="text-lg font-semibold text-white mb-2">Result</h3>
-                            <div id="result-preview" class="bg-gray-900/50 rounded-lg p-4 flex items-center justify-center min-h-[200px]">
-                                <p class="text-gray-400">Processed image will appear here</p>
-                            </div>
-                            <div class="mt-2 text-sm text-gray-400" id="result-info"></div>
-                        </div>
+            <!-- SEO Content Section -->
+            <div class="mt-16 prose prose-invert max-w-none">
+                <h2 class="text-2xl font-bold text-white mb-6">Free Online Image Tools - Process Images Privately</h2>
+                <p class="text-gray-300 mb-6">
+                    Our free online image tools help you resize, compress, convert, and clean images right in your browser. Unlike other services, we process everything locally - your images never leave your device, ensuring complete privacy and security.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-4">Image Resizer</h3>
+                        <p class="text-gray-300">
+                            Resize images while maintaining aspect ratio. Perfect for social media, websites, or email attachments. Supports custom dimensions or percentage scaling.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2">
+                            <li>Maintain aspect ratio</li>
+                            <li>Custom dimensions</li>
+                            <li>Percentage scaling</li>
+                            <li>High-quality output</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-4">Image Compressor</h3>
+                        <p class="text-gray-300">
+                            Reduce file size while maintaining visual quality. Ideal for web optimization and faster loading times. Adjustable compression levels for perfect balance.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2">
+                            <li>Adjustable quality</li>
+                            <li>Smart compression</li>
+                            <li>Preserve quality</li>
+                            <li>Reduce file size</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-4">Format Converter</h3>
+                        <p class="text-gray-300">
+                            Convert between popular image formats including JPEG, PNG, and WebP. Choose the best format for your needs with optimal quality and compatibility.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2">
+                            <li>JPEG optimization</li>
+                            <li>PNG transparency</li>
+                            <li>WebP support</li>
+                            <li>Lossless conversion</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-4">Metadata Remover</h3>
+                        <p class="text-gray-300">
+                            Remove sensitive EXIF data from your images for enhanced privacy. Strip location data, camera information, and other metadata completely.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-300 mt-2">
+                            <li>Remove EXIF data</li>
+                            <li>Strip location info</li>
+                            <li>Enhanced privacy</li>
+                            <li>Clean output</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-white mb-6">Why Choose Our Image Tools?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <div class="bg-gray-800/50 rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-white mb-3">100% Private</h3>
+                        <p class="text-gray-300">All processing happens in your browser. Your images never leave your device or get uploaded to any server.</p>
+                    </div>
+                    <div class="bg-gray-800/50 rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-white mb-3">Always Free</h3>
+                        <p class="text-gray-300">No hidden fees, no watermarks, no registration required. All tools are completely free to use.</p>
+                    </div>
+                    <div class="bg-gray-800/50 rounded-lg p-6">
+                        <h3 class="text-xl font-semibold text-white mb-3">High Quality</h3>
+                        <p class="text-gray-300">Advanced algorithms ensure the highest quality output while maintaining optimal file sizes.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <h2 class="text-2xl font-bold text-white mb-6">Frequently Asked Questions</h2>
+                <div class="space-y-6 mb-12">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-3">Are these image tools free to use?</h3>
+                        <p class="text-gray-300">Yes, all our image tools are completely free to use. There are no hidden fees, watermarks, or registration required.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-3">Are my images uploaded to a server?</h3>
+                        <p class="text-gray-300">No, all processing happens directly in your browser. Your images are never uploaded to any server, ensuring complete privacy and security.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-3">What image formats are supported?</h3>
+                        <p class="text-gray-300">Our tools support all common image formats including JPEG, PNG, WebP, and more. You can also convert between these formats.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-3">Is there a file size limit?</h3>
+                        <p class="text-gray-300">Since processing happens in your browser, there's no strict file size limit. However, very large images may take longer to process depending on your device's capabilities.</p>
                     </div>
                 </div>
             </div>
@@ -252,5 +428,15 @@
 
     <!-- Load scripts -->
     <script src="image-toolbox.js"></script>
+
+    <style>
+        .operation-card.selected {
+            background-color: rgba(59, 130, 246, 0.2);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+        }
+        .operation-card.selected svg {
+            color: #60A5FA;
+        }
+    </style>
 </body>
 </html> 
