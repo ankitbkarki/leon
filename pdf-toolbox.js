@@ -187,12 +187,53 @@ document.getElementById('convert-to-pdf-button').addEventListener('click', async
     pdf.save('images.pdf');
 });
 
-// Redact PDF Tool
+// Add notification system
+function showNotification(message, type = 'success') {
+    const notification = document.createElement('div');
+    notification.className = `fixed top-4 right-4 px-6 py-3 rounded-lg text-white font-semibold shadow-lg z-50 ${
+        type === 'success' ? 'bg-green-500' : 'bg-red-500'
+    }`;
+    notification.textContent = message;
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+        notification.remove();
+    }, 3000);
+}
+
+// Add file upload notification handler
+document.querySelectorAll('input[type="file"]').forEach(input => {
+    input.addEventListener('change', (e) => {
+        const files = e.target.files;
+        if (files.length > 0) {
+            const fileNames = Array.from(files).map(file => file.name).join(', ');
+            showNotification(`Successfully uploaded: ${fileNames}`);
+            
+            // Show the appropriate container based on the input ID
+            const containerId = e.target.id.replace('-file', '-canvas-container');
+            const container = document.getElementById(containerId);
+            if (container) {
+                container.classList.remove('hidden');
+            }
+        }
+    });
+});
+
+// Fix Redact PDF Tool
 let redactMode = 'rect';
 let isDrawing = false;
 let startX, startY;
 const redactCanvas = document.getElementById('redact-canvas');
 const redactCtx = redactCanvas.getContext('2d');
+
+// Initialize canvas size
+function initializeCanvas(canvas) {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+}
+
+// Initialize redact canvas
+initializeCanvas(redactCanvas);
 
 document.getElementById('redact-rect').addEventListener('click', () => {
     redactMode = 'rect';
@@ -234,61 +275,77 @@ redactCanvas.addEventListener('mouseup', () => {
 
 document.getElementById('redact-button').addEventListener('click', async () => {
     const file = document.getElementById('redact-file').files[0];
-    if (!file) return;
+    if (!file) {
+        showNotification('Please upload a PDF file first', 'error');
+        return;
+    }
     
-    const arrayBuffer = await file.arrayBuffer();
-    const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
-    
-    // Apply redactions to each page
-    for (let i = 0; i < pdfDoc.getPageCount(); i++) {
-        const page = pdfDoc.getPage(i);
-        const { width, height } = page.getSize();
+    try {
+        const arrayBuffer = await file.arrayBuffer();
+        const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
         
-        // Scale canvas coordinates to PDF coordinates
-        const scaleX = width / redactCanvas.width;
-        const scaleY = height / redactCanvas.height;
-        
-        // Get redaction data from canvas
-        const imageData = redactCtx.getImageData(0, 0, redactCanvas.width, redactCanvas.height);
-        const pixels = imageData.data;
-        
-        // Create redaction rectangles
-        for (let y = 0; y < redactCanvas.height; y++) {
-            for (let x = 0; x < redactCanvas.width; x++) {
-                const index = (y * redactCanvas.width + x) * 4;
-                if (pixels[index + 3] > 0) { // If pixel is not transparent
-                    page.drawRectangle({
-                        x: x * scaleX,
-                        y: height - (y * scaleY),
-                        width: scaleX,
-                        height: scaleY,
-                        color: PDFLib.rgb(0, 0, 0),
-                        opacity: 1
-                    });
+        // Apply redactions to each page
+        for (let i = 0; i < pdfDoc.getPageCount(); i++) {
+            const page = pdfDoc.getPage(i);
+            const { width, height } = page.getSize();
+            
+            // Scale canvas coordinates to PDF coordinates
+            const scaleX = width / redactCanvas.width;
+            const scaleY = height / redactCanvas.height;
+            
+            // Get redaction data from canvas
+            const imageData = redactCtx.getImageData(0, 0, redactCanvas.width, redactCanvas.height);
+            const pixels = imageData.data;
+            
+            // Create redaction rectangles
+            for (let y = 0; y < redactCanvas.height; y++) {
+                for (let x = 0; x < redactCanvas.width; x++) {
+                    const index = (y * redactCanvas.width + x) * 4;
+                    if (pixels[index + 3] > 0) { // If pixel is not transparent
+                        page.drawRectangle({
+                            x: x * scaleX,
+                            y: height - (y * scaleY),
+                            width: scaleX,
+                            height: scaleY,
+                            color: PDFLib.rgb(0, 0, 0),
+                            opacity: 1
+                        });
+                    }
                 }
             }
         }
+        
+        const pdfBytes = await pdfDoc.save();
+        const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+        saveAs(blob, 'redacted.pdf');
+        showNotification('PDF successfully redacted and downloaded');
+    } catch (error) {
+        showNotification('Error processing PDF: ' + error.message, 'error');
     }
-    
-    const pdfBytes = await pdfDoc.save();
-    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
-    saveAs(blob, 'redacted.pdf');
 });
 
-// Add Signature Tool
+// Fix Add Signature Tool
 let isDrawingSignature = false;
 let signaturePoints = [];
 const signatureCanvas = document.getElementById('signature-canvas');
 const signatureCtx = signatureCanvas.getContext('2d');
 
+// Initialize signature canvas
+initializeCanvas(signatureCanvas);
+signatureCtx.lineWidth = 2;
+signatureCtx.lineCap = 'round';
+signatureCtx.lineJoin = 'round';
+
 document.getElementById('draw-signature').addEventListener('click', () => {
     signatureCanvas.style.cursor = 'crosshair';
     document.getElementById('signature-text').disabled = true;
+    signatureCtx.clearRect(0, 0, signatureCanvas.width, signatureCanvas.height);
 });
 
 document.getElementById('add-text').addEventListener('click', () => {
     signatureCanvas.style.cursor = 'default';
     document.getElementById('signature-text').disabled = false;
+    signatureCtx.clearRect(0, 0, signatureCanvas.width, signatureCanvas.height);
 });
 
 signatureCanvas.addEventListener('mousedown', (e) => {
@@ -296,7 +353,11 @@ signatureCanvas.addEventListener('mousedown', (e) => {
     
     isDrawingSignature = true;
     const rect = signatureCanvas.getBoundingClientRect();
-    signaturePoints = [[e.clientX - rect.left, e.clientY - rect.top]];
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    signaturePoints = [[x, y]];
+    signatureCtx.beginPath();
+    signatureCtx.moveTo(x, y);
 });
 
 signatureCanvas.addEventListener('mousemove', (e) => {
@@ -307,12 +368,7 @@ signatureCanvas.addEventListener('mousemove', (e) => {
     const y = e.clientY - rect.top;
     
     signaturePoints.push([x, y]);
-    
-    signatureCtx.beginPath();
-    signatureCtx.moveTo(signaturePoints[signaturePoints.length - 2][0], signaturePoints[signaturePoints.length - 2][1]);
     signatureCtx.lineTo(x, y);
-    signatureCtx.strokeStyle = '#000000';
-    signatureCtx.lineWidth = 2;
     signatureCtx.stroke();
 });
 
@@ -322,66 +378,86 @@ signatureCanvas.addEventListener('mouseup', () => {
 
 document.getElementById('save-signature-button').addEventListener('click', async () => {
     const file = document.getElementById('signature-file').files[0];
-    if (!file) return;
-    
-    const arrayBuffer = await file.arrayBuffer();
-    const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
-    const page = pdfDoc.getPage(0);
-    
-    if (signatureCanvas.style.cursor === 'crosshair') {
-        // Add signature
-        const signatureImage = await pdfDoc.embedPng(signatureCanvas.toDataURL());
-        page.drawImage(signatureImage, {
-            x: 50,
-            y: 50,
-            width: 200,
-            height: 100
-        });
-    } else {
-        // Add text
-        const text = document.getElementById('signature-text').value;
-        page.drawText(text, {
-            x: 50,
-            y: 50,
-            size: 20
-        });
+    if (!file) {
+        showNotification('Please upload a PDF file first', 'error');
+        return;
     }
     
-    const pdfBytes = await pdfDoc.save();
-    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
-    saveAs(blob, 'signed.pdf');
+    try {
+        const arrayBuffer = await file.arrayBuffer();
+        const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+        const page = pdfDoc.getPage(0);
+        
+        if (signatureCanvas.style.cursor === 'crosshair') {
+            // Add signature
+            const signatureImage = await pdfDoc.embedPng(signatureCanvas.toDataURL());
+            page.drawImage(signatureImage, {
+                x: 50,
+                y: 50,
+                width: 200,
+                height: 100
+            });
+        } else {
+            // Add text
+            const text = document.getElementById('signature-text').value;
+            if (!text) {
+                showNotification('Please enter text for the signature', 'error');
+                return;
+            }
+            page.drawText(text, {
+                x: 50,
+                y: 50,
+                size: 20
+            });
+        }
+        
+        const pdfBytes = await pdfDoc.save();
+        const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+        saveAs(blob, 'signed.pdf');
+        showNotification('PDF successfully signed and downloaded');
+    } catch (error) {
+        showNotification('Error processing PDF: ' + error.message, 'error');
+    }
 });
 
-// Compress PDF Tool
+// Fix Compress PDF Tool
 document.getElementById('compress-button').addEventListener('click', async () => {
     const file = document.getElementById('compress-file').files[0];
-    if (!file) return;
-    
-    const compressionLevel = document.getElementById('compression-level').value;
-    const arrayBuffer = await file.arrayBuffer();
-    const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
-    
-    // Apply compression based on level
-    const quality = {
-        low: 1.0,
-        medium: 0.7,
-        high: 0.5
-    }[compressionLevel];
-    
-    // Compress images
-    const pages = pdfDoc.getPages();
-    for (const page of pages) {
-        const images = await page.getImages();
-        for (const image of images) {
-            const imageBytes = await image.embed();
-            const compressedImage = await imageBytes.compress(quality);
-            await image.setImage(compressedImage);
-        }
+    if (!file) {
+        showNotification('Please upload a PDF file first', 'error');
+        return;
     }
     
-    const pdfBytes = await pdfDoc.save();
-    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
-    saveAs(blob, 'compressed.pdf');
+    try {
+        const compressionLevel = document.getElementById('compression-level').value;
+        const arrayBuffer = await file.arrayBuffer();
+        const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+        
+        // Apply compression based on level
+        const quality = {
+            low: 1.0,
+            medium: 0.7,
+            high: 0.5
+        }[compressionLevel];
+        
+        // Compress images
+        const pages = pdfDoc.getPages();
+        for (const page of pages) {
+            const images = await page.getImages();
+            for (const image of images) {
+                const imageBytes = await image.embed();
+                const compressedImage = await imageBytes.compress(quality);
+                await image.setImage(compressedImage);
+            }
+        }
+        
+        const pdfBytes = await pdfDoc.save();
+        const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+        saveAs(blob, 'compressed.pdf');
+        showNotification('PDF successfully compressed and downloaded');
+    } catch (error) {
+        showNotification('Error compressing PDF: ' + error.message, 'error');
+    }
 });
 
 // PDF Viewer Tool
