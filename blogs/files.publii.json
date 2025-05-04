@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "4a5e48d3ea9e77f08aa8489c72c8edf6"
+        "md5": "b8aa0f9280ca13ec6437277492569be5"
     },
     {
         "path": "ai-personal-finance-planner-2025",
@@ -12,7 +12,7 @@
     {
         "path": "/ai-personal-finance-planner-2025/index.html",
         "type": "file",
-        "md5": "cc4543f347890cfc096326ae0b6cb2a9"
+        "md5": "d348349e16559f60e571dd415b13b7d7"
     },
     {
         "path": "ambient-computing-examples-youre-already-using",
@@ -22,7 +22,7 @@
     {
         "path": "/ambient-computing-examples-youre-already-using/index.html",
         "type": "file",
-        "md5": "e6f0a8f8f155a51329baa45f935a8337"
+        "md5": "fae0bff74872e3ea7a3aa775f8119317"
     },
     {
         "path": "apple-car-2025-specs-release-date-pricing-rumors",
@@ -32,7 +32,7 @@
     {
         "path": "/apple-car-2025-specs-release-date-pricing-rumors/index.html",
         "type": "file",
-        "md5": "32919e9bce2ccbfb790403e0ec84ff0d"
+        "md5": "4e1367c119006d2eb2ca54f21d87e30f"
     },
     {
         "path": "ar-remote-collaboration-2025",
@@ -42,7 +42,7 @@
     {
         "path": "/ar-remote-collaboration-2025/index.html",
         "type": "file",
-        "md5": "f127a83e2eae67a7daa490205ec5908e"
+        "md5": "163ae500bfb2ce56198e488ce562ef8c"
     },
     {
         "path": "assets",
@@ -62,17 +62,12 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "7f3ea186b83d8f671a5a8a0f6a9dc553"
-    },
-    {
-        "path": "/assets/css/photoswipe.css",
-        "type": "file",
-        "md5": "da6e9be0fa855edd3610e97c1d4e38d9"
+        "md5": "1c66b3bd6a4e65e8bd3b0aea8f73aa14"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "f6f32d4b756683c50dded4d2f5bc13b8"
+        "md5": "fad4d498271879e8ee8fe3ac9936b9ec"
     },
     {
         "path": "assets/dynamic",
@@ -80,49 +75,24 @@
         "md5": false
     },
     {
-        "path": "assets/dynamic/fonts",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "assets/dynamic/fonts/inter",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/assets/dynamic/fonts/inter/inter.woff2",
-        "type": "file",
-        "md5": "3a654f4f27f348f4014d1fe8ee2a21c6"
-    },
-    {
         "path": "assets/js",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/assets/js/jspdf.umd.min.js",
+        "path": "/assets/js/isotope.pkgd.min.js",
         "type": "file",
-        "md5": "4b16d1b6023fa7271c62b3dee913c3ca"
-    },
-    {
-        "path": "/assets/js/photoswipe-ui-default.min.js",
-        "type": "file",
-        "md5": "d067f0883540b1ddda0e2c9ad1b14260"
-    },
-    {
-        "path": "/assets/js/photoswipe.min.js",
-        "type": "file",
-        "md5": "017385b552f7e0d979e2e2fe6f324015"
+        "md5": "2afcff647ed260006faa71c8e779e8d4"
     },
     {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "6163ec009b55946ce2430d1fe34cff4d"
+        "md5": "e9f1b21d608ebeba9417b52ee3ec6917"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "1b09dc64eb6086ddc9720890661ff038"
+        "md5": "4268bfae06e330d473c424d50f09abda"
     },
     {
         "path": "/assets/js/svg-fix.js",
@@ -132,7 +102,7 @@
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "e5e4ced5be7f2e5a37bf8605130fe0aa"
+        "md5": "151e31ba62789782fcd457b5b884ba8a"
     },
     {
         "path": "assets/svg",
@@ -140,29 +110,9 @@
         "md5": false
     },
     {
-        "path": "/assets/svg/filetype-pdf.svg",
-        "type": "file",
-        "md5": "ef66db52dea1678598922e38945841e5"
-    },
-    {
-        "path": "/assets/svg/gallery-icons-dark.svg",
-        "type": "file",
-        "md5": "0c70735af58190b563b2940b7a07007a"
-    },
-    {
-        "path": "/assets/svg/gallery-icons-light.svg",
-        "type": "file",
-        "md5": "0bb1f41e2e459d23628833c37d8532f0"
-    },
-    {
-        "path": "/assets/svg/quote.svg",
-        "type": "file",
-        "md5": "eaa62398d647cfccb6b032f490584648"
-    },
-    {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "777b8dd8567e93fb9668f9c7cc194dfe"
+        "md5": "2813b916db5705fbd8cc3024ce107375"
     },
     {
         "path": "authors",
@@ -177,7 +127,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "4dd776e50f3588ab36821993636e0ac6"
+        "md5": "08fc898b3ee60de6e127e114f8de6906"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -192,7 +142,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "391e760c5cedb540cef0600c05546989"
+        "md5": "cbe28ae42bef7b9add9b79ac97627d2b"
     },
     {
         "path": "best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now",
@@ -202,7 +152,7 @@
     {
         "path": "/best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now/index.html",
         "type": "file",
-        "md5": "4961d671aaa592538501e2601b03937f"
+        "md5": "511f0483f605cde1df64a6c2e460cda3"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major",
@@ -212,17 +162,17 @@
     {
         "path": "/cpt-internships-that-pay-well-2025-list-by-major/index.html",
         "type": "file",
-        "md5": "6a4581beace1fa2591511508c39d072f"
+        "md5": "f8596083974e45816bd0403e1952752c"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "4e4fb37d066516d4fb89336a5a63a91e"
+        "md5": "97cc4b6eca96bac94efadd13e001c486"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "50baed40921e2bbea1ca1b380dec1a0b"
+        "md5": "8b0b302f38a73368245279c12f00e790"
     },
     {
         "path": "freelancer-health-insurance-2025",
@@ -232,7 +182,7 @@
     {
         "path": "/freelancer-health-insurance-2025/index.html",
         "type": "file",
-        "md5": "62dd0745b752b934c5d2d1ff9dcff92a"
+        "md5": "69689d152566b5cbc4d25f0ecf719fa7"
     },
     {
         "path": "how-ai-detects-phishing",
@@ -242,7 +192,7 @@
     {
         "path": "/how-ai-detects-phishing/index.html",
         "type": "file",
-        "md5": "ea6f9a3dc0add15dcaa74c3c237f365f"
+        "md5": "e4fa9bc37c0f1d19467474b6bb835770"
     },
     {
         "path": "how-to-make-200k-a-year-surprising-career-paths",
@@ -252,7 +202,7 @@
     {
         "path": "/how-to-make-200k-a-year-surprising-career-paths/index.html",
         "type": "file",
-        "md5": "8d13e60cfb70698f18c6804dbd56aa36"
+        "md5": "77b6ff8cbc5bf702b770f246e9bdfdb4"
     },
     {
         "path": "how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011",
@@ -262,7 +212,7 @@
     {
         "path": "/how-to-remove-onedrive-from-the-file-explorer-sidebar-in-windows-1011/index.html",
         "type": "file",
-        "md5": "9e60eed6061e02c1aabe432fb464eb80"
+        "md5": "6d5c77d77d47eff2a5bc2ff1464b9778"
     },
     {
         "path": "how-to-use-chatgpt-deep-research-tool-free",
@@ -272,7 +222,7 @@
     {
         "path": "/how-to-use-chatgpt-deep-research-tool-free/index.html",
         "type": "file",
-        "md5": "30cd5237d90b72bb6217f7063f9cf9ab"
+        "md5": "e926f0edd6b4ba4a974ccfb3198b9309"
     },
     {
         "path": "how-to-use-chatgpt-for-budgeting",
@@ -282,7 +232,7 @@
     {
         "path": "/how-to-use-chatgpt-for-budgeting/index.html",
         "type": "file",
-        "md5": "660b5094ea9856fbdaec5c2014ca11b4"
+        "md5": "bf41c9608d23273abe1bc9dd02d0d36c"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey",
@@ -292,12 +242,12 @@
     {
         "path": "/implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey/index.html",
         "type": "file",
-        "md5": "cfe8c70bce3db47f3c9857daafdb0eed"
+        "md5": "f64ec45fc027a3112351024c21789e90"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "5ff30cc4791c7d4457a03b4c9c7c8836"
+        "md5": "ee47d60f05e0ba903467727179d9ad83"
     },
     {
         "path": "invisible-tech-in-daily-life",
@@ -307,7 +257,7 @@
     {
         "path": "/invisible-tech-in-daily-life/index.html",
         "type": "file",
-        "md5": "ea83fb6e8837333723230ea1e83a6e08"
+        "md5": "ad0ad69d3b5bbcdc4954948e2eaf499b"
     },
     {
         "path": "machine-learning-in-threat-detection-cybersecurity",
@@ -317,7 +267,7 @@
     {
         "path": "/machine-learning-in-threat-detection-cybersecurity/index.html",
         "type": "file",
-        "md5": "2392758d81b64a05105894836a506cb0"
+        "md5": "6e4086d8e2007a731b3cd1b1db6da24d"
     },
     {
         "path": "media",
@@ -345,24 +295,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-2xl.webp",
+        "type": "file",
+        "md5": "54c31ebde2d547466237061aa126581d"
+    },
+    {
         "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-lg.webp",
         "type": "file",
-        "md5": "49ffb3f6c10c76487a05e7a10432b213"
+        "md5": "b467cf6607f32de79058b60bdc4bbcf2"
     },
     {
         "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-md.webp",
         "type": "file",
-        "md5": "c0968fab4e7185641552a8c605cba875"
+        "md5": "7e3cdc06d4f32887d88d22cb405ee016"
     },
     {
         "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-sm.webp",
         "type": "file",
-        "md5": "73414ee729c6977b20d1603a12009050"
+        "md5": "d3f242fae949bddd8265019fb5bd102c"
+    },
+    {
+        "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-sm2.webp",
+        "type": "file",
+        "md5": "895ae49950fafddaf9f46c0da973607b"
+    },
+    {
+        "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-xl.webp",
+        "type": "file",
+        "md5": "54c31ebde2d547466237061aa126581d"
     },
     {
         "path": "/media/posts/10/responsive/How-to-Use-ChatGPTs-Deep-Research-Tool-for-Free-xs.webp",
         "type": "file",
-        "md5": "6a46f2489d5ea68ba6a207e7f6ee6991"
+        "md5": "32712eaf63e7c54455f47420790e16ed"
     },
     {
         "path": "media/posts/11",
@@ -380,24 +345,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-2xl.webp",
+        "type": "file",
+        "md5": "85750137ccf147037bfc8e6fbad40147"
+    },
+    {
         "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-lg.webp",
         "type": "file",
-        "md5": "b104cbe760ea5525556ea80c6a08ffd5"
+        "md5": "556f68975364b88fe765b427bacf8d7a"
     },
     {
         "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-md.webp",
         "type": "file",
-        "md5": "111e9f3f9dedf082c159f1d839a51a7e"
+        "md5": "083c3c45cdd536a479e1ec9684ede4e1"
     },
     {
         "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-sm.webp",
         "type": "file",
-        "md5": "647930ffbe7b036cb3785b772ed6f544"
+        "md5": "3b6cb6029c74efd0b02479b7ab72d770"
+    },
+    {
+        "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-sm2.webp",
+        "type": "file",
+        "md5": "edf8d7d5b9f37fc146b7fb0224287516"
+    },
+    {
+        "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-xl.webp",
+        "type": "file",
+        "md5": "85750137ccf147037bfc8e6fbad40147"
     },
     {
         "path": "/media/posts/11/responsive/how-to-use-chatgpt-for-budgeting-xs.webp",
         "type": "file",
-        "md5": "9738db981aa1ed90fd7a2d39e2d0bb54"
+        "md5": "49a7e71a2a4093c77c83c53863cc0e5e"
     },
     {
         "path": "media/posts/12",
@@ -415,24 +395,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-2xl.webp",
+        "type": "file",
+        "md5": "6690f429de86be644fd230d3226d6114"
+    },
+    {
         "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-lg.webp",
         "type": "file",
-        "md5": "c9f106ce634107507010d8f0c60161e0"
+        "md5": "6e26354522d10834c4818e8af771e796"
     },
     {
         "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-md.webp",
         "type": "file",
-        "md5": "de54fbba3ed4521607a2222d83f1dd26"
+        "md5": "3be6c1a31951cdd5929acd7326ca1e7a"
     },
     {
         "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-sm.webp",
         "type": "file",
-        "md5": "f3f8c186104b48154cff2fa2a5d36ce8"
+        "md5": "94f14bb4fe615c848c835ad66866fe73"
+    },
+    {
+        "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-sm2.webp",
+        "type": "file",
+        "md5": "03b3841bae8928e0dd7202d252d20d28"
+    },
+    {
+        "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-xl.webp",
+        "type": "file",
+        "md5": "6690f429de86be644fd230d3226d6114"
     },
     {
         "path": "/media/posts/12/responsive/ai-personal-finance-planner-2025-xs.webp",
         "type": "file",
-        "md5": "95bc73f14e47090816df5ba7daa57f7c"
+        "md5": "dd10095c17ccb222fdd870ad7858f8ab"
     },
     {
         "path": "media/posts/13",
@@ -450,24 +445,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-2xl.webp",
+        "type": "file",
+        "md5": "5928df740489e671d95c9f2562c3b585"
+    },
+    {
         "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-lg.webp",
         "type": "file",
-        "md5": "5025612eed484c96c16416e3eca926b9"
+        "md5": "13faa9b839dcd04b164aeaf0a0c99bf6"
     },
     {
         "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-md.webp",
         "type": "file",
-        "md5": "f7f8cf8b2a9672c225802f734141699d"
+        "md5": "90eaf206beb00f13ff93b68e15a6104c"
     },
     {
         "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-sm.webp",
         "type": "file",
-        "md5": "a22252e389c6c9fde235788edf155a1d"
+        "md5": "f03f4158491822bae9d14c515bc1b246"
+    },
+    {
+        "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-sm2.webp",
+        "type": "file",
+        "md5": "c7018102eccb56fbd0fbc3cc0aadc598"
+    },
+    {
+        "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-xl.webp",
+        "type": "file",
+        "md5": "5928df740489e671d95c9f2562c3b585"
     },
     {
         "path": "/media/posts/13/responsive/Freelancer-Health-Insurance-in-2025-xs.webp",
         "type": "file",
-        "md5": "134c41b70ea7d881731ca937eb543092"
+        "md5": "0b0474048a53cc5816e188a82e10b3fd"
     },
     {
         "path": "media/posts/14",
@@ -485,24 +495,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-2xl.webp",
+        "type": "file",
+        "md5": "dcd980f8f1775d48da7e9c2057d63965"
+    },
+    {
         "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-lg.webp",
         "type": "file",
-        "md5": "f4e5a3cf540f8f50d01867b323ba058b"
+        "md5": "7a9ee7400e067c2feae882f856459a0f"
     },
     {
         "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-md.webp",
         "type": "file",
-        "md5": "a8969a9ae6709f4751d7583ec8090d86"
+        "md5": "8952042bd2f9b4efdc0e5d5a22e02ffc"
     },
     {
         "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-sm.webp",
         "type": "file",
-        "md5": "4c3273483e41fcc05038eaaa9c76f73e"
+        "md5": "76587e42683e53190b1295f959ce5845"
+    },
+    {
+        "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-sm2.webp",
+        "type": "file",
+        "md5": "12dcd29889f45fca2f1ea82e5fecb3ca"
+    },
+    {
+        "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-xl.webp",
+        "type": "file",
+        "md5": "dcd980f8f1775d48da7e9c2057d63965"
     },
     {
         "path": "/media/posts/14/responsive/apple-car-2024-specs-release-date-pricing-rumors-xs.webp",
         "type": "file",
-        "md5": "8820dfad2ee66ed46bc03b70520dae0c"
+        "md5": "8b6b00b8985644f3c7d3cd87bdaa635b"
     },
     {
         "path": "media/posts/15",
@@ -520,24 +545,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-2xl.webp",
+        "type": "file",
+        "md5": "c21661ed908266a4b386de6e3ddc723b"
+    },
+    {
         "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-lg.webp",
         "type": "file",
-        "md5": "e2ad84788e46275da83aa44ddee0ef5c"
+        "md5": "c21661ed908266a4b386de6e3ddc723b"
     },
     {
         "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-md.webp",
         "type": "file",
-        "md5": "5ba4b71a37ef993109f056bfcdc13ca4"
+        "md5": "ac01039405c74aa83755dbbc193f52f5"
     },
     {
         "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-sm.webp",
         "type": "file",
-        "md5": "5e3918b7d8b02612177175ba8fa20ed4"
+        "md5": "b078978e97fbe3843ef8d7e584917974"
+    },
+    {
+        "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-sm2.webp",
+        "type": "file",
+        "md5": "fece23453be3955f6f20b1c45d734fc7"
+    },
+    {
+        "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-xl.webp",
+        "type": "file",
+        "md5": "c21661ed908266a4b386de6e3ddc723b"
     },
     {
         "path": "/media/posts/15/responsive/ambient-computing-examples-youre-already-using-xs.webp",
         "type": "file",
-        "md5": "cf85c4dc9be674f2b89e12be028e00ae"
+        "md5": "69865549d006eff65c7c749aafb7756f"
     },
     {
         "path": "media/posts/16",
@@ -555,24 +595,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-2xl.webp",
+        "type": "file",
+        "md5": "96263ad7150eb497ff03149f0f370bed"
+    },
+    {
         "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-lg.webp",
         "type": "file",
-        "md5": "379a6790421104698a91a69543323ebd"
+        "md5": "bb3eedcc37ca17d616a6dd8f980b6e57"
     },
     {
         "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-md.webp",
         "type": "file",
-        "md5": "6f7873cf0dff1d345fe0b0a0a164dea7"
+        "md5": "6fa4b589b75522d4d733e86d38210262"
     },
     {
         "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-sm.webp",
         "type": "file",
-        "md5": "506ac8cccd04eeba24271d0b4790c7d7"
+        "md5": "b7b9b02cc862fa0a0dc3193a67928e45"
+    },
+    {
+        "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-sm2.webp",
+        "type": "file",
+        "md5": "4a5056b5d18b8b8410ef292bf2519b5b"
+    },
+    {
+        "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-xl.webp",
+        "type": "file",
+        "md5": "96263ad7150eb497ff03149f0f370bed"
     },
     {
         "path": "/media/posts/16/responsive/invisible-tech-in-daily-life-xs.webp",
         "type": "file",
-        "md5": "dc948b34986316788566dea5baa50bb6"
+        "md5": "00fd958aa3ddd85e3231754e1c64d2f8"
     },
     {
         "path": "media/posts/17",
@@ -590,24 +645,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2xl.webp",
+        "type": "file",
+        "md5": "5d71b816c186b324584de97d1344dcec"
+    },
+    {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-lg.webp",
         "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
+        "md5": "5d71b816c186b324584de97d1344dcec"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-md.webp",
         "type": "file",
-        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
+        "md5": "f3695e6bd338ce0e35b3f948064dde64"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-sm.webp",
         "type": "file",
-        "md5": "77229f5338755fbbf53b1f061c4f0b27"
+        "md5": "b942ddfb585e72b550f02c9031befb5a"
+    },
+    {
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-sm2.webp",
+        "type": "file",
+        "md5": "935e54645a46503985e5d51f5eb07898"
+    },
+    {
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-xl.webp",
+        "type": "file",
+        "md5": "5d71b816c186b324584de97d1344dcec"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-xs.webp",
         "type": "file",
-        "md5": "0d72834f22e1d061c817e488e7b319ec"
+        "md5": "90dd46f537896e548fb5d7e84530faff"
     },
     {
         "path": "media/posts/18",
@@ -625,24 +695,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-2xl.webp",
+        "type": "file",
+        "md5": "ffe861f914304e9cfb17403a85beac63"
+    },
+    {
         "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-lg.webp",
         "type": "file",
-        "md5": "7d0552d6ff930bad331827ca365f1db6"
+        "md5": "ffe861f914304e9cfb17403a85beac63"
     },
     {
         "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-md.webp",
         "type": "file",
-        "md5": "b42e3b35680f54ca463317d74527e644"
+        "md5": "dcfe62d400ebfce28c9ae1c242a8e41c"
     },
     {
         "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-sm.webp",
         "type": "file",
-        "md5": "77cb21112c8cf3e3d3645971e358d0f1"
+        "md5": "40eeb26a9232679008b6ecbb735adf72"
+    },
+    {
+        "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-sm2.webp",
+        "type": "file",
+        "md5": "b043a6d83d9d47458c9cbf8137398d43"
+    },
+    {
+        "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-xl.webp",
+        "type": "file",
+        "md5": "ffe861f914304e9cfb17403a85beac63"
     },
     {
         "path": "/media/posts/18/responsive/machine-learning-in-threat-detection-cybersecurity-xs.webp",
         "type": "file",
-        "md5": "7deaa46551df39ce6338279f135fef01"
+        "md5": "cfa696a79919c3a1699217baf7a95700"
     },
     {
         "path": "media/posts/19",
@@ -660,24 +745,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-2xl.webp",
+        "type": "file",
+        "md5": "368c47974ab0928dcfe1a3f6c48f9159"
+    },
+    {
         "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-lg.webp",
         "type": "file",
-        "md5": "cf8945c758f867e59899e9fd7151511b"
+        "md5": "368c47974ab0928dcfe1a3f6c48f9159"
     },
     {
         "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-md.webp",
         "type": "file",
-        "md5": "09e9f2e5746549d506bb9c8791f9ecf8"
+        "md5": "6e30d961694a12028d7a7948db127960"
     },
     {
         "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-sm.webp",
         "type": "file",
-        "md5": "bf0fe6b061c9c8ddfb9102c64b91c624"
+        "md5": "3932078254a8cd07e316f5e94b8cfc1d"
+    },
+    {
+        "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-sm2.webp",
+        "type": "file",
+        "md5": "6438933392514aa01242b817f7fdaafd"
+    },
+    {
+        "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-xl.webp",
+        "type": "file",
+        "md5": "368c47974ab0928dcfe1a3f6c48f9159"
     },
     {
         "path": "/media/posts/19/responsive/ar-remote-collaboration-2025-xs.webp",
         "type": "file",
-        "md5": "bc3327917ca26006a29c9339c4e721c1"
+        "md5": "160a103e1f8b689536421e628e2f4eb7"
     },
     {
         "path": "media/posts/2",
@@ -690,24 +790,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/2/responsive/resumetips-2xl.webp",
+        "type": "file",
+        "md5": "e0eced5a0ae62f4f4fe394e76c7e718d"
+    },
+    {
         "path": "/media/posts/2/responsive/resumetips-lg.webp",
         "type": "file",
-        "md5": "59b0c50c088aac993319c8056c5c14e2"
+        "md5": "7b6fc53f3c4ca9edec9e6756149f0da6"
     },
     {
         "path": "/media/posts/2/responsive/resumetips-md.webp",
         "type": "file",
-        "md5": "c90df45c09e15f8ead8bcacfe1fd3536"
+        "md5": "4634990cdaaf55cb1cd7e64fa754c72b"
     },
     {
         "path": "/media/posts/2/responsive/resumetips-sm.webp",
         "type": "file",
-        "md5": "0ae6f56a8669a062d77463dd00a87d3e"
+        "md5": "073c3b7c0733e80a94ea1a0b88c77aa3"
+    },
+    {
+        "path": "/media/posts/2/responsive/resumetips-sm2.webp",
+        "type": "file",
+        "md5": "b850b77c7ced77a1f93eb4f0e47893d9"
+    },
+    {
+        "path": "/media/posts/2/responsive/resumetips-xl.webp",
+        "type": "file",
+        "md5": "5d060bb471357a01328c81b5125d4729"
     },
     {
         "path": "/media/posts/2/responsive/resumetips-xs.webp",
         "type": "file",
-        "md5": "1d2284e1f2ca5faae19344bd927b4b94"
+        "md5": "bb6dea4a07cb4e7ce1f79f2a376c70e5"
     },
     {
         "path": "/media/posts/2/resumetips.webp",
@@ -725,24 +840,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-2xl.webp",
+        "type": "file",
+        "md5": "406b111a7c489acc43dbd2a7de6959b3"
+    },
+    {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg.webp",
         "type": "file",
-        "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
+        "md5": "406b111a7c489acc43dbd2a7de6959b3"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-md.webp",
         "type": "file",
-        "md5": "c694d23fa5186c8c78ac2ea0cc4e01ae"
+        "md5": "a57693ba4e5b71db804a5f5d6f1534fe"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-sm.webp",
         "type": "file",
-        "md5": "6ced5bc970adf89d9c1285ffa2ae4920"
+        "md5": "5743d6c082c00232862f631c02fda95b"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-sm2.webp",
+        "type": "file",
+        "md5": "e4fc82c69fbbfe8365bba8013230dfca"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-xl.webp",
+        "type": "file",
+        "md5": "406b111a7c489acc43dbd2a7de6959b3"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-xs.webp",
         "type": "file",
-        "md5": "3c8d5180c32775ead384927fa06212b5"
+        "md5": "fb13f490d48f8df85c36a5a53ac772f1"
     },
     {
         "path": "/media/posts/20/vr-meeting-tools-2025.png",
@@ -765,24 +895,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-2xl.webp",
+        "type": "file",
+        "md5": "93f158cd1309f7f0185e6b151a0d6cb6"
+    },
+    {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg.webp",
         "type": "file",
-        "md5": "19c96723f91cb447791604bea2cd6615"
+        "md5": "93f158cd1309f7f0185e6b151a0d6cb6"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-md.webp",
         "type": "file",
-        "md5": "7a976f034432c9b525a02a4ac5b7201a"
+        "md5": "a3950ad2b6cfe8d966fcfc91fde7baa6"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-sm.webp",
         "type": "file",
-        "md5": "13414804f8a5ee940f547892f9129948"
+        "md5": "69e1fdf3ef9247fae617e5aa2883879f"
+    },
+    {
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-sm2.webp",
+        "type": "file",
+        "md5": "a16ca3aefb752d46d110f32cda072e16"
+    },
+    {
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-xl.webp",
+        "type": "file",
+        "md5": "93f158cd1309f7f0185e6b151a0d6cb6"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-xs.webp",
         "type": "file",
-        "md5": "54b49da6cdd024e8b0f134841823ade0"
+        "md5": "a878e76074800a78c4bca6cdfdffb85f"
     },
     {
         "path": "media/posts/3",
@@ -795,24 +940,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/3/responsive/Untitled-design-2xl.webp",
+        "type": "file",
+        "md5": "450b9b192b1a4d55722c1874af3da412"
+    },
+    {
         "path": "/media/posts/3/responsive/Untitled-design-lg.webp",
         "type": "file",
-        "md5": "a4431a3efd901454d7dfbfeffe3fa4fe"
+        "md5": "10d24c568ed49a94114b1e57a34dfbf5"
     },
     {
         "path": "/media/posts/3/responsive/Untitled-design-md.webp",
         "type": "file",
-        "md5": "553dba2c60e2b1c709e4a485ae79f4de"
+        "md5": "4f470f8975760f95ab9c79ec4a8e705f"
     },
     {
         "path": "/media/posts/3/responsive/Untitled-design-sm.webp",
         "type": "file",
-        "md5": "d1f7ddb51063dd9da349d1da94816b81"
+        "md5": "3c2fde5055d8dc1bdbbf866d40b5cbe6"
+    },
+    {
+        "path": "/media/posts/3/responsive/Untitled-design-sm2.webp",
+        "type": "file",
+        "md5": "13f1c464f76dedc50391ce7f6ab28a31"
+    },
+    {
+        "path": "/media/posts/3/responsive/Untitled-design-xl.webp",
+        "type": "file",
+        "md5": "796e9ce8d75b5cd13d8985cd23c24c65"
     },
     {
         "path": "/media/posts/3/responsive/Untitled-design-xs.webp",
         "type": "file",
-        "md5": "7daaa1c0383bf8715c9fd10ced66e0af"
+        "md5": "c865bbefa933efb96f1909f5ac773ce9"
     },
     {
         "path": "/media/posts/3/Untitled-design.webp",
@@ -830,24 +990,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/4/responsive/Untitled-design-1-2-2xl.webp",
+        "type": "file",
+        "md5": "295adcee361af434d90d25590d41fa41"
+    },
+    {
         "path": "/media/posts/4/responsive/Untitled-design-1-2-lg.webp",
         "type": "file",
-        "md5": "0d1c1b84e773111896657ee8b522806e"
+        "md5": "65cc1a7884dbca49c983f547b4c027f0"
     },
     {
         "path": "/media/posts/4/responsive/Untitled-design-1-2-md.webp",
         "type": "file",
-        "md5": "896cb21701d7dd7ecef917c5990327ce"
+        "md5": "72a4742b9788d577ca28dc538290b62b"
     },
     {
         "path": "/media/posts/4/responsive/Untitled-design-1-2-sm.webp",
         "type": "file",
-        "md5": "05dc2cad5162e7608c32daee416a3d31"
+        "md5": "0853ea00aa23be8f591d427995c55986"
+    },
+    {
+        "path": "/media/posts/4/responsive/Untitled-design-1-2-sm2.webp",
+        "type": "file",
+        "md5": "69a939904e355038286fb6156f30f5cc"
+    },
+    {
+        "path": "/media/posts/4/responsive/Untitled-design-1-2-xl.webp",
+        "type": "file",
+        "md5": "8a6628f95165261ca16095afdf0e443f"
     },
     {
         "path": "/media/posts/4/responsive/Untitled-design-1-2-xs.webp",
         "type": "file",
-        "md5": "64db37786db2d02c8fd1193a271f50a0"
+        "md5": "998d974ac724a3fd3ff48d46245182a7"
     },
     {
         "path": "/media/posts/4/Untitled-design-1-2.webp",
@@ -865,24 +1040,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-2xl.webp",
+        "type": "file",
+        "md5": "0fbdb488592435044e875d255b2fffed"
+    },
+    {
         "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-lg.webp",
         "type": "file",
-        "md5": "834e5bec3e0a219c44f872ce8c349ca0"
+        "md5": "7530a37e48028451b1a1b9954c52d127"
     },
     {
         "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-md.webp",
         "type": "file",
-        "md5": "59b9b50fdc08374259dd33186bd36cd7"
+        "md5": "6b8916a8c7f9d47c056a2352ac93a5bc"
     },
     {
         "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-sm.webp",
         "type": "file",
-        "md5": "98909f43a8dc4155beb9a17fd6904642"
+        "md5": "199e8e111f583baf5a6e2313a38fa710"
+    },
+    {
+        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-sm2.webp",
+        "type": "file",
+        "md5": "15a181aafb9bfeac32db1ffe2eaede32"
+    },
+    {
+        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-xl.webp",
+        "type": "file",
+        "md5": "0fbdb488592435044e875d255b2fffed"
     },
     {
         "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-xs.webp",
         "type": "file",
-        "md5": "23a3773d1b1ee1e5f7610c845d54012b"
+        "md5": "dd1479f0a9a4f92de8369d9b4cea047d"
     },
     {
         "path": "/media/posts/5/Top-Cybersecurity-Threats-in-2025.webp",
@@ -905,24 +1095,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-2xl.webp",
+        "type": "file",
+        "md5": "bc895883e1d66aeeb7eae5c2b6ea0e48"
+    },
+    {
         "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-lg.webp",
         "type": "file",
-        "md5": "2b831284b964ae48e82282b3a57d19b1"
+        "md5": "bd222fe1d5b1404b0c694bb9b2d1ff72"
     },
     {
         "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-md.webp",
         "type": "file",
-        "md5": "b9dba8ec8cea30e267357bc7101c3462"
+        "md5": "e8ffec469c2316cd7da4199db609b146"
     },
     {
         "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-sm.webp",
         "type": "file",
-        "md5": "c160adc8cffe5b53f94a43d53858e653"
+        "md5": "1dd40b55c6b896291b82c96883cfb629"
+    },
+    {
+        "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-sm2.webp",
+        "type": "file",
+        "md5": "f1b24761a30728d628cbf07b9f406c75"
+    },
+    {
+        "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-xl.webp",
+        "type": "file",
+        "md5": "bc895883e1d66aeeb7eae5c2b6ea0e48"
     },
     {
         "path": "/media/posts/6/responsive/Implementing-Zero-Trust-Security-Models-in-SMEs-xs.webp",
         "type": "file",
-        "md5": "cdce2dc112ce6b0602c2d8391decf495"
+        "md5": "e7948fb9de5edb9b5e6eca2216b84c2d"
     },
     {
         "path": "media/posts/7",
@@ -940,24 +1145,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-2xl.webp",
+        "type": "file",
+        "md5": "12c0f480b61ef7ccc2fb3571c5946e23"
+    },
+    {
         "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-lg.webp",
         "type": "file",
-        "md5": "fde421ad6010adba069859406a93f9be"
+        "md5": "dc27b6db516733247b031589738ba2ca"
     },
     {
         "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-md.webp",
         "type": "file",
-        "md5": "e8699e6a1022a0a456903d30430fc253"
+        "md5": "83098fe6be8fa54d43786df8d63a4555"
     },
     {
         "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-sm.webp",
         "type": "file",
-        "md5": "652a370b4f78be8447efa65809345c0a"
+        "md5": "e4fb28da8c0e683658e6f36dc3e5c152"
+    },
+    {
+        "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-sm2.webp",
+        "type": "file",
+        "md5": "8659631639079246f4b9a52255e3ea9b"
+    },
+    {
+        "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-xl.webp",
+        "type": "file",
+        "md5": "12c0f480b61ef7ccc2fb3571c5946e23"
     },
     {
         "path": "/media/posts/7/responsive/Best-Cybersecurity-Stocks-in-May-2025-2-xs.webp",
         "type": "file",
-        "md5": "1396602f5b5612bb28f10b4ebe8512a9"
+        "md5": "2a48cd683c02b2b2abcb96562d8f5833"
     },
     {
         "path": "media/posts/8",
@@ -970,24 +1190,39 @@
         "md5": false
     },
     {
+        "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-2xl.webp",
+        "type": "file",
+        "md5": "652776553a0d9d35837a4a27366bd920"
+    },
+    {
         "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-lg.webp",
         "type": "file",
-        "md5": "4a291cd83264795aa8521909c99c1de7"
+        "md5": "3b433fd63dc3881b4af030e3a449e0ba"
     },
     {
         "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-md.webp",
         "type": "file",
-        "md5": "44377f1101c0c007388723bbd6de6e51"
+        "md5": "ad30c611e13a48b6c76b0fa59cc47f59"
     },
     {
         "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-sm.webp",
         "type": "file",
-        "md5": "1bd90ad2371332e9eec028548619b5e0"
+        "md5": "3363b7e2610f75ad28f436f44d6ea43b"
+    },
+    {
+        "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-sm2.webp",
+        "type": "file",
+        "md5": "eff8a4d30c92488f36a51cc86c8b1dbf"
+    },
+    {
+        "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-xl.webp",
+        "type": "file",
+        "md5": "652776553a0d9d35837a4a27366bd920"
     },
     {
         "path": "/media/posts/8/responsive/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2-xs.webp",
         "type": "file",
-        "md5": "0e0ffdc74bf603f40d00e766bf351777"
+        "md5": "6ff515b7a5a7eecca9f63726645593fa"
     },
     {
         "path": "/media/posts/8/What-is-the-Median-Salary-of-a-Cybersecurity-Engineer-2.webp",
@@ -1010,29 +1245,49 @@
         "md5": false
     },
     {
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2xl.webp",
+        "type": "file",
+        "md5": "41c2f7c091b989be4dea8d9f3621f0b9"
+    },
+    {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-lg.webp",
         "type": "file",
-        "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
+        "md5": "2f0b58da1d9649c6612c9443fcebb211"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-md.webp",
         "type": "file",
-        "md5": "589f924b06b4047c2c86d854e9be675a"
+        "md5": "37eff34bd5b23602e1cc7e030cec3328"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-sm.webp",
         "type": "file",
-        "md5": "50712c0c98ae12181f7a6ffe9ba3e32c"
+        "md5": "21fa3aab38aafb32f322b33c8a6fb1ea"
+    },
+    {
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-sm2.webp",
+        "type": "file",
+        "md5": "c73b4cad2c97efefc6e1c34382a7a090"
+    },
+    {
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-xl.webp",
+        "type": "file",
+        "md5": "41c2f7c091b989be4dea8d9f3621f0b9"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-xs.webp",
         "type": "file",
-        "md5": "09f549454c30225f965753dc373048fd"
+        "md5": "ecae05604cecec52c0d187f41a000c9c"
     },
     {
         "path": "media/website",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/website/favicon.ico",
+        "type": "file",
+        "md5": "ab8f84bd5e551b29f75c1ffd1b0e7bdd"
     },
     {
         "path": "/media/website/logo.png",
@@ -1045,14 +1300,34 @@
         "md5": false
     },
     {
+        "path": "/media/website/responsive/logo-2xl.webp",
+        "type": "file",
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
+    },
+    {
+        "path": "/media/website/responsive/logo-lg.webp",
+        "type": "file",
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
+    },
+    {
+        "path": "/media/website/responsive/logo-md.webp",
+        "type": "file",
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
+    },
+    {
         "path": "/media/website/responsive/logo-sm.webp",
         "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
+    },
+    {
+        "path": "/media/website/responsive/logo-xl.webp",
+        "type": "file",
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
     },
     {
         "path": "/media/website/responsive/logo-xs.webp",
         "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+        "md5": "b8df8e9d20f74f72adf9397456e7af00"
     },
     {
         "path": "page",
@@ -1067,7 +1342,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "b19e4dd8ef7b233cbde52b4ddfa29b08"
+        "md5": "b14bfd9543cdeb052a8f329421240b42"
     },
     {
         "path": "resume-questions-answered",
@@ -1077,7 +1352,7 @@
     {
         "path": "/resume-questions-answered/index.html",
         "type": "file",
-        "md5": "57cd2a5b3dc43d2df065a9c78ab4437c"
+        "md5": "726df53a454cc63f7d39d447c3572898"
     },
     {
         "path": "robots.txt",
@@ -1107,7 +1382,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "a5e818aed3a8eb9863fc431d3a613929"
+        "md5": "8e2675f740383817bd635e952696e94f"
     },
     {
         "path": "tags/f1-visa-cpt-opt",
@@ -1117,7 +1392,7 @@
     {
         "path": "/tags/f1-visa-cpt-opt/index.html",
         "type": "file",
-        "md5": "c879b0240c16467743fe1dd280123e33"
+        "md5": "c17dde66b6688a35265ea6dd155692c5"
     },
     {
         "path": "tags/finance",
@@ -1127,7 +1402,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "dfaefecf9065c7f1292e423fc378cc03"
+        "md5": "b14d65c97eb1efa1980e71d416820b4d"
     },
     {
         "path": "tags/how-to",
@@ -1137,12 +1412,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "3871591d94e757ac69bf632fd17f8f04"
+        "md5": "8ddf49187d1c34ad4d21bda70e2cc147"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "6bd6ddc6ddae69e19f8dcde0fcd5b24b"
+        "md5": "b4ce7e2931d5c532efcc7b43e58e73e3"
     },
     {
         "path": "tags/job-search",
@@ -1152,7 +1427,7 @@
     {
         "path": "/tags/job-search/index.html",
         "type": "file",
-        "md5": "df8eae5393b720fb2e70f3d8aeb905a0"
+        "md5": "3ebb40f320cd01942d4d3da607d058d1"
     },
     {
         "path": "tags/resume",
@@ -1162,7 +1437,7 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "f84a10ae4606abba056b456f64d775ee"
+        "md5": "db22cb8cc2d9e8a56e30d773a4797d6f"
     },
     {
         "path": "tags/technology",
@@ -1172,7 +1447,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "987be707fba42d4199a030d5fac317ac"
+        "md5": "84c64ee4880b331191f3ba443320b18e"
     },
     {
         "path": "top-cybersecurity-threats-in-2025",
@@ -1182,7 +1457,7 @@
     {
         "path": "/top-cybersecurity-threats-in-2025/index.html",
         "type": "file",
-        "md5": "8d6c92f49f22c14dd7f0f6b46211e73a"
+        "md5": "8e535e1202760e1a67942b5f81fc62f3"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition",
@@ -1192,7 +1467,7 @@
     {
         "path": "/top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition/index.html",
         "type": "file",
-        "md5": "4a8a3317f4ece2eff09b248a22e599da"
+        "md5": "6afdc02477cccae5f87fa9ef362882df"
     },
     {
         "path": "vr-meeting-tools-2025",
@@ -1202,7 +1477,7 @@
     {
         "path": "/vr-meeting-tools-2025/index.html",
         "type": "file",
-        "md5": "9e45082969a4a84324d886680335d2d2"
+        "md5": "e9dab9b119b34d682634908c16aff251"
     },
     {
         "path": "what-is-the-median-salary-of-a-cybersecurity-engineer",
@@ -1212,6 +1487,6 @@
     {
         "path": "/what-is-the-median-salary-of-a-cybersecurity-engineer/index.html",
         "type": "file",
-        "md5": "daa3c1932dee7122f729da7094a7d83f"
+        "md5": "466d795b421e3e11531e610350768eb5"
     }
 ]
