@@ -799,6 +799,7 @@ textarea {
   padding: 0 0.75rem;
   -webkit-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
+  font-weight: 700;
 }
 .navbar .navbar__menu li a:active, .navbar .navbar__menu li a:focus, .navbar .navbar__menu li a:hover,
 .navbar .navbar__menu li span[aria-haspopup=true]:active,
@@ -898,6 +899,7 @@ textarea {
   padding: 0.5rem 1rem;
   -webkit-transition: all 0.24s ease;
   transition: all 0.24s ease;
+  font-weight: 700;
 }
 .navbar .navbar__submenu li a:active, .navbar .navbar__submenu li a:focus, .navbar .navbar__submenu li a:hover,
 .navbar .navbar__submenu li span[aria-haspopup=true]:active,
@@ -2257,6 +2259,7 @@ textarea {
   color: var(--light);
   transition: all 0.3s ease;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .footer__nav-item > a:hover {
@@ -2298,4 +2301,9 @@ textarea {
   .footer__nav-item {
     font-size: 0.85rem;
   }
+}
+
+/* Categories/tags in index smaller */
+.meta-data a {
+  font-size: 0.85rem !important;
 }
