@@ -977,10 +977,15 @@
 
 
 <!-- Cookie Consent Popup -->
-<div id="cookie-consent" class="fixed bottom-0 left-0 right-0 bg-white border-t border-blue-200 p-4 flex flex-col sm:flex-row items-center justify-between z-50 hidden">
+<div id="cookie-consent" class="fixed bottom-0 left-0 right-0 bg-[#1a1f2e]/80 backdrop-blur-md border-t border-gray-700/50 p-4 flex flex-col sm:flex-row items-center justify-between z-50 hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p class="text-sm text-blue-600 text-center sm:text-left">We use cookies to ensure you get the best experience on our website.</p>
-        <button id="accept-cookies" class="bg-blue-600 text-white px-6 py-2 rounded-lg text-base font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap">
+        <div class="flex items-center gap-3">
+            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <p class="text-sm text-gray-300">We use cookies to ensure you get the best experience on our website.</p>
+        </div>
+        <button id="accept-cookies" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-2 rounded-lg text-sm font-semibold hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 shadow-lg hover:shadow-blue-500/30 transform hover:-translate-y-0.5 whitespace-nowrap">
             Accept
         </button>
     </div>
