@@ -1,6 +1,6 @@
 # Allow all web crawlers to access all content
 User-agent: *
-Disallow:
+Disallow: /blogs/page/
 
 # Sitemap location
 Sitemap: https://www.leonstaff.com/blogs/sitemap.xml
