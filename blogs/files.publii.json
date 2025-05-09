@@ -12,7 +12,7 @@
     {
         "path": "/ai-personal-finance-planner-2025/index.html",
         "type": "file",
-        "md5": "8bd961ef3a64d7d79902666156831766"
+        "md5": "4b68d71c733bfb7c16a82f815f0a4ee6"
     },
     {
         "path": "ambient-computing-examples-youre-already-using",
@@ -22,7 +22,7 @@
     {
         "path": "/ambient-computing-examples-youre-already-using/index.html",
         "type": "file",
-        "md5": "6201a844f120b92c614bf2c5c035a02f"
+        "md5": "2c46a1f2980dbc9be3dcfa1ecd5b9701"
     },
     {
         "path": "apple-car-2025-specs-release-date-pricing-rumors",
@@ -32,7 +32,7 @@
     {
         "path": "/apple-car-2025-specs-release-date-pricing-rumors/index.html",
         "type": "file",
-        "md5": "cd37e9c5c6f11a52661dfd51ca017c60"
+        "md5": "5c13f6b3b3212465e47f35b56a4a5573"
     },
     {
         "path": "ar-remote-collaboration-2025",
@@ -42,7 +42,7 @@
     {
         "path": "/ar-remote-collaboration-2025/index.html",
         "type": "file",
-        "md5": "c0f7f3e0f3101dc0f517d5afa7afba90"
+        "md5": "2846080d709e2afa7da674dbdc501e2d"
     },
     {
         "path": "assets",
@@ -187,7 +187,7 @@
     {
         "path": "/best-cybersecurity-stocks-in-may-2025-whats-worth-watching-now/index.html",
         "type": "file",
-        "md5": "80c9b42ec425b1dad5b4c7db990c6cb8"
+        "md5": "f801f5de8d6aa625f369eff7204f37b6"
     },
     {
         "path": "cpt-internships-that-pay-well-2025-list-by-major",
@@ -197,17 +197,27 @@
     {
         "path": "/cpt-internships-that-pay-well-2025-list-by-major/index.html",
         "type": "file",
-        "md5": "6e076732daedf83690064d85d136304e"
+        "md5": "63064f2795c174c1f8603e24d7f9f951"
+    },
+    {
+        "path": "esla-model-y-2025-specs-price-road-noise",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/esla-model-y-2025-specs-price-road-noise/index.html",
+        "type": "file",
+        "md5": "864c3bf899f7d8a7c8dd2c9234db11a8"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "da313f7931e9445717797257fe5bfcb9"
+        "md5": "f2d32cb30f3a7ce1c7c834e7004d85b2"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "1732a2346071cb8d50f2664de099820a"
+        "md5": "72290453c1fe5e26cb91e89089556240"
     },
     {
         "path": "freelancer-health-insurance-2025",
@@ -217,27 +227,17 @@
     {
         "path": "/freelancer-health-insurance-2025/index.html",
         "type": "file",
-        "md5": "bf322b57062097f01c86122c7a5fca16"
+        "md5": "e6a2b4d87113501f8e95a4efd8f2b8de"
     },
     {
-        "path": "how-ai-detects-phishing",
+        "path": "how-to-make-200k-a-year-professions-strategies",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/how-ai-detects-phishing/index.html",
+        "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "2277da0136cfecd7ccc11b306ba8d263"
-    },
-    {
-        "path": "how-to-make-200k-a-year-surprising-career-paths",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/how-to-make-200k-a-year-surprising-career-paths/index.html",
-        "type": "file",
-        "md5": "c13614df408e275af95d7c62c8a51ce5"
+        "md5": "9df430b01b564b4640108052bb40b65c"
     },
     {
         "path": "how-to-use-chatgpt-deep-research-tool-free",
@@ -247,7 +247,7 @@
     {
         "path": "/how-to-use-chatgpt-deep-research-tool-free/index.html",
         "type": "file",
-        "md5": "dfa9987fc8ed7226ce654cd4f846f723"
+        "md5": "f72df7698f8f776bf4db7892776ef3a3"
     },
     {
         "path": "how-to-use-chatgpt-for-budgeting",
@@ -257,7 +257,7 @@
     {
         "path": "/how-to-use-chatgpt-for-budgeting/index.html",
         "type": "file",
-        "md5": "a1158f5f2a8b9212fd685df8f53cd4b6"
+        "md5": "7e638f32ddcd95bd7ad8d36e24509e37"
     },
     {
         "path": "implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey",
@@ -267,12 +267,12 @@
     {
         "path": "/implementing-zero-trust-security-models-in-smes-a-practical-sometimes-messy-journey/index.html",
         "type": "file",
-        "md5": "f300eb46150883d7b657be407c18ed4e"
+        "md5": "382665af9d5baad9599c7a7c8e3c5744"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "4573fa5c9be2ea71cd0f20ddbe62d7ac"
+        "md5": "a9bb1f3f855f7d5a894adff7f3e91b26"
     },
     {
         "path": "invisible-tech-in-daily-life",
@@ -282,7 +282,7 @@
     {
         "path": "/invisible-tech-in-daily-life/index.html",
         "type": "file",
-        "md5": "18383351e9b1c0a7e64ab1e77004b013"
+        "md5": "aa3d74f2164a7f95fe0d99c9e4f86f2c"
     },
     {
         "path": "machine-learning-in-threat-detection-cybersecurity",
@@ -292,7 +292,7 @@
     {
         "path": "/machine-learning-in-threat-detection-cybersecurity/index.html",
         "type": "file",
-        "md5": "04cd649d1ff2e84d6241d0f9d73c78aa"
+        "md5": "427197f4c8bf287859d40b2966c503f4"
     },
     {
         "path": "media",
@@ -1082,7 +1082,17 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "8ca65567607a7bebaea4e03d9fc9c8b9"
+        "md5": "d4e181637ca7878bbe3b4a5893702fa3"
+    },
+    {
+        "path": "phishing-ai-ai-phishing-detection-ai-phishing",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
+        "type": "file",
+        "md5": "eeff1bbb8e08eb74ab11fc64f18ee15b"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -1092,7 +1102,7 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "8799deafa3d0ce66b9cb8d516bf8b6c5"
+        "md5": "5809b7c6cc9a1d063ceb7b4309550c3f"
     },
     {
         "path": "resume-questions-answered",
@@ -1102,7 +1112,7 @@
     {
         "path": "/resume-questions-answered/index.html",
         "type": "file",
-        "md5": "e80bacbb7c65cbfc486eb20a3d25ec51"
+        "md5": "c3c624e93e3c3d2409c5bbfc53703616"
     },
     {
         "path": "robots.txt",
@@ -1112,7 +1122,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "94d50d87554f1568cdf17ce23ab2ffec"
+        "md5": "a2b7456db7c20d76ff356c4a26f94dc1"
     },
     {
         "path": "sitemap.xsl",
@@ -1132,7 +1142,17 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "a4aba7f2a4f9d920e3752f3859cdeb80"
+        "md5": "3928676634745fc63033baa79a9615c4"
+    },
+    {
+        "path": "tags/electric-vehicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/electric-vehicle/index.html",
+        "type": "file",
+        "md5": "5549592285240d2c07ad4f15facbc4c0"
     },
     {
         "path": "tags/f1-visa-cpt-opt",
@@ -1152,7 +1172,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "bdab27c3c79a86f50489a745285d55b2"
+        "md5": "56b90f77fdcf88cc857620b5d65d7d9c"
     },
     {
         "path": "tags/how-to",
@@ -1167,7 +1187,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "6f7825c894d262b2cbde10093f516fb8"
+        "md5": "01842c1e91fbe425461aa7d7b7ef4681"
     },
     {
         "path": "tags/job-search",
@@ -1197,17 +1217,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "dc625a0abea9dc65cfd929cad7b28f08"
-    },
-    {
-        "path": "tesla-model-y-2025-review-specs-price-updates",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tesla-model-y-2025-review-specs-price-updates/index.html",
-        "type": "file",
-        "md5": "4018b8a4953ab0bb1d78af1ca63fb5f6"
+        "md5": "5eecaae99028fea9957fd9b36adb8149"
     },
     {
         "path": "top-cybersecurity-threats-in-2025",
@@ -1217,7 +1227,7 @@
     {
         "path": "/top-cybersecurity-threats-in-2025/index.html",
         "type": "file",
-        "md5": "24965aa3f446fc66502c981de0bac690"
+        "md5": "af2e49f40fa87c7447114b95391664e3"
     },
     {
         "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition",
@@ -1227,17 +1237,17 @@
     {
         "path": "/top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition/index.html",
         "type": "file",
-        "md5": "23e2e5d31d6e9f7e46da8bfdcffbdfba"
+        "md5": "7844f1d619f79483a1120b315299ccb0"
     },
     {
-        "path": "vr-meeting-tools-2025",
+        "path": "vr-meeting-virtual-reality-collaboration",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/vr-meeting-tools-2025/index.html",
+        "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "3e898a6f9003a02844fd08d0c90bdcca"
+        "md5": "3693faed4b46c7a2f144f02f12fed3de"
     },
     {
         "path": "what-is-the-median-salary-of-a-cybersecurity-engineer",
@@ -1247,6 +1257,6 @@
     {
         "path": "/what-is-the-median-salary-of-a-cybersecurity-engineer/index.html",
         "type": "file",
-        "md5": "8beb77546aeeeb7c77749c1b115c6dfe"
+        "md5": "6d605b62cfa50afad87195e2dfebd1e5"
     }
 ]
