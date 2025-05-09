@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "ed1dce73b6de7892e88bd804f13d7eb6"
+        "md5": "80f37640424ed7046d27d0a6bf26e4b2"
     },
     {
         "path": "assets",
@@ -17,17 +17,17 @@
     {
         "path": "/assets/css/editor.css",
         "type": "file",
-        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+        "md5": "4202808df745f2ac7ab250606fa0d272"
     },
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "1c66b3bd6a4e65e8bd3b0aea8f73aa14"
+        "md5": "fa238f48f9a2ab93b0c59a116e831bca"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "d43d2f7d9371f0cdd77625621254d1dd"
+        "md5": "ac539ad407d0c05b5ba082ad463238d9"
     },
     {
         "path": "assets/dynamic",
@@ -40,29 +40,24 @@
         "md5": false
     },
     {
-        "path": "/assets/js/isotope.pkgd.min.js",
-        "type": "file",
-        "md5": "2afcff647ed260006faa71c8e779e8d4"
-    },
-    {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "e9f1b21d608ebeba9417b52ee3ec6917"
+        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "4268bfae06e330d473c424d50f09abda"
+        "md5": "700105c316933a8202041b6415abb233"
     },
     {
         "path": "/assets/js/svg-fix.js",
         "type": "file",
-        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
     },
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "151e31ba62789782fcd457b5b884ba8a"
+        "md5": "ff4392540fcf4c3d3f5e03806e112816"
     },
     {
         "path": "assets/svg",
@@ -72,7 +67,7 @@
     {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "2813b916db5705fbd8cc3024ce107375"
+        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
     },
     {
         "path": "authors",
@@ -87,27 +82,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "e98fd34c24ee38a9b5d69c6e67987eea"
-    },
-    {
-        "path": "cpt-internships-that-pay-well-2025-list-by-major",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/cpt-internships-that-pay-well-2025-list-by-major/index.html",
-        "type": "file",
-        "md5": "9a40c7156212f5ebc7a93a23f3e78802"
+        "md5": "d11f699b56adb83d4aa4669fac8119e6"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "fc874879dd2883c378b92bdbb28e285d"
+        "md5": "8649ea893fec318bde7c20910003e5e7"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "c1ea2fcc8bb4eb10ffd570ed47efb3b9"
+        "md5": "fc3b5e14fd7993e4af1916d5cc714deb"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -117,12 +102,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "a40138bb17cc8e48635d096ee5498f01"
+        "md5": "4bff90ac2307bae973101816571e928b"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "26cbc1788124f0032cddb9e4332d3842"
+        "md5": "fddbe999a019b872b62d820b48a3a336"
     },
     {
         "path": "media",
@@ -140,7 +125,7 @@
         "md5": false
     },
     {
-        "path": "/media/posts/17/how-ai-detects-phishing.png",
+        "path": "/media/posts/17/how-ai-detects-phishing-2.png",
         "type": "file",
         "md5": "084180bd5e4ba4283d6449f22581c639"
     },
@@ -150,79 +135,34 @@
         "md5": false
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2xl.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-2xl.webp",
         "type": "file",
         "md5": "b6da6e049b3140622d17a7dd4168086b"
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-lg.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-lg.webp",
         "type": "file",
         "md5": "b6da6e049b3140622d17a7dd4168086b"
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-md.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-md.webp",
         "type": "file",
         "md5": "b6da6e049b3140622d17a7dd4168086b"
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-sm.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm.webp",
         "type": "file",
         "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-xl.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xl.webp",
         "type": "file",
         "md5": "b6da6e049b3140622d17a7dd4168086b"
     },
     {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-xs.webp",
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xs.webp",
         "type": "file",
         "md5": "0870f64952bd8d597891914801c5facc"
-    },
-    {
-        "path": "media/posts/2",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/2/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-2xl.webp",
-        "type": "file",
-        "md5": "3bec47676ba56955f0c0e073f2077bef"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-lg.webp",
-        "type": "file",
-        "md5": "1643c7bf90a5d166ba3fe4da7b87eead"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-md.webp",
-        "type": "file",
-        "md5": "a10ba3495e32b4219a503b8e05f9c72b"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-sm.webp",
-        "type": "file",
-        "md5": "c90df45c09e15f8ead8bcacfe1fd3536"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-xl.webp",
-        "type": "file",
-        "md5": "3bec47676ba56955f0c0e073f2077bef"
-    },
-    {
-        "path": "/media/posts/2/responsive/resumetips-xs.webp",
-        "type": "file",
-        "md5": "378e74dddc30024c7f03d83d266ba847"
-    },
-    {
-        "path": "/media/posts/2/resumetips.webp",
-        "type": "file",
-        "md5": "bc5ce876e8615b1daf8f85b25f30a0ea"
     },
     {
         "path": "media/posts/20",
@@ -235,34 +175,39 @@
         "md5": false
     },
     {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-2xl.webp",
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-2xl.webp",
+        "type": "file",
+        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-lg.webp",
+        "type": "file",
+        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-md.webp",
+        "type": "file",
+        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm.webp",
+        "type": "file",
+        "md5": "63194898c704f99f1dc6e7260c153a70"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xl.webp",
+        "type": "file",
+        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xs.webp",
+        "type": "file",
+        "md5": "9dead8a1b37625fd21e196ebb08dba0c"
+    },
+    {
+        "path": "/media/posts/20/vr-meeting-tools-2025-lg.webp",
         "type": "file",
         "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg.webp",
-        "type": "file",
-        "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-md.webp",
-        "type": "file",
-        "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-sm.webp",
-        "type": "file",
-        "md5": "c694d23fa5186c8c78ac2ea0cc4e01ae"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-xl.webp",
-        "type": "file",
-        "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-xs.webp",
-        "type": "file",
-        "md5": "8aa861ea48d267a90a35bd4d63f9b8ca"
     },
     {
         "path": "media/posts/21",
@@ -270,39 +215,44 @@
         "md5": false
     },
     {
+        "path": "/media/posts/21/how-to-make-200k-a-year-surprising-career-paths-lg.webp",
+        "type": "file",
+        "md5": "19c96723f91cb447791604bea2cd6615"
+    },
+    {
         "path": "media/posts/21/responsive",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-2xl.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-2xl.webp",
         "type": "file",
-        "md5": "19c96723f91cb447791604bea2cd6615"
+        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-lg.webp",
         "type": "file",
-        "md5": "19c96723f91cb447791604bea2cd6615"
+        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-md.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-md.webp",
         "type": "file",
-        "md5": "19c96723f91cb447791604bea2cd6615"
+        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-sm.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm.webp",
         "type": "file",
-        "md5": "7a976f034432c9b525a02a4ac5b7201a"
+        "md5": "61653aeb47e2f3f224cf51059bca274a"
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-xl.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xl.webp",
         "type": "file",
-        "md5": "19c96723f91cb447791604bea2cd6615"
+        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-xs.webp",
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xs.webp",
         "type": "file",
-        "md5": "8d0c4dbc4e7e48cc3f25773eaa7e94fc"
+        "md5": "74504c077f37df5b3b8154f7d045cee4"
     },
     {
         "path": "media/posts/22",
@@ -315,169 +265,39 @@
         "md5": false
     },
     {
-        "path": "/media/posts/22/responsive/Untitled-design-2xl.webp",
+        "path": "/media/posts/22/responsive/Untitled-design-lg-2xl.webp",
+        "type": "file",
+        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-lg.webp",
+        "type": "file",
+        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-md.webp",
+        "type": "file",
+        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-sm.webp",
+        "type": "file",
+        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-xl.webp",
+        "type": "file",
+        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-xs.webp",
+        "type": "file",
+        "md5": "5cbc082389c40b476f825cb7f78d95f2"
+    },
+    {
+        "path": "/media/posts/22/Untitled-design-lg.webp",
         "type": "file",
         "md5": "fff353394ba411b328bc8e7baa4041e6"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg.webp",
-        "type": "file",
-        "md5": "fff353394ba411b328bc8e7baa4041e6"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-md.webp",
-        "type": "file",
-        "md5": "fff353394ba411b328bc8e7baa4041e6"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-sm.webp",
-        "type": "file",
-        "md5": "f200c356ce5d518a9167fae04220423a"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-xl.webp",
-        "type": "file",
-        "md5": "fff353394ba411b328bc8e7baa4041e6"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-xs.webp",
-        "type": "file",
-        "md5": "fc3586d890eaf9cf14c8c26821353505"
-    },
-    {
-        "path": "media/posts/3",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/3/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-2xl.webp",
-        "type": "file",
-        "md5": "d0e846264c03051196dba1f164354ac5"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-lg.webp",
-        "type": "file",
-        "md5": "ac8671c960aaec24b379eb5afbb4961a"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-md.webp",
-        "type": "file",
-        "md5": "978548446b5b8a8a1630d398f730fb05"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-sm.webp",
-        "type": "file",
-        "md5": "553dba2c60e2b1c709e4a485ae79f4de"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-xl.webp",
-        "type": "file",
-        "md5": "d61feea8f6abb5d2c6cf3efdcabb0951"
-    },
-    {
-        "path": "/media/posts/3/responsive/Untitled-design-xs.webp",
-        "type": "file",
-        "md5": "b8770f98f67883eed0c8e15b30410069"
-    },
-    {
-        "path": "/media/posts/3/Untitled-design.webp",
-        "type": "file",
-        "md5": "adac30f7e38f4c56e954963b144ff92a"
-    },
-    {
-        "path": "media/posts/4",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/4/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-2xl.webp",
-        "type": "file",
-        "md5": "0960d2b6ef8f6d5251a0c421b21012e8"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-lg.webp",
-        "type": "file",
-        "md5": "43449f838f2cfb2adcf88e152b5215e9"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-md.webp",
-        "type": "file",
-        "md5": "bdebc04bca367dd120f75af896a1cacb"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-sm.webp",
-        "type": "file",
-        "md5": "896cb21701d7dd7ecef917c5990327ce"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-xl.webp",
-        "type": "file",
-        "md5": "0960d2b6ef8f6d5251a0c421b21012e8"
-    },
-    {
-        "path": "/media/posts/4/responsive/Untitled-design-1-2-xs.webp",
-        "type": "file",
-        "md5": "fd3ce250f78932286cf418821f754f34"
-    },
-    {
-        "path": "/media/posts/4/Untitled-design-1-2.webp",
-        "type": "file",
-        "md5": "65cd6d26ce781717d0b38c524d0952b4"
-    },
-    {
-        "path": "media/posts/5",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/5/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-2xl.webp",
-        "type": "file",
-        "md5": "834e5bec3e0a219c44f872ce8c349ca0"
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-lg.webp",
-        "type": "file",
-        "md5": "834e5bec3e0a219c44f872ce8c349ca0"
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-md.webp",
-        "type": "file",
-        "md5": "ade5d075c2ba82d381ee37ab5b5ad299"
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-sm.webp",
-        "type": "file",
-        "md5": "59b9b50fdc08374259dd33186bd36cd7"
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-xl.webp",
-        "type": "file",
-        "md5": "834e5bec3e0a219c44f872ce8c349ca0"
-    },
-    {
-        "path": "/media/posts/5/responsive/Top-Cybersecurity-Threats-in-2025-xs.webp",
-        "type": "file",
-        "md5": "cc22f175a4fb9eba314646e1a5b77d88"
-    },
-    {
-        "path": "/media/posts/5/Top-Cybersecurity-Threats-in-2025.webp",
-        "type": "file",
-        "md5": "2cda21011ef7cc8f19124dd3aac32655"
     },
     {
         "path": "media/posts/9",
@@ -485,7 +305,7 @@
         "md5": false
     },
     {
-        "path": "/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2.webp",
+        "path": "/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2.webp",
         "type": "file",
         "md5": "dda27afcf48f0bbefa2621b33fa22e82"
     },
@@ -495,34 +315,79 @@
         "md5": false
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2xl.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-2xl.webp",
         "type": "file",
         "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-lg.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-lg.webp",
         "type": "file",
         "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-md.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-md.webp",
         "type": "file",
         "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-sm.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm.webp",
         "type": "file",
         "md5": "589f924b06b4047c2c86d854e9be675a"
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-xl.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xl.webp",
         "type": "file",
         "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
     },
     {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-xs.webp",
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xs.webp",
         "type": "file",
         "md5": "a9c782f2e846033852a56c7f1a6fc107"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/logo.png",
+        "type": "file",
+        "md5": "fc6130439f02b78144f38c272df7fea8"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/logo-2xl.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+    },
+    {
+        "path": "/media/website/responsive/logo-lg.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+    },
+    {
+        "path": "/media/website/responsive/logo-md.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+    },
+    {
+        "path": "/media/website/responsive/logo-sm.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+    },
+    {
+        "path": "/media/website/responsive/logo-xl.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
+    },
+    {
+        "path": "/media/website/responsive/logo-xs.webp",
+        "type": "file",
+        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
     },
     {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
@@ -532,7 +397,7 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "69a74cfc780da15b84317ded5d8e5972"
+        "md5": "e39dadbc5b95c744b03deefabab1056c"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -542,17 +407,7 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "a77dfff2a82352efbc75c661c37b4e2e"
-    },
-    {
-        "path": "resume-questions-answered",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/resume-questions-answered/index.html",
-        "type": "file",
-        "md5": "53e38edc4ca2ad9776c3919a5173f8f3"
+        "md5": "0e77490c80a22544dc603d49a58f96eb"
     },
     {
         "path": "robots.txt",
@@ -562,7 +417,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "46262c2ac9203880428368c8e24c36f8"
+        "md5": "49247d1beeb0a0e924e153d639aa66a5"
     },
     {
         "path": "sitemap.xsl",
@@ -582,7 +437,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "9cc7b0b825803bfc7fd059cabf7b8471"
+        "md5": "4ea6ec9e47fb8fd17aeee17aa6e753bc"
     },
     {
         "path": "tags/electric-vehicle",
@@ -592,17 +447,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "b404d87c63a3d94677914857216c55a6"
-    },
-    {
-        "path": "tags/f1-visa-cpt-opt",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tags/f1-visa-cpt-opt/index.html",
-        "type": "file",
-        "md5": "b3598c886604cda131d7837a36751a9a"
+        "md5": "5a6854b2401479ce7f0caa46e0a6237d"
     },
     {
         "path": "tags/finance",
@@ -612,7 +457,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "60e2e1dfdaa9ac6bc8b6c0cbda0dd475"
+        "md5": "fcc732e401f51fafc54fbf9f9d3ca074"
     },
     {
         "path": "tags/how-to",
@@ -622,32 +467,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "139563e451ac621f7d6525d7372b4b23"
+        "md5": "0c4ed6472a39efec59d6e7f4f92ec219"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "0b6a12d14a5f9905ba7d1b894e6b7679"
-    },
-    {
-        "path": "tags/job-search",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tags/job-search/index.html",
-        "type": "file",
-        "md5": "5395d1f85c6f1c5822af16636ec8983a"
-    },
-    {
-        "path": "tags/resume",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tags/resume/index.html",
-        "type": "file",
-        "md5": "4015a37f33b29efc2e8526e10897bc6c"
+        "md5": "ad80cc2187bd2d959eac9c8adccb30a6"
     },
     {
         "path": "tags/technology",
@@ -657,7 +482,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "971ee2161dabc9584a8e44a0ec54d4f6"
+        "md5": "a0eed42a9fb04f61a1a3fd3c82706c6d"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -667,27 +492,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "103d975e33592ae7a19cecff3417f8f5"
-    },
-    {
-        "path": "top-cybersecurity-threats-in-2025",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/top-cybersecurity-threats-in-2025/index.html",
-        "type": "file",
-        "md5": "c6f4cea5609c3e0130dc9632d49b0b23"
-    },
-    {
-        "path": "top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/top-mistakes-international-students-make-while-job-hunting-in-the-us-2025-edition/index.html",
-        "type": "file",
-        "md5": "ca3915131fc629aa5e5d844d0a545fdc"
+        "md5": "eca2e84813b9b5708381363acc0f1fd5"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -697,6 +502,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "c678c98fa763172338978a875ffab1a6"
+        "md5": "373e889994785be53a068a6e9e7722fe"
     }
 ]
