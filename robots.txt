@@ -1,6 +1,9 @@
-# Allow all web crawlers to access all content
+# Allow all web crawlers to access most content
 User-agent: *
 Disallow: /blogs/page/
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+Disallow: /cookie-policy
 
 # Sitemap location
 Sitemap: https://www.leonstaff.com/blogs/sitemap.xml
