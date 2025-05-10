@@ -575,8 +575,8 @@ textarea {
   align-items: center;
   background: var(--white);
   display: grid;
-  grid-template-areas: ". nav logo search. ";
-  grid-template-columns: var(--page-margin) auto 1fr auto var(--page-margin);
+  grid-template-areas: ". logo search nav .";
+  grid-template-columns: var(--page-margin) 1fr auto auto var(--page-margin);
   height: 4rem;
   margin-left: calc(-1 * var(--page-margin));
   max-width: var(--page-width);
@@ -622,10 +622,13 @@ textarea {
   font-family: var(--logo-font);
   font-size: 1.4rem;
   white-space: nowrap;
+  text-align: left;
+  justify-self: start;
 }
 @media all and (max-width: 56.1875em) {
   .logo {
-    text-align: center;
+    text-align: left;
+    justify-self: start;
   }
 }
 .logo > img {
@@ -640,6 +643,8 @@ textarea {
   grid-area: search;
   text-align: right;
   z-index: 9999;
+  justify-self: end;
+  margin-right: 1rem;
 }
 .search__btn {
   border: none !important;
@@ -748,6 +753,8 @@ textarea {
 
 .navbar {
   grid-area: nav;
+  text-align: right;
+  justify-self: end;
 }
 @media all and (min-width: 56.25em) {
   .navbar {
