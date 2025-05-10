@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "05c7a050815088a1039c9fe2c370c506"
+        "md5": "32a9d60513f7facc5b515cce60e50372"
     },
     {
         "path": "assets",
@@ -17,17 +17,17 @@
     {
         "path": "/assets/css/editor.css",
         "type": "file",
-        "md5": "4202808df745f2ac7ab250606fa0d272"
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
     },
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "fa238f48f9a2ab93b0c59a116e831bca"
+        "md5": "0be31b11bd700c17bf0e1a95ae4822b1"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "22e2849a9e4202166349ad0288def001"
+        "md5": "4226ef2d79ad0fbea3fd283dcaf5e10e"
     },
     {
         "path": "assets/dynamic",
@@ -42,22 +42,22 @@
     {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+        "md5": "840d1d0fb7276666706cba10ebb3b40e"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "700105c316933a8202041b6415abb233"
+        "md5": "18a65c58aef57c0287e0f0609f3389a9"
     },
     {
         "path": "/assets/js/svg-fix.js",
         "type": "file",
-        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
     },
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+        "md5": "9fc67de3715469dc45c582bce11c4eba"
     },
     {
         "path": "assets/svg",
@@ -65,9 +65,14 @@
         "md5": false
     },
     {
+        "path": "/assets/svg/search.svg",
+        "type": "file",
+        "md5": "dcb9af3171e104304c8117f1c118f2e2"
+    },
+    {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+        "md5": "bb9e0f5b5c047dfe2eeea9c36390b9f0"
     },
     {
         "path": "authors",
@@ -82,17 +87,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "3a1c10edc067ffca09e4216b20949d70"
+        "md5": "fcef49d10ed35815c1659ce5298eea4e"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "88e8090dc323845be515a984453c6101"
+        "md5": "c81cbfe37e73f3b01eed35ead7fa4739"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "bb69293046f27e354fa059495ff538c3"
+        "md5": "034808c1bbdb41cb68abccfe52821e79"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -102,12 +107,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "ab552884a1f5356a22e55b29c2874fce"
+        "md5": "56960e31c8baf857888f0d79801e1f3a"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "6e0013c9d3f10ece79ccae1f0b4f47ee"
+        "md5": "ea11a1d7486b7dcc56e45484934618d3"
     },
     {
         "path": "media",
@@ -147,12 +152,12 @@
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-md.webp",
         "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
+        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm.webp",
         "type": "file",
-        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
+        "md5": "77229f5338755fbbf53b1f061c4f0b27"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xl.webp",
@@ -162,7 +167,7 @@
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xs.webp",
         "type": "file",
-        "md5": "0870f64952bd8d597891914801c5facc"
+        "md5": "0d72834f22e1d061c817e488e7b319ec"
     },
     {
         "path": "media/posts/20",
@@ -187,12 +192,12 @@
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-md.webp",
         "type": "file",
-        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+        "md5": "63194898c704f99f1dc6e7260c153a70"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm.webp",
         "type": "file",
-        "md5": "63194898c704f99f1dc6e7260c153a70"
+        "md5": "4fe38735a394bc67b6adf149ec9984bc"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xl.webp",
@@ -202,7 +207,7 @@
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xs.webp",
         "type": "file",
-        "md5": "9dead8a1b37625fd21e196ebb08dba0c"
+        "md5": "dafe08e6bd25f8489c29055d9e4f836e"
     },
     {
         "path": "/media/posts/20/vr-meeting-tools-2025-lg.webp",
@@ -237,12 +242,12 @@
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-md.webp",
         "type": "file",
-        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
+        "md5": "61653aeb47e2f3f224cf51059bca274a"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm.webp",
         "type": "file",
-        "md5": "61653aeb47e2f3f224cf51059bca274a"
+        "md5": "cf8945c758f867e59899e9fd7151511b"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xl.webp",
@@ -252,7 +257,7 @@
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xs.webp",
         "type": "file",
-        "md5": "74504c077f37df5b3b8154f7d045cee4"
+        "md5": "c06857e9ea338f3f3a24bb78f8fbdf6f"
     },
     {
         "path": "media/posts/22",
@@ -277,12 +282,12 @@
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-md.webp",
         "type": "file",
-        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
     },
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-sm.webp",
         "type": "file",
-        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
+        "md5": "b5958d0477f4bb65dbf7730871b2607b"
     },
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-xl.webp",
@@ -292,7 +297,7 @@
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-xs.webp",
         "type": "file",
-        "md5": "5cbc082389c40b476f825cb7f78d95f2"
+        "md5": "6eaa139547e37e8af1058248d5175a14"
     },
     {
         "path": "/media/posts/22/Untitled-design-lg.webp",
@@ -322,17 +327,17 @@
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-lg.webp",
         "type": "file",
-        "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
+        "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-md.webp",
         "type": "file",
-        "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
+        "md5": "589f924b06b4047c2c86d854e9be675a"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm.webp",
         "type": "file",
-        "md5": "589f924b06b4047c2c86d854e9be675a"
+        "md5": "50712c0c98ae12181f7a6ffe9ba3e32c"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xl.webp",
@@ -342,7 +347,7 @@
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xs.webp",
         "type": "file",
-        "md5": "a9c782f2e846033852a56c7f1a6fc107"
+        "md5": "09f549454c30225f965753dc373048fd"
     },
     {
         "path": "media/website",
@@ -365,59 +370,9 @@
         "md5": false
     },
     {
-        "path": "/media/website/responsive/apple-touch-icon-2xl.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-lg.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-md.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-sm.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-xl.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
         "path": "/media/website/responsive/apple-touch-icon-xs.webp",
         "type": "file",
         "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/logo-2xl.webp",
-        "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
-    },
-    {
-        "path": "/media/website/responsive/logo-lg.webp",
-        "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
-    },
-    {
-        "path": "/media/website/responsive/logo-md.webp",
-        "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
-    },
-    {
-        "path": "/media/website/responsive/logo-sm.webp",
-        "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
-    },
-    {
-        "path": "/media/website/responsive/logo-xl.webp",
-        "type": "file",
-        "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
     },
     {
         "path": "/media/website/responsive/logo-xs.webp",
@@ -432,7 +387,7 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "0d100073a02fed5537f5736d48d62042"
+        "md5": "0739f6843a15cf4ac0408466095bd095"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -442,7 +397,7 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "6dd9d5ebe10cb1037ab02057c51beb1c"
+        "md5": "d98f90855a91962dcee19298c34c2f4b"
     },
     {
         "path": "robots.txt",
@@ -452,12 +407,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "856e23a26dd362baaec4c98a44c5e99a"
+        "md5": "b7691910945f0d171880598d2cdb2d75"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "49247d1beeb0a0e924e153d639aa66a5"
+        "md5": "1a88f6ad2c4ffa6c4fa97426d0356b6a"
     },
     {
         "path": "sitemap.xsl",
@@ -477,7 +432,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "1911bbea897b23cdb32416c0651dbf25"
+        "md5": "d567debf558ee0ad32c2004a415aa55f"
     },
     {
         "path": "tags/electric-vehicle",
@@ -487,7 +442,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "aa7595832eef0f0d0b869bcdfea46d7f"
+        "md5": "c2b32df179885990abc8b75c389dd9b4"
     },
     {
         "path": "tags/finance",
@@ -497,7 +452,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "8bf5764cac8be7300f39aa1ad20597c7"
+        "md5": "55c6b481ecb63786191ac5edb11b2d15"
     },
     {
         "path": "tags/how-to",
@@ -507,12 +462,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "93ed05e8c03504cb6431ad3fb38d3b87"
+        "md5": "f142220aec0cf9b74b32693c16b10e1f"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ab7d2a4947393a32fff8c17e714fe560"
+        "md5": "43657ee3c10279c58d08e7031817d029"
     },
     {
         "path": "tags/technology",
@@ -522,7 +477,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "90ea756b2276beded669223afb4b8ee4"
+        "md5": "c7b650fd5715ad7cfc69f5b5166d34fd"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -532,7 +487,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "154c28cf7623fbba0a633e73606730e9"
+        "md5": "70586ee5d3abe7be3687ff4b79861384"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -542,6 +497,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "5b9fa9669f32fcd1e05f8cc9a86bc638"
+        "md5": "3d7bf23b15b4eaac44cb0cc481de7588"
     }
 ]
