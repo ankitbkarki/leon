@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "f383c16f644f4b68991c0e5e1d5c2f80"
+        "md5": "05c7a050815088a1039c9fe2c370c506"
     },
     {
         "path": "assets",
@@ -27,7 +27,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "7d2a7b7400f611abc1606963d51fb45a"
+        "md5": "22e2849a9e4202166349ad0288def001"
     },
     {
         "path": "assets/dynamic",
@@ -82,17 +82,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "014b9907acfe21732da7de56f56048e1"
+        "md5": "3a1c10edc067ffca09e4216b20949d70"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "8649ea893fec318bde7c20910003e5e7"
+        "md5": "88e8090dc323845be515a984453c6101"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "fc3b5e14fd7993e4af1916d5cc714deb"
+        "md5": "bb69293046f27e354fa059495ff538c3"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -102,12 +102,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "f576fa4d7d66caf4cde8ab84e21691ba"
+        "md5": "ab552884a1f5356a22e55b29c2874fce"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "476abe053074f0707adc83a3bee7740f"
+        "md5": "6e0013c9d3f10ece79ccae1f0b4f47ee"
     },
     {
         "path": "media",
@@ -350,6 +350,11 @@
         "md5": false
     },
     {
+        "path": "/media/website/apple-touch-icon.png",
+        "type": "file",
+        "md5": "babd30105930f00b25fadb72d7e05519"
+    },
+    {
         "path": "/media/website/logo.png",
         "type": "file",
         "md5": "fc6130439f02b78144f38c272df7fea8"
@@ -358,6 +363,36 @@
         "path": "media/website/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-2xl.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-lg.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-md.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-sm.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-xl.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
+    },
+    {
+        "path": "/media/website/responsive/apple-touch-icon-xs.webp",
+        "type": "file",
+        "md5": "b52164c61e70e013218da8a42dadce14"
     },
     {
         "path": "/media/website/responsive/logo-2xl.webp",
@@ -397,7 +432,7 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "e6f7e37d65bdf2c12ce05dbb7bd20a48"
+        "md5": "0d100073a02fed5537f5736d48d62042"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -407,12 +442,17 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "b475ae44aceb50bb35377e786c80b638"
+        "md5": "6dd9d5ebe10cb1037ab02057c51beb1c"
     },
     {
         "path": "robots.txt",
         "type": "file",
         "md5": "48a32ba896cc51cc6b9191dc02ea4638"
+    },
+    {
+        "path": "search.html",
+        "type": "file",
+        "md5": "856e23a26dd362baaec4c98a44c5e99a"
     },
     {
         "path": "sitemap.xml",
@@ -437,7 +477,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "65559b01d55245ddcbb09c8dac9062a8"
+        "md5": "1911bbea897b23cdb32416c0651dbf25"
     },
     {
         "path": "tags/electric-vehicle",
@@ -447,7 +487,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "755e964ef16edbd1f728601ddc4b6548"
+        "md5": "aa7595832eef0f0d0b869bcdfea46d7f"
     },
     {
         "path": "tags/finance",
@@ -457,7 +497,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "3c0514e9f09cb0752ea61f7506512b5c"
+        "md5": "8bf5764cac8be7300f39aa1ad20597c7"
     },
     {
         "path": "tags/how-to",
@@ -467,12 +507,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "3ec17aa29628848df455d751149384b3"
+        "md5": "93ed05e8c03504cb6431ad3fb38d3b87"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "4eacce14cd4fff7e266c03609e3ee001"
+        "md5": "ab7d2a4947393a32fff8c17e714fe560"
     },
     {
         "path": "tags/technology",
@@ -482,7 +522,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "9066fd8588ce926f711f05229f7196d1"
+        "md5": "90ea756b2276beded669223afb4b8ee4"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -492,7 +532,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "19e87ba84cff77fdd06fc3c791e0898d"
+        "md5": "154c28cf7623fbba0a633e73606730e9"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -502,6 +542,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "2f92c9d93c50ebe128f5858c411fb99c"
+        "md5": "5b9fa9669f32fcd1e05f8cc9a86bc638"
     }
 ]
