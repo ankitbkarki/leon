@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "3481911737aa11a3f231623e5d042820"
+        "md5": "bc2c6251876d3acaf227ccca264f0950"
     },
     {
         "path": "assets",
@@ -17,17 +17,17 @@
     {
         "path": "/assets/css/editor.css",
         "type": "file",
-        "md5": "4202808df745f2ac7ab250606fa0d272"
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
     },
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "daa22aec54f0501447b48bd4aa1b738d"
+        "md5": "b7dca8611afffb7656223c84fedeedbb"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "d99b9104dc2679029f06498d5e2e88bc"
+        "md5": "bd44d9d81dc8d7a32828f39f1618c1dd"
     },
     {
         "path": "assets/dynamic",
@@ -40,24 +40,29 @@
         "md5": false
     },
     {
+        "path": "/assets/js/isotope.pkgd.min.js",
+        "type": "file",
+        "md5": "2afcff647ed260006faa71c8e779e8d4"
+    },
+    {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "e9e5c3efbaa696d1490988cf5b30e23b"
+        "md5": "e9f1b21d608ebeba9417b52ee3ec6917"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "700105c316933a8202041b6415abb233"
+        "md5": "4268bfae06e330d473c424d50f09abda"
     },
     {
         "path": "/assets/js/svg-fix.js",
         "type": "file",
-        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
     },
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+        "md5": "151e31ba62789782fcd457b5b884ba8a"
     },
     {
         "path": "assets/svg",
@@ -67,7 +72,7 @@
     {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+        "md5": "2813b916db5705fbd8cc3024ce107375"
     },
     {
         "path": "authors",
@@ -82,17 +87,17 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "69bf004f94ef69d9e5c4248794bcb5d3"
+        "md5": "44ed9f5b6375f0f685a3ac8817b860e0"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "40dac2c71b7100bc77ca927e09b07d28"
+        "md5": "19560bf13a5273e20d84b2f508f0e787"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "f67e6962d324a76077e567b95d6fa06d"
+        "md5": "94cc6de4881cc768d35d6c9ecdf4c7a2"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -102,12 +107,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "3d82cfaff1e6e0267992a1179af34018"
+        "md5": "1f4b6a45268a90a93ea83ae75aa77d06"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "28beb42333440e2c700bb470d02d79ef"
+        "md5": "e08123c52fd01c046f4e8fe380be98b5"
     },
     {
         "path": "media",
@@ -147,12 +152,17 @@
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-md.webp",
         "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
+        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm.webp",
         "type": "file",
-        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
+        "md5": "77229f5338755fbbf53b1f061c4f0b27"
+    },
+    {
+        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm2.webp",
+        "type": "file",
+        "md5": "e65b4eb52141ab33594fdd6594462712"
     },
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xl.webp",
@@ -162,7 +172,7 @@
     {
         "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xs.webp",
         "type": "file",
-        "md5": "0870f64952bd8d597891914801c5facc"
+        "md5": "0d72834f22e1d061c817e488e7b319ec"
     },
     {
         "path": "media/posts/20",
@@ -187,12 +197,17 @@
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-md.webp",
         "type": "file",
-        "md5": "447817e16b8c9623c23698fbff3ec9aa"
+        "md5": "63194898c704f99f1dc6e7260c153a70"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm.webp",
         "type": "file",
-        "md5": "63194898c704f99f1dc6e7260c153a70"
+        "md5": "4fe38735a394bc67b6adf149ec9984bc"
+    },
+    {
+        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm2.webp",
+        "type": "file",
+        "md5": "672c351fb8bf9524254a38d7b4400e19"
     },
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xl.webp",
@@ -202,7 +217,7 @@
     {
         "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xs.webp",
         "type": "file",
-        "md5": "9dead8a1b37625fd21e196ebb08dba0c"
+        "md5": "dafe08e6bd25f8489c29055d9e4f836e"
     },
     {
         "path": "/media/posts/20/vr-meeting-tools-2025-lg.webp",
@@ -237,12 +252,17 @@
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-md.webp",
         "type": "file",
-        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
+        "md5": "61653aeb47e2f3f224cf51059bca274a"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm.webp",
         "type": "file",
-        "md5": "61653aeb47e2f3f224cf51059bca274a"
+        "md5": "cf8945c758f867e59899e9fd7151511b"
+    },
+    {
+        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm2.webp",
+        "type": "file",
+        "md5": "253ecf65f2e1fc96e8f14ea1c5cc5f36"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xl.webp",
@@ -252,7 +272,7 @@
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xs.webp",
         "type": "file",
-        "md5": "74504c077f37df5b3b8154f7d045cee4"
+        "md5": "c06857e9ea338f3f3a24bb78f8fbdf6f"
     },
     {
         "path": "media/posts/22",
@@ -277,12 +297,17 @@
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-md.webp",
         "type": "file",
-        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
+        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
     },
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-sm.webp",
         "type": "file",
-        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
+        "md5": "b5958d0477f4bb65dbf7730871b2607b"
+    },
+    {
+        "path": "/media/posts/22/responsive/Untitled-design-lg-sm2.webp",
+        "type": "file",
+        "md5": "a7150e38ac27b587e8268bb0ab56323c"
     },
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-xl.webp",
@@ -292,7 +317,7 @@
     {
         "path": "/media/posts/22/responsive/Untitled-design-lg-xs.webp",
         "type": "file",
-        "md5": "5cbc082389c40b476f825cb7f78d95f2"
+        "md5": "6eaa139547e37e8af1058248d5175a14"
     },
     {
         "path": "/media/posts/22/Untitled-design-lg.webp",
@@ -322,17 +347,22 @@
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-lg.webp",
         "type": "file",
-        "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
+        "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-md.webp",
         "type": "file",
-        "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
+        "md5": "589f924b06b4047c2c86d854e9be675a"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm.webp",
         "type": "file",
-        "md5": "589f924b06b4047c2c86d854e9be675a"
+        "md5": "50712c0c98ae12181f7a6ffe9ba3e32c"
+    },
+    {
+        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm2.webp",
+        "type": "file",
+        "md5": "af3d5e21ad2a927156a9a94daa84a91c"
     },
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xl.webp",
@@ -342,7 +372,7 @@
     {
         "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xs.webp",
         "type": "file",
-        "md5": "a9c782f2e846033852a56c7f1a6fc107"
+        "md5": "09f549454c30225f965753dc373048fd"
     },
     {
         "path": "media/website",
@@ -432,7 +462,7 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "c4bb6b7b9bee5f48c8e3e99c8a995fd5"
+        "md5": "8e8ba7304251ca65744b4e6302724bf8"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -442,17 +472,12 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "34768830487059c63462950bfc14cac8"
+        "md5": "5d62d2bd4ee1f2c9b4a3f85745461242"
     },
     {
         "path": "robots.txt",
         "type": "file",
         "md5": "48a32ba896cc51cc6b9191dc02ea4638"
-    },
-    {
-        "path": "search.html",
-        "type": "file",
-        "md5": "2dcaec7f1d5fba2c43847f748f9a6b99"
     },
     {
         "path": "sitemap.xml",
@@ -477,7 +502,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "154936799b9e6342c24d1613fcfdd417"
+        "md5": "1f9588fe58cfe72fcdd42046ca0d5b6d"
     },
     {
         "path": "tags/electric-vehicle",
@@ -487,7 +512,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "430b8e4a18dcdd1a20269dfec3838539"
+        "md5": "94eb16ea20adb700baffa296be7b2860"
     },
     {
         "path": "tags/finance",
@@ -497,7 +522,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "ab4b5f61e354640eabfcbdb28fab2b72"
+        "md5": "21eb56594d803842e679071c305b6463"
     },
     {
         "path": "tags/how-to",
@@ -507,12 +532,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "23b854babee73f532c79a192869cf5ce"
+        "md5": "0f0c2fffe2df98205cb6938d327c0309"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "917a320eea565d4270ea59b3770f1800"
+        "md5": "de3a8cb515f11179ff822fe0fbb229a2"
     },
     {
         "path": "tags/technology",
@@ -522,7 +547,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "ab8542b08e54bbc710736ddcd940584a"
+        "md5": "bbff518f5975f5b6b8957beebaf0c04f"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -532,7 +557,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "36a32e501370c20ef0ed8f14766d4130"
+        "md5": "2d52ab7b7e5cbf5b3f15eab41898e764"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -542,6 +567,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "f16644e8d194ac5b517c4e2da5a3761d"
+        "md5": "c3f90310935bb7f3963b639f4991e23f"
     }
 ]
