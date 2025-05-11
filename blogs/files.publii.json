@@ -92,12 +92,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "83c4f600360a558e291dc3704ea6485e"
+        "md5": "394fc38dd728568efe2921a045a3c50a"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "c5838e0306b00a7d26b6ecdd8d424344"
+        "md5": "c8ad8b8869ec0c57d9279c6bcdd947c7"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -107,7 +107,7 @@
     {
         "path": "/how-to-claim-apple-siri-settlement/index.html",
         "type": "file",
-        "md5": "b3980a36ae097f39f393aa1fd719ffe7"
+        "md5": "712a972c05bcb1f61be1c67ccd559a18"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -542,7 +542,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "823e956e5f94b9bb29c3eaecb4e68f26"
+        "md5": "885e5b5151ee98519473ad3d4c4a1d99"
     },
     {
         "path": "sitemap.xsl",
