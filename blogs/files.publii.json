@@ -87,17 +87,27 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "104aabaf4f73e4a77fe6ebe86f03de55"
+        "md5": "1b777fea6cc8b43114ba26ea371427d7"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "19560bf13a5273e20d84b2f508f0e787"
+        "md5": "83c4f600360a558e291dc3704ea6485e"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "94cc6de4881cc768d35d6c9ecdf4c7a2"
+        "md5": "c5838e0306b00a7d26b6ecdd8d424344"
+    },
+    {
+        "path": "how-to-claim-apple-siri-settlement",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/how-to-claim-apple-siri-settlement/index.html",
+        "type": "file",
+        "md5": "b3980a36ae097f39f393aa1fd719ffe7"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -107,12 +117,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "18c694626cd0187763aaec8c5499fe87"
+        "md5": "b15531050785ec96e4bcb2222e9dda74"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "3e0590bbea7ec23e214d1e4c176e56f6"
+        "md5": "f36275880345222cc1ddb23acd4a20fc"
     },
     {
         "path": "media",
@@ -325,6 +335,56 @@
         "md5": "fff353394ba411b328bc8e7baa4041e6"
     },
     {
+        "path": "media/posts/23",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/23/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info.png",
+        "type": "file",
+        "md5": "b2f484f95cfe58c3fdbcde0dcbc48311"
+    },
+    {
+        "path": "media/posts/23/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-2xl.webp",
+        "type": "file",
+        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-lg.webp",
+        "type": "file",
+        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-md.webp",
+        "type": "file",
+        "md5": "68d2717ebc4ef4644a5dd092b96f9f0c"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-sm.webp",
+        "type": "file",
+        "md5": "941e4aaa300503b031d217873a8e5570"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-sm2.webp",
+        "type": "file",
+        "md5": "d62e495bad06501a0dbe5afd5b1f1cf4"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-xl.webp",
+        "type": "file",
+        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+    },
+    {
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-xs.webp",
+        "type": "file",
+        "md5": "5416898d6f4013e7dd2e4d02e4618f80"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -482,7 +542,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "1a88f6ad2c4ffa6c4fa97426d0356b6a"
+        "md5": "823e956e5f94b9bb29c3eaecb4e68f26"
     },
     {
         "path": "sitemap.xsl",
@@ -532,12 +592,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "f427bc5cfc2210eba0572b804d01d18c"
+        "md5": "8a4de37a330d34cf7614e5260fe88fda"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "b2ee7a43aede2a69cdcaf2e8c6ada867"
+        "md5": "60d2e4603e37930aea0bb2ca6bac436e"
     },
     {
         "path": "tags/technology",
@@ -557,7 +617,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "8a4f6e6e3fed6965a7c73972ba92cca2"
+        "md5": "cd0b48b64dae2988b4992156f5d9915e"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
