@@ -1346,18 +1346,18 @@ textarea {
   align-items: center;
   gap: 0.7rem;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
 }
 .c-card__tag {
   color: #FF3366;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   letter-spacing: 0.04em;
 }
 .c-card__date {
   color: #888;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.02em;

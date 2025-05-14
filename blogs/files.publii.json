@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "820981b1ed62279fe8d3771fb31cae9a"
+        "md5": "344ee3d6bc3f65619e9a7073eb9b0a71"
     },
     {
         "path": "assets",
@@ -22,32 +22,17 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "353ff8f93d5436dd90bacf1064c7ef45"
+        "md5": "35b1150ce41cc9d2373259d65283a81c"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "ed6e7caf5cde5913a23371676294143d"
+        "md5": "ae451dab965aba1ea59bd68ca7246ccd"
     },
     {
         "path": "assets/dynamic",
         "type": "directory",
         "md5": false
-    },
-    {
-        "path": "assets/dynamic/fonts",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "assets/dynamic/fonts/robotoslab",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/assets/dynamic/fonts/robotoslab/robotoslab.woff2",
-        "type": "file",
-        "md5": "bb6d76ffefc4cc4bf748676e5920a798"
     },
     {
         "path": "assets/js",
@@ -102,7 +87,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "b49e7fb84d05c3a90cf7d2c4aa7c3ae6"
+        "md5": "d05a01b84adaa6a417a501ecae282ca3"
     },
     {
         "path": "feed.json",
@@ -122,7 +107,7 @@
     {
         "path": "/how-to-claim-apple-siri-settlement/index.html",
         "type": "file",
-        "md5": "687dc43d38c3b0418e1e35d19d43c2f2"
+        "md5": "3719dc103dd7c97737226d05d77da55e"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -132,12 +117,12 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "38b63f62fde1860aaea403a3c0d674a8"
+        "md5": "dc095c976eb6b691323e67680c2372cd"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "b226fa49b9b621c2259be39bedbfc556"
+        "md5": "3c764504da10f9e13b6ead24fd3b72a8"
     },
     {
         "path": "media",
@@ -587,7 +572,7 @@
     {
         "path": "/moto-tag-where-to-buy-how-it-works/index.html",
         "type": "file",
-        "md5": "9668778a84bd1fdf2693cc3d6f115392"
+        "md5": "bbcc70bffca03b8af16135d5254a8d8d"
     },
     {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
@@ -597,7 +582,7 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "5d92d26c7a727663ac7a74949ac5de05"
+        "md5": "6586a3f715b9d170acddc9f9d255056b"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -607,7 +592,7 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "53b39f3e48597e64122a97581715d83c"
+        "md5": "c7986c41ea9df32936b80084ff40877f"
     },
     {
         "path": "robots.txt",
@@ -637,7 +622,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "3b652c673e554e85d7296a62d7e9ae93"
+        "md5": "2f7001524fcba92c7b29f6c19c48cddb"
     },
     {
         "path": "tags/electric-vehicle",
@@ -647,7 +632,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "2513bb7306a6db00be01658d00d4d912"
+        "md5": "a3ba748316bde5e25c83df58a6802e42"
     },
     {
         "path": "tags/finance",
@@ -657,7 +642,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "a9f56a1d4c241bd6dd2cff3835b2056d"
+        "md5": "38023486e2264ff8be5d9ce210b6e102"
     },
     {
         "path": "tags/how-to",
@@ -667,12 +652,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "c86528076081ed9a0391d7cea4cf8c0c"
+        "md5": "b530a675a038a5e1056cabab141d7a37"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "e7d49f2c19de1cac9c2dbf418158d899"
+        "md5": "b2b4eb184a90c5d1ae69a13a699a63f7"
     },
     {
         "path": "tags/technology",
@@ -682,7 +667,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "cf5e00b90f65a95436791bd49c853552"
+        "md5": "35d172f93beb776ee5a3ca4c14712de7"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -692,7 +677,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "698b75c4664efd744e74eae96e439785"
+        "md5": "3384f1544d668f4f88a62769fdd984b7"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -702,6 +687,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "732ebb7e0c0ac1d9e863d42b87c31eb8"
+        "md5": "460229cfba057814270628ceca12adf7"
     }
 ]
