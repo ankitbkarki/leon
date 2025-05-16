@@ -87,7 +87,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "63e39779822acdf2ac8f903b5468d146"
+        "md5": "7c9e46cdc20511c5b3e2a7a6bd86bfd3"
     },
     {
         "path": "feed.json",
@@ -120,9 +120,19 @@
         "md5": "795513d7c8a9bd46a1de81ef9d4b9965"
     },
     {
+        "path": "how-to-update-resume-in-linkedin-guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/how-to-update-resume-in-linkedin-guide/index.html",
+        "type": "file",
+        "md5": "1cec9ed58a39b8c9ba7ba2655057d885"
+    },
+    {
         "path": "index.html",
         "type": "file",
-        "md5": "a59268c9bd3a10b532371bcd746189bf"
+        "md5": "be421f13912c6a39b8a122d40e78102b"
     },
     {
         "path": "media",
@@ -602,7 +612,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "1564e5d0fa08c0f1334e7fb824743867"
+        "md5": "f7431a71ce1f1fdbb8ce124e36a22141"
     },
     {
         "path": "sitemap.xsl",
@@ -617,7 +627,7 @@
     {
         "path": "/steam-account-leaks-2025/index.html",
         "type": "file",
-        "md5": "ecd2a470479c00334fc882b2c44e0bf3"
+        "md5": "fdc3120f8372608d0e54bcf9e9589ab2"
     },
     {
         "path": "tags",
@@ -667,7 +677,17 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ec4ef758e192edf308211da696dabf05"
+        "md5": "d12ed7c46ed5ccb7d5f1fdf80f441a49"
+    },
+    {
+        "path": "tags/linkedin",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/linkedin/index.html",
+        "type": "file",
+        "md5": "3fd68de95f8d7584792ac6eebcacc529"
     },
     {
         "path": "tags/technology",
