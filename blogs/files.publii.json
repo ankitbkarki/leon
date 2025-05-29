@@ -87,17 +87,32 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "d19e74022bb43a44c8a58adea4816130"
+        "md5": "ab0a57e92aa20d3be92414aea3abfacf"
+    },
+    {
+        "path": "authors/leon-staff-team/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/leon-staff-team/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/leon-staff-team/page/2/index.html",
+        "type": "file",
+        "md5": "1d285316fb584035aff1667d39084c85"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "9e551d31e46975879305be95686a604c"
+        "md5": "4415054ebdf030bf82f396999e481c67"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "42ba35a2b2342ffa0435d323b0f99b76"
+        "md5": "7c512ecaf6450f60522fd7405adece3d"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -107,7 +122,7 @@
     {
         "path": "/how-to-claim-apple-siri-settlement/index.html",
         "type": "file",
-        "md5": "fd8581533efcbaf645ceaa4b963fdebd"
+        "md5": "2653936755cca804f2eaa7ba42b24c1b"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -117,7 +132,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "e8f2905717dca6b7aef71b29890c0bcd"
+        "md5": "e84989d106b352f7a8661c972e32dd88"
     },
     {
         "path": "how-to-update-resume-in-linkedin-guide",
@@ -127,12 +142,12 @@
     {
         "path": "/how-to-update-resume-in-linkedin-guide/index.html",
         "type": "file",
-        "md5": "3c68022cabfd92e269b68af972975237"
+        "md5": "a68a6fa5203035516220b2ac5c78fc71"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f97e32ea2504cdceaf9701479b2f1519"
+        "md5": "302540b1805475f12920106e4658a946"
     },
     {
         "path": "media",
@@ -582,7 +597,7 @@
     {
         "path": "/moto-tag-where-to-buy-how-it-works/index.html",
         "type": "file",
-        "md5": "0896b785983452fd55a55cb764f8f3a1"
+        "md5": "4885f22ff7750463d95863dd39fbc7ad"
     },
     {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
@@ -592,7 +607,17 @@
     {
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
-        "md5": "1cd6e72ed09e00e08e1743c594e06aec"
+        "md5": "adb20edaa2dc8a2caeb4755a34b61f2c"
+    },
+    {
+        "path": "product-assistant-resume-guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/product-assistant-resume-guide/index.html",
+        "type": "file",
+        "md5": "44cd265a4a6da9daa162d0f6166ae284"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -602,7 +627,17 @@
     {
         "path": "/remove-onedrive-from-file-explorer/index.html",
         "type": "file",
-        "md5": "4ce4d297080e7e003e3dc65331776f2f"
+        "md5": "9968031b16cb55d8e3fb2464fdffb21f"
+    },
+    {
+        "path": "resume-layout-tips-effective-design",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/resume-layout-tips-effective-design/index.html",
+        "type": "file",
+        "md5": "b1d25398397e7bdda77a13a8a77b3c32"
     },
     {
         "path": "robots.txt",
@@ -612,7 +647,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "65786ce8cc56b213d161bca6b573f29d"
+        "md5": "b3a9ee9a2fd96726637e1c35cc4467d1"
     },
     {
         "path": "sitemap.xsl",
@@ -627,7 +662,7 @@
     {
         "path": "/steam-account-leaks-2025/index.html",
         "type": "file",
-        "md5": "0212cb063bfc933efce4dce15f12e249"
+        "md5": "53325582172333b2527a12bb3fcdd64b"
     },
     {
         "path": "tags",
@@ -642,7 +677,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "4d2be739c811ac49d36592cb4796005a"
+        "md5": "7af238a74cf3c653bef02e1e89a773fd"
     },
     {
         "path": "tags/electric-vehicle",
@@ -652,7 +687,7 @@
     {
         "path": "/tags/electric-vehicle/index.html",
         "type": "file",
-        "md5": "453283d6355011710a7de2407aecd4ab"
+        "md5": "9baf7c96b938f442de9061d57a6c5d36"
     },
     {
         "path": "tags/finance",
@@ -662,7 +697,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "f6ce6cd827da49e55b016780457f21a5"
+        "md5": "f0f5bfc8705288941fbede82bf11bbfc"
     },
     {
         "path": "tags/how-to",
@@ -672,12 +707,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "06c0d29b6a3faa3c33ddb715d98566e9"
+        "md5": "ad157159aa310467d80e43f8d83f0b0e"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "d12ed7c46ed5ccb7d5f1fdf80f441a49"
+        "md5": "213da53cb6459287edf6f6af85797e86"
     },
     {
         "path": "tags/linkedin",
@@ -687,7 +722,17 @@
     {
         "path": "/tags/linkedin/index.html",
         "type": "file",
-        "md5": "175f52565c5cdc2064cdeb4b335ce27e"
+        "md5": "38cc6871c3ea29bcf3dbeb98458d405a"
+    },
+    {
+        "path": "tags/resume",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/resume/index.html",
+        "type": "file",
+        "md5": "309f8e07175233ed6e1da2afb9834fc7"
     },
     {
         "path": "tags/technology",
@@ -697,7 +742,7 @@
     {
         "path": "/tags/technology/index.html",
         "type": "file",
-        "md5": "93154c54432c13ead74bbb7e2c166ec6"
+        "md5": "d68ad2689af2646f9861decc89b6135f"
     },
     {
         "path": "tesla-model-y-2025-specs-price-road-noise",
@@ -707,7 +752,7 @@
     {
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
-        "md5": "18909cccda4dd2c54dae756e5fde61b3"
+        "md5": "82d30b8c45dcbcda2db9aa745b084832"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
@@ -717,6 +762,6 @@
     {
         "path": "/vr-meeting-virtual-reality-collaboration/index.html",
         "type": "file",
-        "md5": "0d4354de832d4232ba99a07467b306b4"
+        "md5": "434c4a66d200a1166df168b8b2a7dba2"
     }
 ]
