@@ -87,7 +87,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "b40a04b56b90c8f786a8c7e47203060d"
+        "md5": "e996373ff011dc150343b2fdb8e58dd5"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -107,12 +107,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "4415054ebdf030bf82f396999e481c67"
+        "md5": "70b044dbbf01e55d792918d58176af58"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "7c512ecaf6450f60522fd7405adece3d"
+        "md5": "b2aea40df86fcc19a1ab02cd469192b5"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -122,7 +122,7 @@
     {
         "path": "/how-to-claim-apple-siri-settlement/index.html",
         "type": "file",
-        "md5": "3b74f3cd2206ab47c09a16896238a33d"
+        "md5": "0cc46d12ff85c7b9529ef4d5d6060c0a"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -142,12 +142,12 @@
     {
         "path": "/how-to-update-resume-in-linkedin-guide/index.html",
         "type": "file",
-        "md5": "1f3a46ac619e6c1bdc3c650fae5dce57"
+        "md5": "ff900e12495867804140d6deb00ff33f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "4bfd3d62ae9cf726331a74ab5c322e0a"
+        "md5": "d653b27032aa3e9061a23cf9014929a6"
     },
     {
         "path": "media",
@@ -365,9 +365,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/23/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info.png",
+        "path": "/media/posts/23/How-to-Claim-Apple-Siri-Settlement.png",
         "type": "file",
-        "md5": "b2f484f95cfe58c3fdbcde0dcbc48311"
+        "md5": "7011a78ec2966155ae6c78b780728f1b"
     },
     {
         "path": "media/posts/23/responsive",
@@ -375,39 +375,39 @@
         "md5": false
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-2xl.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-2xl.webp",
         "type": "file",
-        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+        "md5": "02a72c650e7c8b9d5fa722a800f26a76"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-lg.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-lg.webp",
         "type": "file",
-        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+        "md5": "0122a82aab681d3b0dfa0b76c04dba91"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-md.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-md.webp",
         "type": "file",
-        "md5": "68d2717ebc4ef4644a5dd092b96f9f0c"
+        "md5": "ddb3339b6003278cb4396a26cd04e3ca"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-sm.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-sm.webp",
         "type": "file",
-        "md5": "941e4aaa300503b031d217873a8e5570"
+        "md5": "bd80246e7af008616a4f80b03e882f44"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-sm2.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-sm2.webp",
         "type": "file",
-        "md5": "d62e495bad06501a0dbe5afd5b1f1cf4"
+        "md5": "a10a26f5edd4adea826032c06ee6a383"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-xl.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-xl.webp",
         "type": "file",
-        "md5": "6ba9ef4e30e0cd029e783ea7c78ebeac"
+        "md5": "dd31c33274dfc19250db372771506c41"
     },
     {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-Full-Guide-and-Payout-Info-xs.webp",
+        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-xs.webp",
         "type": "file",
-        "md5": "5416898d6f4013e7dd2e4d02e4618f80"
+        "md5": "023001cf958f29fc50f2dd1c90c9b48e"
     },
     {
         "path": "media/posts/24",
@@ -458,6 +458,206 @@
         "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-xs.webp",
         "type": "file",
         "md5": "07e0a8d08ba6d036f6e34ae5977e2f60"
+    },
+    {
+        "path": "media/posts/25",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/25/2025-Steam-Account-Leak-Exposed.png",
+        "type": "file",
+        "md5": "af1db1695bfadc38bfbe192ee0e67d34"
+    },
+    {
+        "path": "media/posts/25/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-2xl.webp",
+        "type": "file",
+        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-lg.webp",
+        "type": "file",
+        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-md.webp",
+        "type": "file",
+        "md5": "dba660a89472e1254bb7377babcef467"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-sm.webp",
+        "type": "file",
+        "md5": "8e8867bcc349f637de9b7e7026920713"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-sm2.webp",
+        "type": "file",
+        "md5": "9dc1009cbf6f7350898b0e158bb79b25"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-xl.webp",
+        "type": "file",
+        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
+    },
+    {
+        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-xs.webp",
+        "type": "file",
+        "md5": "c7aed94cf314a7b4e4706921ff1d8cf6"
+    },
+    {
+        "path": "media/posts/26",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/26/how-to-update-resume-in-linkedin.png",
+        "type": "file",
+        "md5": "69d73399106257b251bbb8892d6abb88"
+    },
+    {
+        "path": "media/posts/26/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-2xl.webp",
+        "type": "file",
+        "md5": "71f9586240be50aebd0b6d8756c1fc86"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-lg.webp",
+        "type": "file",
+        "md5": "71f9586240be50aebd0b6d8756c1fc86"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-md.webp",
+        "type": "file",
+        "md5": "8e6b8037bb9c73daebb80c3477f4fc3d"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-sm.webp",
+        "type": "file",
+        "md5": "6bdd1496a6bb32a541ae9d94d09d1867"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-sm2.webp",
+        "type": "file",
+        "md5": "2a098cdab7077193fd471312cd17c92e"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-xl.webp",
+        "type": "file",
+        "md5": "71f9586240be50aebd0b6d8756c1fc86"
+    },
+    {
+        "path": "/media/posts/26/responsive/how-to-update-resume-in-linkedin-xs.webp",
+        "type": "file",
+        "md5": "d6e84ca2bb98f4fa369faf3d7369f7d7"
+    },
+    {
+        "path": "media/posts/27",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/27/Product-Assistant-Resume.png",
+        "type": "file",
+        "md5": "89029fdee81ff10a0da9a336acd01d86"
+    },
+    {
+        "path": "media/posts/27/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-2xl.webp",
+        "type": "file",
+        "md5": "e609ccbdf1a5df8494695c17e3ef821f"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-lg.webp",
+        "type": "file",
+        "md5": "e609ccbdf1a5df8494695c17e3ef821f"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-md.webp",
+        "type": "file",
+        "md5": "34163000699848823a63b4357b06f1d0"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-sm.webp",
+        "type": "file",
+        "md5": "43d447d5de2cdc5cae67c39528e11f99"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-sm2.webp",
+        "type": "file",
+        "md5": "d9b2bdaa977596ced998322cc0db9b58"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-xl.webp",
+        "type": "file",
+        "md5": "e609ccbdf1a5df8494695c17e3ef821f"
+    },
+    {
+        "path": "/media/posts/27/responsive/Product-Assistant-Resume-xs.webp",
+        "type": "file",
+        "md5": "24224d2b01e5e9b5df400a271613fb34"
+    },
+    {
+        "path": "media/posts/28",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/28/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-2xl.webp",
+        "type": "file",
+        "md5": "6b8f26fab6bfaa63c9ee178e8e4e5b1a"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-lg.webp",
+        "type": "file",
+        "md5": "6b8f26fab6bfaa63c9ee178e8e4e5b1a"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-md.webp",
+        "type": "file",
+        "md5": "663a296c38b9aeb5d47d4e22c7937461"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-sm.webp",
+        "type": "file",
+        "md5": "fdd350284e4e1ba33d370803f8a9a96d"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-sm2.webp",
+        "type": "file",
+        "md5": "691cf89768f7ba0f502e072dd296fed1"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-xl.webp",
+        "type": "file",
+        "md5": "6b8f26fab6bfaa63c9ee178e8e4e5b1a"
+    },
+    {
+        "path": "/media/posts/28/responsive/Resume-layout-tips-xs.webp",
+        "type": "file",
+        "md5": "6320f1c3ef372c404f84804ca4e464a7"
+    },
+    {
+        "path": "/media/posts/28/Resume-layout-tips.png",
+        "type": "file",
+        "md5": "cade84cd9ba96209ff4266d44b588280"
     },
     {
         "path": "media/posts/9",
@@ -600,6 +800,21 @@
         "md5": "bebbdac608be8516ee1c43e9276dba29"
     },
     {
+        "path": "page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/page/2/index.html",
+        "type": "file",
+        "md5": "45b89c94ecc2c44b62baea3fc85c72f8"
+    },
+    {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
         "type": "directory",
         "md5": false
@@ -617,7 +832,7 @@
     {
         "path": "/product-assistant-resume-guide/index.html",
         "type": "file",
-        "md5": "e3c67f76b78f8401a8def3373fe11b20"
+        "md5": "eeb8988a7d91325fe23fba1967295ada"
     },
     {
         "path": "remove-onedrive-from-file-explorer",
@@ -637,7 +852,7 @@
     {
         "path": "/resume-layout-tips-effective-design/index.html",
         "type": "file",
-        "md5": "f7dbc44bf70b805203816f80419f7127"
+        "md5": "4f7ea2226bd16080dfbfedc1e701a07f"
     },
     {
         "path": "robots.txt",
@@ -647,7 +862,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "b3a9ee9a2fd96726637e1c35cc4467d1"
+        "md5": "f532f5386bc7f328e5629761d2e45354"
     },
     {
         "path": "sitemap.xsl",
@@ -662,7 +877,7 @@
     {
         "path": "/steam-account-leaks-2025/index.html",
         "type": "file",
-        "md5": "b705a2744df7aca54f8326af996d4fc3"
+        "md5": "cd73ff345e5eaa149ea43ed7a22ad35f"
     },
     {
         "path": "tags",
@@ -677,7 +892,7 @@
     {
         "path": "/tags/cybersecurity/index.html",
         "type": "file",
-        "md5": "70c0b084aad734de0c14f29a50422dd4"
+        "md5": "fe3a9ff9ece5d0db650fb3c20d34534e"
     },
     {
         "path": "tags/electric-vehicle",
@@ -707,7 +922,7 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "d3580b1f9c0e951ad73bddb7ef7f1388"
+        "md5": "d1f9af55688afed83a0fb74843e5350c"
     },
     {
         "path": "/tags/index.html",
@@ -722,7 +937,7 @@
     {
         "path": "/tags/linkedin/index.html",
         "type": "file",
-        "md5": "20d9044bd211bdf871143c695e3ada1b"
+        "md5": "87a2df72406e049e5fd59790a5d3f669"
     },
     {
         "path": "tags/resume",
@@ -732,7 +947,7 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "efd6a51f64e1e58b9f4ea4f063d891cc"
+        "md5": "d0a42fa043576ca9bbab3cf350f6b0cc"
     },
     {
         "path": "tags/technology",
