@@ -102,7 +102,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "f898a3d3d0ad82040d91115eb1da5167"
+        "md5": "fcd94bbc02fabbc448c422f49f39826c"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -117,17 +117,27 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "fc206b32d2f837679dc0d405ea3148e6"
+        "md5": "209333f1543d2bf40a710747de67686b"
+    },
+    {
+        "path": "best-it-certifications-2025",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/best-it-certifications-2025/index.html",
+        "type": "file",
+        "md5": "b962c80e6ef3bf66876da6fb637c006a"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "8d181c2c6841024eff221c5de0ffb9b2"
+        "md5": "49f175e67e9594b6461892625800006a"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "c4a0897453f10eab673b265088d02d3e"
+        "md5": "d973f7c4f4e9cfda5ddfa02ca65962bd"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -138,6 +148,16 @@
         "path": "/how-to-claim-apple-siri-settlement/index.html",
         "type": "file",
         "md5": "6c1dd614ff126d42b1372fad43a6303a"
+    },
+    {
+        "path": "how-to-get-it-job-usa-from-abroad",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/how-to-get-it-job-usa-from-abroad/index.html",
+        "type": "file",
+        "md5": "02b7aee86a300a10b78ff43950698c00"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -160,9 +180,19 @@
         "md5": "0317cbedd2810186c2e5dbfd645667da"
     },
     {
+        "path": "how-to-write-tech-resume-that-gets-interviews",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/how-to-write-tech-resume-that-gets-interviews/index.html",
+        "type": "file",
+        "md5": "a440c564625939d629087c8ac5304f92"
+    },
+    {
         "path": "index.html",
         "type": "file",
-        "md5": "cbaedc82ae305459ba0ffec37bc2c235"
+        "md5": "3f06fd7fef661071f68f5e4f8ab3262b"
     },
     {
         "path": "it-staffing-solutions-hiring-it-talent-guide",
@@ -172,7 +202,7 @@
     {
         "path": "/it-staffing-solutions-hiring-it-talent-guide/index.html",
         "type": "file",
-        "md5": "59b8994aa892b46fb1a7608fa8f99618"
+        "md5": "b2afbbef8b0c083c95ca5551133e16cd"
     },
     {
         "path": "media",
@@ -685,6 +715,56 @@
         "md5": "cade84cd9ba96209ff4266d44b588280"
     },
     {
+        "path": "media/posts/29",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/29/IT-Staffing.png",
+        "type": "file",
+        "md5": "60004c7de39ee9dcaef34283e4f10a90"
+    },
+    {
+        "path": "media/posts/29/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-2xl.webp",
+        "type": "file",
+        "md5": "d154f9ec88a0298a546634a05fa56c95"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-lg.webp",
+        "type": "file",
+        "md5": "54c3422bb48be19b1764076ebe434c83"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-md.webp",
+        "type": "file",
+        "md5": "e80750c96b51446429e2be0efb075d9e"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-sm.webp",
+        "type": "file",
+        "md5": "01cd4b903a44ae1b5f018dea2de25886"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-sm2.webp",
+        "type": "file",
+        "md5": "12d9d93bebb3a663c7921dccef832a16"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-xl.webp",
+        "type": "file",
+        "md5": "b9af0dbf293075dd0f806026eac6eb8a"
+    },
+    {
+        "path": "/media/posts/29/responsive/IT-Staffing-xs.webp",
+        "type": "file",
+        "md5": "6e9e171a2a7d7ad77b69dbb85f3dabc4"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -825,6 +905,16 @@
         "md5": "697e4d69ea74b783d1e220c8fee8e9ea"
     },
     {
+        "path": "new-collar-careers-skill-based-roles",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/new-collar-careers-skill-based-roles/index.html",
+        "type": "file",
+        "md5": "53fa9b6613636bb376b0199de21c270d"
+    },
+    {
         "path": "page",
         "type": "directory",
         "md5": false
@@ -837,7 +927,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "72a80a8ce21888fb59d0fb77dfa20ab1"
+        "md5": "3558892ebc191e21ee2e968c9b722d54"
     },
     {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
@@ -848,6 +938,16 @@
         "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
         "type": "file",
         "md5": "199d93873a2b0340d2f2561872a36c72"
+    },
+    {
+        "path": "power-networking-2025-career-connections",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/power-networking-2025-career-connections/index.html",
+        "type": "file",
+        "md5": "aa14c6355abab68f23481b1fb2f48051"
     },
     {
         "path": "product-assistant-resume-guide",
@@ -880,6 +980,16 @@
         "md5": "0c46b110c8dbb59f74dd64d0543d761a"
     },
     {
+        "path": "rise-of-ai-future-proof-it-career",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/rise-of-ai-future-proof-it-career/index.html",
+        "type": "file",
+        "md5": "02d0560e463fff6305fcc6932f0acd60"
+    },
+    {
         "path": "robots.txt",
         "type": "file",
         "md5": "48a32ba896cc51cc6b9191dc02ea4638"
@@ -892,7 +1002,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "568fdc5d5882ed9def5529fdf60de37c"
+        "md5": "b25dfe58a4880f1c70ee7ce2e2f34ac7"
     },
     {
         "path": "sitemap.xsl",
@@ -913,6 +1023,16 @@
         "path": "tags",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "tags/career-guides",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/career-guides/index.html",
+        "type": "file",
+        "md5": "50993b1aee6a50153805e363d13eb47d"
     },
     {
         "path": "tags/cybersecurity",
@@ -952,12 +1072,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "f29e20b3c922962c8fcecd34ce60ee38"
+        "md5": "2d5b890f11d5e49a437f267709367402"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "27451dfa9c53c604d8d913706fe45ee6"
+        "md5": "c805a4641965d5b83f9a353974446791"
     },
     {
         "path": "tags/it-staffing",
@@ -967,7 +1087,7 @@
     {
         "path": "/tags/it-staffing/index.html",
         "type": "file",
-        "md5": "7824b5142b0296188278afea6035195c"
+        "md5": "de2cad956ad08c5098e49d1f2571aa7c"
     },
     {
         "path": "tags/linkedin",
