@@ -122,12 +122,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "3deab02a0fe06ce4b4caecaf7b2dacd6"
+        "md5": "8d181c2c6841024eff221c5de0ffb9b2"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "085242857c6457bd832937be8e81d24a"
+        "md5": "c4a0897453f10eab673b265088d02d3e"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -147,7 +147,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "32952793e617986a09f46b985327f594"
+        "md5": "6d47c9e57075ea69ae3d5b61f9afa9df"
     },
     {
         "path": "how-to-update-resume-in-linkedin-guide",
@@ -892,7 +892,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "71cc07eba6bdfde674a72f5d485b1fbf"
+        "md5": "568fdc5d5882ed9def5529fdf60de37c"
     },
     {
         "path": "sitemap.xsl",
