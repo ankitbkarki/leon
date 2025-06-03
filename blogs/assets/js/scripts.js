@@ -536,32 +536,24 @@ window.addEventListener('scroll', () => {
 
 // Load search input area
 const searchButton = document.querySelector('.js-search-btn');
-const searchOverlay = document.querySelector('.js-search-overlay');
-const searchInput = document.querySelector('[type="search"]');
 
 if (searchButton) {
     searchButton.addEventListener('click', (e) => {
-        e.stopPropagation();
-        searchOverlay.classList.toggle('expanded');
-
-        if (searchInput) {
-            setTimeout(() => {
-                if (searchOverlay.classList.contains('expanded')) {
-                    searchInput.focus();
-                }
-            }, 60);
-        }
-    });
-
-    searchOverlay.addEventListener('click', (e) => {
-        e.stopPropagation();
-    });
-
-    document.body.addEventListener('click', () => {
-        searchOverlay.classList.remove('expanded');
+        e.preventDefault();
+        // Redirect to search page
+        window.location.href = '/search';
     });
 }
 
+// Check for stored search query on search page load
+if (window.location.pathname.includes('/search')) {
+    const storedQuery = sessionStorage.getItem('searchQuery');
+    if (storedQuery && searchInput) {
+        searchInput.value = storedQuery;
+        // Clear the stored query
+        sessionStorage.removeItem('searchQuery');
+    }
+}
 
 // Responsive embeds script
 (function () {
