@@ -102,7 +102,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "8cd4d29d46eaf1776ca11c145538e0cc"
+        "md5": "ab6391039bb3fd62bc54b332f6799ae4"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -117,7 +117,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "5a6795fae71d85248775e7a722300ceb"
+        "md5": "bad8caa2ad4a93b14240ec7145671d85"
     },
     {
         "path": "authors/leon-staff-team/page/3",
@@ -127,7 +127,7 @@
     {
         "path": "/authors/leon-staff-team/page/3/index.html",
         "type": "file",
-        "md5": "b81f0fab258c42b0ef9d8e30bbf33aa2"
+        "md5": "8b7b7d27dcbf947ae539406b40148f27"
     },
     {
         "path": "best-it-certifications-2025",
@@ -142,12 +142,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "2200daaf82f0cd4e49030298eb3690f0"
+        "md5": "57818542dbd797c16861377127c7f0f9"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "468406402a3155a6ff0c9d4b595980d8"
+        "md5": "706151b87e4f39d3dcfbf5e97560d4d5"
     },
     {
         "path": "how-to-claim-apple-siri-settlement",
@@ -177,7 +177,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "6d47c9e57075ea69ae3d5b61f9afa9df"
+        "md5": "6366cf9b12718001995b6f604817fb85"
     },
     {
         "path": "how-to-start-it-career-no-experience",
@@ -187,7 +187,7 @@
     {
         "path": "/how-to-start-it-career-no-experience/index.html",
         "type": "file",
-        "md5": "b00ea15da5d139cb32c97c1348cb8304"
+        "md5": "af2b2873f4d3ebb2fbc1db79b273bce2"
     },
     {
         "path": "how-to-update-resume-in-linkedin-guide",
@@ -212,7 +212,17 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1a2587025a67e20ed4a4fb145d324d3d"
+        "md5": "58a3f1f92bca9fc7b6fe54e19eb6ad08"
+    },
+    {
+        "path": "it-jobs-200k-2025-salary-guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/it-jobs-200k-2025-salary-guide/index.html",
+        "type": "file",
+        "md5": "7e6c66880efe479955f040710a775872"
     },
     {
         "path": "it-staffing-solutions-hiring-it-talent-guide",
@@ -223,6 +233,16 @@
         "path": "/it-staffing-solutions-hiring-it-talent-guide/index.html",
         "type": "file",
         "md5": "2464eb7d1a6ae1f870f7cb0c83ccb3a9"
+    },
+    {
+        "path": "make-200k-year-without-degree",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/make-200k-year-without-degree/index.html",
+        "type": "file",
+        "md5": "266c82ef81cbc17e9868cbbdcd0fd097"
     },
     {
         "path": "media",
@@ -1135,6 +1155,156 @@
         "md5": "3b9d495000032acd51c24350a5b665a6"
     },
     {
+        "path": "media/posts/37",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/37/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-2xl.webp",
+        "type": "file",
+        "md5": "cbdbcb368543377f1a6881fcb0c36299"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-lg.webp",
+        "type": "file",
+        "md5": "02b91b453e622a6ffab5326c41124253"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-md.webp",
+        "type": "file",
+        "md5": "8eece31969063ec7c6f31d272a6d9044"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-sm.webp",
+        "type": "file",
+        "md5": "9a198d4f48144e20661df7fd2dc41bf7"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-sm2.webp",
+        "type": "file",
+        "md5": "3687bea860d886a47c8ab9bbb29d2493"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-xl.webp",
+        "type": "file",
+        "md5": "40acbeda93de0668cffa0bd37f764059"
+    },
+    {
+        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-xs.webp",
+        "type": "file",
+        "md5": "73321b6f9d05b0d680d377a9024e8396"
+    },
+    {
+        "path": "/media/posts/37/Top-15-Jobs-That-Pay-200K-a-Year.png",
+        "type": "file",
+        "md5": "2e3e83143450082c982fd6ac3781e75b"
+    },
+    {
+        "path": "media/posts/38",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/38/Make-200K-a-Year-Without-a-Degree.png",
+        "type": "file",
+        "md5": "e4ee00d4982a58dc048ca7d1ef322c92"
+    },
+    {
+        "path": "media/posts/38/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-2xl.webp",
+        "type": "file",
+        "md5": "b3b255ea358deb5a04146379e1a2aef3"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-lg.webp",
+        "type": "file",
+        "md5": "1660517615e087ab94f31a5ac2f6fbec"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-md.webp",
+        "type": "file",
+        "md5": "6b02526705c2f24a6361d4f99b8be1ab"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-sm.webp",
+        "type": "file",
+        "md5": "3d998556d3ce8bbf44fe5664765abb57"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-sm2.webp",
+        "type": "file",
+        "md5": "3c8c0292a47ad77b1e06885fe0d445b3"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-xl.webp",
+        "type": "file",
+        "md5": "70df7b147d9f81726b98b41c4ed5dc4c"
+    },
+    {
+        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-xs.webp",
+        "type": "file",
+        "md5": "b58d749bc625a06a0e98efc4f6883afd"
+    },
+    {
+        "path": "media/posts/39",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/39/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-2xl.webp",
+        "type": "file",
+        "md5": "714130510a7bed865516a479010204e4"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-lg.webp",
+        "type": "file",
+        "md5": "2afdc6cd868a2142cf5b17c039fcbf39"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-md.webp",
+        "type": "file",
+        "md5": "bc2bb6af406e3cc4020bf8312e68753e"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-sm.webp",
+        "type": "file",
+        "md5": "6ffe8a69a878e4396c1371b75b6d2f2f"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-sm2.webp",
+        "type": "file",
+        "md5": "9dc1009cbf6f7350898b0e158bb79b25"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-xl.webp",
+        "type": "file",
+        "md5": "c7572c27fa8eb6b8688d2a9e513af1fe"
+    },
+    {
+        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-xs.webp",
+        "type": "file",
+        "md5": "5d3ea7d177210573a416131d8c02e5cf"
+    },
+    {
+        "path": "/media/posts/39/Top-IT-Jobs-Over-200K-in-2025.png",
+        "type": "file",
+        "md5": "81591c5d38450d56228108443b08bef8"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -1297,7 +1467,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "91fcf8b2188b6632a6a3701c2f92071e"
+        "md5": "21cdae021a78511bd259478eb78e7d63"
     },
     {
         "path": "page/3",
@@ -1307,7 +1477,7 @@
     {
         "path": "/page/3/index.html",
         "type": "file",
-        "md5": "f4eef5eec2e5f83dfb6e551ee2511e50"
+        "md5": "1ce3fd6a57c59d49d56021b268d7ecf7"
     },
     {
         "path": "phishing-ai-ai-phishing-detection-ai-phishing",
@@ -1382,7 +1552,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "017b4b0303b13f159199a2b44a8dbb34"
+        "md5": "61272b7ef8601271abbb5494230491de"
     },
     {
         "path": "sitemap.xsl",
@@ -1412,7 +1582,7 @@
     {
         "path": "/tags/career-guides/index.html",
         "type": "file",
-        "md5": "e52472e01283ad895ed322a2e0e0499a"
+        "md5": "83a94a798cd99d7abbb865a5ca740b90"
     },
     {
         "path": "tags/cybersecurity",
@@ -1432,7 +1602,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "3ca4e5f6cc089bb775b0ec77cbb52eb5"
+        "md5": "9d19c156d0e2ec37d8c337459740743c"
     },
     {
         "path": "tags/how-to",
@@ -1447,7 +1617,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "9545f5038ae3081c8c6fcc7dd79e208a"
+        "md5": "371219456e9487f1645af29a4c9e57ed"
     },
     {
         "path": "tags/it-staffing",
@@ -1498,6 +1668,16 @@
         "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
         "type": "file",
         "md5": "0cb7eadcdf38fc7c3ff887cf3baa28f2"
+    },
+    {
+        "path": "top-15-jobs-200k-year",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/top-15-jobs-200k-year/index.html",
+        "type": "file",
+        "md5": "2f95a1ea175b532fe6241f20ba01b5bd"
     },
     {
         "path": "vr-meeting-virtual-reality-collaboration",
