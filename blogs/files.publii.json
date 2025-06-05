@@ -102,7 +102,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "aa91f99ed16bde85e78239172580b7b7"
+        "md5": "1becf04b4857af22229ccd752b578c66"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -117,7 +117,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "d3d4ae498fb6fe7a0658d7087f72f7fa"
+        "md5": "136df7365aa44c74756126faf232a1b8"
     },
     {
         "path": "best-it-certifications-2025",
@@ -132,12 +132,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "ae7fde84e5553d8df44e83b1feac38a2"
+        "md5": "3803e2781ef067851004c9565cb19b67"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "91dfbfd5b4e4554d108f1bb4cc77d153"
+        "md5": "73a42f35e6b19a03e7643550f5b990f5"
     },
     {
         "path": "how-to-get-it-job-usa-from-abroad",
@@ -192,7 +192,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "72ab9c4ffa46b82a84817c0f92b5798c"
+        "md5": "e07b99f7ed020d234dec51cfe4572cb5"
     },
     {
         "path": "it-jobs-200k-2025-salary-guide",
@@ -202,7 +202,7 @@
     {
         "path": "/it-jobs-200k-2025-salary-guide/index.html",
         "type": "file",
-        "md5": "7e6c66880efe479955f040710a775872"
+        "md5": "fa5f1ea3a594c0674c106864b2e2b3b6"
     },
     {
         "path": "it-staffing-solutions-hiring-it-talent-guide",
@@ -985,6 +985,56 @@
         "md5": "81591c5d38450d56228108443b08bef8"
     },
     {
+        "path": "media/posts/40",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/40/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-2xl.webp",
+        "type": "file",
+        "md5": "4f9c0378b86bdc9c7bf06a20b69141d6"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-lg.webp",
+        "type": "file",
+        "md5": "47a83bbb7dc4ac189fe45657e2c6fb19"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-md.webp",
+        "type": "file",
+        "md5": "0a91f84cb35f571297e26392e0d67da8"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-sm.webp",
+        "type": "file",
+        "md5": "59436bdbd24ca0f15d429b44c758f434"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-sm2.webp",
+        "type": "file",
+        "md5": "ace0f32ea37cb2e6d8a74004970b3aac"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-xl.webp",
+        "type": "file",
+        "md5": "5005f845ae1613be6dceed9faed85944"
+    },
+    {
+        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-xs.webp",
+        "type": "file",
+        "md5": "75f6d94b3a95068342d3d16a586433f0"
+    },
+    {
+        "path": "/media/posts/40/Top-Remote-Customer-Service-Jobs-Find-Yours-Today.png",
+        "type": "file",
+        "md5": "2241b1237d6c72b5daa9bafdf3b0c05d"
+    },
+    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -1087,7 +1137,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "bdb31712bee4ae7c73e37bfbdd1d4dd6"
+        "md5": "4473eb95518eb2974ca8586e1de64dbf"
     },
     {
         "path": "power-networking-2025-career-connections",
@@ -1108,6 +1158,16 @@
         "path": "/product-assistant-resume-guide/index.html",
         "type": "file",
         "md5": "e63802ad6deb39a44c9bd8a08923e5e7"
+    },
+    {
+        "path": "remote-customer-service-jobs-guide",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/remote-customer-service-jobs-guide/index.html",
+        "type": "file",
+        "md5": "e57c6ea017d444ac1a0a44826443e81d"
     },
     {
         "path": "resume-layout-tips-effective-design",
@@ -1142,7 +1202,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "51bff8e286a7f5e8d60f0122023eff83"
+        "md5": "ece8836071939a5362124f8619de8212"
     },
     {
         "path": "sitemap.xsl",
@@ -1187,7 +1247,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "77682b8a3fcd9c0b2a49442b0ef18932"
+        "md5": "7b3a51eda322ec9a74019d15821d44ea"
     },
     {
         "path": "tags/it-staffing",
@@ -1208,6 +1268,16 @@
         "path": "/tags/linkedin/index.html",
         "type": "file",
         "md5": "783ac1976daf73e775512c75341cbc32"
+    },
+    {
+        "path": "tags/remote-jobs",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/remote-jobs/index.html",
+        "type": "file",
+        "md5": "9f6270adaedb4289639ef065dab654b7"
     },
     {
         "path": "tags/resume",
