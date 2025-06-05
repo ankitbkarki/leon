@@ -102,7 +102,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "ab6391039bb3fd62bc54b332f6799ae4"
+        "md5": "aa91f99ed16bde85e78239172580b7b7"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -117,17 +117,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "bad8caa2ad4a93b14240ec7145671d85"
-    },
-    {
-        "path": "authors/leon-staff-team/page/3",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/authors/leon-staff-team/page/3/index.html",
-        "type": "file",
-        "md5": "8b7b7d27dcbf947ae539406b40148f27"
+        "md5": "d3d4ae498fb6fe7a0658d7087f72f7fa"
     },
     {
         "path": "best-it-certifications-2025",
@@ -142,22 +132,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "57818542dbd797c16861377127c7f0f9"
+        "md5": "ae7fde84e5553d8df44e83b1feac38a2"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "706151b87e4f39d3dcfbf5e97560d4d5"
-    },
-    {
-        "path": "how-to-claim-apple-siri-settlement",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/how-to-claim-apple-siri-settlement/index.html",
-        "type": "file",
-        "md5": "6c1dd614ff126d42b1372fad43a6303a"
+        "md5": "91dfbfd5b4e4554d108f1bb4cc77d153"
     },
     {
         "path": "how-to-get-it-job-usa-from-abroad",
@@ -177,7 +157,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "6366cf9b12718001995b6f604817fb85"
+        "md5": "a354340f4f6446bdcbf140ffcf44948d"
     },
     {
         "path": "how-to-start-it-career-no-experience",
@@ -197,7 +177,7 @@
     {
         "path": "/how-to-update-resume-in-linkedin-guide/index.html",
         "type": "file",
-        "md5": "2d91252fff9d3859144f5e375dcd3648"
+        "md5": "ce9267a98695cf1495e9383aeb53d153"
     },
     {
         "path": "how-to-write-tech-resume-that-gets-interviews",
@@ -212,7 +192,7 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "58a3f1f92bca9fc7b6fe54e19eb6ad08"
+        "md5": "72ab9c4ffa46b82a84817c0f92b5798c"
     },
     {
         "path": "it-jobs-200k-2025-salary-guide",
@@ -242,7 +222,7 @@
     {
         "path": "/make-200k-year-without-degree/index.html",
         "type": "file",
-        "md5": "266c82ef81cbc17e9868cbbdcd0fd097"
+        "md5": "9751dd386ce9152fc62c49f7d43eb084"
     },
     {
         "path": "media",
@@ -253,106 +233,6 @@
         "path": "media/posts",
         "type": "directory",
         "md5": false
-    },
-    {
-        "path": "media/posts/17",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/17/how-ai-detects-phishing-2.png",
-        "type": "file",
-        "md5": "084180bd5e4ba4283d6449f22581c639"
-    },
-    {
-        "path": "media/posts/17/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-2xl.webp",
-        "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-lg.webp",
-        "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-md.webp",
-        "type": "file",
-        "md5": "8a7c1e5fef4971d774fd229b7ab2a282"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm.webp",
-        "type": "file",
-        "md5": "77229f5338755fbbf53b1f061c4f0b27"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-sm2.webp",
-        "type": "file",
-        "md5": "e65b4eb52141ab33594fdd6594462712"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xl.webp",
-        "type": "file",
-        "md5": "b6da6e049b3140622d17a7dd4168086b"
-    },
-    {
-        "path": "/media/posts/17/responsive/how-ai-detects-phishing-2-xs.webp",
-        "type": "file",
-        "md5": "0d72834f22e1d061c817e488e7b319ec"
-    },
-    {
-        "path": "media/posts/20",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/20/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-2xl.webp",
-        "type": "file",
-        "md5": "447817e16b8c9623c23698fbff3ec9aa"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-lg.webp",
-        "type": "file",
-        "md5": "447817e16b8c9623c23698fbff3ec9aa"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-md.webp",
-        "type": "file",
-        "md5": "63194898c704f99f1dc6e7260c153a70"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm.webp",
-        "type": "file",
-        "md5": "4fe38735a394bc67b6adf149ec9984bc"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-sm2.webp",
-        "type": "file",
-        "md5": "672c351fb8bf9524254a38d7b4400e19"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xl.webp",
-        "type": "file",
-        "md5": "447817e16b8c9623c23698fbff3ec9aa"
-    },
-    {
-        "path": "/media/posts/20/responsive/vr-meeting-tools-2025-lg-xs.webp",
-        "type": "file",
-        "md5": "dafe08e6bd25f8489c29055d9e4f836e"
-    },
-    {
-        "path": "/media/posts/20/vr-meeting-tools-2025-lg.webp",
-        "type": "file",
-        "md5": "0cc1bac8b61ba5b9b7c9e4d6a26fac98"
     },
     {
         "path": "media/posts/21",
@@ -403,206 +283,6 @@
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xs.webp",
         "type": "file",
         "md5": "c06857e9ea338f3f3a24bb78f8fbdf6f"
-    },
-    {
-        "path": "media/posts/22",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "media/posts/22/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-2xl.webp",
-        "type": "file",
-        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-lg.webp",
-        "type": "file",
-        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-md.webp",
-        "type": "file",
-        "md5": "3e8a1b30c9e4d390c69ff3ae356eade2"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-sm.webp",
-        "type": "file",
-        "md5": "b5958d0477f4bb65dbf7730871b2607b"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-sm2.webp",
-        "type": "file",
-        "md5": "a7150e38ac27b587e8268bb0ab56323c"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-xl.webp",
-        "type": "file",
-        "md5": "dae97dc6e4fe4460d3df4f8b5f8b9441"
-    },
-    {
-        "path": "/media/posts/22/responsive/Untitled-design-lg-xs.webp",
-        "type": "file",
-        "md5": "6eaa139547e37e8af1058248d5175a14"
-    },
-    {
-        "path": "/media/posts/22/Untitled-design-lg.webp",
-        "type": "file",
-        "md5": "fff353394ba411b328bc8e7baa4041e6"
-    },
-    {
-        "path": "media/posts/23",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/23/How-to-Claim-Apple-Siri-Settlement.png",
-        "type": "file",
-        "md5": "7011a78ec2966155ae6c78b780728f1b"
-    },
-    {
-        "path": "media/posts/23/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-2xl.webp",
-        "type": "file",
-        "md5": "02a72c650e7c8b9d5fa722a800f26a76"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-lg.webp",
-        "type": "file",
-        "md5": "0122a82aab681d3b0dfa0b76c04dba91"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-md.webp",
-        "type": "file",
-        "md5": "ddb3339b6003278cb4396a26cd04e3ca"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-sm.webp",
-        "type": "file",
-        "md5": "bd80246e7af008616a4f80b03e882f44"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-sm2.webp",
-        "type": "file",
-        "md5": "a10a26f5edd4adea826032c06ee6a383"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-xl.webp",
-        "type": "file",
-        "md5": "dd31c33274dfc19250db372771506c41"
-    },
-    {
-        "path": "/media/posts/23/responsive/How-to-Claim-Apple-Siri-Settlement-xs.webp",
-        "type": "file",
-        "md5": "023001cf958f29fc50f2dd1c90c9b48e"
-    },
-    {
-        "path": "media/posts/24",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/24/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide.png",
-        "type": "file",
-        "md5": "bc39029ff1fe21a9c45ce1072af55d75"
-    },
-    {
-        "path": "media/posts/24/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-2xl.webp",
-        "type": "file",
-        "md5": "e960b6be415c6ff5544daee34df6c103"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-lg.webp",
-        "type": "file",
-        "md5": "e960b6be415c6ff5544daee34df6c103"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-md.webp",
-        "type": "file",
-        "md5": "9bf25620781e062781eb46d07ccdc8c9"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-sm.webp",
-        "type": "file",
-        "md5": "d6ab63001e66e8057501117cb0b17bc9"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-sm2.webp",
-        "type": "file",
-        "md5": "f76fc497250692b5089097fae78ec526"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-xl.webp",
-        "type": "file",
-        "md5": "e960b6be415c6ff5544daee34df6c103"
-    },
-    {
-        "path": "/media/posts/24/responsive/Moto-Tag-Where-to-Buy-and-How-It-Works-2025-Guide-xs.webp",
-        "type": "file",
-        "md5": "07e0a8d08ba6d036f6e34ae5977e2f60"
-    },
-    {
-        "path": "media/posts/25",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/25/2025-Steam-Account-Leak-Exposed.png",
-        "type": "file",
-        "md5": "af1db1695bfadc38bfbe192ee0e67d34"
-    },
-    {
-        "path": "media/posts/25/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-2xl.webp",
-        "type": "file",
-        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-lg.webp",
-        "type": "file",
-        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-md.webp",
-        "type": "file",
-        "md5": "dba660a89472e1254bb7377babcef467"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-sm.webp",
-        "type": "file",
-        "md5": "8e8867bcc349f637de9b7e7026920713"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-sm2.webp",
-        "type": "file",
-        "md5": "9dc1009cbf6f7350898b0e158bb79b25"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-xl.webp",
-        "type": "file",
-        "md5": "2380fc8055162bc6cbb496ee61e3f7c6"
-    },
-    {
-        "path": "/media/posts/25/responsive/2025-Steam-Account-Leak-Exposed-xs.webp",
-        "type": "file",
-        "md5": "c7aed94cf314a7b4e4706921ff1d8cf6"
     },
     {
         "path": "media/posts/26",
@@ -1305,56 +985,6 @@
         "md5": "81591c5d38450d56228108443b08bef8"
     },
     {
-        "path": "media/posts/9",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/9/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2.webp",
-        "type": "file",
-        "md5": "dda27afcf48f0bbefa2621b33fa22e82"
-    },
-    {
-        "path": "media/posts/9/responsive",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-2xl.webp",
-        "type": "file",
-        "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-lg.webp",
-        "type": "file",
-        "md5": "42f0089cde9a2f8dd6ecdf7357b8949d"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-md.webp",
-        "type": "file",
-        "md5": "589f924b06b4047c2c86d854e9be675a"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm.webp",
-        "type": "file",
-        "md5": "50712c0c98ae12181f7a6ffe9ba3e32c"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-sm2.webp",
-        "type": "file",
-        "md5": "af3d5e21ad2a927156a9a94daa84a91c"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xl.webp",
-        "type": "file",
-        "md5": "303ff151d3fe8afd1ee46bc79f28a7ed"
-    },
-    {
-        "path": "/media/posts/9/responsive/How-to-Remove-OneDrive-from-the-File-Explorer-Sidebar-in-Windows-10and11-2-2-xs.webp",
-        "type": "file",
-        "md5": "09f549454c30225f965753dc373048fd"
-    },
-    {
         "path": "media/website",
         "type": "directory",
         "md5": false
@@ -1435,16 +1065,6 @@
         "md5": "6ff2fcc248f6fbd019b20b75f53ede75"
     },
     {
-        "path": "moto-tag-where-to-buy-how-it-works",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/moto-tag-where-to-buy-how-it-works/index.html",
-        "type": "file",
-        "md5": "697e4d69ea74b783d1e220c8fee8e9ea"
-    },
-    {
         "path": "new-collar-careers-skill-based-roles",
         "type": "directory",
         "md5": false
@@ -1467,27 +1087,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "21cdae021a78511bd259478eb78e7d63"
-    },
-    {
-        "path": "page/3",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/page/3/index.html",
-        "type": "file",
-        "md5": "1ce3fd6a57c59d49d56021b268d7ecf7"
-    },
-    {
-        "path": "phishing-ai-ai-phishing-detection-ai-phishing",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/phishing-ai-ai-phishing-detection-ai-phishing/index.html",
-        "type": "file",
-        "md5": "7c87787d0538fab48ae3072a9dc084f8"
+        "md5": "bdb31712bee4ae7c73e37bfbdd1d4dd6"
     },
     {
         "path": "power-networking-2025-career-connections",
@@ -1508,16 +1108,6 @@
         "path": "/product-assistant-resume-guide/index.html",
         "type": "file",
         "md5": "e63802ad6deb39a44c9bd8a08923e5e7"
-    },
-    {
-        "path": "remove-onedrive-from-file-explorer",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/remove-onedrive-from-file-explorer/index.html",
-        "type": "file",
-        "md5": "48af311ec92651d8659847fbda599622"
     },
     {
         "path": "resume-layout-tips-effective-design",
@@ -1552,22 +1142,12 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "61272b7ef8601271abbb5494230491de"
+        "md5": "51bff8e286a7f5e8d60f0122023eff83"
     },
     {
         "path": "sitemap.xsl",
         "type": "file",
         "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
-    },
-    {
-        "path": "steam-account-leaks-2025",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/steam-account-leaks-2025/index.html",
-        "type": "file",
-        "md5": "040c14023bb7567a0f25c5fd3ece643f"
     },
     {
         "path": "tags",
@@ -1583,16 +1163,6 @@
         "path": "/tags/career-guides/index.html",
         "type": "file",
         "md5": "83a94a798cd99d7abbb865a5ca740b90"
-    },
-    {
-        "path": "tags/cybersecurity",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tags/cybersecurity/index.html",
-        "type": "file",
-        "md5": "040bcea651479d5bd4c347f48d384d11"
     },
     {
         "path": "tags/finance",
@@ -1612,12 +1182,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "5aa17b6368edd983d15b9d1da1e4aafb"
+        "md5": "6b01122411ad40837fc0129e546fb7eb"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "371219456e9487f1645af29a4c9e57ed"
+        "md5": "77682b8a3fcd9c0b2a49442b0ef18932"
     },
     {
         "path": "tags/it-staffing",
@@ -1650,26 +1220,6 @@
         "md5": "797255a6cf104f8cdb7d2cc545d66ae9"
     },
     {
-        "path": "tags/technology",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tags/technology/index.html",
-        "type": "file",
-        "md5": "0f93718ef9c66974b1d650279148f333"
-    },
-    {
-        "path": "tesla-model-y-2025-specs-price-road-noise",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/tesla-model-y-2025-specs-price-road-noise/index.html",
-        "type": "file",
-        "md5": "0cb7eadcdf38fc7c3ff887cf3baa28f2"
-    },
-    {
         "path": "top-15-jobs-200k-year",
         "type": "directory",
         "md5": false
@@ -1678,15 +1228,5 @@
         "path": "/top-15-jobs-200k-year/index.html",
         "type": "file",
         "md5": "2f95a1ea175b532fe6241f20ba01b5bd"
-    },
-    {
-        "path": "vr-meeting-virtual-reality-collaboration",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/vr-meeting-virtual-reality-collaboration/index.html",
-        "type": "file",
-        "md5": "52d82a6fc32157abd565ec45223d5585"
     }
 ]
