@@ -279,6 +279,16 @@
                         // Add the token to the form data with the correct parameter name
                         formData.append('g-recaptcha-response', token);
                         
+                        // Validate form fields
+                        const name = formData.get('name');
+                        const email = formData.get('email');
+                        const subject = formData.get('subject');
+                        const message = formData.get('message');
+                        
+                        if (!name || !email || !subject || !message) {
+                            throw new Error('Please fill in all required fields');
+                        }
+                        
                         const response = await fetch(this.action, {
                             method: 'POST',
                             body: formData,
@@ -308,7 +318,7 @@
                         
                         // Show error message
                         const messageDiv = document.getElementById('form-message');
-                        messageDiv.textContent = 'Sorry, there was an error sending your message. Please try again.';
+                        messageDiv.textContent = error.message || 'Sorry, there was an error sending your message. Please try again.';
                         messageDiv.classList.remove('hidden', 'bg-green-100', 'text-green-700');
                         messageDiv.classList.add('bg-red-100', 'text-red-700');
                         
