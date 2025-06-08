@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Our Services | Leon Consulting Corporation</title>
+    <meta name="description" content="Discover Leon Consulting Corporation's comprehensive staffing solutions, including executive search, contract staffing, and talent management services.">
+    <link rel="canonical" href="https://leonconsulting.com/services">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Our Services | Leon Consulting Corporation">
+    <meta property="og:description" content="Comprehensive staffing solutions for your business needs.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leonconsulting.com/services">
+    <meta property="og:image" content="https://leonconsulting.com/images/social-preview.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'leon-blue': '#002244',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full z-50 top-4">
+        <nav class="max-w-5xl mx-auto px-4">
+            <div class="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-6 py-3">
+                <div class="flex justify-between items-center">
+                    <a href="/" class="text-2xl font-bold text-leon-blue">LEON</a>
+                    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden md:flex space-x-1">
+                        <a href="/" class="px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Home</a>
+                        <a href="/about.html" class="px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">About</a>
+                        <a href="/services.html" class="px-4 py-2 rounded-full text-leon-blue bg-blue-50 font-medium">Services</a>
+                        <a href="/jobs.html" class="px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Jobs</a>
+                        <a href="/contact.html" class="px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Contact</a>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="md:hidden text-leon-blue" id="mobile-menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="md:hidden hidden absolute top-full left-0 right-0 bg-white shadow-lg rounded-3xl mt-2">
+                    <div class="flex flex-col items-center space-y-2 p-6">
+                        <a href="/" class="w-full text-center px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Home</a>
+                        <a href="/about.html" class="w-full text-center px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">About</a>
+                        <a href="/services.html" class="w-full text-center px-4 py-2 rounded-full text-leon-blue bg-blue-50 font-medium">Services</a>
+                        <a href="/jobs.html" class="w-full text-center px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Jobs</a>
+                        <a href="/contact.html" class="w-full text-center px-4 py-2 rounded-full text-gray-600 hover:bg-blue-50 hover:text-leon-blue transition">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-52 pb-20 bg-gradient-to-r from-leon-blue to-blue-900 text-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
+                <p class="text-lg md:text-xl mb-8 text-gray-200">
+                    Comprehensive staffing solutions tailored to your business needs
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Executive Search -->
+                <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-leon-blue mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-leon-blue mb-4">Executive Search</h3>
+                    <p class="text-gray-600 mb-6">
+                        Find the perfect leadership talent for your organization. Our executive search service 
+                        specializes in identifying and recruiting top-tier executives who can drive your 
+                        company's success.
+                    </p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>C-level and senior management positions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Comprehensive candidate assessment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Industry-specific expertise</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contract Staffing -->
+                <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-leon-blue mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-leon-blue mb-4">Contract Staffing</h3>
+                    <p class="text-gray-600 mb-6">
+                        Flexible staffing solutions for your project needs. Our contract staffing service 
+                        provides qualified professionals for short-term and long-term assignments.
+                    </p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Project-based staffing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Flexible contract terms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Quick deployment</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Permanent Placement -->
+                <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-leon-blue mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-leon-blue mb-4">Permanent Placement</h3>
+                    <p class="text-gray-600 mb-6">
+                        Build your dream team with our permanent placement service. We help you find 
+                        the right talent for long-term success and growth.
+                    </p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Full-time positions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Cultural fit assessment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>90-day guarantee</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Talent Management -->
+                <div class="bg-white rounded-xl shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-leon-blue mb-4">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-leon-blue mb-4">Talent Management</h3>
+                    <p class="text-gray-600 mb-6">
+                        Optimize your workforce with our comprehensive talent management solutions. 
+                        From recruitment to retention, we help you build and maintain a high-performing team.
+                    </p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Performance management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Employee development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-leon-blue mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Succession planning</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-leon-blue mb-6">Ready to Build Your Dream Team?</h2>
+            <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+                Let's discuss how our staffing solutions can help your organization achieve its goals.
+            </p>
+            <a href="/contact.html" class="inline-block bg-leon-blue text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-leon-blue text-white py-12">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Leon Consulting</h3>
+                    <p class="text-gray-300">Empowering businesses with exceptional talent solutions.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-gray-300 transition">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-300 transition">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <form class="flex gap-2">
+                        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-lg text-gray-900 w-full">
+                        <button type="submit" class="bg-white text-leon-blue px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <div class="flex justify-center space-x-4 mb-4">
+                    <a href="/privacy.html" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="/terms.html" class="hover:text-white transition">Terms of Service</a>
+                </div>
+                <p>&copy; 2024 Leon Consulting Corporation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html> 
