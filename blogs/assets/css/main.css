@@ -625,6 +625,12 @@ textarea {
   text-align: left;
   justify-self: start;
 }
+
+.site-title {
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
+}
+
 @media all and (max-width: 56.1875em) {
   .logo {
     text-align: left;
