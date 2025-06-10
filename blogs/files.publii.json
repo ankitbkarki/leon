@@ -145,6 +145,16 @@
         "md5": "6ba97c2421e0bbc397718cb014c20c86"
     },
     {
+        "path": "how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work/index.html",
+        "type": "file",
+        "md5": "66004642d2f61c12ae25eb0399fdf586"
+    },
+    {
         "path": "how-to-reset-the-zl902-step-by-step-guide-soft-and-hard-reset",
         "type": "directory",
         "md5": false
@@ -1212,7 +1222,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "8729c47d94da0757177be8f9d3b0c1f9"
+        "md5": "7a2b753e43836af22a7d04d251b69ccf"
     },
     {
         "path": "sitemap.xsl",
