@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "24a746da42cfeca29b726fa0855d8834"
+        "md5": "8f1eb0c95499a2344d9ce1ea1744e61d"
     },
     {
         "path": "assets",
@@ -22,12 +22,12 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "007a6f881072bbcc8e6b5a2f09fda9ed"
+        "md5": "92c671832a9e02419b9647ae0a482c25"
     },
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "93a0a1e3b72791555829e2ad125f3cda"
+        "md5": "4957129c81ed73c1c9ed5558335b2c32"
     },
     {
         "path": "assets/dynamic",
@@ -40,19 +40,14 @@
         "md5": false
     },
     {
-        "path": "/assets/js/isotope.pkgd.min.js",
-        "type": "file",
-        "md5": "2afcff647ed260006faa71c8e779e8d4"
-    },
-    {
         "path": "/assets/js/scripts.js",
         "type": "file",
-        "md5": "205a26ca43047cbd1ba74b323f38a913"
+        "md5": "6163ec009b55946ce2430d1fe34cff4d"
     },
     {
         "path": "/assets/js/scripts.min.js",
         "type": "file",
-        "md5": "4268bfae06e330d473c424d50f09abda"
+        "md5": "1b09dc64eb6086ddc9720890661ff038"
     },
     {
         "path": "/assets/js/svg-fix.js",
@@ -62,7 +57,7 @@
     {
         "path": "/assets/js/svg-map.js",
         "type": "file",
-        "md5": "151e31ba62789782fcd457b5b884ba8a"
+        "md5": "e5e4ced5be7f2e5a37bf8605130fe0aa"
     },
     {
         "path": "assets/svg",
@@ -72,7 +67,7 @@
     {
         "path": "/assets/svg/svg-map.svg",
         "type": "file",
-        "md5": "2813b916db5705fbd8cc3024ce107375"
+        "md5": "777b8dd8567e93fb9668f9c7cc194dfe"
     },
     {
         "path": "authors",
@@ -87,7 +82,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "d10f2e299de28ce2dd2ddaf6d812c082"
+        "md5": "e8783759ba17c69d5bc2e96de49fd3aa"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -102,7 +97,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "bcb23a86fe15e7033dd2c8900e73d75f"
+        "md5": "e9a22427049e46fd2f3f136622ca0c11"
     },
     {
         "path": "best-it-certifications-2025",
@@ -112,7 +107,7 @@
     {
         "path": "/best-it-certifications-2025/index.html",
         "type": "file",
-        "md5": "f6b53deec22246ec6c57a7cbe153e593"
+        "md5": "d4498616a7becc56e33823c351ca2b87"
     },
     {
         "path": "feed.json",
@@ -132,7 +127,7 @@
     {
         "path": "/how-to-get-it-job-usa-from-abroad/index.html",
         "type": "file",
-        "md5": "e1c0a1c7587f645670066b2e6aec0a93"
+        "md5": "70b0c7f8395e21dfa4a11ccde6946c09"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -142,7 +137,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "f0da9eff41fc8c6600ffd6088fc625d0"
+        "md5": "13329bfa508edace039398b10ad47db4"
     },
     {
         "path": "how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work",
@@ -152,7 +147,7 @@
     {
         "path": "/how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work/index.html",
         "type": "file",
-        "md5": "05782222675d8ee9ee3307e330a9b175"
+        "md5": "fc177416fae66569c7550798523c15fb"
     },
     {
         "path": "how-to-reset-the-zl902-step-by-step-guide-soft-and-hard-reset",
@@ -162,7 +157,7 @@
     {
         "path": "/how-to-reset-the-zl902-step-by-step-guide-soft-and-hard-reset/index.html",
         "type": "file",
-        "md5": "372a87677feb1822815227c855c275c8"
+        "md5": "255854e792670adaaea1b133c36a7b96"
     },
     {
         "path": "how-to-start-it-career-no-experience",
@@ -172,7 +167,7 @@
     {
         "path": "/how-to-start-it-career-no-experience/index.html",
         "type": "file",
-        "md5": "fa07303b12d9e619022822afb1b007ed"
+        "md5": "13590ed201d290a21569ba11f530fb81"
     },
     {
         "path": "how-to-update-resume-in-linkedin-guide",
@@ -182,7 +177,7 @@
     {
         "path": "/how-to-update-resume-in-linkedin-guide/index.html",
         "type": "file",
-        "md5": "5d695d20fe68a48c13a98eb6a7843f05"
+        "md5": "9a4583898fc507b300fd188e538739f0"
     },
     {
         "path": "how-to-write-tech-resume-that-gets-interviews",
@@ -192,12 +187,12 @@
     {
         "path": "/how-to-write-tech-resume-that-gets-interviews/index.html",
         "type": "file",
-        "md5": "07f6faf77087c78902b9049b6f2620cf"
+        "md5": "c2ea187af5718fea5a47916e50d40289"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "3d02f5f6595795f750f03a479772fcb7"
+        "md5": "c05e6a209e244a8504cc03192e9aa001"
     },
     {
         "path": "it-jobs-200k-2025-salary-guide",
@@ -207,7 +202,7 @@
     {
         "path": "/it-jobs-200k-2025-salary-guide/index.html",
         "type": "file",
-        "md5": "edbf16896bfc18aa6dccd139b0941d0f"
+        "md5": "0dc4ab96e1e7a3f67d3bf680639481d3"
     },
     {
         "path": "it-staffing-solutions-hiring-it-talent-guide",
@@ -217,7 +212,7 @@
     {
         "path": "/it-staffing-solutions-hiring-it-talent-guide/index.html",
         "type": "file",
-        "md5": "e013714c95c6b59c6661addb6669a9fd"
+        "md5": "d63c08af395e1969865e493b8ee39233"
     },
     {
         "path": "make-200k-year-without-degree",
@@ -227,7 +222,7 @@
     {
         "path": "/make-200k-year-without-degree/index.html",
         "type": "file",
-        "md5": "7d688062d4c901a536a304c47faf2d6f"
+        "md5": "5eaa83d0554cbf96399ca3d1adcb5660"
     },
     {
         "path": "media",
@@ -255,11 +250,6 @@
         "md5": false
     },
     {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-2xl.webp",
-        "type": "file",
-        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
-    },
-    {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-lg.webp",
         "type": "file",
         "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
@@ -273,16 +263,6 @@
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm.webp",
         "type": "file",
         "md5": "cf8945c758f867e59899e9fd7151511b"
-    },
-    {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-sm2.webp",
-        "type": "file",
-        "md5": "253ecf65f2e1fc96e8f14ea1c5cc5f36"
-    },
-    {
-        "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xl.webp",
-        "type": "file",
-        "md5": "56d9ab220e0115ba5e9752feebd5ffc9"
     },
     {
         "path": "/media/posts/21/responsive/how-to-make-200k-a-year-surprising-career-paths-lg-xs.webp",
@@ -305,14 +285,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-2xl.webp",
-        "type": "file",
-        "md5": "a9ceae7cceb03203930c8cd221b73124"
-    },
-    {
         "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-lg.webp",
         "type": "file",
-        "md5": "8827cead6154a8d0e9a5948b5f65bfb5"
+        "md5": "fc7af688baf236b2cd05b93563ca56c5"
     },
     {
         "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-md.webp",
@@ -323,16 +298,6 @@
         "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-sm.webp",
         "type": "file",
         "md5": "1ae7bdf42743ab43ecd0f115924fb490"
-    },
-    {
-        "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-sm2.webp",
-        "type": "file",
-        "md5": "476aad868092b9cf454ddf286315baee"
-    },
-    {
-        "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-xl.webp",
-        "type": "file",
-        "md5": "f9b4f6653aeb283ea2aa0dd099a99749"
     },
     {
         "path": "/media/posts/26/responsive/Master-How-to-Update-Resume-in-LinkedIn-Pro-Guide-2-xs.webp",
@@ -355,14 +320,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-2xl.webp",
-        "type": "file",
-        "md5": "bded195c93d96f65be5b401171bd4556"
-    },
-    {
         "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-lg.webp",
         "type": "file",
-        "md5": "c13695f26f43eb40d65e5bec5b2c8ad2"
+        "md5": "3aaf12f59603dc6be2ad77b65d9f9046"
     },
     {
         "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-md.webp",
@@ -373,16 +333,6 @@
         "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-sm.webp",
         "type": "file",
         "md5": "917d125df5c9c7e0740a22a864a05f60"
-    },
-    {
-        "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-sm2.webp",
-        "type": "file",
-        "md5": "f60d8e6394d38b85f2684bb345d32c46"
-    },
-    {
-        "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-xl.webp",
-        "type": "file",
-        "md5": "6984e76b357b2a2449a7e572a13d1b64"
     },
     {
         "path": "/media/posts/27/responsive/Product-Assistant-Resume-How-to-Build-a-Winning-Application-xs.webp",
@@ -400,14 +350,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-2xl.webp",
-        "type": "file",
-        "md5": "f450993568ee70d5f3fe792e3e9a4555"
-    },
-    {
         "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-lg.webp",
         "type": "file",
-        "md5": "5c23ef02f56990de06759e434743f169"
+        "md5": "eb11546f36506f335c32a3eafcdcce70"
     },
     {
         "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-md.webp",
@@ -418,16 +363,6 @@
         "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-sm.webp",
         "type": "file",
         "md5": "c030c231e7a606465dff96faf6bce307"
-    },
-    {
-        "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-sm2.webp",
-        "type": "file",
-        "md5": "cd48bcd30508f8ef8a9e06f6d4f09da5"
-    },
-    {
-        "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-xl.webp",
-        "type": "file",
-        "md5": "144b4ccefb3e0a0527b747e65f2b0876"
     },
     {
         "path": "/media/posts/28/responsive/Resume-Layout-Tips-Design-a-Resume-That-Gets-Noticed-xs.webp",
@@ -455,14 +390,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/29/responsive/IT-Staffing-2xl.webp",
-        "type": "file",
-        "md5": "d154f9ec88a0298a546634a05fa56c95"
-    },
-    {
         "path": "/media/posts/29/responsive/IT-Staffing-lg.webp",
         "type": "file",
-        "md5": "54c3422bb48be19b1764076ebe434c83"
+        "md5": "57d5345504db17703b57042bf7885400"
     },
     {
         "path": "/media/posts/29/responsive/IT-Staffing-md.webp",
@@ -473,16 +403,6 @@
         "path": "/media/posts/29/responsive/IT-Staffing-sm.webp",
         "type": "file",
         "md5": "01cd4b903a44ae1b5f018dea2de25886"
-    },
-    {
-        "path": "/media/posts/29/responsive/IT-Staffing-sm2.webp",
-        "type": "file",
-        "md5": "12d9d93bebb3a663c7921dccef832a16"
-    },
-    {
-        "path": "/media/posts/29/responsive/IT-Staffing-xl.webp",
-        "type": "file",
-        "md5": "b9af0dbf293075dd0f806026eac6eb8a"
     },
     {
         "path": "/media/posts/29/responsive/IT-Staffing-xs.webp",
@@ -505,14 +425,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-2xl.webp",
-        "type": "file",
-        "md5": "d319294469ec458f5b638e511a5c818b"
-    },
-    {
         "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-lg.webp",
         "type": "file",
-        "md5": "83611ad1e08610e991c0dd72d7b22a05"
+        "md5": "91c3c57c6fbb198cf31fb5007b8721e7"
     },
     {
         "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-md.webp",
@@ -523,16 +438,6 @@
         "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-sm.webp",
         "type": "file",
         "md5": "da390ab92e77f9ef1e1fd7ab57687f80"
-    },
-    {
-        "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-sm2.webp",
-        "type": "file",
-        "md5": "33e0e152a4619310353ed8934bc0823e"
-    },
-    {
-        "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-xl.webp",
-        "type": "file",
-        "md5": "7b73f5cb972bccc8a170fd9670e74a38"
     },
     {
         "path": "/media/posts/30/responsive/Best-IT-Certifications-to-Get-a-Job-in-2025-xs.webp",
@@ -555,14 +460,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-2xl.webp",
-        "type": "file",
-        "md5": "41812d496b89f32e456dba3103b4fb85"
-    },
-    {
         "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-lg.webp",
         "type": "file",
-        "md5": "0fe378172c7293d9168f8f61a352c2cb"
+        "md5": "337ef76693fc3f1da47a0d34b15b435f"
     },
     {
         "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-md.webp",
@@ -573,16 +473,6 @@
         "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-sm.webp",
         "type": "file",
         "md5": "5462bcaeaffa04c460ec996599e24124"
-    },
-    {
-        "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-sm2.webp",
-        "type": "file",
-        "md5": "6a8e59af75057a00333f0d4293549c54"
-    },
-    {
-        "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-xl.webp",
-        "type": "file",
-        "md5": "7d86522a629fc5a93574bf1809377b2a"
     },
     {
         "path": "/media/posts/31/responsive/How-to-Write-a-Tech-Resume-That-Gets-Interviews-in-2025-xs.webp",
@@ -605,14 +495,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-2xl.webp",
-        "type": "file",
-        "md5": "aea583bdca5059c3d74cbfed2da54f5b"
-    },
-    {
         "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-lg.webp",
         "type": "file",
-        "md5": "5208849930412bb55978d9fd3f5e8550"
+        "md5": "48abfb55da58cbb95d72589fa063befa"
     },
     {
         "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-md.webp",
@@ -623,16 +508,6 @@
         "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-sm.webp",
         "type": "file",
         "md5": "6bc91282770af0984fe5c97e3e6c8138"
-    },
-    {
-        "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-sm2.webp",
-        "type": "file",
-        "md5": "3ee254d6623c13875e18acb6e54c2fa0"
-    },
-    {
-        "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-xl.webp",
-        "type": "file",
-        "md5": "abd3627f5e756ad43898658d7ad0d99a"
     },
     {
         "path": "/media/posts/32/responsive/How-to-Get-an-IT-Job-in-the-USA-from-Abroad-A-Complete-Guide-xs.webp",
@@ -650,14 +525,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-2xl.webp",
-        "type": "file",
-        "md5": "166417ffa9640eb76534a6f9daea3d8d"
-    },
-    {
         "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-lg.webp",
         "type": "file",
-        "md5": "d4cf657b4e75195378f377210b8d60d3"
+        "md5": "fa317f932c58610bd6266a0eb8f21413"
     },
     {
         "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-md.webp",
@@ -668,16 +538,6 @@
         "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-sm.webp",
         "type": "file",
         "md5": "19bb9b51ee619371e807b0fe22318d7e"
-    },
-    {
-        "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-sm2.webp",
-        "type": "file",
-        "md5": "c793e2687b3e370ab05dd8bd6cd427dd"
-    },
-    {
-        "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-xl.webp",
-        "type": "file",
-        "md5": "86ef32ce218d10b79f6eee706bd45dfd"
     },
     {
         "path": "/media/posts/33/responsive/Rise-of-AI-How-to-Future-Proof-Your-IT-Career-in-2025-xs.webp",
@@ -705,14 +565,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-2xl.webp",
-        "type": "file",
-        "md5": "db28693c9e2cb1dac0ec5d37d47d054d"
-    },
-    {
         "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-lg.webp",
         "type": "file",
-        "md5": "d2ba027728c7121f3bbe2ece81786bb5"
+        "md5": "5448ddc627a843009f368a9f73935f9d"
     },
     {
         "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-md.webp",
@@ -723,16 +578,6 @@
         "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-sm.webp",
         "type": "file",
         "md5": "9bdee711a828f6478da96a1ff06ab5b1"
-    },
-    {
-        "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-sm2.webp",
-        "type": "file",
-        "md5": "49d2cb81cc7aafe3eafda6e15edf1e05"
-    },
-    {
-        "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-xl.webp",
-        "type": "file",
-        "md5": "f49ad6bb978988461f8805c95b425f78"
     },
     {
         "path": "/media/posts/34/responsive/Power-of-Networking-in-2025-Build-Meaningful-Career-Connections-xs.webp",
@@ -755,14 +600,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-2xl.webp",
-        "type": "file",
-        "md5": "fea41d1ccb8d56e2f722f3728247cc79"
-    },
-    {
         "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-lg.webp",
         "type": "file",
-        "md5": "eaa612a31b7f15271a5654fa0fd59bec"
+        "md5": "a4b280cadb6893f3dbb8c280b5291e12"
     },
     {
         "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-md.webp",
@@ -773,16 +613,6 @@
         "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-sm.webp",
         "type": "file",
         "md5": "620a9be5bb4fbb786eed37a9177ec84b"
-    },
-    {
-        "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-sm2.webp",
-        "type": "file",
-        "md5": "a5fea33dc0e4fd0bc2925e45b9722eb9"
-    },
-    {
-        "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-xl.webp",
-        "type": "file",
-        "md5": "1e7f81dc7990e0131bec76980e8b73e8"
     },
     {
         "path": "/media/posts/35/responsive/New-Collar-Careers-Skill-Based-Roles-in-the-Modern-Workforce-xs.webp",
@@ -805,14 +635,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-2xl.webp",
-        "type": "file",
-        "md5": "4737e6a3a0f7b14ef9905b63b4ec057f"
-    },
-    {
         "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-lg.webp",
         "type": "file",
-        "md5": "3753b79cd33ae8078397678833c89e4d"
+        "md5": "d996743e763b95ff0cbe2b757da0d099"
     },
     {
         "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-md.webp",
@@ -823,16 +648,6 @@
         "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-sm.webp",
         "type": "file",
         "md5": "1355e5f7394825740235ce017d99b122"
-    },
-    {
-        "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-sm2.webp",
-        "type": "file",
-        "md5": "584dd9eb90c0f6bf74f686cf4ac082b8"
-    },
-    {
-        "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-xl.webp",
-        "type": "file",
-        "md5": "229f4432e4ffdce0c2f02427e5098215"
     },
     {
         "path": "/media/posts/36/responsive/How-to-Start-an-IT-Career-with-No-Experience-xs.webp",
@@ -850,14 +665,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-2xl.webp",
-        "type": "file",
-        "md5": "cbdbcb368543377f1a6881fcb0c36299"
-    },
-    {
         "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-lg.webp",
         "type": "file",
-        "md5": "02b91b453e622a6ffab5326c41124253"
+        "md5": "00962982360ed8420350631bcc9b7b57"
     },
     {
         "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-md.webp",
@@ -868,16 +678,6 @@
         "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-sm.webp",
         "type": "file",
         "md5": "9a198d4f48144e20661df7fd2dc41bf7"
-    },
-    {
-        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-sm2.webp",
-        "type": "file",
-        "md5": "3687bea860d886a47c8ab9bbb29d2493"
-    },
-    {
-        "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-xl.webp",
-        "type": "file",
-        "md5": "40acbeda93de0668cffa0bd37f764059"
     },
     {
         "path": "/media/posts/37/responsive/Top-15-Jobs-That-Pay-200K-a-Year-xs.webp",
@@ -905,14 +705,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-2xl.webp",
-        "type": "file",
-        "md5": "b3b255ea358deb5a04146379e1a2aef3"
-    },
-    {
         "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-lg.webp",
         "type": "file",
-        "md5": "1660517615e087ab94f31a5ac2f6fbec"
+        "md5": "3f22fcd10e25bf625265a64c25ba72fb"
     },
     {
         "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-md.webp",
@@ -923,16 +718,6 @@
         "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-sm.webp",
         "type": "file",
         "md5": "3d998556d3ce8bbf44fe5664765abb57"
-    },
-    {
-        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-sm2.webp",
-        "type": "file",
-        "md5": "3c8c0292a47ad77b1e06885fe0d445b3"
-    },
-    {
-        "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-xl.webp",
-        "type": "file",
-        "md5": "70df7b147d9f81726b98b41c4ed5dc4c"
     },
     {
         "path": "/media/posts/38/responsive/Make-200K-a-Year-Without-a-Degree-xs.webp",
@@ -950,14 +735,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-2xl.webp",
-        "type": "file",
-        "md5": "714130510a7bed865516a479010204e4"
-    },
-    {
         "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-lg.webp",
         "type": "file",
-        "md5": "2afdc6cd868a2142cf5b17c039fcbf39"
+        "md5": "1939c97558f831387360bd10a4ae3aeb"
     },
     {
         "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-md.webp",
@@ -968,16 +748,6 @@
         "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-sm.webp",
         "type": "file",
         "md5": "6ffe8a69a878e4396c1371b75b6d2f2f"
-    },
-    {
-        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-sm2.webp",
-        "type": "file",
-        "md5": "9dc1009cbf6f7350898b0e158bb79b25"
-    },
-    {
-        "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-xl.webp",
-        "type": "file",
-        "md5": "c7572c27fa8eb6b8688d2a9e513af1fe"
     },
     {
         "path": "/media/posts/39/responsive/Top-IT-Jobs-Over-200K-in-2025-xs.webp",
@@ -1000,14 +770,9 @@
         "md5": false
     },
     {
-        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-2xl.webp",
-        "type": "file",
-        "md5": "4f9c0378b86bdc9c7bf06a20b69141d6"
-    },
-    {
         "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-lg.webp",
         "type": "file",
-        "md5": "47a83bbb7dc4ac189fe45657e2c6fb19"
+        "md5": "4a1f282187dd64d8ce5f603242334098"
     },
     {
         "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-md.webp",
@@ -1018,16 +783,6 @@
         "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-sm.webp",
         "type": "file",
         "md5": "59436bdbd24ca0f15d429b44c758f434"
-    },
-    {
-        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-sm2.webp",
-        "type": "file",
-        "md5": "ace0f32ea37cb2e6d8a74004970b3aac"
-    },
-    {
-        "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-xl.webp",
-        "type": "file",
-        "md5": "5005f845ae1613be6dceed9faed85944"
     },
     {
         "path": "/media/posts/40/responsive/Top-Remote-Customer-Service-Jobs-Find-Yours-Today-xs.webp",
@@ -1055,11 +810,6 @@
         "md5": false
     },
     {
-        "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-2xl.webp",
-        "type": "file",
-        "md5": "616b1782ef8e9198e5e1b6a39712d724"
-    },
-    {
         "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-lg.webp",
         "type": "file",
         "md5": "616b1782ef8e9198e5e1b6a39712d724"
@@ -1073,16 +823,6 @@
         "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-sm.webp",
         "type": "file",
         "md5": "10f17ba715b54f94d3dba282b3066fb1"
-    },
-    {
-        "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-sm2.webp",
-        "type": "file",
-        "md5": "c6316a9198bb37c37441e27dc1feaf85"
-    },
-    {
-        "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-xl.webp",
-        "type": "file",
-        "md5": "616b1782ef8e9198e5e1b6a39712d724"
     },
     {
         "path": "/media/posts/41/responsive/How-to-Reset-the-ZL902-Step-by-Step-Guide-Soft-and-Hard-Reset-xs.webp",
@@ -1105,11 +845,6 @@
         "md5": false
     },
     {
-        "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-2xl.webp",
-        "type": "file",
-        "md5": "f31e2ef273aa78833aca18fd39ed2463"
-    },
-    {
         "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-lg.webp",
         "type": "file",
         "md5": "f31e2ef273aa78833aca18fd39ed2463"
@@ -1123,16 +858,6 @@
         "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-sm.webp",
         "type": "file",
         "md5": "fefc3f644c8779d5a0848f3975f2f16f"
-    },
-    {
-        "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-sm2.webp",
-        "type": "file",
-        "md5": "5f50c93f6cfb21d9fe075b11bd211459"
-    },
-    {
-        "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-xl.webp",
-        "type": "file",
-        "md5": "f31e2ef273aa78833aca18fd39ed2463"
     },
     {
         "path": "/media/posts/42/responsive/How-to-Politely-Decline-a-Job-Offer-Professional-Scripts-and-Templates-That-Work-xs.webp",
@@ -1155,27 +880,7 @@
         "md5": false
     },
     {
-        "path": "/media/website/responsive/apple-touch-icon-2xl.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-lg.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-md.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
         "path": "/media/website/responsive/apple-touch-icon-sm.webp",
-        "type": "file",
-        "md5": "b52164c61e70e013218da8a42dadce14"
-    },
-    {
-        "path": "/media/website/responsive/apple-touch-icon-xl.webp",
         "type": "file",
         "md5": "b52164c61e70e013218da8a42dadce14"
     },
@@ -1192,7 +897,7 @@
     {
         "path": "/new-collar-careers-skill-based-roles/index.html",
         "type": "file",
-        "md5": "00f8e7a90119465ffa73bfe84e4ac968"
+        "md5": "123176c23f0be70f451592a5689b9be4"
     },
     {
         "path": "page",
@@ -1207,7 +912,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "6370aafc577ddd4998bd124e1110db21"
+        "md5": "a26295eccdb2a9b757d28f1d4b89ff1b"
     },
     {
         "path": "power-networking-2025-career-connections",
@@ -1217,7 +922,7 @@
     {
         "path": "/power-networking-2025-career-connections/index.html",
         "type": "file",
-        "md5": "57680cde204bd8c76b161cf0c34b0a9c"
+        "md5": "3058c16cbc6d7c41e16b65c72f9d15a8"
     },
     {
         "path": "product-assistant-resume-guide",
@@ -1227,7 +932,7 @@
     {
         "path": "/product-assistant-resume-guide/index.html",
         "type": "file",
-        "md5": "f77722f8d8a5367d1c411127a086de1c"
+        "md5": "87b8e3f0eda116756f47ab67c2c3e088"
     },
     {
         "path": "remote-customer-service-jobs-guide",
@@ -1237,7 +942,7 @@
     {
         "path": "/remote-customer-service-jobs-guide/index.html",
         "type": "file",
-        "md5": "224612303c60f24b49a0e749c5087714"
+        "md5": "f04a9ba1c0e4faef31c2089a74e7ff73"
     },
     {
         "path": "resume-layout-tips-effective-design",
@@ -1247,7 +952,7 @@
     {
         "path": "/resume-layout-tips-effective-design/index.html",
         "type": "file",
-        "md5": "fe64fa9dfb1fc327be0a754e0ce1bd41"
+        "md5": "0f2a7fc8288e333a3a6fe4b787e279d5"
     },
     {
         "path": "rise-of-ai-future-proof-it-career",
@@ -1257,7 +962,7 @@
     {
         "path": "/rise-of-ai-future-proof-it-career/index.html",
         "type": "file",
-        "md5": "f7606193e8d05072db0486ef4ae2f03a"
+        "md5": "3a199274e77526945cf89d496e4ce561"
     },
     {
         "path": "robots.txt",
@@ -1267,7 +972,7 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "552906059a31131f7c6187951df71d8d"
+        "md5": "6cca4f858c3f200f3cb0e0ebcda9a6ca"
     },
     {
         "path": "sitemap.xml",
@@ -1292,7 +997,7 @@
     {
         "path": "/tags/career-guides/index.html",
         "type": "file",
-        "md5": "99648e78ff83c51c3e4cceec04e5506e"
+        "md5": "ef3b71c64c05b4027b08791bcca707bf"
     },
     {
         "path": "tags/finance",
@@ -1302,7 +1007,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "c7f0cf4ce92acb853a2f5cb9ba1acfe3"
+        "md5": "9470b423c0cff7bbb08cb02aa47e186c"
     },
     {
         "path": "tags/how-to",
@@ -1312,12 +1017,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "d256d3b6a56936ca1b58ffdc15999bd2"
+        "md5": "58d1e697df9007059af66d464fc259a6"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "0347dbc38f07e7eecf4811fdf0dc56c8"
+        "md5": "0546b04d795a95de3caf822c8f8044d5"
     },
     {
         "path": "tags/it-staffing",
@@ -1327,7 +1032,7 @@
     {
         "path": "/tags/it-staffing/index.html",
         "type": "file",
-        "md5": "ee24f6fc705370b28ff825e3d5b1af8e"
+        "md5": "fdab7708bfdff5d9d3053ec22c826517"
     },
     {
         "path": "tags/linkedin",
@@ -1337,7 +1042,7 @@
     {
         "path": "/tags/linkedin/index.html",
         "type": "file",
-        "md5": "ad94cf18b316db44af4fe4e09dce6f77"
+        "md5": "f312242cecfb3e8c0e8268e71f1e509e"
     },
     {
         "path": "tags/remote-jobs",
@@ -1347,7 +1052,7 @@
     {
         "path": "/tags/remote-jobs/index.html",
         "type": "file",
-        "md5": "a27dcb8e77be35c1ada3b0bce8bc90e2"
+        "md5": "81a1461aa5325abe8bb81ab7ecfef94f"
     },
     {
         "path": "tags/resume",
@@ -1357,7 +1062,7 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "dd723907be95010fa7ff6559acc000b6"
+        "md5": "61cd444b9c477c8239fa131b265dcd5e"
     },
     {
         "path": "top-15-jobs-200k-year",
@@ -1367,6 +1072,6 @@
     {
         "path": "/top-15-jobs-200k-year/index.html",
         "type": "file",
-        "md5": "95a7b4ade0a35dab7d6a8e7b3019ffbb"
+        "md5": "7545c5d5d2821c2a554fcb22db55adc7"
     }
 ]
