@@ -1450,9 +1450,6 @@ textarea {
 
 .c-card {
   background: var(--white);
-  border-radius: var(--border-radius);
-  -webkit-box-shadow: 1px 16px 18px -6px rgba(0, 0, 0, 0.08);
-          box-shadow: 1px 16px 18px -6px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   padding: 0;
   -webkit-transition: all 0.2s ease-out;
@@ -1464,14 +1461,11 @@ textarea {
   background: linear-gradient(to bottom, rgba(var(--color-rgb), 0.2) 0%, rgb(255, 255, 255) 90%);
 }
 .c-card:hover {
-  -webkit-box-shadow: 1px 32px 18px -6px rgba(0, 0, 0, 0.12);
-          box-shadow: 1px 32px 18px -6px rgba(0, 0, 0, 0.12);
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
 .c-card__image {
   display: block;
-  border-radius: var(--border-radius);
   margin: 0;
   overflow: hidden;
 }
@@ -1481,7 +1475,7 @@ textarea {
   transition: all 0.25s ease-out;
 }
 .c-card__wrapper {
-  padding: 0 1.75rem 1.75rem;
+  padding: 0 0 1.75rem;
 }
 .c-card__header {
   margin-top: 1.5rem;
@@ -1542,7 +1536,6 @@ textarea {
 }
 .c-card--compact .c-card__tag {
   background: var(--color);
-  border-radius: 3px;
   display: inline-block;
   margin-bottom: 0.75rem;
   padding: 0.125rem 0.5rem;
@@ -2213,4 +2206,44 @@ textarea {
 .pswp--light .pswp__button--arrow--left:before,
 .pswp--light .pswp__button--arrow--right:before {
   background-image: url(../svg/gallery-icons-dark.svg);
+}
+
+.content__related .c-card {
+  background: #f3f3f3;
+}
+
+.footer__menu {
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+}
+.footer__menu .navbar__menu {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__menu .navbar__menu > li {
+  display: inline-block;
+}
+.footer__menu .navbar__menu a {
+  color: var(--gray-2);
+  text-decoration: none;
+  font-family: var(--menu-font);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+.footer__menu .navbar__menu a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer__menu .navbar__menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .footer__menu .navbar__menu > li {
+    display: block;
+  }
 }
