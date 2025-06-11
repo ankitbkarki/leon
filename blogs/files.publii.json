@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "5951fb645fefd6699a6b2f4a0754631b"
+        "md5": "24059eb0819206b0584731a98d2dece0"
     },
     {
         "path": "assets",
@@ -27,12 +27,32 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "d3c1295206088c48f633956ba73c47e9"
+        "md5": "6bf8363ec720277bddf40899553e99da"
     },
     {
         "path": "assets/dynamic",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/asap",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/asap/asap-italic.woff2",
+        "type": "file",
+        "md5": "bc1e7b6d01892c0e87464c7d47c15a45"
+    },
+    {
+        "path": "/assets/dynamic/fonts/asap/asap.woff2",
+        "type": "file",
+        "md5": "17f91830fdddd0e91777f8cc985798bf"
     },
     {
         "path": "assets/js",
@@ -82,7 +102,7 @@
     {
         "path": "/authors/leon-staff-team/index.html",
         "type": "file",
-        "md5": "87c8de4ec852c574d728c23e5f1b4fcb"
+        "md5": "f068559da243b2ab053dfeb6598bdcab"
     },
     {
         "path": "authors/leon-staff-team/page",
@@ -97,7 +117,7 @@
     {
         "path": "/authors/leon-staff-team/page/2/index.html",
         "type": "file",
-        "md5": "61c3f2da67d52283d52b1eb1402e5ca1"
+        "md5": "6a6375ba1ad9f251a9de806251b9ede7"
     },
     {
         "path": "best-it-certifications-2025",
@@ -107,7 +127,7 @@
     {
         "path": "/best-it-certifications-2025/index.html",
         "type": "file",
-        "md5": "88bb3b22e345963cbe39829fd70388cf"
+        "md5": "ac33bd193cc6947ddf3215f22e37b87b"
     },
     {
         "path": "feed.json",
@@ -127,7 +147,7 @@
     {
         "path": "/how-to-get-it-job-usa-from-abroad/index.html",
         "type": "file",
-        "md5": "70becef4be40482cad5e6fc304b8c8ac"
+        "md5": "4e1f0514c9ea6fa792ba226f241379f6"
     },
     {
         "path": "how-to-make-200k-a-year-professions-strategies",
@@ -137,7 +157,7 @@
     {
         "path": "/how-to-make-200k-a-year-professions-strategies/index.html",
         "type": "file",
-        "md5": "ad5aafb5225f353788965de48d372ea7"
+        "md5": "afd3696246a6cc4a95722ac7da5e62aa"
     },
     {
         "path": "how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work",
@@ -147,7 +167,7 @@
     {
         "path": "/how-to-politely-decline-a-job-offer-professional-scripts-and-templates-that-work/index.html",
         "type": "file",
-        "md5": "cdd5db80fa723c4458f8b32aea75c852"
+        "md5": "f16b4c1043e949d1965f519594903e26"
     },
     {
         "path": "how-to-reset-the-zl902-step-by-step-guide-soft-and-hard-reset",
@@ -157,7 +177,7 @@
     {
         "path": "/how-to-reset-the-zl902-step-by-step-guide-soft-and-hard-reset/index.html",
         "type": "file",
-        "md5": "68525532c96b8017ba7b0d409268036d"
+        "md5": "22b9035cbc4740132b142555bdf07c7f"
     },
     {
         "path": "how-to-start-it-career-no-experience",
@@ -167,7 +187,7 @@
     {
         "path": "/how-to-start-it-career-no-experience/index.html",
         "type": "file",
-        "md5": "cfa7ccc955aaaf871e1c3c1fe95edfd4"
+        "md5": "3f58331462667cf758027f13b5cf8d47"
     },
     {
         "path": "how-to-update-resume-in-linkedin-guide",
@@ -177,7 +197,7 @@
     {
         "path": "/how-to-update-resume-in-linkedin-guide/index.html",
         "type": "file",
-        "md5": "715ebbc4503b84c49815ef5cddad19f5"
+        "md5": "095051f02461023281b13e7c8e63a298"
     },
     {
         "path": "how-to-write-tech-resume-that-gets-interviews",
@@ -187,12 +207,12 @@
     {
         "path": "/how-to-write-tech-resume-that-gets-interviews/index.html",
         "type": "file",
-        "md5": "290d1559325547c98ac45bd8771eaf47"
+        "md5": "801f8bb4dabdb849a827dcec6326c017"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "594afc7738ee5c1a3181ccf32e8cb432"
+        "md5": "c1cd6340eea347ac1c8086c0c69a6e6e"
     },
     {
         "path": "it-jobs-200k-2025-salary-guide",
@@ -202,7 +222,7 @@
     {
         "path": "/it-jobs-200k-2025-salary-guide/index.html",
         "type": "file",
-        "md5": "a7037b451f941773337a86b4875717a1"
+        "md5": "9818a4ca60be86136432bba9f0b0ed80"
     },
     {
         "path": "it-staffing-solutions-hiring-it-talent-guide",
@@ -212,7 +232,7 @@
     {
         "path": "/it-staffing-solutions-hiring-it-talent-guide/index.html",
         "type": "file",
-        "md5": "1a982a59eb1c1462ea72c378f13fc1bf"
+        "md5": "b67f67e8508b35e134c1eda42a9f7ff3"
     },
     {
         "path": "make-200k-year-without-degree",
@@ -222,7 +242,7 @@
     {
         "path": "/make-200k-year-without-degree/index.html",
         "type": "file",
-        "md5": "c9b51149d3e7723059f0943f1de8a144"
+        "md5": "68f7afe229c8a1a63d7aa4dffcd67c2b"
     },
     {
         "path": "media",
@@ -897,7 +917,7 @@
     {
         "path": "/new-collar-careers-skill-based-roles/index.html",
         "type": "file",
-        "md5": "bd55c86157b6dccb2c7d7f74e61add6a"
+        "md5": "1cea624fa621b743b63258eefad6eb53"
     },
     {
         "path": "page",
@@ -912,7 +932,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "4409cf20823798e8bd0bad0c00798dec"
+        "md5": "741e11b8d88cfd77b2ade4e54b62b79e"
     },
     {
         "path": "power-networking-2025-career-connections",
@@ -922,7 +942,7 @@
     {
         "path": "/power-networking-2025-career-connections/index.html",
         "type": "file",
-        "md5": "9344ef5d24e54b8b7a5278ea63ffef5e"
+        "md5": "dde5896f0c094eefae28e72cd45e0edc"
     },
     {
         "path": "product-assistant-resume-guide",
@@ -932,7 +952,7 @@
     {
         "path": "/product-assistant-resume-guide/index.html",
         "type": "file",
-        "md5": "663fadca5844124990b7267b6b0570cb"
+        "md5": "32fe4d903b935256cd58b58f603154b5"
     },
     {
         "path": "remote-customer-service-jobs-guide",
@@ -942,7 +962,7 @@
     {
         "path": "/remote-customer-service-jobs-guide/index.html",
         "type": "file",
-        "md5": "f52cae9b103c85e95a4f857348208358"
+        "md5": "0a3ddc79a63092856e4747d21b11b9f1"
     },
     {
         "path": "resume-layout-tips-effective-design",
@@ -952,7 +972,7 @@
     {
         "path": "/resume-layout-tips-effective-design/index.html",
         "type": "file",
-        "md5": "45c319d8b209ea6119531aaa155ae3be"
+        "md5": "d65e37d32dc788bbadb368ed6e5b71ea"
     },
     {
         "path": "rise-of-ai-future-proof-it-career",
@@ -962,7 +982,7 @@
     {
         "path": "/rise-of-ai-future-proof-it-career/index.html",
         "type": "file",
-        "md5": "2413f6eb304432b6d698b3006d4324bd"
+        "md5": "ae9e430486c0554c4060267c56135cc3"
     },
     {
         "path": "robots.txt",
@@ -972,7 +992,7 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "6cabd20f14991e4f1a87a8a807599f52"
+        "md5": "7f89d8c939e64b9e5048d32ba61a891e"
     },
     {
         "path": "sitemap.xml",
@@ -997,7 +1017,7 @@
     {
         "path": "/tags/career-guides/index.html",
         "type": "file",
-        "md5": "501b7555b438e6aa21623dc1aea062d8"
+        "md5": "8765c94b01ebbb0d7a708fc17556242d"
     },
     {
         "path": "tags/finance",
@@ -1007,7 +1027,7 @@
     {
         "path": "/tags/finance/index.html",
         "type": "file",
-        "md5": "aa3e8156ec075085671fd1574075b7f5"
+        "md5": "235d97167e96a5165c032b767c6f95a4"
     },
     {
         "path": "tags/how-to",
@@ -1017,12 +1037,12 @@
     {
         "path": "/tags/how-to/index.html",
         "type": "file",
-        "md5": "bc6b865b80596893373f220c1bf197aa"
+        "md5": "8a79dc62f7646c3d6d639e149171f8c0"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ba76cd93817080a2d3cf90cc3a65d339"
+        "md5": "31a57ee58129a9cc0219968ce9de3c06"
     },
     {
         "path": "tags/it-staffing",
@@ -1032,7 +1052,7 @@
     {
         "path": "/tags/it-staffing/index.html",
         "type": "file",
-        "md5": "6186e2f60ccae5be0edf8d113bdc5691"
+        "md5": "1174955df721ac540efb18f44ec465ff"
     },
     {
         "path": "tags/linkedin",
@@ -1042,7 +1062,7 @@
     {
         "path": "/tags/linkedin/index.html",
         "type": "file",
-        "md5": "d84d65240fc5a3f579f092e601ecdf8b"
+        "md5": "ad533878110a41db0be2ffafbc615641"
     },
     {
         "path": "tags/remote-jobs",
@@ -1052,7 +1072,7 @@
     {
         "path": "/tags/remote-jobs/index.html",
         "type": "file",
-        "md5": "0fa5fbb0345a385d65d01d0d71dce144"
+        "md5": "6984289cd7bacc7e3b5eddbf9666997c"
     },
     {
         "path": "tags/resume",
@@ -1062,7 +1082,7 @@
     {
         "path": "/tags/resume/index.html",
         "type": "file",
-        "md5": "2bd43bcf490bba5b2ee94413933d1451"
+        "md5": "6e5d6529895f95830bef81fcf5e587b2"
     },
     {
         "path": "top-15-jobs-200k-year",
@@ -1072,6 +1092,6 @@
     {
         "path": "/top-15-jobs-200k-year/index.html",
         "type": "file",
-        "md5": "f5535e04a3a98bb339ce603bb461e7e5"
+        "md5": "d6af0e31c9f19d49291598280aa39a29"
     }
 ]
