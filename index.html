@@ -81,27 +81,90 @@
       </div>
     </div>
     <div class="flex-1 flex justify-center mt-12 md:mt-0 hidden md:flex">
-      <!-- Placeholder for robot image -->
-      <div class="w-60 h-72 sm:w-80 sm:h-96 bg-blue-200 rounded-full flex items-center justify-center">
-        <span class="text-6xl text-blue-400">🤖</span>
+      <!-- Animated IT Solutions Visual -->
+      <div class="relative w-80 h-96 flex items-center justify-center">
+        <!-- Main Circle Background -->
+        <div class="absolute w-64 h-64 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full opacity-20 animate-pulse"></div>
+        
+        <!-- Floating Icons -->
+        <div class="absolute top-8 left-8 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0s;">
+          <i class="fas fa-code text-2xl text-blue-600"></i>
+        </div>
+        
+        <div class="absolute top-16 right-12 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0.5s;">
+          <i class="fas fa-robot text-xl text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-20 left-12 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1s;">
+          <i class="fas fa-chart-line text-lg text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-8 right-8 w-18 h-18 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1.5s;">
+          <i class="fas fa-headset text-xl text-blue-600"></i>
+        </div>
+        
+        <!-- Center Element -->
+        <div class="relative z-10 w-32 h-32 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full shadow-2xl flex items-center justify-center">
+          <i class="fas fa-cog text-4xl text-white animate-spin" style="animation-duration: 3s;"></i>
+        </div>
+        
+        <!-- Connecting Lines -->
+        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 320 384">
+          <path d="M80 80 L160 160 L240 80" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M240 304 L160 224 L80 304" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M80 80 L80 304" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M240 80 L240 304" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.3"/>
+        </svg>
       </div>
     </div>
   </section>
 
   <!-- About/Feature Section -->
   <section class="bg-white py-20 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between">
-    <!-- Image Collage/Placeholder -->
+    <!-- Animated About Us Visual -->
     <div class="w-full md:w-1/2 flex justify-center mb-12 md:mb-0 hidden md:flex">
-      <div class="grid grid-cols-3 grid-rows-3 gap-2 w-full max-w-lg aspect-square">
-        <div class="bg-blue-100 col-span-2 row-span-2 flex items-center justify-center">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=400&q=80" alt="AI Robot" class="object-cover w-full h-full rounded-lg" />
+      <div class="relative w-80 h-96 flex items-center justify-center">
+        <!-- Main Background Circle -->
+        <div class="absolute w-72 h-72 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full opacity-30 animate-pulse"></div>
+        
+        <!-- Trust & Experience Elements -->
+        <div class="absolute top-6 left-6 w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0s;">
+          <i class="fas fa-shield-alt text-2xl text-blue-600"></i>
         </div>
-        <div class="bg-blue-200"></div>
-        <div class="bg-blue-200"></div>
-        <div class="bg-blue-200"></div>
-        <div class="bg-blue-200"></div>
-        <div class="bg-blue-200"></div>
-        <div class="bg-blue-200"></div>
+        
+        <div class="absolute top-12 right-8 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0.7s;">
+          <i class="fas fa-award text-xl text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-16 left-8 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1.4s;">
+          <i class="fas fa-handshake text-lg text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-6 right-6 w-18 h-18 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 2.1s;">
+          <i class="fas fa-users text-xl text-blue-600"></i>
+        </div>
+        
+        <!-- Center Partnership Element -->
+        <div class="relative z-10 w-36 h-36 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full shadow-2xl flex items-center justify-center">
+          <i class="fas fa-handshake text-5xl text-white animate-pulse"></i>
+        </div>
+        
+        <!-- Floating Stats -->
+        <div class="absolute top-2 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-4 py-2 animate-bounce" style="animation-delay: 0.3s;">
+          <div class="text-blue-600 font-bold text-sm">10+ Years</div>
+        </div>
+        
+        <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-4 py-2 animate-bounce" style="animation-delay: 0.9s;">
+          <div class="text-blue-600 font-bold text-sm">500+ Clients</div>
+        </div>
+        
+        <!-- Connecting Lines -->
+        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 320 384">
+          <path d="M100 100 L160 160 L220 100" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.2"/>
+          <path d="M220 284 L160 224 L100 284" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.2"/>
+          <path d="M100 100 L100 284" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.2"/>
+          <path d="M220 100 L220 284" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.2"/>
+        </svg>
       </div>
     </div>
     <!-- Content -->
@@ -199,9 +262,60 @@
         </div>
       </div>
     </div>
-    <!-- Right Image -->
+    <!-- Right Animated Visual -->
     <div class="w-full md:w-1/2 flex justify-center hidden md:flex">
-      <img src="https://assets-global.website-files.com/5d4c18a7c8a0a2a6b6e9ef5e/63f5e7c8e6b1b1b1b1b1b1b1_robot-p-800.png" alt="Robot" class="w-80 md:w-full max-w-md" />
+      <div class="relative w-80 h-96 flex items-center justify-center">
+        <!-- Main Background Circle -->
+        <div class="absolute w-72 h-72 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full opacity-20 animate-pulse"></div>
+        
+        <!-- Excellence & Success Elements -->
+        <div class="absolute top-8 left-8 w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0s;">
+          <i class="fas fa-star text-2xl text-blue-600"></i>
+        </div>
+        
+        <div class="absolute top-16 right-10 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0.6s;">
+          <i class="fas fa-trophy text-xl text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-20 left-10 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1.2s;">
+          <i class="fas fa-clock text-lg text-blue-600"></i>
+        </div>
+        
+        <div class="absolute bottom-8 right-8 w-18 h-18 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1.8s;">
+          <i class="fas fa-check-circle text-xl text-blue-600"></i>
+        </div>
+        
+        <!-- Center Success Element -->
+        <div class="relative z-10 w-36 h-36 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full shadow-2xl flex items-center justify-center">
+          <i class="fas fa-chart-line text-5xl text-white animate-pulse"></i>
+        </div>
+        
+        <!-- Floating Success Metrics -->
+        <div class="absolute top-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-4 py-2 animate-bounce" style="animation-delay: 0.3s;">
+          <div class="text-blue-600 font-bold text-sm">1000+ Projects</div>
+        </div>
+        
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-4 py-2 animate-bounce" style="animation-delay: 0.9s;">
+          <div class="text-blue-600 font-bold text-sm">24/7 Support</div>
+        </div>
+        
+        <!-- Success Indicators -->
+        <div class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg px-3 py-2 animate-bounce" style="animation-delay: 1.5s;">
+          <div class="text-blue-600 font-bold text-xs">✓ Proven</div>
+        </div>
+        
+        <div class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg px-3 py-2 animate-bounce" style="animation-delay: 2.1s;">
+          <div class="text-blue-600 font-bold text-xs">✓ Reliable</div>
+        </div>
+        
+        <!-- Connecting Lines -->
+        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 320 384">
+          <path d="M100 100 L160 160 L220 100" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M220 284 L160 224 L100 284" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M100 100 L100 284" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M220 100 L220 284" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+        </svg>
+      </div>
     </div>
   </section>
 
@@ -428,11 +542,60 @@
 <!-- Newsletter Section -->
 <section class="bg-blue-600 py-20 px-4 md:px-20">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-    <!-- Left Image Placeholder -->
+    <!-- Left Animated Newsletter Visual -->
     <div class="hidden md:block w-1/3 flex-shrink-0">
       <div class="w-full flex justify-center items-center">
-        <div class="w-64 h-48 flex items-center justify-center">
-          <span class="text-8xl text-blue-200">📧</span>
+        <div class="relative w-64 h-48 flex items-center justify-center">
+          <!-- Main Background Circle -->
+          <div class="absolute w-56 h-56 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full opacity-20 animate-pulse"></div>
+          
+          <!-- Newsletter & Communication Elements -->
+          <div class="absolute top-4 left-4 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0s;">
+            <i class="fas fa-envelope text-xl text-blue-600"></i>
+          </div>
+          
+          <div class="absolute top-8 right-6 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 0.5s;">
+            <i class="fas fa-bell text-lg text-blue-600"></i>
+          </div>
+          
+          <div class="absolute bottom-8 left-6 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1s;">
+            <i class="fas fa-lightbulb text-sm text-blue-600"></i>
+          </div>
+          
+          <div class="absolute bottom-4 right-4 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center animate-bounce" style="animation-delay: 1.5s;">
+            <i class="fas fa-rss text-lg text-blue-600"></i>
+          </div>
+          
+          <!-- Center Newsletter Element -->
+          <div class="relative z-10 w-28 h-28 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full shadow-2xl flex items-center justify-center">
+            <i class="fas fa-newspaper text-3xl text-white animate-pulse"></i>
+          </div>
+          
+          <!-- Floating Update Indicators -->
+          <div class="absolute top-2 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-3 py-1 animate-bounce" style="animation-delay: 0.3s;">
+            <div class="text-blue-600 font-bold text-xs">Weekly</div>
+          </div>
+          
+          <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg px-3 py-1 animate-bounce" style="animation-delay: 0.8s;">
+            <div class="text-blue-600 font-bold text-xs">Insights</div>
+          </div>
+          
+          <!-- Tech Trend Indicators -->
+          <div class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg px-2 py-1 animate-bounce" style="animation-delay: 1.2s;">
+            <div class="text-blue-600 font-bold text-xs">AI</div>
+          </div>
+          
+          <div class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg px-2 py-1 animate-bounce" style="animation-delay: 1.7s;">
+            <div class="text-blue-600 font-bold text-xs">Tech</div>
+          </div>
+          
+          <!-- Connecting Lines -->
+          <svg class="absolute inset-0 w-full h-full" viewBox="0 0 256 192">
+            <path d="M80 80 L128 96 L176 80" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+            <path d="M176 112 L128 96 L80 112" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+            <path d="M80 80 L80 112" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+            <path d="M176 80 L176 112" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3"/>
+          </svg>
         </div>
       </div>
     </div>
