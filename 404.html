@@ -26,9 +26,9 @@
 </head>
 <body class="bg-custom-blue min-h-screen">
   <!-- Navbar -->
-  <nav class="px-4 md:px-20 py-3">
+  <nav class="sticky top-0 z-50 px-4 md:px-20 py-3 bg-custom-blue">
     <div class="flex items-center justify-between">
-      <div class="text-white text-3xl font-bold">Leon<span class="text-blue-200">IT</span></div>
+      <a href="index.html" class="text-white text-3xl font-bold hover:text-blue-200 transition"><span>Leon</span><span class="text-blue-200">IT</span></a>
       <!-- Menu Links (desktop & mobile) -->
       <ul id="menu" class="absolute left-0 right-0 top-20 mx-4 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 hidden md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
         <li><a href="index.html" class="block md:inline text-blue-700 md:text-white hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
@@ -62,9 +62,9 @@
 
   <!-- Hero Section for 404 Error -->
   <section class="bg-custom-blue w-full py-6 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between">
-    <div class="flex-1">
+    <div class="flex-1 text-center md:text-left">
       <h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">404 - Page Not Found</h1>
-      <nav class="text-white text-lg flex items-center space-x-2">
+      <nav class="text-white text-lg flex items-center justify-center md:justify-start space-x-2">
         <a href="index.html" class="hover:underline">Home</a>
         <span>/</span>
         <span>404 Error</span>
