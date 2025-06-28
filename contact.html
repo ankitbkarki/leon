@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us - Leon IT Solutions</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- reCAPTCHA v3 -->
+  <!-- reCAPTCHA script -->
   <script src="https://www.google.com/recaptcha/api.js?render=6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK"></script>
 </head>
 <body class="bg-blue-600 min-h-screen">
@@ -68,13 +68,13 @@
       </div>
       <h2 class="text-blue-900 text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-center">If You Have Any Query,<br>Please Contact Us</h2>
       <p class="text-gray-600 text-center mb-8">We'd love to hear from you! Please fill out the form below and our team will get back to you as soon as possible.</p>
-      <form id="contact-form" class="space-y-6">
+      <form id="contact-form" class="space-y-6" action="https://formsubmission.karkianket.workers.dev/" method="POST">
         <div class="flex flex-col sm:flex-row gap-6">
-          <input type="text" name="name" placeholder="Your Name" class="flex-1 px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-          <input type="email" name="email" placeholder="Your Email" class="flex-1 px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+          <input type="text" name="name" placeholder="Your Name" class="flex-1 px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+          <input type="email" name="email" placeholder="Your Email" class="flex-1 px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required />
         </div>
-        <input type="text" name="subject" placeholder="Subject" class="w-full px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-        <textarea name="message" placeholder="Message" rows="5" class="w-full px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+        <input type="text" name="subject" placeholder="Subject" class="w-full px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+        <textarea name="message" placeholder="Message" rows="5" class="w-full px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required></textarea>
         <div id="form-message" class="hidden mb-4 px-4 py-3 rounded"></div>
         <button type="submit" class="w-full bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg shadow hover:bg-blue-800 transition text-lg flex items-center justify-center" disabled="false">
           <span class="submit-text">Send Message</span>
