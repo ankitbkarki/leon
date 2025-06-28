@@ -1,8 +1,11 @@
 // Contact form submission script
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('Form submission script loaded');
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
+        console.log('Contact form found');
         contactForm.addEventListener('submit', async function(e) {
+            console.log('Form submission started');
             e.preventDefault();
             
             // Reset error messages
@@ -21,12 +24,15 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.disabled = true;
             
             try {
+                console.log('Executing reCAPTCHA...');
                 // Execute reCAPTCHA
                 const token = await grecaptcha.execute('6LeSoP4qAAAAAHGOMEVZTFeifzZwvvg96pSOjKjK', {action: 'submit'});
+                console.log('reCAPTCHA token received');
                 
                 // Add the token to the form data with the correct parameter name
                 formData.append('g-recaptcha-response', token);
                 
+                console.log('Sending form data to:', this.action);
                 const response = await fetch(this.action, {
                     method: 'POST',
                     body: formData,
@@ -36,11 +42,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     mode: 'cors'
                 });
                 
+                console.log('Response received:', response.status);
+                
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
                 const result = await response.json();
+                console.log('Form submission successful:', result);
                 
                 // Show success message
                 const messageDiv = document.getElementById('form-message');
@@ -67,5 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 submitButton.disabled = false;
             }
         });
+    } else {
+        console.error('Contact form not found');
     }
 });
