@@ -3,19 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 Error - Leon IT Solutions</title>
+  <title>404 - Page Not Found - Leon IT Solutions</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    .bg-custom-blue {
+      background-color: #0249AC;
+    }
+    .text-custom-blue {
+      color: #0249AC;
+    }
+    .border-custom-blue {
+      border-color: #0249AC;
+    }
+    .bg-footer-dark {
+      background-color: #14183E;
+    }
+  </style>
+
 </head>
-<body class="bg-blue-800 min-h-screen">
+<body class="bg-custom-blue min-h-screen">
   <!-- Navbar -->
-  <nav class="px-4 md:px-20 py-6">
+  <nav class="px-4 md:px-20 py-3">
     <div class="flex items-center justify-between">
-      <div class="text-white text-4xl font-bold">Leon<span class="text-blue-200">IT</span></div>
+      <div class="text-white text-3xl font-bold">Leon<span class="text-blue-200">IT</span></div>
       <!-- Menu Links (desktop & mobile) -->
       <ul id="menu" class="absolute left-0 right-0 top-20 mx-4 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 hidden md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
-        <li><a href="index.html" class="block md:inline text-blue-700 md:text-white border-b-2 border-blue-700 md:border-white pb-1 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
+        <li><a href="index.html" class="block md:inline text-blue-700 md:text-white hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
         <li><a href="about.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">About</a></li>
         <li><a href="services.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Services</a></li>
         <li><a href="career.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Careers</a></li>
@@ -45,7 +61,7 @@
   </script>
 
   <!-- Hero Section for 404 Error -->
-  <section class="bg-blue-800 w-full py-6 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between">
+  <section class="bg-custom-blue w-full py-6 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between">
     <div class="flex-1">
       <h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">404 - Page Not Found</h1>
       <nav class="text-white text-lg flex items-center space-x-2">
@@ -84,13 +100,19 @@
   </section>
 
 <!-- Newsletter Section -->
-<section class="bg-blue-600 py-20 px-4 md:px-20">
+<section class="bg-custom-blue py-20 px-4 md:px-20">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-    <!-- Left Image Placeholder -->
+    <!-- Left Animated Newsletter Visual -->
     <div class="hidden md:block w-1/3 flex-shrink-0">
       <div class="w-full flex justify-center items-center">
-        <div class="w-64 h-48 flex items-center justify-center">
-          <span class="text-8xl text-blue-200">📧</span>
+        <div class="relative w-64 h-48 flex items-center justify-center">
+          <!-- Main Background Circle -->
+          <div class="absolute w-80 h-80 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full opacity-20"></div>
+          
+          <!-- Center Newsletter Element -->
+          <div class="relative z-10 w-40 h-40 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full shadow-2xl flex items-center justify-center">
+            <i class="fas fa-newspaper text-6xl text-white"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -102,7 +124,7 @@
       <form class="w-full flex flex-col">
         <div class="flex flex-col sm:flex-row w-full rounded-lg overflow-hidden bg-white mb-2">
           <input type="email" placeholder="Enter your email address" class="flex-1 px-4 sm:px-6 py-4 text-base sm:text-lg text-blue-900 focus:outline-none" />
-          <button type="submit" class="bg-blue-700 hover:bg-blue-800 text-white px-6 sm:px-8 py-4 font-semibold transition text-sm sm:text-base whitespace-nowrap">
+          <button type="submit" class="bg-custom-blue hover:bg-blue-800 text-white px-6 sm:px-8 py-4 font-semibold transition text-sm sm:text-base whitespace-nowrap">
             Subscribe
           </button>
         </div>
@@ -111,62 +133,62 @@
     </div>
   </div>
 </section>
-  
+
 
   <!-- Footer Section -->
-  <footer class="bg-blue-900 text-blue-100 pt-20 pb-8 px-4 md:px-20 relative">
+  <footer class="bg-footer-dark text-white pt-20 pb-8 px-4 md:px-20 relative">
     <div class="w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
       <!-- About -->
       <div>
         <div class="text-3xl font-bold mb-4">Leon<span class="text-blue-400">IT</span></div>
-        <p class="mb-6 text-blue-200">Leon IT Solutions delivers innovative software, AI, SEO, and digital services to help your business grow and succeed in the digital era.</p>
+        <p class="mb-6 text-white">Leon IT Solutions delivers innovative software, AI, SEO, and digital services to help your business grow and succeed in the digital era.</p>
         <div class="flex space-x-4">
-          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><i class="fab fa-twitter text-lg"></i></a>
-          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><i class="fab fa-facebook text-lg"></i></a>
-          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><i class="fab fa-linkedin text-lg"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white hover:bg-white hover:text-footer-dark transition"><i class="fab fa-twitter text-lg"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white hover:bg-white hover:text-footer-dark transition"><i class="fab fa-facebook text-lg"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white hover:bg-white hover:text-footer-dark transition"><i class="fab fa-linkedin text-lg"></i></a>
         </div>
       </div>
       <!-- Get In Touch -->
       <div>
-        <div class="text-xl font-bold mb-4">Get In Touch</div>
-        <ul class="space-y-3 text-blue-200">
-          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a4 4 0 0 0-3-3.87M9 20H4v-2a4 4 0 0 1 3-3.87m9-5a4 4 0 1 0-8 0 4 4 0 0 0 8 0z"/></svg>123 Tech Street, New York, USA</li>
-          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8v13h18V8M5 8V6a7 7 0 0 1 14 0v2"/></svg>+1 234 567 890</li>
-          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12H8m8 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/></svg>info@leonstaff.com</li>
+        <div class="text-xl font-bold mb-4 text-white">Get In Touch</div>
+        <ul class="space-y-3 text-white">
+          <li class="flex items-center"><i class="fas fa-map-marker-alt w-5 h-5 mr-2 text-white text-lg"></i>123 Tech Street, New York, USA</li>
+          <li class="flex items-center"><i class="fas fa-phone w-5 h-5 mr-2 text-white text-lg"></i>+1 234 567 890</li>
+          <li class="flex items-center"><i class="fas fa-envelope w-5 h-5 mr-2 text-white text-lg"></i>info@leonstaff.com</li>
         </ul>
       </div>
       <!-- Popular Link -->
       <div>
-        <div class="text-xl font-bold mb-4">Popular Link</div>
-        <ul class="space-y-3 text-blue-200">
-          <li><a href="#about" class="hover:text-white transition">About Us</a></li>
-          <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
-          <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
-          <li><a href="#" class="hover:text-white transition">Terms and Conditions</a></li>
-          <li><a href="#careers" class="hover:text-white transition">Career</a></li>
+        <div class="text-xl font-bold mb-4 text-white">Popular Link</div>
+        <ul class="space-y-3 text-white">
+          <li><a href="#about" class="hover:text-blue-400 transition">About Us</a></li>
+          <li><a href="#contact" class="hover:text-blue-400 transition">Contact Us</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">Terms and Conditions</a></li>
+          <li><a href="#careers" class="hover:text-blue-400 transition">Career</a></li>
         </ul>
       </div>
       <!-- Our Services -->
       <div>
-        <div class="text-xl font-bold mb-4">Our Services</div>
-        <ul class="space-y-3 text-blue-200">
-          <li><a href="#" class="hover:text-white transition">Custom Software Development</a></li>
-          <li><a href="#" class="hover:text-white transition">AI & Automation</a></li>
-          <li><a href="#" class="hover:text-white transition">SEO & Digital Marketing</a></li>
-          <li><a href="#" class="hover:text-white transition">IT Consulting & Support</a></li>
+        <div class="text-xl font-bold mb-4 text-white">Our Services</div>
+        <ul class="space-y-3 text-white">
+          <li><a href="#" class="hover:text-blue-400 transition">Custom Software Development</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">AI & Automation</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">SEO & Digital Marketing</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">IT Consulting & Support</a></li>
         </ul>
       </div>
     </div>
-    <div class="border-t border-blue-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-blue-300 text-sm">
+    <div class="border-t border-white mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-white text-sm">
       <div class="mb-4 md:mb-0">© 2024 Leon IT Solutions. All Rights Reserved.</div>
       <div class="flex space-x-6">
-        <a href="#" class="hover:text-white transition">Home</a>
-        <a href="#" class="hover:text-white transition">Privacy Policy</a>
-        <a href="#" class="hover:text-white transition">Terms and Conditions</a>
+        <a href="#" class="hover:text-blue-400 transition">Home</a>
+        <a href="#" class="hover:text-blue-400 transition">Privacy Policy</a>
+        <a href="#" class="hover:text-blue-400 transition">Terms and Conditions</a>
       </div>
     </div>
     <!-- Back to Top Button -->
-    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-blue-700 text-white flex items-center justify-center shadow-lg hover:bg-blue-800 transition z-50">
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-custom-blue text-white flex items-center justify-center shadow-lg hover:bg-blue-800 transition z-50">
       <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
     </button>
   </footer>
