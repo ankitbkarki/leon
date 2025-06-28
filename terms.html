@@ -1,240 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>Terms of Service | Leon IT Solutions</title>
-    <meta name="description" content="Read our terms of service to understand the rules and guidelines for using Leon IT Solutions' IT, software, AI, SEO, and digital marketing services.">
-    <link rel="canonical" href="https://leonstaff.com/terms">
-    
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Terms of Service | Leon IT Solutions">
-    <meta property="og:description" content="Read our terms of service to understand the rules and guidelines for using our IT, software, AI, SEO, and digital marketing services.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://leonstaff.com/terms">
-    <meta property="og:image" content="https://leonstaff.com/images/social-preview.jpg">
-    
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {}
-            }
-        }
-    </script>
-    
-    <!-- Custom Styles -->
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms and Conditions - Leon IT Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-white">
-    <!-- Header/Navigation -->
-    <header class="w-full z-50 top-0 bg-white">
-        <nav class="max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
-            <!-- Logo -->
-            <div class="flex items-center flex-shrink-0 h-12 md:h-14">
-                <a href="/" class="flex items-center gap-2 h-full">
-                    <!-- Simple box icon -->
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="4" fill="#000"/><rect x="7" y="7" width="4" height="4" rx="1" fill="#fff"/><rect x="13" y="7" width="4" height="4" rx="1" fill="#fff"/><rect x="7" y="13" width="4" height="4" rx="1" fill="#fff"/><rect x="13" y="13" width="4" height="4" rx="1" fill="#fff"/></svg>
-                    <span class="text-2xl font-bold text-black leading-none">LEON</span>
-                </a>
-            </div>
-            <!-- Desktop Navigation Centered -->
-            <div class="flex-1 flex justify-center items-center">
-                <div class="hidden md:flex space-x-6 text-base font-medium text-gray-700">
-                    <a href="/" class="hover:text-black transition">Home</a>
-                    <a href="/about.html" class="hover:text-black transition">About</a>
-                    <a href="/services.html" class="hover:text-black transition">Services</a>
-                    <a href="/jobs.html" class="hover:text-black transition">Jobs</a>
-                    <a href="https://leonstaff.com/blogs/" class="hover:text-black transition">Blog</a>
-                    <a href="/contact.html" class="hover:text-black transition">Contact</a>
-                </div>
-            </div>
-            <!-- Desktop Contact Right -->
-            <div class="hidden md:flex items-center gap-4">
-                <a href="/contact.html" class="bg-gray-900 text-white font-bold px-5 py-2 rounded-lg shadow hover:bg-gray-800 transition">Contact now</a>
-            </div>
-            <!-- Mobile Hamburger Button -->
-            <button id="mobile-menu-button" class="md:hidden flex items-center justify-center rounded-lg w-10 h-10" aria-label="Open menu">
-                <svg class="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                </svg>
+<body class="bg-blue-600 min-h-screen">
+  <!-- Navbar -->
+  <nav class="px-4 md:px-20 py-6">
+    <div class="flex items-center justify-between">
+      <div class="text-white text-4xl font-bold">Leon <span class="text-blue-200">IT</span></div>
+      <!-- Menu Links (desktop & mobile) -->
+      <ul id="menu" class="absolute left-0 right-0 top-20 mx-4 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 hidden md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
+        <li><a href="index.html" class="block md:inline text-blue-700 md:text-white border-b-2 border-blue-700 md:border-white pb-1 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
+        <li><a href="about.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">About</a></li>
+        <li><a href="services.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Services</a></li>
+        <li><a href="career.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Careers</a></li>
+        <li><a href="contact.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Contact</a></li>
+      </ul>
+      <!-- Hamburger Button (mobile only) -->
+      <button id="menu-btn" class="md:hidden text-white focus:outline-none" aria-label="Open Menu">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+    // Ensure menu closes on resize to desktop
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 768) {
+        menu.classList.add('hidden');
+      }
+    });
+  </script>
+
+  <!-- Hero Section for Terms and Conditions -->
+  <section class="bg-blue-600 w-full py-6 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between">
+    <div class="flex-1">
+      <h1 class="text-white text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">Terms and Conditions</h1>
+      <nav class="text-white text-lg flex items-center space-x-2">
+        <a href="#" class="hover:underline">Home</a>
+        <span>/</span>
+        <span>Terms and Conditions</span>
+      </nav>
+    </div>
+    <div class="flex-1 flex justify-end mt-10 md:mt-0">
+      <div class="w-72 h-80 flex items-center justify-center">
+        <img src="https://assets-global.website-files.com/5d4c18a7c8a0a2a6b6e9ef5e/63f5e7c8e6b1b1b1b1b1b1b1_robot-p-800.png" alt="Robot" class="object-contain w-full h-full" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Terms and Conditions Section -->
+  <section class="bg-white py-16 px-4 md:px-20">
+    <div class="max-w-4xl mx-auto text-gray-800">
+      <h2 class="text-3xl font-bold mb-6 text-blue-700">Terms and Conditions</h2>
+      <p class="mb-4">Welcome to Leon IT Solutions! These terms and conditions outline the rules and regulations for the use of our website, located at <a href="https://leonstaff.com" class="text-blue-600 underline">leonstaff.com</a>.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">1. Acceptance of Terms</h3>
+      <p class="mb-4">By accessing this website, you accept these terms and conditions. Do not continue to use Leon IT Solutions if you do not agree to all of the terms stated on this page.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">2. Changes to Terms</h3>
+      <p class="mb-4">We reserve the right to update or change these terms at any time. Changes will be posted on this page. Your continued use of the site after changes are made constitutes acceptance of those changes.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">3. User Responsibilities</h3>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Do not use our website for any unlawful purpose.</li>
+        <li>Do not attempt to gain unauthorized access to any part of the site or its systems.</li>
+        <li>Do not use our content or services to harm, harass, or infringe on the rights of others.</li>
+      </ul>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">4. Intellectual Property</h3>
+      <p class="mb-4">All content on this website, including text, graphics, logos, and software, is the property of Leon IT Solutions or its licensors. You may not reproduce, distribute, or create derivative works without our written permission.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">5. Disclaimer</h3>
+      <p class="mb-4">The information on this website is provided "as is" and for general information purposes only. We make no warranties about the completeness, reliability, or accuracy of this information.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">6. Limitation of Liability</h3>
+      <p class="mb-4">Leon IT Solutions will not be liable for any damages arising from the use or inability to use this website or its content.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">7. Privacy</h3>
+      <p class="mb-4">Your use of our website is also governed by our <a href="#" class="text-blue-600 underline">Privacy Policy</a>.</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">8. Governing Law</h3>
+      <p class="mb-4">These terms are governed by the laws of [Your Country/State].</p>
+      
+      <h3 class="text-xl font-semibold mt-8 mb-2 text-blue-600">9. Contact Us</h3>
+      <p>If you have any questions about these Terms and Conditions, please contact us at <a href="mailto:info@leonstaff.com" class="text-blue-600 underline">info@leonstaff.com</a>.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="bg-blue-600 py-20 px-4 md:px-20">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+      <!-- Left Image Placeholder -->
+      <div class="hidden md:block w-1/3 flex-shrink-0">
+        <div class="w-full flex justify-center items-center">
+          <div class="w-64 h-48 flex items-center justify-center">
+            <span class="text-8xl text-blue-200">🤖</span>
+          </div>
+        </div>
+      </div>
+      <!-- Right Content -->
+      <div class="w-full md:w-2/3 flex flex-col items-center md:items-start">
+        <span class="inline-block px-6 py-2 mb-4 border border-blue-200 rounded-full text-white text-base">Newsletter</span>
+        <h2 class="text-white text-2xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-6">Let's subscribe the newsletter</h2>
+        <form class="w-full flex flex-col">
+          <div class="flex w-full rounded-full overflow-hidden bg-white mb-2">
+            <input type="email" placeholder="Enter Your Email" class="flex-1 px-6 py-4 text-lg text-blue-900 focus:outline-none" />
+            <button type="submit" class="bg-transparent px-6 flex items-center justify-center">
+              <svg class="w-7 h-7 text-blue-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M22 2L11 13M22 2l-6 20-7-7"/></svg>
             </button>
-        </nav>
-        <!-- Mobile Menu Overlay -->
-        <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-70 z-50 hidden md:hidden">
-            <div class="absolute top-0 right-0 w-3/4 max-w-xs bg-white h-full shadow-lg flex flex-col p-8">
-                <button id="mobile-menu-close" class="self-end mb-8">
-                    <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                    </svg>
-                </button>
-                <nav class="flex flex-col gap-6 text-lg font-semibold text-gray-900">
-                    <a href="/">Home</a>
-                    <a href="/about.html">About</a>
-                    <a href="/services.html">Services</a>
-                    <a href="/jobs.html">Jobs</a>
-                    <a href="https://leonstaff.com/blogs/">Blog</a>
-                    <a href="/contact.html">Contact</a>
-                </nav>
-                <div class="mt-10">
-                    <a href="/contact.html" class="bg-gray-900 text-white font-bold px-5 py-2 rounded-lg shadow hover:bg-gray-800 transition block text-center">Contact now</a>
-                </div>
-            </div>
+          </div>
+          <span class="text-blue-200 text-base mt-2">Diam sed sed dolor stet amet eirmod</span>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer Section -->
+  <footer class="bg-blue-900 text-blue-100 pt-20 pb-8 px-4 md:px-20 relative">
+    <div class="w-full mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+      <!-- About -->
+      <div>
+        <div class="text-3xl font-bold mb-4">LEON <span class="text-blue-400">IT</span></div>
+        <p class="mb-6 text-blue-200">Leon IT Solutions delivers innovative software, AI, SEO, and digital services to help your business grow and succeed in the digital era.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.72 0-4.924 2.204-4.924 4.924 0 .386.044.763.127 1.124C7.691 8.095 4.066 6.13 1.64 3.161c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.216 2.188 4.099-.807-.026-1.566-.247-2.228-.616v.062c0 2.385 1.693 4.374 3.946 4.827-.413.112-.849.171-1.296.171-.317 0-.626-.03-.928-.086.627 1.956 2.444 3.377 4.6 3.417-1.68 1.318-3.809 2.104-6.102 2.104-.397 0-.788-.023-1.175-.069 2.179 1.397 4.768 2.213 7.557 2.213 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.016-.634A9.936 9.936 0 0 0 24 4.59z"/></svg></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c-5.468 0-9.837 4.369-9.837 9.837 0 4.991 3.657 9.128 8.438 9.877v-6.987h-2.54v-2.89h2.54v-2.205c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.261c-1.243 0-1.631.771-1.631 1.562v1.878h2.773l-.443 2.89h-2.33v6.987c4.781-.749 8.438-4.886 8.438-9.877 0-5.468-4.369-9.837-9.837-9.837z"/></svg></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-blue-700 hover:bg-blue-800 transition"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-8 19h-3v-9h3v9zm-1.5-10.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 10.268h-3v-4.604c0-1.096-.021-2.507-1.527-2.507-1.527 0-1.762 1.193-1.762 2.426v4.685h-3v-9h2.881v1.233h.041c.401-.761 1.379-1.562 2.841-1.562 3.039 0 3.6 2.001 3.6 4.604v4.725z"/></svg></a>
         </div>
-        <script>
-            // Mobile menu toggle
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            const mobileMenuClose = document.getElementById('mobile-menu-close');
-            mobileMenuButton.addEventListener('click', () => {
-                mobileMenu.classList.remove('hidden');
-            });
-            mobileMenuClose.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-            });
-            // Optional: close menu when clicking outside
-            mobileMenu.addEventListener('click', (e) => {
-                if (e.target === mobileMenu) {
-                    mobileMenu.classList.add('hidden');
-                }
-            });
-        </script>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="pt-52 pb-20 bg-[#f7f7f7]">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="max-w-3xl mx-auto text-center">
-                <h1 class="text-2xl md:text-5xl font-bold mb-6">Terms of Service</h1>
-                <p class="text-base md:text-xl mb-8 text-gray-700">
-                    Last updated: March 15, 2024
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Terms of Service Content -->
-    <section class="py-20 bg-white">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="prose prose-lg max-w-none">
-                <h2 class="text-2xl md:text-5xl font-bold text-gray-900 mb-6">1. Agreement to Terms</h2>
-                <p class="text-base sm:text-lg text-gray-700 mb-8">
-                    By accessing or using Leon IT Solutions' IT, software, AI, SEO, and digital marketing services, you agree to be bound by these Terms of Service 
-                    and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from 
-                    using or accessing our services.
-                </p>
-
-                <h2 class="text-2xl md:text-5xl font-bold text-gray-900 mb-6">2. Use License</h2>
-                <p class="text-base sm:text-lg text-gray-700 mb-8">
-                    Permission is granted to temporarily access our services for personal, non-commercial transitory viewing only. 
-                    This is the grant of a license, not a transfer of title, and under this license you may not:
-                </p>
-                <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mb-8">
-                    <li>Modify or copy the materials</li>
-                    <li>Use the materials for any commercial purpose</li>
-                    <li>Attempt to decompile or reverse engineer any software contained in our services</li>
-                    <li>Remove any copyright or other proprietary notations from the materials</li>
-                    <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
-                </ul>
-
-                <h2 class="text-2xl font-bold text-black mb-6">3. User Responsibilities</h2>
-                <div class="space-y-4 mb-8">
-                    <p class="text-base text-gray-600">
-                        As a user of our services, you agree to:
-                    </p>
-                    <ul class="list-disc list-inside text-base text-gray-600 space-y-2">
-                        <li>Provide accurate and complete information</li>
-                        <li>Maintain the security of your account</li>
-                        <li>Not use our services for any illegal purposes</li>
-                        <li>Not interfere with the proper functioning of our services</li>
-                        <li>Not attempt to gain unauthorized access to our systems</li>
-                    </ul>
-                </div>
-
-                <h2 class="text-2xl font-bold text-black mb-6">4. Intellectual Property</h2>
-                <p class="text-base text-gray-600 mb-8">
-                    All content, features, and functionality of our services, including but not limited to text, graphics, logos, 
-                    icons, images, and software, are the exclusive property of Leon IT Solutions and are protected by 
-                    international copyright, trademark, patent, trade secret, and other intellectual property laws.
-                </p>
-
-                <h2 class="text-2xl font-bold text-black mb-6">5. Limitation of Liability</h2>
-                <p class="text-base text-gray-600 mb-8">
-                    In no event shall Leon IT Solutions or its suppliers be liable for any damages (including, without 
-                    limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or 
-                    inability to use our services.
-                </p>
-
-                <h2 class="text-2xl font-bold text-black mb-6">6. Revisions and Errata</h2>
-                <p class="text-base text-gray-600 mb-8">
-                    The materials appearing on our services could include technical, typographical, or photographic errors. 
-                    Leon IT Solutions does not warrant that any of the materials on its services are accurate, complete, 
-                    or current. We may make changes to the materials contained on our services at any time without notice.
-                </p>
-
-                <h2 class="text-2xl font-bold text-black mb-6">7. Governing Law</h2>
-                <p class="text-base text-gray-600 mb-8">
-                    These terms and conditions are governed by and construed in accordance with the laws of the United States and 
-                    you irrevocably submit to the exclusive jurisdiction of the courts in that location.
-                </p>
-
-                <h2 class="text-2xl font-bold text-black mb-6">8. Contact Information</h2>
-                <p class="text-base text-gray-600 mb-8">
-                    If you have any questions about these Terms of Service, please contact us at:
-                    <br>
-                    <a href="mailto:legal@leonstaff.com" class="text-black hover:text-blue-700">legal@leonstaff.com</a>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-black text-white py-12 sm:py-16 mt-12 sm:mt-16 font-sans">
-        <div class="max-w-7xl mx-auto px-2 sm:px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div>
-                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-4">Leon IT Solutions</h3>
-                    <p class="text-gray-400 text-xs sm:text-base">Your trusted partner for software development, cloud, cybersecurity, and digital transformation.</p>
-                </div>
-                <div>
-                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-4">Connect With Us</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white transition">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="text-gray-300 hover:text-white transition">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="text-base sm:text-xl font-bold mb-2 sm:mb-4">Newsletter</h3>
-                    <form class="flex flex-col sm:flex-row gap-2">
-                        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-lg text-white w-full border border-gray-700 bg-gray-900 shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-400">
-                        <button type="submit" class="bg-white text-black px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 transition shadow mt-2 sm:mt-0">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-xs sm:text-base">
-                <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4 mb-4">
-                    <a href="/privacy.html" class="hover:text-white transition">Privacy Policy</a>
-                    <a href="/terms.html" class="hover:text-white transition">Terms of Service</a>
-                </div>
-                <p>&copy; 2025 Leon IT Solutions. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+      </div>
+      <!-- Get In Touch -->
+      <div>
+        <div class="text-xl font-bold mb-4">Get In Touch</div>
+        <ul class="space-y-3 text-blue-200">
+          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a4 4 0 0 0-3-3.87M9 20H4v-2a4 4 0 0 1 3-3.87m9-5a4 4 0 1 0-8 0 4 4 0 0 0 8 0z"/></svg>123 Tech Street, New York, USA</li>
+          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8v13h18V8M5 8V6a7 7 0 0 1 14 0v2"/></svg>+1 234 567 890</li>
+          <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12H8m8 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/></svg>info@leonstaff.com</li>
+        </ul>
+      </div>
+      <!-- Popular Link -->
+      <div>
+        <div class="text-xl font-bold mb-4">Popular Link</div>
+        <ul class="space-y-3 text-blue-200">
+          <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+          <li><a href="contact.html" class="hover:text-white transition">Contact Us</a></li>
+          <li><a href="privacy.html" class="hover:text-white transition">Privacy Policy</a></li>
+          <li><a href="terms.html" class="hover:text-white transition">Terms and Conditions</a></li>
+          <li><a href="career.html" class="hover:text-white transition">Career</a></li>
+        </ul>
+      </div>
+      <!-- Our Services -->
+      <div>
+        <div class="text-xl font-bold mb-4">Our Services</div>
+        <ul class="space-y-3 text-blue-200">
+          <li><a href="#" class="hover:text-white transition">Custom Software Development</a></li>
+          <li><a href="#" class="hover:text-white transition">AI & Automation</a></li>
+          <li><a href="#" class="hover:text-white transition">SEO & Digital Marketing</a></li>
+          <li><a href="#" class="hover:text-white transition">IT Consulting & Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-blue-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-blue-300 text-sm">
+      <div class="mb-4 md:mb-0">© 2024 Leon IT Solutions. All Rights Reserved.</div>
+      <div class="flex space-x-6">
+        <a href="#" class="hover:text-white transition">Home</a>
+        <a href="#" class="hover:text-white transition">Privacy Policy</a>
+        <a href="#" class="hover:text-white transition">Terms and Conditions</a>
+      </div>
+    </div>
+    <!-- Back to Top Button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="fixed bottom-8 right-8 w-14 h-14 rounded-full bg-blue-700 text-white flex items-center justify-center shadow-lg hover:bg-blue-800 transition z-50">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
+    </button>
+  </footer>
 </body>
-</html> 
+</html>
