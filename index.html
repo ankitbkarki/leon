@@ -123,7 +123,13 @@
   </script>
 
   <!-- Hero Section -->
-  <section class="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-16 bg-custom-blue">
+  <section class="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-16 bg-custom-blue relative overflow-hidden">
+    <!-- SVG Wavy Lines Background -->
+    <svg class="absolute left-0 top-0 w-full h-full min-w-full min-h-full opacity-30 pointer-events-none z-0" width="100%" height="100%" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0 300 Q200 350 400 300 T800 300 V400 H0 Z" fill="#fff"/>
+      <path d="M0 250 Q200 320 400 250 T800 250 V400 H0 Z" fill="#60a5fa" fill-opacity="0.3"/>
+      <path d="M0 200 Q200 270 400 200 T800 200 V400 H0 Z" fill="#fff" fill-opacity="0.2"/>
+    </svg>
     <div class="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
       <span class="inline-block px-6 py-2 mb-4 border border-blue-200 rounded-full text-white text-lg">leonstaff.com</span>
       <h1 class="text-white text-4xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-4 uppercase">Empowering Businesses with<br>Innovative IT Solutions</h1>
