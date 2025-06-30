@@ -71,20 +71,28 @@
   <nav class="sticky top-0 z-50 px-4 md:px-20 py-3 bg-custom-blue navbar-shadow">
     <div class="flex items-center justify-between">
       <a href="index.html" class="text-white text-3xl font-bold hover:text-blue-200 transition"><span>Leon</span><span class="text-blue-200">IT</span></a>
-      <!-- Menu Links (desktop & mobile) -->
-      <ul id="menu" class="absolute left-0 right-0 top-20 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
-        <li><a href="index.html" class="block md:inline text-blue-700 md:text-white hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
-        <li><a href="about.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">About</a></li>
-        <li><a href="services.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Services</a></li>
-        <li><a href="career.html" class="block md:inline text-blue-700 md:text-white border-b-2 border-blue-700 md:border-white pb-1 w-max mx-auto md:w-auto md:mx-0">Careers</a></li>
-        <li><a href="contact.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Contact</a></li>
-      </ul>
-      <!-- Hamburger Button (mobile only) -->
-      <button id="menu-btn" class="md:hidden text-white focus:outline-none" aria-label="Open Menu">
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
+      <div class="flex items-center gap-2">
+        <!-- Menu Links (desktop & mobile) -->
+        <ul id="menu" class="absolute left-0 right-0 top-20 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
+          <li><a href="index.html" class="block md:inline text-blue-700 md:text-white hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
+          <li><a href="about.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">About</a></li>
+          <li><a href="services.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Services</a></li>
+          <li><a href="career.html" class="block md:inline text-blue-700 md:text-white border-b-2 border-blue-700 md:border-white pb-1 w-max mx-auto md:w-auto md:mx-0">Careers</a></li>
+          <li><a href="contact.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Contact</a></li>
+        </ul>
+        <!-- Search Icon Button -->
+        <button id="search-btn" class="text-white focus:outline-none p-2" aria-label="Search">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button id="menu-btn" class="md:hidden text-white focus:outline-none" aria-label="Open Menu">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
     </div>
   </nav>
 
@@ -403,6 +411,44 @@
       localStorage.setItem('cookieAccepted', 'yes');
       document.getElementById('cookie-consent').style.display = 'none';
     };
+  </script>
+
+  <!-- Search Overlay -->
+  <div id="search-overlay" class="fixed inset-0 bg-black bg-opacity-40 flex items-start justify-center z-50" style="display:none;">
+    <form id="search-form" class="mt-32 bg-white rounded-lg shadow-lg flex items-center px-4 py-2 w-full max-w-md">
+      <input id="search-input" type="text" name="q" placeholder="Search..." class="flex-1 px-2 py-2 text-lg text-blue-900 focus:outline-none bg-transparent" autocomplete="off" />
+      <button type="submit" class="text-custom-blue px-2" aria-label="Submit Search">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <script>
+    // Search Overlay Logic
+    const searchBtn = document.getElementById('search-btn');
+    const searchOverlay = document.getElementById('search-overlay');
+    const searchInput = document.getElementById('search-input');
+    const searchForm = document.getElementById('search-form');
+    searchBtn.addEventListener('click', () => {
+      searchOverlay.style.display = 'flex';
+      setTimeout(() => searchInput.focus(), 100);
+    });
+    searchOverlay.addEventListener('click', (e) => {
+      if (e.target === searchOverlay) searchOverlay.style.display = 'none';
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') searchOverlay.style.display = 'none';
+    });
+    searchForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const q = searchInput.value.trim();
+      if (q) {
+        window.location.href = `search.html?q=${encodeURIComponent(q)}`;
+      }
+    });
   </script>
 </body>
 </html>
