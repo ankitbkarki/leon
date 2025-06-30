@@ -29,6 +29,36 @@
       body {
         font-size: 0.95rem;
       }
+      /* Mobile menu full width and no margin */
+      #menu {
+        left: 0 !important;
+        right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100vw !important;
+        border-radius: 0 !important;
+      }
+    }
+    /* Slide-down animation for mobile menu */
+    #menu {
+      transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      pointer-events: none;
+    }
+    #menu.menu-open {
+      max-height: 500px;
+      opacity: 1;
+      pointer-events: auto;
+    }
+    @media (min-width: 768px) {
+      #menu {
+        transition: none;
+        max-height: none !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+      }
     }
   </style>
 
@@ -39,7 +69,7 @@
     <div class="flex items-center justify-between">
       <a href="index.html" class="text-white text-3xl font-bold hover:text-blue-200 transition"><span>Leon</span><span class="text-blue-200">IT</span></a>
       <!-- Menu Links (desktop & mobile) -->
-      <ul id="menu" class="absolute left-0 right-0 top-20 mx-4 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 hidden md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
+      <ul id="menu" class="absolute left-0 right-0 top-20 rounded-lg shadow-lg bg-white text-blue-700 text-lg font-medium flex-col items-center space-y-4 p-6 z-50 hidden md:static md:bg-transparent md:shadow-none md:text-white md:flex md:flex-row md:space-y-0 md:space-x-8 md:p-0 md:items-center">
         <li><a href="index.html" class="block md:inline text-blue-700 md:text-white hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">Home</a></li>
         <li><a href="about.html" class="block md:inline hover:text-blue-400 md:hover:text-blue-200 w-max mx-auto md:w-auto md:mx-0">About</a></li>
         <li><a href="services.html" class="block md:inline text-blue-700 md:text-white border-b-2 border-blue-700 md:border-white pb-1 w-max mx-auto md:w-auto md:mx-0">Services</a></li>
@@ -59,12 +89,12 @@
     const menuBtn = document.getElementById('menu-btn');
     const menu = document.getElementById('menu');
     menuBtn.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
+      menu.classList.toggle('menu-open');
     });
     // Ensure menu closes on resize to desktop
     window.addEventListener('resize', () => {
       if (window.innerWidth >= 768) {
-        menu.classList.add('hidden');
+        menu.classList.remove('menu-open');
       }
     });
   </script>
