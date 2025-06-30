@@ -389,5 +389,20 @@
       <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
     </button>
   </footer>
+  <!-- Cookie Consent Popup -->
+  <div id="cookie-consent" class="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-blue-900 px-6 py-4 rounded-lg shadow-lg flex flex-col sm:flex-row items-center gap-4 z-50" style="display:none;">
+    <span class="text-sm">This website uses cookies to ensure you get the best experience. See our <a href="privacy.html" class="underline text-blue-700 hover:text-blue-900">Privacy Policy</a>.</span>
+    <button id="accept-cookies" class="bg-custom-blue text-white px-4 py-2 rounded hover:bg-blue-800 transition text-sm">Accept</button>
+  </div>
+  <script>
+    // Cookie Consent Logic
+    if (!localStorage.getItem('cookieAccepted')) {
+      document.getElementById('cookie-consent').style.display = 'flex';
+    }
+    document.getElementById('accept-cookies').onclick = function() {
+      localStorage.setItem('cookieAccepted', 'yes');
+      document.getElementById('cookie-consent').style.display = 'none';
+    };
+  </script>
 </body>
 </html>
