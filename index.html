@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
   <title>Home - Leon IT Solutions</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <!-- Font Awesome for icons -->
@@ -43,6 +43,15 @@
     }
     .bg-footer-dark {
       background-color: #14183E;
+    }
+    /* Smaller font size for mobile */
+    @media (max-width: 640px) {
+      html {
+        font-size: 14px;
+      }
+      body {
+        font-size: 0.95rem;
+      }
     }
   </style>
 
@@ -87,7 +96,7 @@
   <section class="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-16 bg-custom-blue">
     <div class="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
       <span class="inline-block px-6 py-2 mb-4 border border-blue-200 rounded-full text-white text-lg">leonstaff.com</span>
-      <h1 class="text-white text-4xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-4 uppercase">Empowering Your Business with<br>Innovative IT Solutions</h1>
+      <h1 class="text-white text-4xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-4 uppercase">Empowering Businesses with<br>Innovative IT Solutions</h1>
       <p class="text-blue-100 text-base sm:text-lg mb-8 max-w-xl">Leon IT Solutions delivers cutting-edge software development, AI integration, SEO, digital marketing, and IT consulting to help your business thrive in a digital-first world.</p>
       <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 w-full sm:w-auto justify-center md:justify-start">
         <a href="#" class="bg-white text-blue-600 font-semibold px-8 py-4 rounded-full shadow hover:bg-blue-50 transition">Read More</a>
