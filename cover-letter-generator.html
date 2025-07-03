@@ -523,35 +523,21 @@
       generatedContent.classList.add('hidden');
       generateBtn.disabled = true;
 
-      // Simulate AI processing with progress
-      const progressBar = document.querySelector('.progress-bar');
-      let progress = 0;
-      const progressInterval = setInterval(() => {
-        progress += Math.random() * 15;
-        if (progress > 100) progress = 100;
-        progressBar.style.width = progress + '%';
-      }, 200);
-
       try {
-        // Simulate AI processing time
-        await new Promise(resolve => setTimeout(resolve, 3000));
-        
-        // Generate cover letter using client-side logic
-        const coverLetter = generateCoverLetter(resume, jobDescription, writingStyle, personalTouch);
-        const feedback = generateFeedback(coverLetter, resume, jobDescription);
-
-        // Display results
-        coverLetterText.textContent = coverLetter;
-        aiFeedback.innerHTML = feedback;
-
-        // Hide loading, show results
+        // Call backend function
+        const resp = await fetch('/functions/generate-cover-letter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ resume, jobDescription, writingStyle, personalTouch })
+        });
+        const data = await resp.json();
+        coverLetterText.textContent = data.letter;
+        aiFeedback.innerHTML = '';
         loadingState.classList.add('hidden');
         generatedContent.classList.remove('hidden');
-        
       } catch (error) {
         alert('An error occurred while generating your cover letter. Please try again.');
       } finally {
-        clearInterval(progressInterval);
         generateBtn.disabled = false;
       }
     });
@@ -582,175 +568,6 @@
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     });
-
-    // AI Cover Letter Generation Logic
-    function generateCoverLetter(resume, jobDescription, writingStyle, personalTouch) {
-      // Extract key information from resume
-      const resumeSkills = extractSkills(resume);
-      const resumeExperience = extractExperience(resume);
-      
-      // Extract key requirements from job description
-      const jobRequirements = extractRequirements(jobDescription);
-      const jobTitle = extractJobTitle(jobDescription);
-      const companyName = extractCompanyName(jobDescription);
-
-      // Generate personalized cover letter
-      let letter = `Dear Hiring Manager,\n\n`;
-      
-      // Opening paragraph
-      letter += generateOpening(resumeExperience, jobTitle, companyName, writingStyle);
-      
-      // Body paragraph
-      letter += generateBody(resumeSkills, jobRequirements, writingStyle);
-      
-      // Personal touch paragraph
-      if (personalTouch) {
-        letter += generatePersonalTouch(personalTouch, writingStyle);
-      }
-      
-      // Closing paragraph
-      letter += generateClosing(writingStyle);
-      
-      letter += `\nSincerely,\n[Your Name]`;
-      
-      return letter;
-    }
-
-    function extractSkills(resume) {
-      // Simple skill extraction - in a real implementation, this would be more sophisticated
-      const skillKeywords = ['javascript', 'python', 'java', 'react', 'node.js', 'sql', 'aws', 'docker', 'kubernetes', 'agile', 'scrum', 'project management', 'leadership', 'communication', 'problem solving', 'analytics', 'data analysis', 'machine learning', 'ai', 'automation'];
-      const foundSkills = skillKeywords.filter(skill => resume.toLowerCase().includes(skill));
-      return foundSkills;
-    }
-
-    function extractExperience(resume) {
-      // Extract years of experience - simplified
-      const experienceMatch = resume.match(/(\d+)\s*(?:years?|yrs?)\s*(?:of\s*)?experience/i);
-      return experienceMatch ? experienceMatch[1] : '5';
-    }
-
-    function extractRequirements(jobDescription) {
-      // Extract key requirements - simplified
-      const requirements = [];
-      const requirementKeywords = ['required', 'must have', 'should have', 'experience with', 'proficient in', 'knowledge of'];
-      
-      const sentences = jobDescription.split(/[.!?]+/);
-      sentences.forEach(sentence => {
-        requirementKeywords.forEach(keyword => {
-          if (sentence.toLowerCase().includes(keyword)) {
-            requirements.push(sentence.trim());
-          }
-        });
-      });
-      
-      return requirements.slice(0, 5); // Limit to 5 requirements
-    }
-
-    function extractJobTitle(jobDescription) {
-      // Extract job title - simplified
-      const titleMatch = jobDescription.match(/(?:position|role|job|seeking|hiring)\s*(?:for\s*)?([A-Z][a-z\s]+(?:Engineer|Developer|Manager|Specialist|Analyst|Coordinator))/i);
-      return titleMatch ? titleMatch[1].trim() : 'this position';
-    }
-
-    function extractCompanyName(jobDescription) {
-      // Extract company name - simplified
-      const companyMatch = jobDescription.match(/(?:at|with|join)\s+([A-Z][a-zA-Z\s&]+(?:Inc|Corp|LLC|Ltd|Company))/i);
-      return companyMatch ? companyMatch[1].trim() : 'your company';
-    }
-
-    function generateOpening(experience, jobTitle, companyName, style) {
-      const openings = {
-        professional: `I am writing to express my strong interest in the ${jobTitle} position at ${companyName}. With ${experience} years of experience in the field, I am confident in my ability to contribute significantly to your team and help drive the company's success.\n\n`,
-        confident: `I am excited to apply for the ${jobTitle} role at ${companyName}. My ${experience} years of experience and proven track record make me an ideal candidate who can immediately add value to your organization.\n\n`,
-        friendly: `I'm thrilled to apply for the ${jobTitle} position at ${companyName}! With ${experience} years of experience, I bring enthusiasm and expertise that I believe would be a great fit for your team.\n\n`,
-        concise: `I am applying for the ${jobTitle} position at ${companyName}. My ${experience} years of experience align perfectly with your requirements.\n\n`,
-        executive: `I am submitting my application for the ${jobTitle} position at ${companyName}. My ${experience} years of strategic experience and leadership background position me to deliver exceptional results for your organization.\n\n`
-      };
-      return openings[style] || openings.professional;
-    }
-
-    function generateBody(skills, requirements, style) {
-      let body = '';
-      
-      if (skills.length > 0) {
-        const skillList = skills.slice(0, 3).join(', ');
-        body += `My technical expertise includes ${skillList}, which directly aligns with the technical requirements of this role. `;
-      }
-      
-      if (requirements.length > 0) {
-        body += `I have successfully demonstrated the ability to ${requirements[0].toLowerCase().replace(/^[a-z]/, l => l.toUpperCase())} in my previous roles. `;
-      }
-      
-      const bodyStyles = {
-        professional: `Throughout my career, I have consistently delivered high-quality results while collaborating effectively with cross-functional teams. I am particularly drawn to this opportunity because it allows me to leverage my technical skills while contributing to innovative projects that drive business growth.\n\n`,
-        confident: `I have a proven track record of exceeding expectations and delivering exceptional results. This role presents an exciting opportunity to apply my expertise while taking on new challenges and driving innovation within your organization.\n\n`,
-        friendly: `I love working with teams to solve complex problems and create innovative solutions. This role seems like a perfect opportunity to combine my technical skills with my passion for collaboration and growth.\n\n`,
-        concise: `I have consistently delivered results and am excited about the opportunity to contribute to your team's success.\n\n`,
-        executive: `My strategic approach to problem-solving and ability to lead high-performing teams have consistently delivered measurable business outcomes. I am excited about the opportunity to apply my expertise to drive innovation and growth at ${companyName}.\n\n`
-      };
-      
-      body += bodyStyles[style] || bodyStyles.professional;
-      return body;
-    }
-
-    function generatePersonalTouch(personalTouch, style) {
-      const personalStyles = {
-        professional: `Additionally, ${personalTouch} This experience has prepared me well for the challenges and opportunities this role presents.\n\n`,
-        confident: `I'm particularly excited about this opportunity because ${personalTouch} This background gives me a unique perspective that I believe would be valuable to your team.\n\n`,
-        friendly: `I'm also excited to share that ${personalTouch} I think this makes me a great fit for your team culture!\n\n`,
-        concise: `${personalTouch} This experience is directly relevant to this role.\n\n`,
-        executive: `Furthermore, ${personalTouch} This strategic insight positions me to contribute immediately to your organization's objectives.\n\n`
-      };
-      return personalStyles[style] || personalStyles.professional;
-    }
-
-    function generateClosing(style) {
-      const closings = {
-        professional: `I am enthusiastic about the opportunity to contribute to ${companyName} and would welcome the chance to discuss how my background, skills, and enthusiasm can benefit your team. Thank you for considering my application.\n\n`,
-        confident: `I am confident that my skills and experience make me an excellent candidate for this position. I look forward to discussing how I can contribute to ${companyName}'s continued success.\n\n`,
-        friendly: `I'm really excited about the possibility of joining your team and would love to discuss how I can contribute to ${companyName}'s success. Thanks so much for considering my application!\n\n`,
-        concise: `I look forward to discussing how I can contribute to your team.\n\n`,
-        executive: `I am confident that my strategic vision and proven leadership can drive significant value for ${companyName}. I look forward to discussing how I can contribute to your organization's continued growth and success.\n\n`
-      };
-      return closings[style] || closings.professional;
-    }
-
-    function generateFeedback(coverLetter, resume, jobDescription) {
-      const feedback = [];
-      
-      // Check length
-      const wordCount = coverLetter.split(/\s+/).length;
-      if (wordCount < 200) {
-        feedback.push('<span class="text-yellow-600">⚠️ Consider adding more specific details about your achievements.</span>');
-      } else if (wordCount > 400) {
-        feedback.push('<span class="text-yellow-600">⚠️ Your cover letter is quite long. Consider being more concise.</span>');
-      } else {
-        feedback.push('<span class="text-green-600">✅ Good length for a cover letter.</span>');
-      }
-      
-      // Check for personalization
-      const resumeWords = resume.toLowerCase().split(/\s+/);
-      const letterWords = coverLetter.toLowerCase().split(/\s+/);
-      const commonWords = resumeWords.filter(word => letterWords.includes(word) && word.length > 4);
-      
-      if (commonWords.length > 5) {
-        feedback.push('<span class="text-green-600">✅ Good alignment with your resume content.</span>');
-      } else {
-        feedback.push('<span class="text-yellow-600">⚠️ Consider better aligning with your resume details.</span>');
-      }
-      
-      // Check for job description alignment
-      const jobWords = jobDescription.toLowerCase().split(/\s+/);
-      const jobMatches = jobWords.filter(word => letterWords.includes(word) && word.length > 3);
-      
-      if (jobMatches.length > 3) {
-        feedback.push('<span class="text-green-600">✅ Good match with job requirements.</span>');
-      } else {
-        feedback.push('<span class="text-yellow-600">⚠️ Consider addressing more job requirements specifically.</span>');
-      }
-      
-      return feedback.join('<br>');
-    }
   </script>
 </body>
 </html> 
