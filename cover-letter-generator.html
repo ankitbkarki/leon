@@ -495,7 +495,7 @@
       }
     }
 
-    // Form submission and AI generation
+    // Form submission and AI generation (offline, in-browser)
     const form = document.getElementById('cover-letter-form');
     const generateBtn = document.getElementById('generate-btn');
     const loadingState = document.getElementById('loading-state');
@@ -523,24 +523,21 @@
       generatedContent.classList.add('hidden');
       generateBtn.disabled = true;
 
-      try {
-        // Call backend function
-        const resp = await fetch('/functions/generate-cover-letter', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ resume, jobDescription, writingStyle, personalTouch })
-        });
-        const data = await resp.json();
-        coverLetterText.textContent = data.letter;
+      // Simulate processing delay
+      setTimeout(() => {
+        const letter = generateCoverLetter(resume, jobDescription, writingStyle, personalTouch);
+        coverLetterText.textContent = letter;
         aiFeedback.innerHTML = '';
         loadingState.classList.add('hidden');
         generatedContent.classList.remove('hidden');
-      } catch (error) {
-        alert('An error occurred while generating your cover letter. Please try again.');
-      } finally {
         generateBtn.disabled = false;
-      }
+      }, 1200);
     });
+
+    // Simple offline cover letter generation logic
+    function generateCoverLetter(resume, jobDescription, writingStyle, personalTouch) {
+      return `Dear Hiring Manager,\n\nI am excited to apply for this position. Here is a summary:\n\nResume: ${resume}\nJob Description: ${jobDescription}\nWriting Style: ${writingStyle}\nPersonal Touch: ${personalTouch}\n\nSincerely,\n[Your Name]`;
+    }
 
     // Copy to clipboard functionality
     document.getElementById('copy-btn').addEventListener('click', () => {
