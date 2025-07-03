@@ -536,7 +536,40 @@
 
     // Simple offline cover letter generation logic
     function generateCoverLetter(resume, jobDescription, writingStyle, personalTouch) {
-      return `Dear Hiring Manager,\n\nI am excited to apply for this position. Here is a summary:\n\nResume: ${resume}\nJob Description: ${jobDescription}\nWriting Style: ${writingStyle}\nPersonal Touch: ${personalTouch}\n\nSincerely,\n[Your Name]`;
+      // Extract a name or role from the resume/job description if possible
+      const jobTitle = extractJobTitle(jobDescription);
+      const intro = {
+        professional: `I am writing to express my interest in the ${jobTitle} position. With my background and experience, I am confident I can contribute to your team.`,
+        confident: `I'm excited to apply for the ${jobTitle} role. My skills and drive make me a strong fit for your needs.`,
+        friendly: `Hello! I'm thrilled to apply for the ${jobTitle} position. I believe my background would be a great match for your team.`,
+        concise: `I am applying for the ${jobTitle} position. My experience aligns with your requirements.`,
+        executive: `As an experienced leader, I am eager to bring my expertise to the ${jobTitle} role at your organization.`
+      }[writingStyle] || intro.professional;
+
+      let body = `From my resume, you'll see I have experience in: ${summarizeResume(resume)}.\n\n`;
+      body += `The job description mentions: ${summarizeJob(jobDescription)}.\n\n`;
+
+      if (personalTouch) {
+        body += `Additionally, I'd like to highlight: ${personalTouch}\n\n`;
+      }
+
+      const closing = "Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.\n\nSincerely,\n[Your Name]";
+
+      return `Dear Hiring Manager,\n\n${intro}\n\n${body}${closing}`;
+    }
+
+    // Example helper functions:
+    function extractJobTitle(jobDescription) {
+      const match = jobDescription.match(/for the ([\\w\\s]+) position|as a ([\\w\\s]+)[\\.,]/i);
+      return match ? (match[1] || match[2]) : "role";
+    }
+    function summarizeResume(resume) {
+      // You could extract keywords, or just return the first 200 chars for now
+      return resume.length > 200 ? resume.slice(0, 200) + "..." : resume;
+    }
+    function summarizeJob(jobDescription) {
+      // Same as above, or extract requirements
+      return jobDescription.length > 200 ? jobDescription.slice(0, 200) + "..." : jobDescription;
     }
 
     // Copy to clipboard functionality
