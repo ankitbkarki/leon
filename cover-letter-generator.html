@@ -562,40 +562,78 @@
 
     // Simple offline cover letter generation logic
     function generateCoverLetter(resume, jobDescription, writingStyle, personalTouch) {
-      // Extract a name or role from the resume/job description if possible
+      // Extract job title and company
       const jobTitle = extractJobTitle(jobDescription);
-      const intro = {
-        professional: `I am writing to express my interest in the ${jobTitle} position. With my background and experience, I am confident I can contribute to your team.`,
-        confident: `I'm excited to apply for the ${jobTitle} role. My skills and drive make me a strong fit for your needs.`,
-        friendly: `Hello! I'm thrilled to apply for the ${jobTitle} position. I believe my background would be a great match for your team.`,
-        concise: `I am applying for the ${jobTitle} position. My experience aligns with your requirements.`,
-        executive: `As an experienced leader, I am eager to bring my expertise to the ${jobTitle} role at your organization.`
-      }[writingStyle] || intro.professional;
+      const company = extractCompany(jobDescription);
 
-      let body = `From my resume, you'll see I have experience in: ${summarizeResume(resume)}.\n\n`;
-      body += `The job description mentions: ${summarizeJob(jobDescription)}.\n\n`;
+      // Extract skills and years of experience from resume
+      const skills = extractSkills(resume);
+      const years = extractYears(resume);
 
+      // Extract job requirements
+      const requirements = extractRequirements(jobDescription);
+
+      // Build intro
+      const intros = {
+        professional: `I am writing to express my interest in the ${jobTitle} position at ${company}. With over ${years} years of experience and a strong background in ${skills.slice(0,3).join(', ')}, I am confident in my ability to contribute to your team.`,
+        confident: `I'm excited to apply for the ${jobTitle} role at ${company}. My ${years}+ years of experience and expertise in ${skills.slice(0,3).join(', ')} make me a strong fit for your needs.`,
+        friendly: `Hello! I'm thrilled to apply for the ${jobTitle} position at ${company}. I bring ${years} years of experience and a passion for ${skills.slice(0,2).join(' and ')}.`,
+        concise: `I am applying for the ${jobTitle} position at ${company}. My ${years} years of experience in ${skills.slice(0,2).join(', ')} align with your requirements.`,
+        executive: `As a seasoned professional with ${years} years of experience, I am eager to bring my leadership and expertise in ${skills.slice(0,2).join(', ')} to the ${jobTitle} role at ${company}.`
+      };
+      const intro = intros[writingStyle] || intros.professional;
+
+      // Build body
+      let body = '';
+      if (requirements.length > 0) {
+        body += `Your job description highlights the need for: ${requirements.slice(0,3).join('; ')}. `;
+        body += `I have demonstrated these abilities in my previous roles, particularly through my work with ${skills.slice(0,2).join(' and ')}. `;
+      }
       if (personalTouch) {
-        body += `Additionally, I'd like to highlight: ${personalTouch}\n\n`;
+        body += `\n\nAdditionally, I'd like to highlight: ${personalTouch}`;
       }
 
-      const closing = "Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.\n\nSincerely,\n[Your Name]";
+      // Closing
+      const closing = `\n\nThank you for considering my application. I look forward to the opportunity to discuss how my background, skills, and enthusiasm can benefit ${company}.\n\nSincerely,\n[Your Name]`;
 
       return `Dear Hiring Manager,\n\n${intro}\n\n${body}${closing}`;
     }
 
-    // Example helper functions:
-    function extractJobTitle(jobDescription) {
-      const match = jobDescription.match(/for the ([\\w\\s]+) position|as a ([\\w\\s]+)[\\.,]/i);
-      return match ? (match[1] || match[2]) : "role";
+    // Helper functions:
+    function extractJobTitle(jd) {
+      const match = jd.match(/for the ([\\w\\s]+) position|as a ([\\w\\s]+)[\\.,]/i);
+      return match ? (match[1] || match[2]) : 'the advertised';
     }
-    function summarizeResume(resume) {
-      // You could extract keywords, or just return the first 200 chars for now
-      return resume.length > 200 ? resume.slice(0, 200) + "..." : resume;
+    function extractCompany(jd) {
+      const match = jd.match(/at ([A-Z][\\w\\s&]+)/i);
+      return match ? match[1].trim() : 'your company';
     }
-    function summarizeJob(jobDescription) {
-      // Same as above, or extract requirements
-      return jobDescription.length > 200 ? jobDescription.slice(0, 200) + "..." : jobDescription;
+    function extractSkills(resume) {
+      const skillList = ['javascript','python','java','react','node.js','sql','aws','docker','kubernetes','agile','scrum','project management','leadership','communication','problem solving','analytics','data analysis','machine learning','ai','automation','cloud','linux','windows','css','html','typescript','c#','c++','go','php','ruby','devops','testing','qa','security','networking','salesforce','sap','oracle','excel','powerpoint','public speaking','mentoring','training'];
+      const found = [];
+      const lower = resume.toLowerCase();
+      for (const skill of skillList) {
+        if (lower.includes(skill) && !found.includes(skill)) found.push(skill);
+      }
+      return found.length ? found : ['relevant technical and soft skills'];
+    }
+    function extractYears(resume) {
+      const match = resume.match(/(\\d+)\\s*(?:years?|yrs?)\\s*(?:of\\s*)?experience/i);
+      return match ? match[1] : 'several';
+    }
+    function extractRequirements(jd) {
+      const reqs = [];
+      const keywords = ['required', 'must have', 'should have', 'experience with', 'proficient in', 'knowledge of', 'responsible for', 'looking for'];
+      const sentences = jd.split(/[.!?\\n]+/);
+      for (const sentence of sentences) {
+        for (const keyword of keywords) {
+          if (sentence.toLowerCase().includes(keyword)) {
+            reqs.push(sentence.trim());
+            break;
+          }
+        }
+      }
+      return reqs;
     }
 
     // Copy to clipboard functionality
