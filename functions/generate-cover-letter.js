@@ -1,37 +1,39 @@
-export async function onRequestPost(context) {
-  try {
-    const { request, env } = context;
-    const { resume, jobDescription, writingStyle, personalTouch } = await request.json();
-
-    // Compose the prompt for Gemini
-    const prompt = `
-You are a professional cover letter writer. Write a unique, personalized cover letter based ONLY on the following:
-Resume: ${resume}
-Job Description: ${jobDescription}
-Writing Style: ${writingStyle}
-Personal Touch: ${personalTouch}
-Do not hallucinate. Use only the information provided.`;
-
-    // Call Gemini API
-    const response = await fetch(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + env.GEMINI_API_KEY,
-      {
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+  
+    const resume = resumeText.value.trim();
+    const jobDescription = document.getElementById('job-description').value.trim();
+    const writingStyle = document.getElementById('writing-style').value;
+    const personalTouch = document.getElementById('personal-touch').value.trim();
+  
+    if (!resume || !jobDescription) {
+      alert('Please provide both your resume and job description.');
+      return;
+    }
+  
+    loadingState.classList.remove('hidden');
+    initialState.classList.add('hidden');
+    generatedContent.classList.add('hidden');
+    generateBtn.disabled = true;
+  
+    try {
+      // Call your Cloudflare Function
+      const resp = await fetch('/functions/generate-cover-letter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [
-            { role: 'user', parts: [{ text: prompt }] }
-          ]
-        })
-      }
-    );
-    const data = await response.json();
-    // Extract the generated text
-    const letter = data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, no letter generated.";
-    return new Response(JSON.stringify({ letter }), { headers: { 'Content-Type': 'application/json' } });
-  } catch (err) {
-    // Log error for debugging
-    console.error("Function error:", err);
-    return new Response(JSON.stringify({ letter: "An error occurred in the serverless function." }), { headers: { 'Content-Type': 'application/json' }, status: 500 });
-  }
-}
+        body: JSON.stringify({ resume, jobDescription, writingStyle, personalTouch })
+      });
+  
+      const data = await resp.json();
+  
+      coverLetterText.textContent = data.letter;
+      aiFeedback.innerHTML = ""; // Optionally, you can add feedback logic here
+  
+      loadingState.classList.add('hidden');
+      generatedContent.classList.remove('hidden');
+    } catch (error) {
+      alert('An error occurred while generating your cover letter. Please try again.');
+    } finally {
+      generateBtn.disabled = false;
+    }
+  });
