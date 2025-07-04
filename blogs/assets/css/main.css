@@ -791,8 +791,9 @@ textarea {
   }
 }
 .navbar .navbar__menu li {
-  display: block;
-  font-size: 0.75rem !important;
+  font-size: 0.98rem !important;
+  font-weight: 400 !important;
+  font-variation-settings: "wght" 400 !important;
   font-family: var(--menu-font);
   font-variation-settings: "wght" var(--font-weight-bold);
   line-height: var(--line-height);
@@ -3111,4 +3112,25 @@ textarea {
     display: block;
     margin-left: 0;
   }
+}
+
+/* Blog Categories Section: Compact Card Hover Effect */
+.blog-categories-section li:hover {
+  background: #181313 !important;
+  color: #fff !important;
+  transition: background 0.2s, color 0.2s;
+}
+.blog-categories-section li:hover a {
+  color: #fff !important;
+}
+
+/* Make site logo and main menu font size larger in header */
+.logo, .logo span {
+  font-size: 1.35rem !important;
+}
+
+.navbar .navbar__menu li {
+  font-size: 0.98rem !important;
+  font-weight: 400 !important;
+  font-variation-settings: "wght" 400 !important;
 }
