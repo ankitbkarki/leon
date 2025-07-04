@@ -3080,3 +3080,35 @@ textarea {
 .content__related .c-card__content {
   background: transparent !important;
 }
+
+@media all and (max-width: 56.1875em) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+    grid-template-areas: unset;
+    grid-template-columns: unset;
+  }
+  .logo {
+    order: 1;
+    text-align: left;
+    margin-right: auto;
+  }
+  .search {
+    order: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: 0.5rem;
+  }
+  .navbar {
+    order: 3;
+    margin-left: 0;
+  }
+  .navbar .navbar__toggle {
+    display: block;
+    margin-left: 0;
+  }
+}
