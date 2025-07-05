@@ -1528,7 +1528,7 @@ textarea {
 }
 .c-card__title {
   font-size: 1.12rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 1.1rem 0 0.7rem 0;
   line-height: 1.18;
   color: #111;
@@ -1545,7 +1545,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  color: #888;
+  color: #555;
   font-size: 0.89rem;
   margin: 0.1rem 0 0.5rem 0;
 }
@@ -1558,8 +1558,8 @@ textarea {
   width: 0.93em;
   height: 0.93em;
   margin-right: 0.09em;
-  color: #888;
-  fill: #888;
+  color: #555;
+  fill: #555;
   display: inline-block;
   vertical-align: middle;
 }
